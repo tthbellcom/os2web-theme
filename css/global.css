@@ -1,0 +1,42 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+
+body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; }
+table { font-size:inherit; font:100%; }
+select, input, textarea { font:99% sans-serif; }
+
+body, div {font-family: Lucida Sans, Lucida Grande, Lucida, Arial, Helvetica, sans-serif}
+
+::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+
+a:link, a:visited { color: #0062A0; text-decoration: none;}
+
+h1, h2, h3, h4, h5, h6 { letter-spacing: -0.05em; font-family: Lucida Sans, Lucida Grande, Lucida, Arial, Helvetica, sans-serif; }
+
+.block-user-menu, .vertical-menu, .block-menu-top-menu {}
+.block-user-menu  ul, .vertical-menu ul, .block-menu-top-menu ul { padding-left: 2px}
+.block-user-menu  ul li, .vertical-menu ul li, .block-menu-top-menu ul li { float: left; padding: 0 7px 0 9px; margin: 0 1px 0 -1px; list-style: none; text-transform: uppercase }
+.block-user-menu  a, .vertical-menu a, , .block-menu-top-menu a { text-decoration: none }
+
+html {background-image: url(../images/bg.png)}
+
+#zone-menu, #zone-content {background-color: #ddd;}
+#zone-user a, #zone-menu a {color: #656565; text-decoration: none}
+#zone-user {height: 33px; padding-top: 0px;font-size: 9px;}
+#zone-user .menu { margin-top: 6px ; line-height: 22px}
+#zone-menu {; overflow: hidden; font-size: 18px; text-transform: uppercase}
+
+#zone-menu .region-inner { background-color: #FFF;padding: 5px; line-height: 65px; height: 65px}
+#main-menu {float: left}
+#main-menu li a {padding-left: 20px; padding-right: 30px; background-image: url(../images/menu-dp.png); background-position: right; background-repeat: no-repeat; color: #666}
+
+.block-search-form {float: right}
