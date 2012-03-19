@@ -1,1 +1,13 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; }
+.block-user-menu  ul, .vertical-menu ul, .block-menu-top-menu ul { padding-left: 2px}
+.block-user-menu  ul li, .vertical-menu ul li, .block-menu-top-menu ul li { float: left; padding: 0 7px 0 9px; margin: 0 1px 0 -1px; list-style: none; text-transform: uppercase }
+
+#zone-user {height: 33px; padding-top: 0px;font-size: 9px;}
+#zone-user .menu { margin-top: 6px ; line-height: 22px}
+#zone-menu {font-size: 18px;}
+#zone-menu .region-inner, #zone-content-wrapper .region-inner { padding: 5px; l}
+#zone-menu .region-inner  {line-height: 65px; height: 65px}
+
+#main-menu li a {padding-left: 20px; padding-right: 30px;}
