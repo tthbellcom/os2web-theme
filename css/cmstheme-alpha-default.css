@@ -2,22 +2,20 @@
 
 body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; }
 
-#page {background-image: url(../images/byvaaben-transp.png); background-position: center top; background-repeat: no-repeat}
+#page {background-image: url(../images/byvaaben.png); background-position: center top; background-repeat: no-repeat}
 
-#section-content {background-image: url(../images/page-bg-top.png); background-repeat: no-repeat; background-position: center top
-}
-#section-footer {background-image: url(../images/page-bg-bund.png); background-repeat: no-repeat; background-position: center top
-}
-#zone-content-wrapper, #zone-postscript-wrapper {background-image: url(../images/page-bg-bg.png); background-position: center; background-position-x: top; background-position-y: center; background-repeat: repeat-y}
+#section-content {}
+#section-footer {}
+#zone-content-wrapper {}
+#zone-preface-wrapper {height: 5px; background-image: url(../images/lilla-streg.png)}
 
-
-#zone-footer-wrapper {background-image: url(..images/page-bg-bund.png)}
-#zone-content { background-image: url(../images/cw-bg-top.png); background-position: center; background-repeat: repeat-y; min-height: 350px;}
+#zone-footer-wrapper {}
+#zone-content {background-color: #FFF ; background-image: url(../images/c-bg.png); background-position: center top; background-repeat: no-repeat;}
 #zone-footer { background-image: url(../images/cw-bg-bund.png); background-position: center; background-repeat: repeat-y; min-height: 350px;}
 
 #zone-postscript { background-image: url(../images/cw-bg-bund.png); background-position: center; background-repeat: repeat-y; }
-#zone-menu { background-image: url(../images/menu-bg.png); font-family: Myriad Pro, Arial, Helvetica, Tahoma, sans-serif; height: 68px}
-
+#zone-menu { background-image: url(../images/menu-bag.png); font-family: Myriad Pro, Arial, Helvetica, Tahoma, sans-serif; height: 68px; background-position: center top}
+#region-user-second, #region-header-second {float: right} 
 
 .block-user-menu  ul, .vertical-menu ul, .block-menu-top-menu ul { padding-left: 2px}
 .block-user-menu  ul li, .vertical-menu ul li, .block-menu-top-menu ul li { float: left; padding: 0 7px 0 9px; margin: 0 1px 0 -1px; list-style: none; text-transform: uppercase }
@@ -25,9 +23,13 @@ body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; 
 #zone-user {height: 33px; padding-top: 0px;font-size: 9px;}
 #zone-user .menu { margin-top: 6px ; line-height: 22px}
 
-#zone-menu .region-inner, #zone-content-wrapper .region-inner { padding: 5px 10px;}
-#zone-menu #main-menu  {line-height: 65px; height: 65px; font-size: 18px; margin: 0 0 8px 0 }
+#zone-menu .region-inner, #zone-content-wrapper .region-inner { }
+#zone-menu #main-menu  {line-height: 69px; height: 69px; font-size: 18px; margin: 0 20px }
 
 #main-menu li a {padding-left: 0px; padding-right: 30px;}
 
-#breadcrumb { padding: 5px}
+#breadcrumb { padding: 10px; text-transform: uppercase; font-family: Myriad Pro, Arial, Helvetica, Tahoma, sans-serif; color: #666 }
+#breadcrumb a { color: #666;}
+
+#zone-header{ padding-bottom: 10px}
+#region-sidebar-first {width: 235px; margin-right: 5px}
