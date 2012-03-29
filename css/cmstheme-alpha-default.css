@@ -2,14 +2,14 @@
 
 body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; }
 
-#page {background-image: url(../images/byvaaben.png); background-position: center top; background-repeat: no-repeat}
+#section-header {background-image: url(../images/byvaaben1.png); background-position: center top; background-repeat: no-repeat}
+#section-content {background-image: url(../images/byvaaben2.png); background-position: center top; background-repeat: no-repeat; padding-bottom: 25px;}
+#section-footer { margin-top: 25px}
 
-#section-content {}
-#section-footer {}
-#zone-content-wrapper {}
 #zone-preface-wrapper {height: 5px; background-image: url(../images/lilla-streg.png)}
 
 #zone-footer-wrapper {}
+
 #zone-content {background-color: #FFF ; background-image: url(../images/c-bg.png); background-position: center top; background-repeat: no-repeat;}
 #zone-footer { background-image: url(../images/cw-bg-bund.png); background-position: center; background-repeat: repeat-y; min-height: 350px;}
 
@@ -33,3 +33,9 @@ body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; 
 
 #zone-header{ padding-bottom: 10px}
 #region-sidebar-first {width: 235px; margin-right: 5px}
+
+#region-menu { width: 954px;}
+
+.region-footer-first-inner, .region-footer-second-inner {margin: 10px}
+.region-footer-first-inner {padding-left: 145px; line-height: 30px}
+#region-footer-first {background-image: url(../images/lille-logo.png); }
