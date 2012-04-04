@@ -1,7 +1,8 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
 
 body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; }
-
+.region-sidebar-first .block .content { padding-left: 20px}
+.region-sidebar-first .block-menu-block .content, .region-sidebar-first .block-menu .content { padding-left: 0px}
 #section-header {background-image: url(../images/byvaaben1.png); background-position: center top; background-repeat: no-repeat}
 #section-content {background-image: url(../images/byvaaben2.png); background-position: center top; background-repeat: no-repeat; padding-bottom: 25px;}
 #section-footer { margin-top: 25px}
@@ -10,7 +11,7 @@ body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; 
 
 #zone-footer-wrapper {}
 
-#zone-content {background-color: #FFF ; background-image: url(../images/c-bg.png); background-position: center top; background-repeat: no-repeat;}
+#zone-content {background-color: #FFF ; /*background-image: url(../images/c-bg.png); background-position: center top; background-repeat: no-repeat;*/}
 #zone-footer { background-image: url(../images/cw-bg-bund.png); background-position: center; background-repeat: repeat-y; min-height: 350px;}
 
 #zone-postscript { background-image: url(../images/cw-bg-bund.png); background-position: center; background-repeat: repeat-y; }
@@ -39,3 +40,4 @@ body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; 
 .region-footer-first-inner, .region-footer-second-inner {margin: 10px}
 .region-footer-first-inner {padding-left: 145px; line-height: 30px}
 #region-footer-first {background-image: url(../images/lille-logo.png); }
+

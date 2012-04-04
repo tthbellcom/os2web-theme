@@ -6,7 +6,7 @@ audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 
-html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; background-color: #ddd }
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 html, button, input, select, textarea { font-family: Arial, Sans-Serif; color: #222; }
 
 table { font-size:inherit; font:100%; }
@@ -54,8 +54,36 @@ ul.inline li {padding: 0}
 #region-header-second .region-inner {padding-top: 68px; padding-left: 20px}
 #region-header-second .region-inner li { float: left; padding-right: 10px; text-transform: uppercase; font-family: Myriad Pro, Trebuchet MS, Arial, Sans-Serif; font-size: 11px; list-style: none; }
 
-#region-sidebar-first ul.menu li { height: 50px; line-height: 50px ;list-style: none; background-image: url(../images/v-menu-bg.png); background-position: right center;margin: 0; padding-left: 20px; display: block; vertical-align: middle;}
+#region-sidebar-first li.expanded, #region-sidebar-first li.collapsed, #region-sidebar-first li.leaf {padding: 0; margin: 0}
+#region-sidebar-first ul.menu {background-image: url(../images/menu-bg-ul.png); }
+#region-sidebar-first ul.menu li a {padding-left: 20px}
+#region-sidebar-first ul.menu li { line-height: 50px ;list-style: none; background-image: url(../images/v-menu-bg.png); background-position: right center;margin: 0; padding-left: 0px; display: block; vertical-align: middle; background-repeat: no-repeat;}
+#region-sidebar-first ul.menu li.expanded {line-height: 64px; background-image: url(../images/menu-bg-ul-li-expanded.png);background-position: right top}
 
+#region-sidebar-first ul.menu li ul {background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul.png); background-repeat: no-repeat}
+#region-sidebar-first ul.menu li ul li {padding-left: 0px; background-image: url(../images/menu-bg-ul-li-ul-li.png);border-bottom: 1px solid #CECECE; background-repeat: no-repeat}
+
+#region-sidebar-first ul.menu li ul li.active-trail { background-image: url(../images/menu-bg-ul-li-ul-li-active-trail.png); color: #FFF}
+#region-sidebar-first ul.menu li ul li a.active { color: #FFF; background-image: url(../images/menu-markeret-expanded.png);background-repeat: no-repeat; background-position: right}
+#region-sidebar-first ul.menu li ul li.expanded  { color: #FFF; background-image: url(../images/menu-markeret-expanded.png);background-repeat: no-repeat; background-position: right}
+#region-sidebar-first ul.menu li ul li.expanded a {color: #FFF; background-repeat: no-repeat; background-position: right}
 #region-sidebar-first ul.menu li a { display: inline; line-height: 20px; color: #333}
 
 #region-sidebar-first  .block-title {padding-left: 20px; line-height: 50px}
+
+.block-multistep { background-color: #8B0047; color: #fff; margin-bottom: 20px}
+.block-multistep a {color: #fff}
+
+.block-multistep a.multistep-submitted {  color: #FFF;}
+.block-multistep a.multistep-unsubmitted { color: #FFF; font-weight: bold}
+.block-multistep span.multistep-unsubmitted { color: #CC72A6}
+
+
+.block-multistep .content { padding: 10px 20px}
+
+div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
+  display:block;
+  margin-bottom:2.5em;
+}
+
+#search-block-form .rel-register-link {display: none}

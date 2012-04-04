@@ -1,5 +1,5 @@
 <?php
-function grid_skinr_skin_grid_info() {
+function grid_skinr_skin_info() {
 
   $skins = array();
 

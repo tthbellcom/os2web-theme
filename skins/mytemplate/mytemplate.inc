@@ -1,5 +1,5 @@
 <?php
-function mytemplate_skinr_skin_mytemplate_info() {
+function mytemplate_skinr_skin_info() {
 
   $skins = array();
 
