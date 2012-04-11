@@ -87,3 +87,58 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 }
 
 #search-block-form .rel-register-link {display: none}
+/*Bellcom Custom*/
+
+.views-slideshow-controls-top {
+	float: right;
+}
+
+#views_slideshow_cycle_main_rotating_image_view-block {
+	float: left;
+	border: solid red 5px;
+}
+
+.custom-slideshow {
+	float: left;
+	width: 631px;
+}
+
+.views-slideshow-pager-field-item {
+	height: 65px;
+	text-align: center;
+	width: 161px;
+	background: #ccc;
+}
+
+#widget_pager_top_rotating_image_view-block {
+	width: 161px;
+	text-align: center;
+}
+
+.views-slideshow-pager-field-item .views-field-title {
+	display: table-cell;
+	height: 65px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.custom-slideshow .views-field-body a {
+	display: block;
+	height: 78px;
+	width: 440px;
+	margin-top: -78px;
+	background: rgb(255,255,255); /* IE fix -tc */
+	background: rgba(255,255,255,0.8);
+	background-image: url(../images/slide-arrow.png);
+	background-position: 10px 17px;
+	background-repeat: no-repeat;
+	position: relative;
+	font-size: 30px;
+	color: #000;
+	padding-top: 5px;
+	padding-left: 20px;
+}
+
+.custom-slideshow .views-field-body a span {
+	color: #8b0053;
+}
