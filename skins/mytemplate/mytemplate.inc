@@ -1,5 +1,5 @@
 <?php
-function mytemplate_skinr_skin_info() {
+function cmstheme_skinr_skin_mytemplate_info() {
 
   $skins = array();
 
@@ -48,4 +48,3 @@ function mytemplate_skinr_skin_info() {
   );
   return $skins;
 }
-?>
