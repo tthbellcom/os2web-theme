@@ -10,3 +10,7 @@
  * for your subtheme grows. Please read the README.txt in the /preprocess and /process subfolders
  * for more information on this topic.
  */
+function cmstheme_preprocess_html(&$variables) {
+  $theme_path = path_to_theme();
+  drupal_add_js($theme_path . '/js/script.js');
+}

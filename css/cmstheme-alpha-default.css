@@ -6,13 +6,13 @@ body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; 
 .region-sidebar-first .block-menu-block .content, .region-sidebar-first .block-menu .content { padding-left: 0px}
 #section-header {background-image: url(../images/byvaaben1.png); background-position: center top; background-repeat: no-repeat}
 #section-content {background-image: url(../images/byvaaben2.png); background-position: center top; background-repeat: no-repeat; padding-bottom: 25px;}
-#section-footer { margin-top: 25px}
+#section-footer main-menu
 
 #zone-preface-wrapper {height: 5px; background-image: url(../images/lilla-streg.png)}
 
 #zone-footer-wrapper {}
 
-#zone-content {background-color: #FFF ; /*background-image: url(../images/c-bg.png); background-position: center top; background-repeat: no-repeat;*/}
+#zone-content {background-color: #FFF ; background-image: url(../images/content-bg.png); background-position: center top; background-repeat: no-repeat;*/}
 #zone-footer { background-image: url(../images/cw-bg-bund.png); background-position: center; background-repeat: repeat-y; min-height: 350px;}
 
 #zone-postscript { background-image: url(../images/cw-bg-bund.png); background-position: center; background-repeat: repeat-y; }
@@ -28,7 +28,7 @@ body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; 
 #zone-menu .region-inner, #zone-content-wrapper .region-inner { }
 #zone-menu #main-menu  {line-height: 69px; height: 69px; font-size: 18px; margin: 0 20px }
 #main-menu {float: left; line-height: 69px;}
-#main-menu li {line-height: 69px;}
+#main-menu li {line-height: 69px; float: left; list-style: none}
 #main-menu li a {padding-left: 0px; padding-right: 30px;}
 
 #breadcrumb { padding: 10px; text-transform: uppercase; font-family: Myriad Pro, Arial, Helvetica, Tahoma, sans-serif; color: #666 }
@@ -91,3 +91,32 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 }
 
 #search-block-form .rel-register-link {display: none}
+
+.facebook {}
+ 
+.billedrotator { background-image: url(../images/billedkarusel-bg.png)}
+.page-home #region-sidebar-first {display: none}
+
+.qtip-wrapper {background-image: url("../images/content-bg.png");
+    margin-top: 26px; background-position: center top}
+.rightside-purple { color: #BF80A4; background-image: url(../images/selvbetjening-right-bg.png); background-repeat: no-repeat; padding-top: 60px; padding-left: 20px; padding-bottom: 40px;}
+.rightside-purple h3 { margin: 12px 0px; text-transform: uppercase; font-size: 15px; font-weight: normal}
+.rightside-purple ul {margin-left: 10px; margin-bottom: 45px}
+.rightside-purple li { padding-left: 5px}
+.rightside-purple .readmore a { font-size: 14px; margin-bottom: 10px}
+.rightside-purple a { color: #fff; margin-bottom: 5px; font-weight: normal; font-size: 12px}
+
+.spotbox-right {}
+
+.plus10r { padding-right: 10px}
+
+.page-node-edit .markItUp { width: 99%}
+
+#node_contentpage_form_group_hidden, #node_galleri_form_group_hidden, #node_news_form_group_hidden {display: none}
+
+.markItUp {
+    margin: 5px 0; 
+    width: auto;
+}
+
+.field-name-field-resume-long {font-size: 16px; margin-bottom: 20px}
