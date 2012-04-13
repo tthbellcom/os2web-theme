@@ -1,0 +1,10 @@
+
+.panel-region-middle {
+  width: 70%;
+  float: left;
+}
+
+.panel-region-right {
+  width: 25%;
+  float: left;
+}
