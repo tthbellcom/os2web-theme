@@ -39,8 +39,8 @@ ul.menu, ul.menu li, ul.menu a {list-style: none; color: #666; margin-left: 0px;
 
 
 ul.inline li {padding: 0}
-h2.pane-title {font-size: 18px; margin: 0px}
-h2.pane-title a {color: #222}
+h2.pane-title, h2.block-title {color: #4B4B4B; font-size: 16px; margin: 0px; border-bottom: 1px solid #ccc; margin-bottom: 10px; padding-bottom: 4px; text-transform: uppercase; font-weight: normal}
+h2.pane-title a, h2.block-title a {color: #4B4B4B}
 #block-block-3 {float: left}
 
 #block-search-form  h2 { display: none}
@@ -482,3 +482,11 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 .field-name-field-resume-long {font-size: 16px; margin-bottom: 20px}
 
 .active-trail .expanded {border-left: 4px solid #666}
+
+.omega-24-twocol-12-12 .grid-12 {margin-left: 0px;}
+.node-contentpage .field-name-field-lead-image {margin-bottom: 20px}
+
+.view-megadd-news ul, .view-megadd-news ul li {margin-left: 0}
+.view-megadd-news a {color: #787878}
+
+.qtip-wrapper .menu-minipanels ul.menu li.leaf {float: left; width: 220px}
