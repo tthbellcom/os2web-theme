@@ -191,7 +191,7 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	background-repeat: no-repeat;
 	position: relative;
 	font-size: 21px;
-	color: #000;
+	color: #666;
 	padding-left: 20px;
 }
 
@@ -269,8 +269,9 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	background-image: url(../images/jcarousel-left.png);
 }
 
+.view-id-newslist .jcarousel-skin-default .jcarousel-item-horizontal p,
 .view-id-newslist .jcarousel-skin-default .jcarousel-item-horizontal a {
-	color: #000;
+	color: #666;
 }
 
 .view-id-newslist .jcarousel-skin-default .jcarousel-item-horizontal {
@@ -286,7 +287,7 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	padding-left: 13px;
 }
 
-.viewd-newslist .jcarousel-container .news-list-next p {
+.view-newslist .jcarousel-container .news-list-next p {
 	display: inline;
 	padding-right: 5px;
 }
