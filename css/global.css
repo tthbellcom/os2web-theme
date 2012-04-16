@@ -34,12 +34,13 @@ h1, h2, h3, h4, h5, h6 { letter-spacing: -0.05em; font-family: Myriad Pro, Trebu
 #main-menu {float: left; line-height: 65px;font-family: Myriad Pro, Trebuchet MS, Arial, Sans-Serif;}
 #main-menu li a {background-image: url(../images/menu-dp.png); background-position: right; background-repeat: no-repeat; color: #666; font-family: Myriad Pro, Trebuchet MS, Arial, Sans-Serif;}
 
-
+ul.menu, ul.menu li, ul.menu a {list-style: none; color: #666; margin-left: 0px;}
 .block-search-form {float: right}
 
 
 ul.inline li {padding: 0}
-
+h2.pane-title {font-size: 18px; margin: 0px}
+h2.pane-title a {color: #222}
 #block-block-3 {float: left}
 
 #block-search-form  h2 { display: none}
@@ -143,11 +144,13 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	text-align: left;
 	vertical-align: middle;
 	width: 161px;
+	font-size: 11px;
 }
 
 .views-slideshow-pager-field-item .views-field-title .views-content-title .item-bg {
 	background: url(../images/slide-nav-arrow-default.png) no-repeat 2% 48% transparent;
 	padding: 0 5px 0 25px;
+	padding-right: 10px;
 }
 
 .custom-slideshow .views-slideshow-pager-field-item.active .views-field-title .item-bg {
@@ -179,14 +182,15 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 
 .custom-slideshow .views-field-body a {
 	display: block;
-	height: 78px;
+	padding-top: 8px;
+	height: 70px;
 	width: 440px;
 	margin-top: -78px;
 	background-image: url(../images/slide-arrow.png);
-	background-position: 10px 13px;
+	background-position: 10px 14px;
 	background-repeat: no-repeat;
 	position: relative;
-	font-size: 30px;
+	font-size: 21px;
 	color: #000;
 	padding-left: 20px;
 }
@@ -294,10 +298,12 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	left: 20px;
 }
 
-body #region-header-second .region-inner li {
+#region-header-second .region-inner li {
 	border-right: solid 1px #d8d8d8;
 	padding-right: 7px;
+	margin-left: 7px;
 }
+
 
 .view-newslist.view-display-id-page_1 .news-list-next {
 	display: none;
@@ -332,3 +338,147 @@ body #region-header-second .region-inner li {
 .view-id-newslist.view-display-id-panel_pane_1 .views-row-first .news-list-left {
   display: block;
 }
+.float-right {float: right}
+
+.field-name-field-case .fullcaserender {background-color: #666; padding: 10px}
+
+.field-name-field-case .fullcaserender table {border: none}
+.field-name-field-case .fullcaserender thead th, .field-name-field-case .fullcaserender th {
+    background: none repeat scroll 0 0 #666;
+    border-bottom: 1px solid #CCCCCC;
+    color: #fff;
+}
+.field-name-field-case .fullcaserender tr.odd td {
+    background: none repeat scroll 0 0 #666666;
+    color: #fff
+}
+
+.field-name-field-case .fullcaserender tr.even td {
+    background: none repeat scroll 0 0 #909090;
+}
+
+body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; }
+#page {background-image: url(../images/ebeltoft-stor-bg.png); background-attachment: fixed; }
+.region-sidebar-first .block .content { padding-left: 20px}
+.region-sidebar-first .block-menu-block .content, .region-sidebar-first .block-menu .content { padding-left: 0px}
+#section-header {background-image: url(../images/byvaaben1.png); background-position: center top; background-repeat: no-repeat}
+#section-content {background-image: url(../images/byvaaben2.png); background-position: center top; background-repeat: no-repeat; padding-bottom: 25px;}
+#section-footer main-menu
+
+#zone-preface-wrapper {height: 5px; background-image: url(../images/lilla-streg.png)}
+
+#zone-footer-wrapper {}
+
+#zone-content {background-color: #FBFBFB ; background-image: url(../images/content-bg.png); background-position: center top; background-repeat: no-repeat;*/}
+#zone-footer { background-image: url(../images/cw-bg-bund.png); background-position: center; background-repeat: repeat-y; min-height: 350px;}
+
+#zone-postscript { background-image: url(../images/cw-bg-bund.png); background-position: center; background-repeat: repeat-y; }
+#zone-menu { background-image: url(../images/menu-bag.png); font-family: Myriad Pro, Arial, Helvetica, Tahoma, sans-serif; height: 68px; background-position: center top}
+#region-user-second, #region-header-second {float: right} 
+
+.block-user-menu  ul, .vertical-menu ul, .block-menu-top-menu ul { padding-left: 2px}
+.block-user-menu  ul li, .vertical-menu ul li, .block-menu-top-menu ul li { float: left; padding: 0 7px 0 9px; margin: 0 1px 0 -1px; list-style: none; text-transform: uppercase }
+
+#zone-user {height: 33px; padding-top: 0px;font-size: 9px;}
+#zone-user .menu { margin-top: 6px ; line-height: 22px}
+
+#zone-menu .region-inner, #zone-content-wrapper .region-inner { }
+#zone-menu #main-menu  {line-height: 69px; height: 69px; font-size: 18px; margin: 0 20px }
+#main-menu {float: left; line-height: 69px;}
+#main-menu li {line-height: 69px; float: left; list-style: none}
+#main-menu li a {padding-left: 0px; padding-right: 30px;}
+
+#breadcrumb { padding: 10px; text-transform: uppercase; font-family: Myriad Pro, Arial, Helvetica, Tahoma, sans-serif; color: #666 }
+#breadcrumb a { color: #666;}
+
+#zone-header{ padding-bottom: 10px}
+#region-sidebar-first {width: 235px; margin-right: 5px}
+
+#region-menu { width: 954px;}
+
+.region-footer-first-inner, .region-footer-second-inner, .region-footer-third-inner {margin: 10px}
+.region-footer-first-inner {padding-left: 145px; line-height: 30px}
+#region-footer-first {background-image: url(../images/lille-logo.png); }
+
+.qtip-cmstheme {  margin-top: 42px; background-color: transparent}
+
+.node-type-files .field-name-field-resume-long { font-size: 22px}
+
+.omega-24-twocol-12-12 {width: 940px}
+.omega-24-twocol-12-12 .grid-12 {width: 460px; background-color: transparent}
+
+#block-search-form .content #edit-search-block-form--2 {width: 333px; font-size: 18px; border: none; height: 40px; vertical-align: top; padding: 20px 0px; text-transform: uppercase; background: transparent; font-family: Myriad Pro, Trebuchet MS, Arial, Sans-Serif; margin: 14px 0px; width: 370px}
+
+#block-search-form #edit-submit {
+    background-image: url(../images/search-button.png); width: 70px; height: 68px; border: none; margin: 0; padding: 0; border-radius: 0px;  -moz-border-radius: 0px;
+    }
+#region-header-second .region-inner {padding-top: 68px; padding-left: 20px}
+#region-header-second .region-inner li { float: left; padding-right: 10px; text-transform: uppercase; font-family: Myriad Pro, Trebuchet MS, Arial, Sans-Serif; font-size: 11px; list-style: none; }
+#region-header-second .region-inner li.first { margin-left: 0px }
+
+#region-sidebar-first li.expanded, #region-sidebar-first li.collapsed, #region-sidebar-first li.leaf {padding: 0; margin: 0}
+#region-sidebar-first ul.menu {background-image: url(../images/menu-bg-ul.png); }
+#region-sidebar-first ul.menu li a {padding-left: 20px}
+#region-sidebar-first ul.menu li { line-height: 50px ;list-style: none; background-image: url(../images/v-menu-bg.png); background-position: right center;margin: 0; padding-left: 0px; display: block; vertical-align: middle; background-repeat: no-repeat;}
+#region-sidebar-first ul.menu li.expanded {line-height: 64px; background-image: url(../images/menu-bg-ul-li-expanded.png);background-position: right top}
+
+#region-sidebar-first ul.menu li ul {background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul.png); background-repeat: no-repeat}
+#region-sidebar-first ul.menu li ul li {padding-left: 0px; background-image: url(../images/menu-bg-ul-li-ul-li.png);border-bottom: 1px solid #CECECE; background-repeat: no-repeat}
+
+#region-sidebar-first ul.menu li ul li.active-trail { background-image: url(../images/menu-bg-ul-li-ul-li-active-trail.png); color: #FFF}
+#region-sidebar-first ul.menu li ul li a.active { color: #FFF; background-image: url(../images/menu-markeret-expanded.png);background-repeat: no-repeat; background-position: right; display: block; line-height: 50px;}
+#region-sidebar-first ul.menu li ul li.expanded  { color: #FFF; background-image: url(../images/menu-markeret-expanded.png);background-repeat: no-repeat; background-position: right}
+#region-sidebar-first ul.menu li ul li.expanded a {color: #FFF; background-repeat: no-repeat; background-position: right}
+#region-sidebar-first ul.menu li a { display: inline; line-height: 20px; color: #333}
+
+#region-sidebar-first  .block-title {padding-left: 20px; line-height: 50px}
+
+.block-multistep { background-color: #8B0047; color: #fff; margin-bottom: 20px}
+.block-multistep a {color: #fff}
+
+.panel-flexible .panel-separator {
+    margin: 0 0 0 0;
+}
+.block-multistep a.multistep-submitted {  color: #FFF;}
+.block-multistep a.multistep-unsubmitted { color: #FFF; font-weight: bold}
+.block-multistep span.multistep-unsubmitted { color: #CC72A6}
+
+
+.block-multistep .content { padding: 10px 20px}
+
+div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
+  display:block;
+  margin-bottom:2.5em;
+}
+
+#search-block-form .rel-register-link {display: none}
+
+.facebook {}
+ .node-type-iframe-selvbetjeningsl-sning-mm h1#page-title {display: none}
+.billedrotator { background-image: url(../images/billedkarusel-bg.png); margin-bottom: 10px;}
+.page-home #region-sidebar-first {display: none}
+
+.qtip-cmstheme .qtip-wrapper { margin-top: 26px; background-image: url("../images/content-bg.png");margin-top: 26px; background-position: center top; background-color: #FFF; background-repeat: no-repeat; padding: 20px}
+.rightside-purple { color: #BF80A4; background-image: url(../images/selvbetjening-right-bg.png); background-repeat: no-repeat; padding-top: 60px; padding-left: 20px; padding-bottom: 40px;}
+.rightside-purple h3 { margin: 12px 0px; text-transform: uppercase; font-size: 15px; font-weight: normal}
+.rightside-purple ul {margin-left: 10px; margin-bottom: 45px}
+.rightside-purple li { padding-left: 5px}
+.rightside-purple .readmore a { font-size: 14px; margin-bottom: 10px}
+.rightside-purple a { color: #fff; margin-bottom: 5px; font-weight: normal; font-size: 12px}
+
+.spotbox-right {}
+
+.plus10r { padding-right: 10px}
+
+.page-node-edit .markItUp { width: 99%}
+
+#node_contentpage_form_group_hidden, #node_galleri_form_group_hidden, #node_news_form_group_hidden {display: none}
+
+.markItUp {
+    margin: 5px 0; 
+    width: auto;
+}
+
+.field-name-field-resume-long {font-size: 16px; margin-bottom: 20px}
+
+.active-trail .expanded {border-left: 4px solid #666}
