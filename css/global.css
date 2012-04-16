@@ -204,6 +204,7 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	background: url(../images/news-list-bg.png) top left repeat-x;
 	width: 100%;
 	height: 155px;
+	border-radius: 6px;
 	box-shadow: 0px 0px 2px #eee;
 	-webkit-box-shadow: 0px 0px 2px #eee;
 	-moz-box-shadow: 0px 0px 2px #eee;
@@ -456,7 +457,7 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 
 .facebook {}
  .node-type-iframe-selvbetjeningsl-sning-mm h1#page-title {display: none}
-.billedrotator { background-image: url(../images/billedkarusel-bg.png); margin-bottom: 10px;}
+.billedrotator { background-image: url(../images/billedkarusel-bg.png); margin-bottom: 10px; border-radius: 6px;}
 .page-home #region-sidebar-first {display: none}
 
 .qtip-cmstheme .qtip-wrapper { margin-top: 26px; background-image: url("../images/content-bg.png");margin-top: 26px; background-position: center top; background-color: #FFF; background-repeat: no-repeat; padding: 20px}
