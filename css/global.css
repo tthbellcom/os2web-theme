@@ -61,6 +61,10 @@ h2.pane-title a, h2.block-title a {color: #4B4B4B}
 #region-sidebar-first ul.menu {background-image: url(../images/menu-bg-ul.png); }
 #region-sidebar-first ul.menu li a {padding-left: 20px}
 #region-sidebar-first ul.menu li { line-height: 50px ;list-style: none; background-image: url(../images/v-menu-bg.png); background-position: right center;margin: 0; padding-left: 0px; display: block; vertical-align: middle; background-repeat: no-repeat;}
+#region-sidebar-first ul.menu li:hover a, 
+#region-sidebar-first ul.menu li.active-trail a { color: #fff;}
+#region-sidebar-first ul.menu li:hover { background-image: url(../images/v-menu-bg-active.png);}
+#region-sidebar-first ul.menu li.active-trail { background-image: url(../images/v-menu-bg-on.png);} 
 #region-sidebar-first ul.menu li.expanded {line-height: 64px; background-image: url(../images/menu-bg-ul-li-expanded.png);background-position: right top}
 
 #region-sidebar-first ul.menu li ul {background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul.png); background-repeat: no-repeat}
