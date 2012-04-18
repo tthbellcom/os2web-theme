@@ -299,7 +299,7 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 
 #block-block-5 {
 	float: right;
-	margin-top: -3px;
+	margin-top: -18px;
 	height: 17px;
 	left: 20px;
 }
@@ -375,8 +375,8 @@ body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; 
 
 #zone-footer-wrapper {}
 
-#zone-content {background-color: #FBFBFB ; background-image: url(../images/content-bg.png); background-position: center top; background-repeat: no-repeat;*/}
-#zone-footer { background-image: url(../images/cw-bg-bund.png); background-position: center; background-repeat: repeat-y; min-height: 350px;}
+#zone-content {padding-top: 10px;border-radius: 6px;background-color: #FBFBFB ; background-image: url(../images/content-bg.png); background-position: center top; background-repeat: no-repeat;*/}
+#zone-footer {border-radius: 6px; background-image: url(../images/cw-bg-bund.png); background-position: center; background-repeat: repeat-y; min-height: 350px;}
 
 #zone-postscript { background-image: url(../images/cw-bg-bund.png); background-position: center; background-repeat: repeat-y; }
 #zone-menu { background-image: url(../images/menu-bag.png); font-family: Myriad Pro, Arial, Helvetica, Tahoma, sans-serif; height: 68px; background-position: center top}
@@ -496,3 +496,12 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 .view-megadd-news a {color: #787878}
 
 .qtip-wrapper .menu-minipanels ul.menu li.leaf {float: left; width: 220px}
+
+#footer-region h2.pane-title {
+  border-bottom: solid 1px #ccc;
+  font-size: 15px;
+}
+
+#footer-region ul.menu a {
+  margin-bottom: 5px;
+}
