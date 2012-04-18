@@ -505,3 +505,56 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 #footer-region ul.menu a {
   margin-bottom: 5px;
 }
+
+.view-spot-view .jcarousel-skin-default .jcarousel-container-horizontal li,
+.view-spot-view .jcarousel-skin-default .jcarousel-clip-horizontal li {
+  height: auto;
+  border: 0;
+  margin: 0;
+}
+
+.view-spot-view .jcarousel-skin-default .jcarousel-container-horizontal li .views-field div.spotTitle,
+.view-spot-view .jcarousel-skin-default .jcarousel-clip-horizontal li .views-field div.spotTitle{
+  height: 60px;
+  padding: 7px 25px 0 25px;
+  clear: both;
+  color: #666;
+  text-align: left;
+}
+
+.view-spot-view .jcarousel-skin-default .jcarousel-container-horizontal,
+.view-spot-view .jcarousel-skin-default .jcarousel-clip-horizontal {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.view-spot-view .jcarousel-skin-default .jcarousel-next-horizontal,
+.view-spot-view .jcarousel-skin-default .jcarousel-prev-horizontal {
+  background: url(../images/spot-right.png) no-repeat top left;
+  width: 20px;
+  height: 67px;
+  bottom: 0;
+  right: 0;
+  top: auto;
+}
+
+.view-spot-view .jcarousel-skin-default .jcarousel-prev-horizontal {
+  background-image: url(../images/spot-left.png);
+  left: 0;
+}
+
+.view-spot-view .views-field a {
+  display: block;
+}
+
+.view-spot-view .views-field a .spotImage {
+  text-align: center;
+  display: block;
+  float: left;
+  clear: both;
+  width: 100%;
+  padding: 5px 0;
+}
+
