@@ -11,7 +11,7 @@ jQuery(document).ready(function () {
 		jQuery('.custom-slideshow .hover').removeClass('hover', 500);
 	});
 
-	jQuery('.view-id-newslist ul li').not(':last-child').each(function(k,v) {
+	jQuery('.pane-newslist ul li').not(':last-child').each(function(k,v) {
 		jQuery(v).find('.news-list-next').html(jQuery(v).next().find('.news-list-right').html());
 	});
 });
