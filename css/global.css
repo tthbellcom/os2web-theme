@@ -58,36 +58,6 @@ h2.pane-title a, h2.block-title a {color: #4B4B4B}
 #region-header-second .region-inner li { float: left; padding-right: 10px; text-transform: uppercase; font-family: Myriad Pro, Trebuchet MS, Arial, Sans-Serif; font-size: 11px; list-style: none; }
 
 #region-sidebar-first li.expanded, #region-sidebar-first li.collapsed, #region-sidebar-first li.leaf {padding: 0; margin: 0}
-#region-sidebar-first ul.menu {background-image: url(../images/menu-bg-ul.png); }
-#region-sidebar-first ul.menu li a {padding-left: 20px}
-#region-sidebar-first ul.menu li { line-height: 50px ;list-style: none; background-image: url(../images/v-menu-bg.png); background-position: right center;margin: 0; padding-left: 0px; display: block; vertical-align: middle; background-repeat: no-repeat;}
-#region-sidebar-first ul.menu li:hover a, 
-#region-sidebar-first ul.menu li.active-trail:hover a, 
-#region-sidebar-first ul.menu li.active-trail a { color: #000;}
-#region-sidebar-first ul.menu li:hover,
-#region-sidebar-first ul.menu li.active-trail, 
-#region-sidebar-first ul.menu li.active-trail.active, 
-#region-sidebar-first ul.menu li.expanded,
-#region-sidebar-first ul.menu li.active-trail li.active-trail.active,
-#region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail.active,
-#region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail li.active-trail.active,
-#region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail li.active-trail li.active-trail li.active-trail.active {
-  background-image: url(../images/v-menu-bg-dp.png); background-repeat: repeat; background-position: top left;
-}
-
-#region-sidebar-first ul.menu li ul {background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul.png); background-repeat: no-repeat}
-#region-sidebar-first ul.menu li ul li ul {background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul-li-ul.png); background-repeat: no-repeat}
-#region-sidebar-first ul.menu li ul li ul li ul {background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul-li-ul-li-ul.png); background-repeat: no-repeat}
-#region-sidebar-first ul.menu li ul li ul li ul li ul {background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul-li-ul-li-ul-li-ul.png); background-repeat: no-repeat}
-#region-sidebar-first ul.menu li ul li ul li ul li ul li ul{background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul-li-ul-li-ul-li-ul-li-ul.png); background-repeat: no-repeat}
-#region-sidebar-first ul.menu li ul li ul li ul li ul li ul li ul{background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul-li-ul-li-ul-li-ul-li-ul-li-ul.png); background-repeat: no-repeat}
-#region-sidebar-first ul.menu li ul li {padding-left: 0px; background-image: url(../images/menu-bg-ul-li-ul-li.png);border-bottom: 1px solid #CECECE; background-repeat: no-repeat}
-
-#region-sidebar-first ul.menu li ul li.active-trail { background-image: url(../images/menu-bg-ul-li-ul-li-active-trail.png); color: #FFF}
-#region-sidebar-first ul.menu li ul li a.active { color: #FFF; background-image: url(../images/menu-markeret-expanded.png);background-repeat: no-repeat; background-position: right}
-#region-sidebar-first ul.menu li ul li.expanded  { color: #FFF; background-image: url(../images/menu-markeret-expanded.png);background-repeat: no-repeat; background-position: right}
-#region-sidebar-first ul.menu li ul li.expanded a {color: #FFF; background-repeat: no-repeat; background-position: right}
-#region-sidebar-first ul.menu li a { display: inline; line-height: 20px; color: #333}
 
 #region-sidebar-first  .block-title {padding-left: 20px; line-height: 50px}
 
@@ -442,7 +412,7 @@ body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; 
 #region-sidebar-first ul.menu li.expanded {line-height: 1.2/*50px*/; /*background-image: url(../images/menu-bg-ul-li-expanded.png);*/background-position: 0 -10px; border-bottom: 0;}
 
 #region-sidebar-first ul.menu li ul {background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul.png); background-repeat: no-repeat}
-#region-sidebar-first ul.menu li ul li {padding-left: 0px; background-image: url(../images/menu-bg-ul-li-ul-lii.png);border-bottom: 1px solid #CECECE; background-repeat: no-repeat}
+#region-sidebar-first ul.menu li ul li {padding-left: 0px; /*background-image: url(../images/menu-bg-ul-li-ul-lii.png)*/;border-bottom: 1px solid #CECECE; background-repeat: no-repeat}
 
 #region-sidebar-first ul.menu li ul li.active-trail { background-image: url(../images/menu-bg-ul-li-ul-li-active-trail.png); color: #FFF}
 #region-sidebar-first ul.menu li ul li a.active { color: #FFF; background-image: url(../images/menu-markeret-expanded.png);background-repeat: no-repeat; background-position: right; display: block; line-height: 50px;}
@@ -596,16 +566,31 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 .views-field-field-kontaktblok-callcenter {margin-top: 15px; margin-bottom: 15px}
 
 /***************/
+#region-sidebar-first ul.menu {background-image: url(../images/menu-bg-ul.png); }
+#region-sidebar-first ul.menu li a {padding-left: 20px;}
+#region-sidebar-first ul.menu li { line-height: 1.2;list-style: none; background-image: url(../images/v-menu-bg.png); background-position: right center;margin: 0; padding-left: 0px; display: block; vertical-align: middle; background-repeat: no-repeat; list-style: url() inside !important;}
+/*#region-sidebar-first ul.menu li:hover,*/
+#region-sidebar-first ul.menu li.active-trail.active, 
+#region-sidebar-first ul.menu li.active-trail li.active-trail.active,
+#region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail.active,
+#region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail li.active-trail.active,
+#region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail li.active-trail li.active-trail li.active-trail.active {
+  background-image: url(../images/v-menu-bg-dp.png) !important; background-repeat: repeat; background-position: top left;
+}
+
+#region-sidebar-first ul.menu li ul {background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul.png); background-repeat: no-repeat}
+#region-sidebar-first ul.menu li ul li ul {background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul-li-ul.png); background-repeat: no-repeat}
+#region-sidebar-first ul.menu li ul li ul li ul {background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul-li-ul-li-ul.png); background-repeat: no-repeat}
+#region-sidebar-first ul.menu li ul li ul li ul li ul {background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul-li-ul-li-ul-li-ul.png); background-repeat: no-repeat}
+#region-sidebar-first ul.menu li ul li ul li ul li ul li ul{background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul-li-ul-li-ul-li-ul-li-ul.png); background-repeat: no-repeat}
+#region-sidebar-first ul.menu li ul li ul li ul li ul li ul li ul{background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul-li-ul-li-ul-li-ul-li-ul-li-ul.png); background-repeat: no-repeat}
+#region-sidebar-first ul.menu li ul li {padding-left: 0px; background-image: url(../images/menu-bg-ul-li-ul-li.png);border-bottom: 1px solid #CECECE; background-repeat: no-repeat}
+
+#region-sidebar-first ul.menu li ul li a.active { color: #FFF; background-image: url(../images/menu-markeret-expanded.png);background-repeat: no-repeat; background-position: right}
 
 #region-sidebar-first ul.menu li {
   border-left-width: 0;
   border-bottom: solid 1px #ccc;
-}
-#region-sidebar-first ul.menu li ul li.expanded.active,
-#region-sidebar-first ul.menu li ul li.expanded li.expanded.active,
-#region-sidebar-first ul.menu li ul li.expanded li.expanded li.expanded.active,
-#region-sidebar-first ul.menu li ul li.expanded li.expanded li.expanded li.expanded.active {
-  background: url("../images/menu-bg-ul-li-ul-li-active-trail.png") repeat top left;
 }
 
 #region-sidebar-first ul.menu li ul li a.active,
@@ -614,7 +599,7 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
  display: inline-block; 
  vertical-align: middle;
  line-height: 1.2;
- width: 75%; 
+ width: 74.5%; 
  padding: 20px 40px 20px 20px;
  background: url(../images/v-arrow-default.png) no-repeat right 50%;
 }
@@ -624,15 +609,10 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
  padding: 10px 40px 10px 20px;
 }
 
-#region-sidebar-first ul.menu li.active-trail a.active,
-#region-sidebar-first ul.menu li a:hover {
- background: url(../images/v-arrow-default-on.png) no-repeat right 50%;
- color: #fff;
-}
 
 #region-sidebar-first ul.menu li.expanded,
 #region-sidebar-first ul.menu li.active-trail {
-  background: #e3e3e3;
+  background: #d7d7d7;
 }
 
 #region-sidebar-first ul.menu li.expanded li.expanded,
@@ -650,30 +630,29 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
   background: #989898;
 }
 
-
-#region-sidebar-first ul.menu li.expanded a.active-trail,
-#region-sidebar-first ul.menu li.active-trail a.active,
-#region-sidebar-first ul.menu li.active-trail a.active-trail {
- background: url(../images/v-arrow-default.png) no-repeat right 50%;
- color: #000;
+#region-sidebar-first ul.menu li.expanded.active {
+  border-bottom: #8b0053 solid 1px;
 }
 
-#region-sidebar-first ul.menu li.expanded a.active,
-#region-sidebar-first ul.menu li.active-trail a.active,
-#region-sidebar-first ul.menu li.active-trail a.active-trail,
+#region-sidebar-first ul.menu li.active-trail.active a.active,
+#region-sidebar-first ul.menu li a:hover {
+ background: url(../images/v-arrow-default-on.png) no-repeat right 50%;
+ color: #fff;
+}
+
 #region-sidebar-first ul.menu li.expanded a.active-trail {
  background: url(../images/v-arrow-expanded.png) no-repeat right 50%;
 }
 
-#region-sidebar-first ul.menu li.active-trail a.active {
+#region-sidebar-first ul.menu li.active-trail.active.expanded a.active {
  background: url(../images/v-arrow-expanded-on.png) no-repeat right 50%;
  color: #fff;
 }
 
-#region-sidebar-first ul.menu li ul li.expanded a:hover {
-  color: #fff;
-}
+#node_kontaktblok_form_group_aabningstider .field-type-text { width: 40%; float:left }
 
-#region-sidebar-first ul.menu li.expanded.active {
-  border-bottom: #8b0053 solid 1px;
+#region-sidebar-first ul.menu li.active-trail.active.expanded a:hover,
+#region-sidebar-first ul.menu li a:hover {
+ background: url(../images/v-arrow-default-on.png) #8b0053 no-repeat right 50% !important;
+ color: #fff !important;
 }
