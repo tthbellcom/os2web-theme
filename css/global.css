@@ -65,7 +65,13 @@ h2.pane-title a, h2.block-title a {color: #4B4B4B}
 #region-sidebar-first ul.menu li.active-trail a { color: #000;}
 #region-sidebar-first ul.menu li:hover,
 #region-sidebar-first ul.menu li.active-trail, 
-#region-sidebar-first ul.menu li.expanded {background-image: url(../images/v-menu-bg-dp.png); background-repeat: repeat;}
+#region-sidebar-first ul.menu li.expanded,
+#region-sidebar-first ul.menu li.active-trail li.active-trail.active,
+#region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail.active,
+#region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail li.active-trail.active,
+#region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail li.active-trail li.active-trail li.active-trail.active {
+  background-image: url(../images/v-menu-bg-dp.png); background-repeat: repeat; background-position: top left;
+}
 
 #region-sidebar-first ul.menu li ul {background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul.png); background-repeat: no-repeat}
 #region-sidebar-first ul.menu li ul li ul {background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul-li-ul.png); background-repeat: no-repeat}
@@ -431,7 +437,7 @@ body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; 
 #region-sidebar-first ul.menu {background-image: url(../images/menu-bg-ul.png); }
 #region-sidebar-first ul.menu li a {padding-left: 20px}
 #region-sidebar-first ul.menu li { line-height: 1.2;list-style: none; background-image: url(../images/v-menu-bg.png); background-position: right center;margin: 0; padding-left: 0px; display: block; vertical-align: middle; background-repeat: no-repeat;}
-#region-sidebar-first ul.menu li.expanded {line-height: 50px; /*background-image: url(../images/menu-bg-ul-li-expanded.png);*/background-position: 0 -10px; border-bottom: 0;}
+#region-sidebar-first ul.menu li.expanded {line-height: 1.2/*50px*/; /*background-image: url(../images/menu-bg-ul-li-expanded.png);*/background-position: 0 -10px; border-bottom: 0;}
 
 #region-sidebar-first ul.menu li ul {background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul.png); background-repeat: no-repeat}
 #region-sidebar-first ul.menu li ul li {padding-left: 0px; background-image: url(../images/menu-bg-ul-li-ul-lii.png);border-bottom: 1px solid #CECECE; background-repeat: no-repeat}
@@ -611,6 +617,11 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
  background: url(../images/v-arrow-default.png) no-repeat right 50%;
 }
 
+#region-sidebar-first ul.menu li ul li li a.active,
+#region-sidebar-first ul.menu li li ul a {
+ padding: 10px 40px 10px 20px;
+}
+
 #region-sidebar-first ul.menu li.active-trail a.active,
 #region-sidebar-first ul.menu li a:hover {
  background: url(../images/v-arrow-default-on.png) no-repeat right 50%;
@@ -619,7 +630,7 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 
 #region-sidebar-first ul.menu li.expanded,
 #region-sidebar-first ul.menu li.active-trail {
-  background: #f1f1f1;
+  background: #e3e3e3;
 }
 
 #region-sidebar-first ul.menu li.expanded li.expanded,
