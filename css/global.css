@@ -386,7 +386,7 @@ body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; 
 #region-menu { width: 954px;}
 
 .region-footer-first-inner, .region-footer-second-inner, .region-footer-third-inner {margin: 10px}
-.region-footer-first-inner {padding-left: 145px; line-height: 30px}
+.region-footer-first-inner {padding-left: 145px; line-height: 30px; margin: 0;}
 #region-footer-first {background-image: url(../images/lille-logo.png); width: 970px; margin: 0;}
 
 .qtip-cmstheme {  margin-top: 42px; background-color: transparent}
