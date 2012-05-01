@@ -387,7 +387,7 @@ body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; 
 
 .region-footer-first-inner, .region-footer-second-inner, .region-footer-third-inner {margin: 10px}
 .region-footer-first-inner {padding-left: 145px; line-height: 30px}
-#region-footer-first {background-image: url(../images/lille-logo.png); }
+#region-footer-first {background-image: url(../images/lille-logo.png); width: 970px; margin: 0;}
 
 .qtip-cmstheme {  margin-top: 42px; background-color: transparent}
 
@@ -656,3 +656,10 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
  background: url(../images/v-arrow-default-on.png) #8b0053 no-repeat right 50% !important;
  color: #fff !important;
 }
+
+/* IE7 specific hack, move to ie.css if created -TC bellcom */
+* + html #region-sidebar-first ul.menu li a {
+  position: relative;
+  left: -16px;
+}
+/* END */
