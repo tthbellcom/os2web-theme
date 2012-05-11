@@ -1,0 +1,65 @@
+#region-content, #forside, #forside .container-12 .grid-12, #forside .grid-12 {margin: 0; width: 970px}
+#forside .grid-4 { width: 320px}
+
+#forside .grid-6 { width: 490px}
+
+#forside .grid-8 { width: 650px}
+.billedrotator { 
+	background-image: url(../images/billedkarusel-bg.png); 
+	margin-bottom: 10px; 
+	margin-left: 9px; 
+	padding-left: 1px;
+	padding-top: 13px;
+	padding-bottom: 4px}
+
+.view-id-newslist .view-content {
+    background: url("../images/news-list-bg.png") repeat scroll 0 0 transparent;
+    height: 158px;
+    margin-left: 9px;
+    padding: 2px 0;
+    width: 308px;
+}
+#zone-content {padding-top: 0px}
+#zone-postscript-wrapper {display: none}
+.custom-slideshow {
+	float: left;
+	width: 631px;
+}
+
+#zone-content {
+    background-color: transparent;
+    background-image: none;
+}
+.panels-flexible-row {background-image: url("../images/transwhite.png"); padding-top: 7px}
+.panels-flexible-row-forside-1 {background-image: url(../images/forside-top.png); background-repeat: no-repeat; height: 493px; }
+.container-12 .grid-6 pane-spotboxe-panel-pane-3 {}
+
+
+.jcarousel-skin-default .jcarousel-item-horizontal {
+    margin: 0 4px 0 1px;
+}
+
+.view-kulturnaut-events-lister {
+    background-image: url("../images/detsker-bg.png");
+    height: 159px;
+    margin-left: 6px;
+    width: 314px;
+}
+
+.panels-flexible-region .pane-kulturnaut-events-lister {
+    margin-left: 2px;
+}
+
+.panels-flexible-region .pane-newslist h2, .panels-flexible-region .pane-kulturnaut-events-lister h2 {
+    color: #9B9B9B;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 1px ;
+    padding-left: 19px;
+    text-transform: uppercase;
+}
+
+
+.region-inner.region-content-inner {
+	margin-left: 0px;   
+}
