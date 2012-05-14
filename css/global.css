@@ -1,6 +1,8 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 audio:not([controls]) { display: none; }
@@ -13,14 +15,14 @@ table { font-size:inherit; font:100%; }
 select, input, textarea { font:99% sans-serif; } 
 
 body {background-image: url(../images/bg.png)}
-body, div {font-family: Myriad Pro, Trebuchet MS, Arial, Sans-Serif;}
+body, div {font-family: Myriad Pro, Droid Sans, Trebuchet MS, Arial, Sans-Serif;}
 
 ::-moz-selection { background: #8b0053; color: #fff; text-shadow: none; }
 ::selection { background: #8b0053; color: #fff; text-shadow: none; }
 
 a:link, a:visited { color: #8b0053; text-decoration: none;}
 
-h1, h2, h3, h4, h5, h6 { letter-spacing: -0.05em; font-family: Myriad Pro, Trebuchet MS, Arial, Sans-Serif; }
+h1, h2, h3, h4, h5, h6 { letter-spacing: -0.05em; font-family: Myriad Pro, Droid Sans, Trebuchet MS, Arial, Sans-Serif; }
 
 .block-user-menu, .vertical-menu, .block-menu-top-menu {}
 
@@ -28,11 +30,11 @@ h1, h2, h3, h4, h5, h6 { letter-spacing: -0.05em; font-family: Myriad Pro, Trebu
 
 
 #zone-user a, #zone-menu a {color: #656565; text-decoration: none}
-#zone-menu { overflow: hidden; text-transform: uppercase; font-family: Myriad Pro, Trebuchet MS, Arial, Sans-Serif;}
+#zone-menu { overflow: hidden; text-transform: uppercase; font-family: Myriad Pro, Droid Sans, Trebuchet MS, Arial, Sans-Serif;}
 
 
-#main-menu {float: left; line-height: 65px;font-family: Myriad Pro, Trebuchet MS, Arial, Sans-Serif;}
-#main-menu li a {background-image: url(../images/menu-dp.png); background-position: right; background-repeat: no-repeat; color: #666; font-family: Myriad Pro, Trebuchet MS, Arial, Sans-Serif;}
+#main-menu {float: left; line-height: 65px;font-family: Myriad Pro, Droid Sans, Trebuchet MS, Arial, Sans-Serif;}
+#main-menu li a {background-image: url(../images/menu-dp.png); background-position: right; background-repeat: no-repeat; color: #666; font-family: Myriad Pro, Droid Sans, Trebuchet MS, Arial, Sans-Serif;}
 
 #main-menu li a.qtip-hover{
     color: #880054;
@@ -56,7 +58,7 @@ h2.pane-title a, h2.block-title a {color: #4B4B4B}
 
 #block-search-form .content {}
 
-#block-search-form .content #edit-search-block-form--2 {width: 333px; font-size: 18px; border: none; height: 40px; vertical-align: top; padding: 20px 0px; text-transform: uppercase; background: transparent; font-family: Myriad Pro, Trebuchet MS, Arial, Sans-Serif; margin: 14px 0px; width: 370px}
+#block-search-form .content #edit-search-block-form--2 {width: 333px; font-size: 18px; border: none; height: 40px; vertical-align: top; padding: 20px 0px; text-transform: uppercase; background: transparent; font-family: Myriad Pro, Droid Sans, Trebuchet MS, Arial, Sans-Serif; margin: 14px 0px; width: 370px}
 
 #block-search-form #edit-submit,
 #block-search-form .form-submit,
@@ -64,7 +66,7 @@ h2.pane-title a, h2.block-title a {color: #4B4B4B}
     background-image: url(../images/search-button.png); width: 70px; height: 68px; border: none; margin: 0; padding: 0; border-radius: 0px;  -moz-border-radius: 0px;
     }
 #region-header-second .region-inner {padding-top: 68px; padding-left: 20px}
-#region-header-second .region-inner li { float: left; padding-right: 10px; text-transform: uppercase; font-family: Myriad Pro, Trebuchet MS, Arial, Sans-Serif; font-size: 11px; list-style: none; }
+#region-header-second .region-inner li { float: left; padding-right: 10px; text-transform: uppercase; font-family: Myriad Pro, Droid Sans, Trebuchet MS, Arial, Sans-Serif; font-size: 11px; list-style: none; }
 
 #region-sidebar-first li.expanded, #region-sidebar-first li.collapsed, #region-sidebar-first li.leaf {padding: 0; margin: 0}
 
@@ -424,11 +426,12 @@ body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; 
 
 #zone-footer-wrapper {}
 
-#zone-content {padding-top: 10px;background-image: url(../images/transwhite.png);}
+#zone-content {padding-top: 10px;background-image: url(../images/transwhite.png); background-color: transparent;}
+
 #zone-footer {border-radius: 6px; background-image: url(../images/footer-bg.png); background-position: top left; background-repeat: repeat-x; min-height: 350px;}
 
 #zone-postscript { background-image: url(../images/cw-bg-bund.png); background-position: center; background-repeat: repeat-y; }
-#zone-menu { background-image: url(../images/menu-bag.png); font-family: Myriad Pro, Arial, Helvetica, Tahoma, sans-serif; height: 68px; background-position: center top}
+#zone-menu { background-image: url(../images/menu-bag.png); font-family: Myriad Pro, Droid Sans, Arial, Helvetica, Tahoma, sans-serif; height: 68px; background-position: center top}
 #region-user-second, #region-header-second {float: right} 
 
 .block-user-menu  ul, .vertical-menu ul, .block-menu-top-menu ul { padding-left: 2px}
@@ -443,7 +446,7 @@ body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; 
 #main-menu li {line-height: 69px; float: left; list-style: none}
 #main-menu li a {padding-left: 0px; padding-right: 30px; display: block; line-height: 69px; }
 
-#breadcrumb { padding: 10px; text-transform: uppercase; font-family: Myriad Pro, Arial, Helvetica, Tahoma, sans-serif; color: #666 }
+#breadcrumb { padding: 10px; text-transform: uppercase; font-family: Myriad Pro, Droid Sans, Arial, Helvetica, Tahoma, sans-serif; color: #666 }
 #breadcrumb a { color: #666;}
 
 #zone-header{ padding-bottom: 10px}
@@ -454,22 +457,38 @@ body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; 
 .region-footer-first-inner, .region-footer-second-inner, .region-footer-third-inner {margin: 10px}
 .region-footer-first-inner {padding-left: 145px; line-height: 30px; margin: 0;}
 #region-footer-first {background-image: url(../images/lille-logo.png); width: 970px; margin: 0;}
+<<<<<<< HEAD
+=======
+
+.qtip-cmstheme {  margin-top: 42px; background-color: transparent}
+>>>>>>> fc30032c3ba94ef2b9d5fec4dc76514bb21b7940
 
 .node-type-files .field-name-field-resume-long { font-size: 22px}
 
 .omega-24-twocol-12-12 {width: 940px}
 .omega-24-twocol-12-12 .grid-12 {width: 460px; background-color: transparent}
 
-#block-search-form .content #edit-search-block-form--2 {width: 333px; font-size: 18px; border: none; height: 40px; vertical-align: top; padding: 20px 0px; text-transform: uppercase; background: transparent; font-family: Myriad Pro, Trebuchet MS, Arial, Sans-Serif; margin: 14px 0px; width: 370px; position: relative; left: -10px;}
+#block-search-form .content #edit-search-block-form--2 {width: 333px; font-size: 18px; border: none; height: 40px; vertical-align: top; padding: 20px 0px; text-transform: uppercase; background: transparent; font-family: Myriad Pro, Droid Sans, Trebuchet MS, Arial, Sans-Serif; margin: 14px 0px; width: 370px; position: relative; left: -10px;}
 
 #block-search-form #edit-submit {
     background-image: url(../images/search-button.png); width: 70px; height: 68px; border: none; margin: 0; padding: 0; border-radius: 0px;  -moz-border-radius: 0px;
     }
 #region-header-second .region-inner {padding-top: 65px; padding-left: 20px}
-#region-header-second .region-inner li { float: left; padding-right: 10px; text-transform: uppercase; font-family: Myriad Pro, Trebuchet MS, Arial, Sans-Serif; font-size: 12px; list-style: none; }
+#region-header-second .region-inner li { float: left; padding-right: 10px; text-transform: uppercase; font-family: Myriad Pro, Droid Sans, Trebuchet MS, Arial, Sans-Serif; font-size: 12px; list-style: none; }
 #region-header-second .region-inner li.first { margin-left: 0px }
 
 
+<<<<<<< HEAD
+=======
+#region-sidebar-first ul.menu li ul {background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul.png); background-repeat: no-repeat}
+#region-sidebar-first ul.menu li ul li {padding-left: 0px; /*background-image: url(../images/menu-bg-ul-li-ul-lii.png)*/;border-bottom: 1px solid #CECECE; background-repeat: no-repeat}
+
+#region-sidebar-first ul.menu li ul li.active-trail { background-image: url(../images/menu-bg-ul-li-ul-li-active-trail.png); color: #FFF}
+#region-sidebar-first ul.menu li ul li a.active { color: #FFF; background-image: url(../images/menu-markeret-expanded.png);background-repeat: no-repeat; background-position: right; display: block; line-height: 50px;}
+#region-sidebar-first ul.menu li ul li.expanded  { color: #FFF; background-image: url(../images/menu-markeret-expandedd.png);background-repeat: no-repeat; background-position: right}
+#region-sidebar-first ul.menu li ul li.expanded a {color: #000; background-repeat: no-repeat; background-position: right}
+#region-sidebar-first ul.menu li a { display: inline; line-height: 20px; color: #333}
+>>>>>>> fc30032c3ba94ef2b9d5fec4dc76514bb21b7940
 
 #region-sidebar-first  .block-title {padding-left: 20px; line-height: 50px}
 
@@ -589,7 +608,7 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
     padding-left: 12px;
 }
 
-#footer-region h2.pane-title {
+#zone-footer h2.pane-title {
   border-bottom: solid 1px #ccc;
   font-size: 15px;
 }
@@ -675,6 +694,27 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 .views-field-field-kontaktblok-callcenter {margin-top: 15px; margin-bottom: 15px}
 
 /***************/
+#region-sidebar-first ul.menu {background-image: url(../images/menu-bg-ul.png); }
+#region-sidebar-first ul.menu li a {padding-left: 20px;}
+#region-sidebar-first ul.menu li { line-height: 1.2;list-style: none; background-image: url(../images/v-menu-bg.png); background-position: right center;margin: 0; padding-left: 0px; display: block; vertical-align: middle; background-repeat: no-repeat; list-style: url() inside !important;}
+/*#region-sidebar-first ul.menu li:hover,*/
+#region-sidebar-first ul.menu li.active-trail.active, 
+#region-sidebar-first ul.menu li.active-trail li.active-trail.active,
+#region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail.active,
+#region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail li.active-trail.active,
+#region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail li.active-trail li.active-trail li.active-trail.active {
+  background-image: url(../images/v-menu-bg-dp.png) !important; background-repeat: repeat; background-position: top left;
+}
+
+#region-sidebar-first ul.menu li ul {background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul.png); background-repeat: no-repeat}
+#region-sidebar-first ul.menu li ul li ul {background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul-li-ul.png); background-repeat: no-repeat}
+#region-sidebar-first ul.menu li ul li ul li ul {background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul-li-ul-li-ul.png); background-repeat: no-repeat}
+#region-sidebar-first ul.menu li ul li ul li ul li ul {background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul-li-ul-li-ul-li-ul.png); background-repeat: no-repeat}
+#region-sidebar-first ul.menu li ul li ul li ul li ul li ul{background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul-li-ul-li-ul-li-ul-li-ul.png); background-repeat: no-repeat}
+#region-sidebar-first ul.menu li ul li ul li ul li ul li ul li ul{background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul-li-ul-li-ul-li-ul-li-ul-li-ul.png); background-repeat: no-repeat}
+#region-sidebar-first ul.menu li ul li {padding-left: 0px; background-image: url(../images/menu-bg-ul-li-ul-li.png);border-bottom: 1px solid #CECECE; background-repeat: no-repeat}
+
+#region-sidebar-first ul.menu li ul li a.active { color: #FFF; background-image: url(../images/menu-markeret-expanded.png);background-repeat: no-repeat; background-position: right}
 
 
 #region-sidebar-first li.expanded, #region-sidebar-first li.collapsed, #region-sidebar-first li.leaf {padding: 0; margin: 0}
@@ -746,7 +786,11 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 
 #region-sidebar-first ul.menu li {
   border-left-width: 0;
+<<<<<<< HEAD
   border-top: solid 1px #ccc;
+=======
+  border-bottom: solid 1px #ccc;
+>>>>>>> fc30032c3ba94ef2b9d5fec4dc76514bb21b7940
 }
 
 #region-sidebar-first ul.menu li ul li a.active,
@@ -765,7 +809,11 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
  padding: 10px 40px 10px 20px;
 }
 
+<<<<<<< HEAD
 /*
+=======
+
+>>>>>>> fc30032c3ba94ef2b9d5fec4dc76514bb21b7940
 #region-sidebar-first ul.menu li.expanded,
 #region-sidebar-first ul.menu li.active-trail {
   background: #d7d7d7;
@@ -817,6 +865,7 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 * + html #region-sidebar-first ul.menu li a {
   position: relative;
   left: -16px;
+<<<<<<< HEAD
 }
 /* END */
 
@@ -1050,9 +1099,9 @@ a.overlayclass span.zoom-icon-video {
 .selvbetjening-block-forside .readmore a { font-size: 14px; margin-bottom: 10px}
 
 .selvbetjening-block-forside .knapper { margin: 18px 8px 15px; height: 50px}
-.selvbetjening-block-forside .knapper a {  text-transform: uppercase; font-size: 14px; background-repeat: no-repeat }
-.selvbetjening-block-forside .knapper a.kviksvar {background-image: url(../images/kviksvar.png); padding: 14px 25px 18px 32px; float: left; }
-.selvbetjening-block-forside .knapper a.nemindsigt { background-image: url(../images/aktindsigt.png); padding: 14px 25px 18px 32px; float: right; margin-right: 10px}
+.selvbetjening-block-forside .knapper a {  text-transform: uppercase; font-size: 13px; background-repeat: no-repeat }
+.selvbetjening-block-forside .knapper a.kviksvar {background-image: url(../images/kviksvar.png); padding: 14px 22px 3px 32px; float: left; width: 60px}
+.selvbetjening-block-forside .knapper a.nemindsigt { background-image: url(../images/aktindsigt.png); padding: 14px 25px 18px 32px; width: 98px; float: right; margin-right: 10px}
 
 
 .selvbetjening-block-forside .rel-register-link {display: none}
@@ -1402,10 +1451,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 }
 
 
-#zone-content {
-    background-color: transparent;
-    background-image: url("../images/transwhite.png");
-}
+
 
 #zone-user {
     font-size: 10px;
@@ -1515,23 +1561,28 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
     
 }
 
-.field.field-name-body.field-type-text-with-summary.field-label-hidden {
+.node-type-contentpage .field-name-body  {
     background: #f0f0f0;
     padding: 10px;
     margin: 0;
     border-top: 1px solid #e4e4e4;
 }
 
-.region-inner.region-content-inner {
-	margin-left: 10px;   
+.node-type-contentpage .field.field-name-field-resume-long, .node-type-contentpage .region-inner h1.title, .node-type-contentpage .submitted, .node-type-contentpage .workbench-info-block {
+	margin-left: 10px;  
+
 }
 
-
-.field.field-name-field-resume-long.field-type-text-with-summary.field-label-hidden{
-	margin-left: 17px;  
+.node-type-contentpage .field.field-name-field-resume-long {
 	font-size: 14px; 
     color: #4a4a4a;
 }
+
+/*
+.indholdsomraade .region-content-inner {
+	margin-left: 10px;   
+}
+*/
 #region-footer-first {background-repeat: no-repeat; height: 53px; line-height: 53px; background-color: #FBFBFB; color: #B3B3B3; font-size: 11px}
 
 .region-footer-first-inner {
@@ -1556,3 +1607,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 #region-footer-first span.last {border-right: none; margin-right: 0; padding-right: 0px}
 
 .node-type-iframe-selvbetjeningsl-sning-mm h1#page-title {display: block}
+=======
+}
+/* END */
+>>>>>>> fc30032c3ba94ef2b9d5fec4dc76514bb21b7940
