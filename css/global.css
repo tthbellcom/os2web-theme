@@ -832,11 +832,6 @@ ul.menu li a.menu-minipanel-1608 {background-image: url(../images/topddhandle.pn
 	background-image: url("../images/spot1b.png");
 }
 
-#page .view-spotboxe .spotbox-row {
-    background-image: url("../images/spot1.png");
-    margin-bottom: 6px;
-    padding: 5px 1px 0px 10px;
-}
 
 
 .spotbox h3, .spotbox h4 { padding: 20px; margin: 0; }
@@ -912,10 +907,10 @@ a.overlayclass span.zoom-icon-video {
 }
 
 .spotbox-horisontal .views-row-last {
-    /*background-image: url("../images/spot1b.png");
-    margin-bottom: 6px;*/
+    background-image: url("../images/spot1b.png");
+    margin-bottom: 6px;
     margin-left: 8px;
-/*    padding: 6px 1px 0px 1px;*/
+    padding: 6px 1px 0px 1px;
 }
 
 .spotbox-tall, .spotbox-video { margin-left: 8px}
