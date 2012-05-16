@@ -1,0 +1,76 @@
+#panel-borger .panel-region-lead { 
+	background-image: url(../images/pop-services.png); 
+	background-repeat: no-repeat}
+
+.selvbetjening-block-portal {
+	background-image: url(../images/selvbetjening-230.png); 
+	margin: 0;}
+
+.selvbetjening-block-portal h3 a {
+	font-size: 21px; 
+	color: #FFF}
+
+.selvbetjening-block-portal .view-header {
+	margin-top:15px;
+}
+.selvbetjening-block-portal .knapper {
+	display: none}
+
+.selvbetjening-block-portal .form-type-select select { 
+	font-size: 15px;  height: 35px;
+    padding: 10px 3px 3px 0;}
+
+.selvbetjening-block-portal #ctools-jump-menu--2, .selvbetjening-block-portal #ctools-jump-menu {
+    background-image: url("../images/dropdown-pil_lille.png");
+    margin-bottom: 5px;
+    margin-left: 5px;
+    overflow: hidden;
+    width: 203px;
+}
+
+#panel-politik-og-planer .selvbetjening-block-portal .view-header h3 a {
+	background-image: url(../images/politikogplanerTEKST.png);
+	background-repeat: no-repeat;
+	background-position: 90px 20px;
+	padding-top: 5px;
+}
+
+#panel-erhverv .selvbetjening-block-portal.view-header h3 a {
+	background-image: url(../images/erhvervTEKST.png);
+	background-repeat: no-repeat;
+	background-position: 134px 24px;
+	padding-top: 5px;
+}
+
+#panel-borger .selvbetjening-block-portal .view-header h3 a{
+	background-image: url(../images/borgerTEKST.png);
+	background-repeat: no-repeat;
+	background-position: 134px 24px;
+	padding-top: 5px;
+}
+
+
+#panel-borger .selvbetjening-block-portal {
+	background: none}
+
+.page-taxonomy-term h1#page-title {
+	display: none}
+
+#pop-borgerservices	{
+	padding-left: 3px;
+    width: 483px;
+}
+#panel-borger .view-spotboxe .spotbox-row { padding: 6px 1px 0 0 }
+
+#pop-borgerservices h3 {font-size: 21px; font-weight: normal; padding-top: 10px; margin-bottom: 0px}
+#pop-borgerservices .pane-content {
+	margin: 0 }
+	
+#pop-borgerservices .selbetjening-bund a { margin-right: 0px}
+
+#pop-borgerservices .nemid {margin-left: 3px}
+
+#panel-borger .panel-region-lead {margin-left: 7px; height: 360px; overflow: hidden}
+.page-taxonomy-term .block-menu-block h2.block-title {display: none}
+
+.view-sitestuktur { height: 48px; line-height: 48px; padding-left: 20px; margin-bottom: 15px}

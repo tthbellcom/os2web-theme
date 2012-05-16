@@ -1,0 +1,171 @@
+.view-kontaktblok {
+	margin-bottom: 20px;
+}
+
+.view-kontaktblok .views-field {
+	font-size: 11px;
+	color: #9B9B9B;
+	padding-left: 20px;
+}
+
+
+.view-kontaktblok .views-field strong {line-height: 20px;}
+
+.view-kontaktblok .views-field .telfonnummer,
+.view-kontaktblok .views-field .telfonnummer a {
+	background-image: none;
+	font-size: 12px;
+	padding: 0 0 3px 0;
+	margin: 0;
+	line-height: 12px;
+	color: #9b9b9b;
+}
+
+
+.view-kontaktblok  div.dag {
+	float: left;
+	width: 129px;
+	clear: left;
+	display: block;
+}
+
+.view-kontaktblok div.aaben {
+	float: left;
+	display: block;
+}
+
+
+#region-sidebar-second div.kontaktblok-overskrift,
+#region-sidebar-second h2 ,
+#region-sidebar-second h3 {
+color: #787878;
+font-size: 16px;
+margin: 0px;
+border-bottom: 1px solid #CCC;
+margin-bottom: 5px;
+padding-bottom: 0px;
+padding-left: 10px;
+text-transform: uppercase;
+	font-weight: normal;
+}
+
+
+#region-sidebar-second .block-spot-view-block-1 a {
+	color: #9B9B9B;
+	font-size: 12px;
+	display: block;
+}
+
+#region-sidebar-second .block-spot-view-block-1 a:hover {
+	color: #880054;
+}
+
+#region-sidebar-second .block-spot-view-block-1 div.spotTitle {
+	padding-left : 20px;
+}
+
+
+#region-sidebar-second .block-spot-view-block-1 {
+	padding-bottom: 30px;
+}
+
+
+
+#block-panels-mini-footer-menuer .pane-content a {
+	color: #9a9a9a;
+	font-size: 11px;
+	display: block;
+	padding: 0 0 7px 0;
+}
+
+
+#block-panels-mini-footer-menuer h2.pane-title a,
+#region-footer-third h2.block-title,
+#block-panels-mini-footer-menuer h2.block-title a {
+	color: #4B4B4B;
+	font-size: 14px;
+}
+
+
+#region-footer-third h2.block-title {
+	border-bottom: 1px solid #CCC;
+}
+
+#region-footer-third .region-footer-third-inner a,
+#region-footer-third .region-footer-third-inner p {
+	color: #9a9a9a;
+	font-size: 11px;
+}
+
+#region-footer-third .region-footer-third-inner a:hover {
+	color: #880046;
+}
+
+
+#region-footer-second .pane-selvbetjening {
+	float: left;
+	display: inline;
+	position: relative;
+	width: 140px;
+}
+
+#region-footer-second .view-id-selvbetjening ul,
+#region-footer-second .view-id-selvbetjening li {
+	margin: 0;
+
+}
+
+#mini-panel-footer_menuer .pane-block {
+	width: 140px;
+}
+
+#panel-borger .view-id-kulturnaut_events_lister {
+	background-image: url(../images/detsker-borger-bg.png);
+	width: 234px;
+	height: 235px;
+}
+
+
+#panel-borger .view-id-kulturnaut_events_lister a {
+	font-size: 12px;
+	background-position: 50px 7px;
+}
+
+h2.breadcrumb.you-are-here {
+	font-size: 11px;
+	color: #9b9b9b;
+	font-weight: normal;
+	float: left;
+	padding: 0 5px 0 0;
+	margin: 0;
+}
+
+.breadcrumb p,
+.breadcrumb a {
+	color: #9b9b9b;
+	font-size: 11px;
+	display: block;
+	margin: 0 5px 0 5px;
+	padding: 0;
+	float: left;
+}
+
+
+.breadcrumb p {
+	font-weight: bold;
+	color: #b4b4b4;
+}
+
+#main-menu li.first {
+	border-right: 1px solid #efefef;
+	padding: 0 11px 0 0;
+}
+
+#main-menu li.last {
+	border-left: 1px solid #efefef;
+	padding: 0 0 0 22px;
+}
+
+#main-menu li {
+	padding: 0 0 0 13px; 
+}

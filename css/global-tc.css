@@ -1,0 +1,141 @@
+.slideshow-big .views-slideshow-controls-top {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  z-index: 99;
+}
+
+.slideshow-big .views-slideshow-controls-top .views-slideshow-pager-field-item {
+  display: inline;
+  float: left;
+  color: transparent;
+  width: 10px;
+  height: 10px;
+  background: none;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.slideshow-big .views-slideshow-pager-field-item .views-field-title {
+  display: inline;
+  background: none;
+  width: auto;
+  height: auto;
+  background: none;
+}
+
+.slideshow-big .views-slideshow-pager-field-item .views-field-title .views-content-title {
+  background: url(../images/pager-dots.png) top left no-repeat;
+  box-shadow: none;
+  display: inline;
+  float: left;
+  width: 10px;
+  height: 10px;
+  overflow: hidden;
+}
+
+.slideshow-big .views-slideshow-pager-field-item.active .views-field-title .views-content-title {
+  background-position: -10px 0;
+}
+
+.view-borgerservices ul {
+  margin: 6px 0 0 0;
+}
+
+.view-borgerservices ul li {
+  width: 161px;
+  height: 94px;
+  position: relative;
+  z-index: 999;
+  margin: 0;
+  overflow: hidden;
+  float: left;
+}
+
+.view-borgerservices ul li a {
+  color: #fff;
+  width: 161px;
+  height: 94px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  display: table;
+  vertical-align: middle;
+}
+
+.view-borgerservices ul li a .lineHeightHack {
+  line-height: 1.2;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  margin-top: expression(this.offsetHeight < this.parentNode.offsetHeight ? parseInt((this.parentNode.offsetHeight - this.offsetHeight) / 2) + "px" : "0"); /* iehack, move to ie.css if created */
+}
+
+.view-borgerservices ul li a:hover {
+  background: transparent !important;
+}
+
+.view-borgerservices .view-header {
+  text-transform: uppercase;
+  font-size: 1.25em;
+  text-align: center;
+  color: #fff;
+  line-height: 55px;
+  height: 55px;
+}
+
+.portalnews-big .views-row .news-list-left {
+  display: none;
+}
+
+.portalnews-big .views-row {
+  padding-left: 20px;
+  float: left;
+  /*  padding-left: 30px;width: 200px;*/
+  margin-right: 10px;
+}
+
+.portalnews-big .views-row.views-row-first {
+  width: 100%;
+  display: block;
+  clear: both;
+  margin-right: 0;
+  padding-left: 0;
+  height: 155px;
+}
+
+.portalnews-big .views-row.views-row-first .news-list-left {
+  display: block;
+  width: 214px;
+  height: 116px;
+  margin-right: 5px;
+  border: solid #fff 5px;
+  display: block;
+  float: left;
+}
+
+.portalnews-big .views-row.views-row-first .news-list-left:hover {
+  border: solid #8b0053 5px;
+}
+
+.view-id-newslist.portalnews-big .view-content {
+  width: 100%;
+  background: url("../images/aktueltBORGER.png") repeat scroll 0 0 transparent;
+  height: 232px;
+}
+
+.portalnews-big .views-row .news-list-right p a,
+.portalnews-big .views-row .news-list-right p {
+  color: #797979;
+  font-size: 90%;
+}
+
+.portalnews-big .views-row .news-list-right p:first-child {
+  font-size: 80%;
+}
+
+.portalnews-big .views-row.views-row-first p {
+  font-size: 110%;
+}
