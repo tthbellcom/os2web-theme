@@ -19,7 +19,9 @@ function cmstheme_menu_link(array $variables) {
   $element = $variables['element'];
   $sub_menu = ''; 
 
-  $element['#attributes']['class'][] = 'depth-' . $element['#original_link']['depth'];
+  if (isset($element['#original_link']['depth'])) {
+    $element['#attributes']['class'][] = 'depth-' . $element['#original_link']['depth'];
+  }
 
   if ($element['#below']) {
     $sub_menu = drupal_render($element['#below']);
