@@ -253,7 +253,7 @@ ul.jcarousel-list-horizontal { }
 	float: left;
 	text-align: left;
 	padding-top: 8px;
-	height: 86px;
+	height: 70px;
 	overflow: hidden;
 }
 
@@ -695,6 +695,11 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 
 
 /* Kontaktblok */
+
+.view-id-kontaktblok { background-image: url(../images/kontaktBAG.png); background-repeat: no-repeat; height: 395px; }
+
+.view-id-kontaktblok .view-content { height: 305px; padding-top: 20px;  overflow: hidden}
+.view-id-kontaktblok .view-footer { height: 45px; padding-top: 25px; padding-left: 20px }
 
 .kontaktblok-overskrift {color: #4B4B4B;
     font-size: 16px;
