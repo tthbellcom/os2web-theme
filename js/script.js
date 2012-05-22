@@ -22,3 +22,12 @@ jQuery(document).ready(function () {
       jQuery('#region-sidebar-first .active').parent().addClass('menuActive');
 	}
 });
+
+function unhide(divID) {
+
+jQuery('#'+divID).toggle();
+// var item = document.getElementById(divID);
+// if (item) {
+// item.className=(item.className=='hidden')?'unhidden':'hidden';
+// }
+ }

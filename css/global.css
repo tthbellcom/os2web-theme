@@ -1,7 +1,6 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
@@ -9,20 +8,20 @@ audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-html, button, input, select, textarea { font-family: Arial, Sans-Serif; color: #222; }
+html, button, input, select, textarea { font-family: Arial, Helvetica, sans-serif; color: #222; }
 
 table { font-size:inherit; font:100%; }
 select, input, textarea { font:99% sans-serif; } 
 
 body {background-image: url(../images/bg.png)}
-body, div {font-family: Myriad Pro, Droid Sans, Trebuchet MS, Arial, Sans-Serif;}
+body, div {font-family: Arial, Helvetica, sans-serif ;}
 
 ::-moz-selection { background: #8b0053; color: #fff; text-shadow: none; }
 ::selection { background: #8b0053; color: #fff; text-shadow: none; }
 
 a:link, a:visited { color: #8b0053; text-decoration: none;}
 
-h1, h2, h3, h4, h5, h6 { letter-spacing: -0.05em; font-family: Myriad Pro, Droid Sans, Trebuchet MS, Arial, Sans-Serif; }
+h1, h2, h3, h4, h5, h6, .menu a { letter-spacing: -0.05em; font-family: "myriad-pro", Arial, Helvetica, sans-serif; }
 
 .block-user-menu, .vertical-menu, .block-menu-top-menu {}
 
@@ -30,11 +29,11 @@ h1, h2, h3, h4, h5, h6 { letter-spacing: -0.05em; font-family: Myriad Pro, Droid
 
 
 #zone-user a, #zone-menu a {color: #656565; text-decoration: none}
-#zone-menu { overflow: hidden; text-transform: uppercase; font-family: Myriad Pro, Droid Sans, Trebuchet MS, Arial, Sans-Serif;}
+#zone-menu { overflow: hidden; text-transform: uppercase; font-family: "myriad-pro", Arial, Helvetica, sans-serif;}
 
 
-#main-menu {float: left; line-height: 65px;font-family: Myriad Pro, Droid Sans, Trebuchet MS, Arial, Sans-Serif;}
-#main-menu li a {background-image: url(../images/menu-dp.png); background-position: right; background-repeat: no-repeat; color: #666; font-family: Myriad Pro, Droid Sans, Trebuchet MS, Arial, Sans-Serif;}
+#main-menu {float: left; line-height: 65px;font-family: "myriad-pro", Arial, Helvetica, sans-serif;}
+#main-menu li a {background-image: url(../images/menu-dp.png); background-position: right; background-repeat: no-repeat; color: #666; font-family: "myriad-pro", Arial, Helvetica, sans-serif;}
 
 #main-menu li a.qtip-hover{
     color: #880054;
@@ -50,7 +49,7 @@ ul.menu, ul.menu li, ul.menu a {list-style: none; color: #9b9b9b; margin-left: 0
 
 
 ul.inline li {padding: 0}
-h2.pane-title, h2.block-title {color: #787878; font-size: 16px; margin: 0px; border-bottom: 0px solid #ccc; margin-bottom: 5px; padding-bottom: 0px; padding-left: 10px; text-transform: uppercase; font-weight: normal}
+h2.pane-title, h2.block-title {color: #787878; font-size: 16px; margin: 0px; border-bottom: 0px solid #ccc; margin-bottom: 5px; padding-bottom: 0px; padding-left: 10px; padding-top: 10px; text-transform: uppercase; font-weight: normal}
 
 .pane-newslist-panel-pane-3 h2.pane-title {margin-left: 10px}
 h2.pane-title a, h2.block-title a {color: #787878}
@@ -74,7 +73,7 @@ h2.pane-title a, h2.block-title a {color: #787878}
 }
 
 #region-header-second .region-inner {padding-top: 68px; padding-left: 20px}
-#region-header-second .region-inner li { float: left; padding-right: 10px; text-transform: uppercase; font-family: Myriad Pro, Droid Sans, Trebuchet MS, Arial, Sans-Serif; font-size: 11px; list-style: none; }
+#region-header-second .region-inner li { float: left; padding-right: 10px; text-transform: uppercase; font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-size: 11px; list-style: none; }
 
 #region-sidebar-first li.expanded, #region-sidebar-first li.collapsed, #region-sidebar-first li.leaf {padding: 0; margin: 0}
 
@@ -452,7 +451,7 @@ body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; 
 #zone-footer {border-radius: 6px; background-image: url(../images/footer-bg.png); background-position: top left; background-repeat: repeat-x; min-height: 350px;}
 
 #zone-postscript { background-image: url(../images/cw-bg-bund.png); background-position: center; background-repeat: repeat-y; }
-#zone-menu { background-image: url(../images/menu-bag.png); font-family: Myriad Pro, Droid Sans, Arial, Helvetica, Tahoma, sans-serif; height: 68px; background-position: center top}
+#zone-menu { background-image: url(../images/menu-bag.png); font-family: "myriad-pro", Arial, Helvetica, Tahoma, sans-serif; height: 68px; background-position: center top}
 #region-user-second, #region-header-second {float: right} 
 
 .block-user-menu  ul, .vertical-menu ul, .block-menu-top-menu ul { padding-left: 2px}
@@ -467,7 +466,7 @@ body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; 
 #main-menu li {line-height: 69px; float: left; list-style: none}
 #main-menu li a {padding-left: 0px; padding-right: 30px; display: block; line-height: 69px; }
 
-#breadcrumb { padding: 5px 10px; text-transform: uppercase; font-family: Myriad Pro, Droid Sans, Arial, Helvetica, Tahoma, sans-serif; color: #666 }
+#breadcrumb { padding: 5px 10px; text-transform: uppercase; font-family: "myriad-pro", Arial, Helvetica, Tahoma, sans-serif; color: #666 }
 
 #zone-header{ padding-bottom: 10px}
 #region-sidebar-first {width: 240px; margin-right: 0px}
@@ -488,13 +487,13 @@ body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; 
 .omega-24-twocol-12-12 {width: 940px}
 .omega-24-twocol-12-12 .grid-12 {width: 460px; background-color: transparent}
 
-#block-search-form .content #edit-search-block-form--2 {width: 333px; font-size: 18px; border: none; height: 40px; line-height: 40px; padding: 0 ; text-transform: uppercase; background: transparent; font-family: Myriad Pro, Droid Sans, Trebuchet MS, Arial, Sans-Serif; margin: 14px 0px; width: 370px; position: relative; left: -10px; color: #9a9a9a; }
+#block-search-form .content #edit-search-block-form--2 {width: 333px; font-size: 18px; border: none; height: 40px; line-height: 40px; padding: 0 ; text-transform: uppercase; background: transparent; font-family: "myriad-pro", Arial, Helvetica, sans-serif; margin: 14px 0px; width: 370px; position: relative; left: -10px; color: #9a9a9a; }
 
 #block-search-form #edit-submit {
     background-image: url(../images/search-button.png); width: 70px; height: 68px; border: none; margin: 0; padding: 0; border-radius: 0px;  -moz-border-radius: 0px;
     }
 #region-header-second .region-inner {padding-top: 65px; padding-left: 20px}
-#region-header-second .region-inner li { float: left; padding-right: 10px; text-transform: uppercase; font-family: Myriad Pro, Droid Sans, Trebuchet MS, Arial, Sans-Serif; font-size: 12px; list-style: none; }
+#region-header-second .region-inner li { float: left; padding-right: 10px; text-transform: uppercase; font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-size: 12px; list-style: none; }
 #region-header-second .region-inner li.first { margin-left: 0px }
 
 #region-footer-ul.menu ul.menu li ul.menu a {list-style: none; color: #9b9b9b; margin-left: 0px;}
@@ -714,6 +713,45 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 .views-field-field-kontaktblok-callcenter p {margin-bottom: 10px}
 .views-field-field-kontaktblok-callcenter {margin-top: 15px; margin-bottom: 15px}
 
+
+.view-kontaktblok {
+	margin-bottom: 20px;
+	margin-top: 6px;
+}
+
+.view-kontaktblok .views-field {
+	font-size: 11px;
+	color: #9B9B9B;
+	padding-left: 20px;
+}
+
+
+.view-kontaktblok .views-field strong {line-height: 20px;}
+
+.view-kontaktblok .views-field .telfonnummer,
+.view-kontaktblok .views-field .telfonnummer a {
+	background-image: none;
+	font-size: 12px;
+	padding: 0 0 3px 0;
+	margin: 0;
+	line-height: 12px;
+	color: #9b9b9b;
+}
+
+
+.view-kontaktblok  div.dag {
+	float: left;
+	width: 129px;
+	clear: left;
+	display: block;
+}
+
+.view-kontaktblok div.aaben {
+	float: left;
+	display: block;
+}
+
+
 /* Table 1 Style */
 .field-type-text-with-summary table{
     width: auto;
@@ -833,18 +871,23 @@ ul.menu li a.menu-minipanel-1608 {background-image: url(../images/topddhandle.pn
     padding: 6px 1px 0px 10px;
 }
 
+.spotbox-2-vertical .spotbox-row {
+    background-image: url("../images/spot1b.png");
+        padding: 6px 1px 0px 0px;
+}
+
 #panel-borger .view-spotboxe .view-content .spotbox-row {
 	background-image: url("../images/spot1b.png");
 }
 
+#panel-borger .pane-spotboxe-panel-pane-3 {margin-top: 7px}
 
-
-.spotbox h3, .spotbox h4 { padding: 20px; margin: 0; }
-.spotbox h3 {width: 190px; height: 30px; overflow: hidden; line-height: 0.9em; background-image: url(../images/spotboxPILb.png); background-position: right center; background-repeat: no-repeat}
+.spotbox h3, .spotbox h4 { padding: 20px; margin: 0;  }
+.spotbox h3 {width: 190px; height: 30px; overflow: hidden; line-height: 0.9em; background-image: url(../images/spotboxPILb.png); background-position: right center; background-repeat: no-repeat; line-height: 30px;font-size: 15px; color: #8A8A8A; font-weight: normal}
 .spotbox-video h3 { float: left; width: 120px; height: auto; padding:0 0 3px 0; margin: 22px 20px 5px; background-image: none}
 .spotbox-video h4 { float: left; width: 105px; height: auto; padding:0 0 0 15px; margin: 10px 20px 5px; background-image: url(../images/spotboxPIL.png); background-repeat: no-repeat;  }
 .spotbox-video h3 { border-bottom: solid 1px #EBEBEB}
-.spotbox h3 a { font-size: 15px; color: #8A8A8A; font-weight: normal}
+.spotbox h3 a { font-size: 15px; color: #8A8A8A; font-weight: normal; line-height: 15px}
 
 .spotbox h4 {font-size: 12px; color: #8A8A8A ; clear: both; font-weight: normal; line-height: 1.1em}
 .spotbox .views-row:hover a, .spotbox .views-row:hover h4 { color: #880054; }
@@ -852,7 +895,7 @@ ul.menu li a.menu-minipanel-1608 {background-image: url(../images/topddhandle.pn
 .spotbox-video .views-row:hover h3 { background-image: none }
 .spotbox-video .views-row:hover h4 { background-image: url(../images/spotboxPILover.png) }
 .spotbox .views-row:hover img { -moz-box-shadow: inset 0 0 10px #880054; z-index: 999 }
-
+.spotbox-body { height: 95px; overflow: hidden; padding: 10px; background-color: #FFF}
 a.overlayclass {
   width:230px;
   text-decoration:none;
@@ -953,6 +996,13 @@ a.overlayclass span.zoom-icon-video {
 .selvbetjening-block-forside h3 { margin: 10px 0 0 0; text-align: center; display: block; }
 .selvbetjening-block-forside h3 a { text-transform: uppercase; font-size: 20px; margin: 10px; font-weight: normal; text-align: center; display: block; padding-bottom: 25px; background-image: url(../images/gaatilinfo.png); background-repeat: no-repeat; background-position: right bottom; }
 
+
+.portal-politik-og-planer .selvbetjening-block-forside h3 a {background-image: url(../images/politikogplanerTEKST.png);
+background-position: 100% 65%;}
+
+.portal-erhverv .selvbetjening-block-forside h3 a{background-image: url(../images/erhvervTEKST.png);
+background-position: 100% 65%;}
+
 .selvbetjening-block-forside li { padding-left: 5px}
 .selvbetjening-block-forside .readmore a { font-size: 14px; margin-bottom: 10px}
 
@@ -986,6 +1036,11 @@ a.overlayclass span.zoom-icon-video {
 }
 
 .selvbetjening-block-forside .form-item {   margin: 0 16px;}
+
+.selvbetjening-block-forside .item-list {
+height: 125px;
+}
+
 
 .selvbetjening-block-forside .item-list ul li {
     margin: 0 0 0 25px;
@@ -1041,6 +1096,41 @@ a.overlayclass span.zoom-icon-video {
 	background-position: 120px 20px;
 
 }
+.selbetjening-bund .nemid { width: 68px; margin-left: 32px;  background-image: url(../images/nemid-trans.png)}
+.selbetjening-bund .virkdk {width: 75px; background-image: url(../images/virkdk-trans.png)}
+.selbetjening-bund .borgerdk {width: 72px; background-image: url(../images/borgerdk-trans.png)}
+.panels-flexible-region-forside-right_-inside .selvbetjening-block-forside {background-repeat: no-repeat; height: 415px}
+
+/*
+.portal-side .selbetjening-bund .nemid { width: 65px; margin-left: 3px;  background-image: url(../images/nemid-trans.png)}
+.portal-side .selbetjening-bund .virkdk {width: 67px; background-image: url(../images/virkdk-trans.png)}
+.portal-side .selbetjening-bund .borgerdk {width: 66px; background-image: url(../images/borgerdk-trans.png)}
+.portal-side .selbetjening-bund a {margin: 0 5px 0 0;}
+.portal-side .view-selvbetjening .item-list ul {margin: 0;}
+*/
+.portal-side .selvbetjening-block-portal {
+	background-image: url(../images/selvbetjening-230.png);
+	margin: 0;
+	height: 300px;
+}
+
+.portal-side .view-display-id-block_2 .view-footer,
+.portal-side .view-display-id-block_2 .view-content { height: 55px; }
+
+.portal-side .view-display-id-sb_block_portal_att_2 .view-content {
+	height: 86px;
+	overflow: hidden;
+}
+
+.portal-side .selvbetjening-block-portal .view-header {margin-top: 0;}
+
+.selvbetjening-block-sektion { height: auto; padding-bottom: 60px}
+
+.selvbetjening-block-sektion h3 a {background-image: none;}
+
+.selvbetjening-block-sektion a { color: #FFF}
+.selvbetjening-block-sektion .selbetjening-bund .nemid, .selvbetjening-block-sektion .selbetjening-bund a {margin-left: 0px; margin-right: 0px}
+
 /* AutoSuggest CSS - Version 1.2 */
 
 ul.as-selections {
@@ -1070,7 +1160,7 @@ ul.as-selections li {
 ul.as-selections li.as-selection-item {
 	color: #2b3840;
 	font-size: 13px;
-	font-family: "Lucida Grande", arial, sans-serif;
+	font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
 	text-shadow: 0 1px 1px #fff;
 	background-color: #ddeefe;
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ddeefe), to(#bfe0f1));
@@ -1095,7 +1185,7 @@ ul.as-selections li.as-selection-item a.as-close {
 	padding: 0 2px;
 	cursor: pointer;
 	color: #5491be;
-	font-family: "Helvetica", helvetica, arial, sans-serif;
+	font-family: "Helvetica", helvetica, Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	font-weight: bold;
 	text-shadow: 0 1px 1px #fff;
@@ -1161,7 +1251,7 @@ ul.as-list {
 	padding: 0;
 	font-size: 14px;
 	color: #000;
-	font-family: "Lucida Grande", arial, sans-serif;
+	font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.95);
 	z-index: 2;
@@ -1492,10 +1582,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 #region-footer-first .footer-off-links .virkdk {width: 52px; background-image: url(../images/virkdk-graa.png)}
 #region-footer-first .footer-off-links .borgerdk {width: 57px; background-image: url(../images/borgerdk-graa.png)}
 
-.selbetjening-bund .nemid { width: 68px; margin-left: 32px;  background-image: url(../images/nemid-trans.png)}
-.selbetjening-bund .virkdk {width: 75px; background-image: url(../images/virkdk-trans.png)}
-.selbetjening-bund .borgerdk {width: 72px; background-image: url(../images/borgerdk-trans.png)}
-.selvbetjening-block-forside {background-repeat: no-repeat; height: 415px}
+
 
 #region-footer-first span {border-right: 1px solid #B3B3B3; margin-right: 10px; padding-right: 10px; padding-top: 2px; padding-bottom: 1px}
 #region-footer-first span.last {border-right: none; margin-right: 0; padding-right: 0px}
@@ -1591,3 +1678,144 @@ color: #B3B3B3;
 #pop-borgerservices .view-content {
 }
 .view-borgerservices ul li.views-row-3, .view-borgerservices ul li.views-row-6, .view-borgerservices ul li.views-row-9 { width: 160px}
+
+#zone-preface-wrapper { position: absolute; background-image: url(../images/syddjursWEBSTEDER-bg.png); width: 100%; z-index: 999; height: 35px; }
+#zone-preface { margin: auto; background-image: url(../images/syddjursWEBSTEDER.png); background-repeat: no-repeat}
+
+.vis-andre-sites a {background-image: url("../images/topddhandle.png");
+    background-repeat: no-repeat;
+    display: block;
+    margin-top: 0;
+    min-height: 40px;
+    text-indent: -99999px;
+    width: 44px; float: right}
+.skjul-andre-sites, #block-block-12 {float: right}
+.skjul-andre-sites a {background-image: url("../images/topddhandle-close.png");
+    background-repeat: no-repeat;
+    display: block;
+    margin-top: 0;
+    min-height: 40px;
+    text-indent: -99999px;
+    width: 44px; float: right}
+    
+   
+#panel-borger .panel-region-lead { 
+	background-image: url(../images/pop-services.png); 
+	background-repeat: no-repeat}
+
+.selvbetjening-block-portal {
+	background-image: url(../images/selvbetjening-230.png); 
+	margin: 0;}
+
+.selvbetjening-block-portal h3 a {
+	font-size: 21px; 
+	color: #FFF}
+
+.selvbetjening-block-portal .view-header {
+	margin-top:15px;
+}
+.selvbetjening-block-portal .knapper {
+	display: none}
+
+.selvbetjening-block-portal .form-type-select select { 
+	font-size: 15px;  height: 35px;
+    padding: 10px 3px 3px 0;}
+
+.selvbetjening-block-portal #ctools-jump-menu--2, .selvbetjening-block-portal #ctools-jump-menu {
+    background-image: url("../images/dropdown-pil_lille.png");
+    margin-bottom: 5px;
+    margin-left: 5px;
+    overflow: hidden;
+    width: 203px;
+}
+
+#panel-politik-og-planer .selvbetjening-block-portal .view-header h3 a {
+	background-image: url(../images/politikogplanerTEKST.png);
+	background-repeat: no-repeat;
+	background-position: 90px 20px;
+	padding-top: 5px;
+}
+
+#panel-erhverv .selvbetjening-block-portal.view-header h3 a {
+	background-image: url(../images/erhvervTEKST.png);
+	background-repeat: no-repeat;
+	background-position: 134px 24px;
+	padding-top: 5px;
+}
+
+#panel-borger .selvbetjening-block-portal .view-header h3 a{
+	background-image: url(../images/borgerTEKST.png);
+	background-repeat: no-repeat;
+	background-position: 134px 24px;
+	padding-top: 5px;
+}
+
+
+#panel-borger .selvbetjening-block-portal {
+	background: none}
+
+.page-taxonomy-term h1#page-title {
+	display: none}
+
+#pop-borgerservices	{
+	padding-left: 3px;
+    width: 483px;
+}
+#panel-borger .view-spotboxe .spotbox-row { padding: 6px 1px 0 0 }
+
+#pop-borgerservices h3 {font-size: 21px; font-weight: normal; padding-top: 10px; margin-bottom: 0px}
+#pop-borgerservices .pane-content {
+	margin: 0 }
+	
+#pop-borgerservices .selbetjening-bund a { margin-right: 0px}
+
+#pop-borgerservices .nemid {margin-left: 3px}
+
+#panel-borger .panel-region-lead {margin-left: 7px; height: 353px; overflow: hidden}
+.page-taxonomy-term .block-menu-block h2.block-title {display: none}
+
+.view-sitestuktur { height: 48px; line-height: 48px; padding-left: 20px; margin-bottom: 15px}
+
+.qtip-light { width: 100%; background-color: fuchsia; z-index: 999}
+
+.qtip .qtip-wrapper, .qtip .qtip-contentWrapper { overflow: auto !important}
+
+.hidden {display: none}
+.unhidden {display: block}
+
+ul.nice-menu-down li.menuparent {background: url("../images/webstederPIL.png") no-repeat scroll right center #EEEEEE;
+}
+#region-preface-first {width: 970px; margin-left: 0px; margin-right: 0px}
+#zone-preface { line-height: 30px; padding-top: 5px; width: 970px }
+#zone-preface .block-nice-menus  { float: right; margin-right: 30px}
+#zone-preface  ul.nice-menu-down li.menuparent {
+    background: url("../images/webstederPIL.png") no-repeat scroll right center #640C3C; margin-left: 35px;
+}
+
+#zone-preface ul.nice-menu-down li { border-top: none ;border: none}
+
+#zone-preface ul.nice-menu a {color: #FFF;font-size: 15px}
+
+#zone-preface ul.nice-menu li { background-color:  #640C3C;}
+
+#zone-preface ul.nice-menu ul { top: 30px; border: none}
+
+
+.spotbox-sektion-1 .spotbox-row { background-image: url("../images/SpotboxHIGH.png");
+    margin-bottom: 6px;
+    padding: 5px 1px 0 6px;
+}
+
+ .spotbox-sektion-1 a.overlayclass span.zoom-icon {
+    height: 150px;
+}
+
+.sektionsforside .slideshow-big {
+    padding: 6px 7px;
+    margin-left: 7px;
+    margin-bottom: 7px;
+}
+
+.sektionsforside .container-12 .grid-6 {
+    width: 480px;
+}

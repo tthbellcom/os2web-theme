@@ -1,38 +1,4 @@
-.view-kontaktblok {
-	margin-bottom: 20px;
-}
 
-.view-kontaktblok .views-field {
-	font-size: 11px;
-	color: #9B9B9B;
-	padding-left: 20px;
-}
-
-
-.view-kontaktblok .views-field strong {line-height: 20px;}
-
-.view-kontaktblok .views-field .telfonnummer,
-.view-kontaktblok .views-field .telfonnummer a {
-	background-image: none;
-	font-size: 12px;
-	padding: 0 0 3px 0;
-	margin: 0;
-	line-height: 12px;
-	color: #9b9b9b;
-}
-
-
-.view-kontaktblok  div.dag {
-	float: left;
-	width: 129px;
-	clear: left;
-	display: block;
-}
-
-.view-kontaktblok div.aaben {
-	float: left;
-	display: block;
-}
 
 
 #region-sidebar-second div.kontaktblok-overskrift,
@@ -169,3 +135,99 @@ h2.breadcrumb.you-are-here {
 #main-menu li {
 	padding: 0 0 0 13px; 
 }
+
+
+.block-views-selvbetjening-block-6 {
+	background-image: url(../images/selvbetjening-indholdsside-bg.png);
+	height: 290px;
+}
+
+#region-sidebar-second .block-views-selvbetjening-block-6 h2 {
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	padding: 0;
+	background-image: none;
+	font-size: 15px;
+	padding: 20px 0 15px 0;
+	font-weight: normal;
+	border: none;
+}
+
+.selvbetjening-indholdsside .blanketter a {
+	color: #C386A8;   
+	display: block;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 10px 0 0 13px;
+	margin-bottom: 14px;
+	background-image: none;
+}
+
+.selvbetjening-indholdsside a {
+    color: #fff;
+    padding: 0 0 0 34px;
+    background-image: url("../images/selvbetjening-arrow.png");
+    background-repeat: no-repeat;
+    background-position: 13px 1px;
+    margin: 0 0 7px 5px;
+    font-size: 12px;
+    display: block;
+}
+
+.selvbetjening-indholdsside .view-content {
+	height: 109px;
+}
+
+.selvbetjening-indholdsside .se-flere a {
+	background-image: url("../images/selvbetjening-down-arrow.png");
+	background-position-y: 5px;
+	font-size: 14px;
+    }
+
+
+
+.selvbetjening-block-portal .selbetjening-bund .nemid {margin-left:17px;}
+.selvbetjening-indholdsside .selbetjening-bund .nemid {width: 50px; margin-left: 39px;  background-image: url(../images/nemid-trans-sm.png)}
+.selvbetjening-block-portal .selbetjening-bund .virkdk,
+.selvbetjening-indholdsside .selbetjening-bund .virkdk {width: 50px; background-image: url(../images/virkdk-trans-sm.png)}
+.selvbetjening-block-portal .selbetjening-bund .borgerdk,
+.selvbetjening-indholdsside .selbetjening-bund .borgerdk {width: 50px; background-image: url(../images/borgerdk-trans-sm.png)}
+.selvbetjening-block-portal .view-selvbetjening .item-list,
+.selvbetjening-indholdsside .view-selvbetjening .item-list ul {margin: 0;}
+
+.selvbetjening-block-portal .selbetjening-bund .nemid,
+.selvbetjening-block-portal .selbetjening-bund .virkdk,
+.selvbetjening-block-portal .selbetjening-bund .borgerdk,
+.selvbetjening-indholdsside .selbetjening-bund .nemid,
+.selvbetjening-indholdsside .selbetjening-bund .virkdk,
+.selvbetjening-indholdsside .selbetjening-bund .borgerdk {
+	background-position: center center;
+}
+
+.selvbetjening-block-portal .selbetjening-bund a,
+.selvbetjening-indholdsside .selbetjening-bund a {
+	padding: 0;
+	height: 30px;
+	margin: 15px 5px 0 0;
+}
+
+.selbetjening-bund .nemid,
+.selbetjening-bund .borgerdk,
+.selbetjening-bund .virkdk {
+	background-repeat: no-repeat;
+	background-position: 0 65%;
+}
+
+.selvbetjening-block-portal .form-type-select {
+	width: 175px;
+	background-position: 100% 44%;
+}
+
+.yaselect-wrap { border: 1px solid #eee; border-right: 0; border-radius: 3px; padding: 1.5px 0; margin: 0; }
+.yaselect-wrap, .yaselect-current { cursor: pointer; display: block; }
+.yaselect-wrap, .yaselect-current, .yaselect-select { width: 300px; font-size: 15px; }
+.yaselect-select { margin-top: 0; padding-top: 0; }
+.yaselect-current { background: url('googlechrome-arrowdown.png') no-repeat 100% 50%; }
+.yaselect-open .yaselect-current { background-image: url('googlechrome-arrowup.png'); }
+
