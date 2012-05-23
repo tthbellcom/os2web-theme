@@ -10,18 +10,24 @@ audio:not([controls]) { display: none; }
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 html, button, input, select, textarea { font-family: Arial, Helvetica, sans-serif; color: #222; }
 
-table { font-size:inherit; font:100%; }
-select, input, textarea { font:99% sans-serif; } 
-
+table { font-size:inherit; font:100%; } 
+select, input, textarea { font:99% sans- serif; } 
+body {font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; }
 body {background-image: url(../images/bg.png)}
-body, div {font-family: Arial, Helvetica, sans-serif ;}
+body {font-family: Arial, Helvetica, sans-serif ;}
 
 ::-moz-selection { background: #8b0053; color: #fff; text-shadow: none; }
 ::selection { background: #8b0053; color: #fff; text-shadow: none; }
 
 a:link, a:visited { color: #8b0053; text-decoration: none;}
 
-h1, h2, h3, h4, h5, h6, .menu a { letter-spacing: -0.05em; font-family: "myriad-pro", Arial, Helvetica, sans-serif; }
+h1, h2, h3, h4, h5, h6  { letter-spacing: -0.05em;  }
+h1, h2, h3, h4, h5, h6, ul, li, .button, .knapper, .view-selvbetjening, .view-rotating-image-view, .view-kulturnaut-events-lister, .region-footer-first, #block-block-6, #region-footer-third, #region-footer-second, .portalnews-big  { font-family: "myriad-pro", Arial, Helvetica, sans-serif; }
+
+ul, li {font-size: 14px}
+.views-slideshow-cycle-main-frame-row-item, #region-footer-third .content {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 300}
+
+.portalnews-big .date {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 700}
 
 .block-user-menu, .vertical-menu, .block-menu-top-menu {}
 
@@ -32,39 +38,99 @@ h1, h2, h3, h4, h5, h6, .menu a { letter-spacing: -0.05em; font-family: "myriad-
 #zone-menu { overflow: hidden; text-transform: uppercase; font-family: "myriad-pro", Arial, Helvetica, sans-serif;}
 
 
-#main-menu {float: left; line-height: 65px;font-family: "myriad-pro", Arial, Helvetica, sans-serif;}
-#main-menu li a {background-image: url(../images/menu-dp.png); background-position: right; background-repeat: no-repeat; color: #666; font-family: "myriad-pro", Arial, Helvetica, sans-serif;}
+#main-menu {
+	float: left; 
+	line-height: 65px;
+	font-family: "myriad-pro", Arial, Helvetica, sans-serif; 
+	}
+	
+#main-menu li a {
+	background-image: url(../images/menu-dp.png); 
+	background-position: right; 
+	background-repeat: no-repeat; 
+	color: #666; 
+	font-size: 20px; 
+	}
 
 #main-menu li a.qtip-hover{
     color: #880054;
     background-image: url(../images/menu-dp-over.png);
+    }
+
+#main-menu li.first {
+	border-right: 1px solid #efefef;
+	padding: 0 11px 0 0;
+}
+
+#main-menu li.last {
+	border-left: 1px solid #efefef;
+	padding: 0 0 0 22px;
+}
+
+#main-menu li {
+	padding: 0 0 0 20px; 
 }
 
 .region {
     min-height: 0px;
-}
+    }
 
-ul.menu, ul.menu li, ul.menu a {list-style: none; color: #9b9b9b; margin-left: 0px;}
-.block-search-form {float: right}
+.logo-img {
+	margin-left: 2px;}
 
-
-ul.inline li {padding: 0}
-h2.pane-title, h2.block-title {color: #787878; font-size: 16px; margin: 0px; border-bottom: 0px solid #ccc; margin-bottom: 5px; padding-bottom: 0px; padding-left: 10px; padding-top: 10px; text-transform: uppercase; font-weight: normal}
-
-.pane-newslist-panel-pane-3 h2.pane-title {margin-left: 10px}
-h2.pane-title a, h2.block-title a {color: #787878}
-#block-block-3 {float: left}
-
-#block-search-form  h2 { display: none}
-
-#block-search-form .content {}
+ul.menu, ul.menu li, ul.menu a {
+	list-style: none; color: #9b9b9b; margin-left: 0px;
+	}
+	
+.block-search-form {
+	float: right
+	}
 
 
+ul.inline li {
+	padding: 0
+	}
+	
+h2.pane-title, h2.block-title {
+	color: #787878; font-size: 16px; 
+	margin: 0px; 
+	border-bottom: 0px solid #ccc; 
+	margin-bottom: 5px; 
+	padding-bottom: 0px; 
+	padding-left: 10px; 
+	padding-top: 10px; 
+	text-transform: uppercase; 
+	font-weight: normal
+	}
+
+.pane-newslist-panel-pane-3 h2.pane-title {
+	margin-left: 10px
+	}
+	
+h2.pane-title a, h2.block-title a {
+	color: #787878
+	}
+	
+#block-block-3 {
+	float: left
+	}
+
+#block-search-form  h2 {
+	display: none
+	}
 
 #block-search-form #edit-submit,
 #block-search-form .form-submit,
 #block-search-form #edit-submit--3 {
-    background-image: url(../images/search-button.png); width: 70px; height: 68px; border: none; margin: 0; padding: 0; border-radius: 0px;  -moz-border-radius: 0px; background: #FBFBFB;
+    background-image: url(../images/search-button.png); 
+    width: 70px; 
+    height: 68px; 
+    border: none; 
+    margin: 0; 
+    padding: 0; 
+    border-radius: 0px;  
+    -moz-border-radius: 0px; 
+    background: #FBFBFB;
 	*line-height:5px;
 }
 
@@ -72,8 +138,17 @@ h2.pane-title a, h2.block-title a {color: #787878}
 	background: #FBFBFB;
 }
 
-#region-header-second .region-inner {padding-top: 68px; padding-left: 20px}
-#region-header-second .region-inner li { float: left; padding-right: 10px; text-transform: uppercase; font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-size: 11px; list-style: none; }
+#region-header-second .region-inner {
+	padding-top: 68px; 
+	padding-left: 20px
+	}
+	
+#region-header-second .region-inner li { 
+	float: left; 
+	padding-right: 10px; 
+	text-transform: uppercase; 
+	font-family: "myriad-pro", Arial, Helvetica, sans-serif; 
+	font-size: 11px; list-style: none; }
 
 #region-sidebar-first li.expanded, #region-sidebar-first li.collapsed, #region-sidebar-first li.leaf {padding: 0; margin: 0}
 
@@ -422,7 +497,6 @@ ul.jcarousel-list-horizontal { }
     background: none repeat scroll 0 0 #909090;
 }
 */
-body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; }
 #page {background-image: url(../images/ebeltoft-stor-bg.png); background-attachment: fixed; }
 
 
@@ -461,10 +535,10 @@ body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; 
 #zone-user .menu { margin-top: 0px ; line-height: 22px}
 
 #zone-menu .region-inner, #zone-content-wrapper .region-inner { }
-#zone-menu #main-menu  {line-height: 69px; height: 69px; font-size: 18px; margin: 0 10px }
-#main-menu {float: left; line-height: 69px;}
-#main-menu li {line-height: 69px; float: left; list-style: none}
-#main-menu li a {padding-left: 0px; padding-right: 30px; display: block; line-height: 69px; }
+#zone-menu #main-menu  {line-height: 64px; height: 64px; font-size: 20px; margin: 0 13px;  }
+#main-menu {float: left; line-height: 64px;}
+#main-menu li {line-height: 64px; float: left; list-style: none}
+#main-menu li a {padding-left: 0px; padding-right: 24px; display: block; line-height: 64px; color: #4B4B4B; font-weight: normal }
 
 #breadcrumb { padding: 5px 10px; text-transform: uppercase; font-family: "myriad-pro", Arial, Helvetica, Tahoma, sans-serif; color: #666 }
 
@@ -625,7 +699,8 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 #zone-footer h2.pane-title {
   border-bottom: solid 1px #ccc;
   font-size: 15px;
-   color: #4b4b4b;
+  color: #4b4b4b;
+  padding-left: 0px;
 }
 
 #footer-region ul.menu a {
@@ -883,11 +958,11 @@ ul.menu li a.menu-minipanel-1608 {background-image: url(../images/topddhandle.pn
 #panel-borger .pane-spotboxe-panel-pane-3 {margin-top: 7px}
 
 .spotbox h3, .spotbox h4 { padding: 20px; margin: 0;  }
-.spotbox h3 {width: 190px; height: 30px; overflow: hidden; line-height: 0.9em; background-image: url(../images/spotboxPILb.png); background-position: right center; background-repeat: no-repeat; line-height: 30px;font-size: 15px; color: #8A8A8A; font-weight: normal}
+.spotbox h3 {width: 190px; height: 30px; overflow: hidden; line-height: 0.9em; background-image: url(../images/spotboxPILb.png); background-position: right center; background-repeat: no-repeat; line-height: 30px;font-size: 16px; color: #8A8A8A; font-weight: normal}
 .spotbox-video h3 { float: left; width: 120px; height: auto; padding:0 0 3px 0; margin: 22px 20px 5px; background-image: none}
 .spotbox-video h4 { float: left; width: 105px; height: auto; padding:0 0 0 15px; margin: 10px 20px 5px; background-image: url(../images/spotboxPIL.png); background-repeat: no-repeat;  }
 .spotbox-video h3 { border-bottom: solid 1px #EBEBEB}
-.spotbox h3 a { font-size: 15px; color: #8A8A8A; font-weight: normal; line-height: 15px}
+.spotbox h3 a { font-size: 16px; color: #8A8A8A; font-weight: normal; line-height: 15px}
 
 .spotbox h4 {font-size: 12px; color: #8A8A8A ; clear: both; font-weight: normal; line-height: 1.1em}
 .spotbox .views-row:hover a, .spotbox .views-row:hover h4 { color: #880054; }
@@ -1005,6 +1080,7 @@ background-position: 100% 65%;}
 
 .selvbetjening-block-forside li { padding-left: 5px}
 .selvbetjening-block-forside .readmore a { font-size: 14px; margin-bottom: 10px}
+
 
 .selvbetjening-block-forside .knapper { margin: 18px 8px 15px; height: 50px;}
 .selvbetjening-block-forside .knapper a {  text-transform: uppercase; font-size: 13px; background-repeat: no-repeat; color: #fff; }
@@ -1470,7 +1546,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 }
 
 #block-menu-menu-erhverv-genveje a {
-    font-size: 11px;   
+    font-size: 12px;   
     color: #9a9a9a;
     display: block;
 }

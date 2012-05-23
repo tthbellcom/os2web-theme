@@ -15,28 +15,6 @@ text-transform: uppercase;
 	font-weight: normal;
 }
 
-
-#region-sidebar-second .block-spot-view-block-1 a {
-	color: #9B9B9B;
-	font-size: 12px;
-	display: block;
-}
-
-#region-sidebar-second .block-spot-view-block-1 a:hover {
-	color: #880054;
-}
-
-#region-sidebar-second .block-spot-view-block-1 div.spotTitle {
-	padding-left : 20px;
-}
-
-
-#region-sidebar-second .block-spot-view-block-1 {
-	padding-bottom: 30px;
-}
-
-
-
 #block-panels-mini-footer-menuer .pane-content a {
 	color: #9a9a9a;
 	font-size: 11px;
@@ -55,6 +33,7 @@ text-transform: uppercase;
 
 #region-footer-third h2.block-title {
 	border-bottom: 1px solid #CCC;
+	padding-left: 0px;
 }
 
 #region-footer-third .region-footer-third-inner a,
@@ -120,20 +99,6 @@ h2.breadcrumb.you-are-here {
 .breadcrumb p {
 	font-weight: bold;
 	color: #b4b4b4;
-}
-
-#main-menu li.first {
-	border-right: 1px solid #efefef;
-	padding: 0 11px 0 0;
-}
-
-#main-menu li.last {
-	border-left: 1px solid #efefef;
-	padding: 0 0 0 22px;
-}
-
-#main-menu li {
-	padding: 0 0 0 13px; 
 }
 
 
@@ -224,10 +189,97 @@ h2.breadcrumb.you-are-here {
 	background-position: 100% 44%;
 }
 
-.yaselect-wrap { border: 1px solid #eee; border-right: 0; border-radius: 3px; padding: 1.5px 0; margin: 0; }
-.yaselect-wrap, .yaselect-current { cursor: pointer; display: block; }
-.yaselect-wrap, .yaselect-current, .yaselect-select { width: 300px; font-size: 15px; }
-.yaselect-select { margin-top: 0; padding-top: 0; }
-.yaselect-current { background: url('googlechrome-arrowdown.png') no-repeat 100% 50%; }
-.yaselect-open .yaselect-current { background-image: url('googlechrome-arrowup.png'); }
+.spotbox-indhold .views-row {
+	background-image: url(../images/spot1b.png);    
+	background-position: bottom left;
+	height: 191px;
+}
 
+#region-sidebar-second .spotbox-indhold  h3  {
+        width: 190px; 
+        height: 30px; 
+        overflow: hidden; 
+        line-height: 0.9em; 
+        background-image: url(../images/spotboxPILb.png); 
+        background-position: 100% 39%; 
+        background-repeat: no-repeat; 
+        font-size: 15px;                        
+	font-weight: normal;
+        border: none;
+        padding: 25px 20px 20px 20px;
+        margin: 0;
+        text-transform: none;
+        }
+        
+.spotbox-indhold  h3 a {
+        color: #8A8A8A; 
+        display: block;
+        overflow: hidden;
+                
+}
+
+#region-sidebar-second .spotbox-indhold .views-row:hover a {
+        color: #8b0053;
+}
+
+#region-sidebar-second .spotbox-indhold .views-row:hover h3 { background-image: url(../images/spotboxPILc.png);}
+
+#region-sidebar-second .spotbox-indhold img {
+        padding-top: 5px;
+}
+
+#region-sidebar-second .spotbox-indhold .views-row span.zoom-icon{
+	visibility:hidden;
+	position:absolute;
+	left:0;
+	top: 5px;
+        height: 106px;
+	width: 221px;
+	border: #880054 solid 5px;
+}
+
+
+#region-sidebar-second .spotbox-indhold .views-row:hover span.zoom-icon { 
+	visibility: visible;   
+}
+
+.last-updated-node {
+	color: #787878;
+	font-size: 13px;
+	padding: 10px 0 10px 26px;
+}
+
+
+.del-bund div.del {float: left; margin-left: 26px; }
+.del-bund div.fandt-du {float: left;  margin-left: 10px; margin-right: 10px;}
+.del-bund div.synes-om {float: left;}
+
+
+.del-bund div.del a {
+    line-height: 32px;
+    display: block;
+    width: 50px;
+    height: 43px;
+     background-image: url(http://dev.syddjurs.bellcom.dk/profiles/os2web/themes/cmstheme/images/del.png);
+ background-repeat: no-repeat;
+ background-position: right center;
+  padding: 8px 10px 10px 0;
+  color: #787878;
+ 
+}
+
+.del-bund div.fandt-du a {
+     line-height: 32px;
+     display: block;
+     width: 200px;
+     height: 43px;
+     background-image: url(http://dev.syddjurs.bellcom.dk/profiles/os2web/themes/cmstheme/images/fandtdudet.png);  
+     background-repeat: no-repeat;
+     background-position: right center;
+     padding: 8px 7px 10px 0;
+  color: #787878;  
+  
+}
+.del-bund div.synes-om a {
+    padding: 12px;
+}
