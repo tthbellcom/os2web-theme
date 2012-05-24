@@ -514,7 +514,8 @@ ul.jcarousel-list-horizontal { }
     background: none repeat scroll 0 0 #909090;
 }
 */
-#page {background-image: url(../images/ebeltoft-stor-bg.png); background-attachment: fixed; }
+body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; }
+#page {background-image: url(../images/ebeltoft-stor-bg.jpg); background-attachment: fixed; }
 
 
 #section-header {
