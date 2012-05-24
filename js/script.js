@@ -21,13 +21,11 @@ jQuery(document).ready(function () {
 	} else {
       jQuery('#region-sidebar-first .active').parent().addClass('menuActive');
 	}
+
+jQuery('.vis-andre-sites a').click(function(event) {
+	event.preventDefault();
+	jQuery('#'+jQuery(this).data('target')).toggle();
 });
 
-function unhide(divID) {
+});
 
-jQuery('#'+divID).toggle();
-// var item = document.getElementById(divID);
-// if (item) {
-// item.className=(item.className=='hidden')?'unhidden':'hidden';
-// }
- }

@@ -19,3 +19,79 @@ color: #4A4A4A;
 font-size: 13px;
 line-height: 22px;
 }
+
+.search-results a {
+	background-image: url(../images/megamenu-arrow-over.png);
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	background-position: 0px 5px;
+	color: #464646;
+	font-size: 15px;
+}
+
+.search-results p {
+	font-size: 12px;
+	color: #464646;
+}
+
+.search-results li:hover a {
+	color: #8b0054;
+}
+
+.search-results li:hover p {
+	text-decoration:underline;
+}
+
+.search-results .search-snippet-info {
+	padding-left: 0;
+}
+
+.block-system .search-form .form-text {
+	line-height: 69px;
+	height: 69px;
+	font-size: 50px;
+	width: 525px;
+	color: #797979;
+	border: 0;
+}
+
+.search-form #edit-submit {
+	background-image: url(../images/soegefeltLUP.png);
+	border: 0;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	height: 69px;
+	width: 64px;
+	text-indent: -2000px;
+
+}
+
+
+#region-sidebar-first #facetapi-facet-apachesolrsolr-block-im-field-site-structure li {list-style:none;}
+
+#region-sidebar-first #facetapi-facet-apachesolrsolr-block-im-field-site-structure li a {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1.2;
+	width: 74.5%;
+	padding: 20px 40px 20px 20px;
+	background: url(../images/v-arrow-default.png) no-repeat right 50%;
+	border-bottom: 1px solid #E6E6E6;
+	color: #333;
+}
+
+#region-sidebar-first #facetapi-facet-apachesolrsolr-block-im-field-site-structure li:hover a {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1.2;
+	width: 74.5%;
+	padding: 20px 40px 20px 20px;
+	background: url(../images/v-arrow-default-on.png) #8B0053 no-repeat right 50%; 
+	border-bottom: 1px solid #E6E6E6;
+	color: #FFF;
+}
+

@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6, ul, li, .button, .knapper, .view-selvbetjening, .view-ro
 
 /* Myriad Pro Light Font */
 
-.views-slideshow-cycle-main-frame-row-item, #region-footer-third .content, .region-inner h1.title {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 300}
+.search-form .form-text, .views-slideshow-cycle-main-frame-row-item, #region-footer-third .content, .region-inner h1.title, .node-type-contentpage .field.field-name-field-resume-long {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 300}
 
 
 /* Myriad Pro Bold Font */
@@ -1559,6 +1559,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
     width: 44px;
 }
 
+#zone-user h2.pane-title, #zone-user h2.block-title { display: none}
 #block-menu-menu-top-menu {
     float: right;
 }
@@ -1787,7 +1788,7 @@ color: #B3B3B3;
     min-height: 40px;
     text-indent: -99999px;
     width: 44px; float: right}
-.skjul-andre-sites, #block-block-12 {float: right}
+.skjul-andre-sites, #block-block-12, .vis-andre-sites, #block-views-os2web-diverse-block-2,#block-views-os2web-diverse-block-1 {float: right}
 .skjul-andre-sites a {background-image: url("../images/topddhandle-close.png");
     background-repeat: no-repeat;
     display: block;
@@ -1884,7 +1885,8 @@ color: #B3B3B3;
 ul.nice-menu-down li.menuparent {background: url("../images/webstederPIL.png") no-repeat scroll right center #EEEEEE;
 }
 #region-preface-first {width: 970px; margin-left: 0px; margin-right: 0px}
-#zone-preface { line-height: 30px; padding-top: 5px; width: 970px }
+#zone-preface { line-height: 30px; padding-top: 5px; width: 970px; color: #FFF; font-size: 15px }
+#zone-preface span { padding: 5px 15px 5px 5px; font-size: 15px; line-height: 27px}
 #zone-preface .block-nice-menus  { float: right; margin-right: 30px}
 #zone-preface  ul.nice-menu-down li.menuparent {
     background: url("../images/webstederPIL.png") no-repeat scroll right center #640C3C; margin-left: 35px;
@@ -1927,7 +1929,6 @@ ul.nice-menu-down li.menuparent {background: url("../images/webstederPIL.png") n
 color: #787878;
 font-size: 16px;
 margin: 0px;
-border-bottom: 1px solid #CCC;
 margin-bottom: 5px;
 padding-bottom: 0px;
 padding-left: 10px;
@@ -2215,8 +2216,7 @@ h2.breadcrumb.you-are-here {
     padding: 12px;
 }
 
-.content a.print-page:hover, 
-.content a.print-page {
+.printvenlig-side a{
 	background-image: url(../images/print.png);
 	border: none;
 	background-repeat: no-repeat;
@@ -2227,9 +2227,6 @@ h2.breadcrumb.you-are-here {
 	top: 0px;
 	left: 389px;
 	text-indent: -2000px;
-	border-radius: 0;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;i
 	margin: 0;
 	padding: 0;
 }

@@ -23,10 +23,10 @@ a:link, a:visited {
     background-color: #004077;
 }
 .view-id-newslist .jcarousel-skin-default a.jcarousel-prev:hover {
-    background-image: url("http://jobcentersyddjurs-dk.syddjurs.bellcom.dk/sites/all/themes/cmstheme/images/joncenterPILspot.png");
+    background-image: url("../images/joncenterPILspot.png");
 }
 .view-id-newslist .jcarousel-skin-default a.jcarousel-next:hover {
-    background-image: url("http://jobcentersyddjurs-dk.syddjurs.bellcom.dk/sites/all/themes/cmstheme/images/joncenterPILspot.png");
+    background-image: url("../images/joncenterPILspot.png");
 }
 .view-id-newslist .jcarousel-skin-default .jcarousel-item-horizontal a:hover {
     color: #004077;
@@ -45,7 +45,7 @@ a:link, a:visited {
 
 /* søge */
 #block-search-form #edit-submit {
-    background-image: url("http://jobcentersyddjurs-dk.syddjurs.bellcom.dk/sites/all/themes/cmstheme/images/jobcenterSoeg.png");
+    background-image: url("../images/jobcenterSoeg.png");
     border: 0px;
     width: 63px;
 }
@@ -53,7 +53,7 @@ a:link, a:visited {
 /* billede slider forside plus under*/
 .custom-slideshow .views-field-body a {
     /* billede slider forside plus under*/
-    background-image: url("http://jobcentersyddjurs-dk.syddjurs.bellcom.dk/sites/all/themes/cmstheme/images/jobcenterMegamenuPil2.png");
+    background-image: url("../images/jobcenterMegamenuPil2.png");
     color: #004077;
     font-size: 21px;
 }
@@ -90,7 +90,7 @@ a:link, a:visited {
     background-image: url("../images/borger-grid-9.png");
 }
 .view-kulturnaut-events-lister .views-field-title a:hover {
-    background-image: url("http://jobcentersyddjurs-dk.syddjurs.bellcom.dk/sites/all/themes/cmstheme/images/jobcenterMegamenuPil2.png");
+    background-image: url("../images/jobcenterMegamenuPil2.png");
     color: #004077;
 }
 #region-sidebar-first ul.menu li ul li.active-trail {
@@ -100,7 +100,7 @@ a:link, a:visited {
 
 /*selvbetjenings panal forside */
 .selvbetjening-block-forside {
-    background-image: url("http://jobcentersyddjurs-dk.syddjurs.bellcom.dk/sites/all/themes/cmstheme/images/jobcenterSelvbetjening.png");
+    background-image: url("../images/jobcenterSelvbetjening.png");
     background-size: 100%;
 }
 
@@ -114,7 +114,7 @@ a:link, a:visited {
 
 
 .selvbetjening-block-forside .form-type-select {
-    background-image: url("http://jobcentersyddjurs-dk.syddjurs.bellcom.dk/sites/all/themes/cmstheme/images/dropdownPILjobcenter.png");
+    background-image: url("../images/dropdownPILjobcenter.png");
 }
 .selvbetjening-block-forside .item-list {
     height: 185px;
@@ -129,7 +129,6 @@ a:link, a:visited {
     background-position: right center;
     background-repeat: no-repeat;
     color: #666666;
-    font-size: 14.8px;
     margin-top: 3px;
 }
 
@@ -141,7 +140,7 @@ a:link, a:visited {
     padding: 0 0 0 10px;
 }
 #main-menu li a.qtip-hover {
-    background-image: url("http://jobcentersyddjurs-dk.syddjurs.bellcom.dk/sites/all/themes/cmstheme/images/dropdownPILjobcenter.png");
+    background-image: url("../images/dropdownPILjobcenter.png");
     background-position: 95% 50%;
     background-size: 13px auto;
     color: #004077;
@@ -152,13 +151,13 @@ a:link, a:visited {
     color: #004077;
 }
 .qtip-wrapper ul.menu a:hover {
-    background-image: url("http://jobcentersyddjurs-dk.syddjurs.bellcom.dk/sites/all/themes/cmstheme/images/jobcenterMegamenuPil2.png");
+    background-image: url("../images/jobcenterMegamenuPil2.png");
     color: #004077;
 }
 
 /* selvbetjenings - megamenu */
 .selvbetjening-megamenu {
-    background-image: url("http://jobcentersyddjurs-dk.syddjurs.bellcom.dk/sites/all/themes/cmstheme/images/jobcenterSelvbetjening.png");
+    background-image: url("../images/jobcenterSelvbetjening.png");
     color: #FFFFFF;
     height: 281px;
     padding: 20px;
@@ -175,7 +174,7 @@ a:link, a:visited {
     color: #004077;
 }
 .spotbox .views-row:hover h3 {
-    background-image: url("http://jobcentersyddjurs-dk.syddjurs.bellcom.dk/sites/all/themes/cmstheme/images/jobcenterMegamenuPil2.png");
+    background-image: url("../images/jobcenterMegamenuPil2.png");
     background-position: 98% 50%;
 }
 .spotbox .views-row:hover img {
@@ -192,9 +191,6 @@ a.overlayclass span.zoom-icon-tall {
     z-index: 999;
 }
 
-#zone-menu {
-    background-image: url("http://jobcentersyddjurs-dk.syddjurs.bellcom.dk/sites/all/themes/cmstheme/images/jobcenterMenuBAG.png");
-}
 
 /* sidebar */
 #region-sidebar-first ul.menu li ul li.active-trail {
@@ -229,7 +225,7 @@ a.overlayclass span.zoom-icon-tall {
 
 /* underside sidebar til højre*/
 .block-views-selvbetjening-block-6 {
-    background-image: url("http://jobcentersyddjurs-dk.syddjurs.bellcom.dk/sites/all/themes/cmstheme/images/jobcenterSelvbetjening.png");
+    background-image: url("../images/jobcenterSelvbetjening.png");
     background-size: 100%;
 }
 .selvbetjening-indholdsside .blanketter a {

@@ -36,7 +36,7 @@
   <div class="del-bund">
     <div class="del">
        <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
-          <a class="addthis_button_compact">Del <img src="/<?php echo drupal_get_path(theme, cmstheme); ?>/images/blank.png"/> </a>
+          <a class="addthis_button_compact">Del <img src="/<?php print $theme_path = drupal_get_path('theme', variable_get('theme_default', NULL)); ?>/images/blank.png"/> </a>
        </div>
     </div>
     <div class="fandt-du"><a href="/contact?edit[subject]=<?php print $node_url; ?>">Fandt du ikke det du søgte</a></div>
