@@ -1,0 +1,19 @@
+
+#page {
+    background-image: url("../images/jobcenter_stor_bg.png");
+    background-position: 50% -8%;
+    background-repeat: no-repeat;
+    background-size: 2300px auto;
+}
+
+#zone-preface-wrapper {
+    background-image: url("http://jobcentersyddjurs-dk.syddjurs.bellcom.dk/sites/all/themes/cmstheme/images/jobcenterWebstederBanner.png");
+}
+
+
+/* logo */
+.logo-img {
+    float: left;
+    margin-left: 30px;
+    margin-right: 20px;
+}

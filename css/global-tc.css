@@ -114,6 +114,7 @@
   border: solid #fff 5px;
   display: block;
   float: left;
+  margin-left: 11px;
 }
 
 .portalnews-big .views-row.views-row-first .news-list-left:hover {
@@ -124,6 +125,7 @@
   width: 470px;
   background: url("../images/aktueltBORGER.png") repeat scroll 0 0 transparent;
   height: 232px;
+  margin-left: 10px;
 }
 
 .portalnews-big .views-row .news-list-right p a,
@@ -141,4 +143,13 @@
 
 .portalnews-big .views-row.views-row-first p {
   font-size: 110%;
+}
+
+
+.portalnews-big .views-row.views-row-last {
+  margin-left: 11px;
+}
+
+.portalnews-big .field-content p {
+  margin: 0;
 }

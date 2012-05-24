@@ -22,12 +22,24 @@ body {font-family: Arial, Helvetica, sans-serif ;}
 a:link, a:visited { color: #8b0053; text-decoration: none;}
 
 h1, h2, h3, h4, h5, h6  { letter-spacing: -0.05em;  }
+
+/* Myriad Pro Font */
+
 h1, h2, h3, h4, h5, h6, ul, li, .button, .knapper, .view-selvbetjening, .view-rotating-image-view, .view-kulturnaut-events-lister, .region-footer-first, #block-block-6, #region-footer-third, #region-footer-second, .portalnews-big  { font-family: "myriad-pro", Arial, Helvetica, sans-serif; }
 
-ul, li {font-size: 14px}
-.views-slideshow-cycle-main-frame-row-item, #region-footer-third .content {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 300}
+/* Myriad Pro Light Font */
+
+.views-slideshow-cycle-main-frame-row-item, #region-footer-third .content, .region-inner h1.title {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 300}
+
+
+/* Myriad Pro Bold Font */
 
 .portalnews-big .date {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 700}
+
+/* // END Fonts */
+
+ul, li {font-size: 14px}
+
 
 .block-user-menu, .vertical-menu, .block-menu-top-menu {}
 
@@ -184,7 +196,10 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	behavior: url(ie-css3.htc); /* IE FIX -tc */
 }
 
-.slideshow-big { background-image: url(../images/imageslider.png); background-repeat: no-repeat}
+.slideshow-big { background-image: url(../images/imageslider.png); background-repeat: no-repeat;
+	height: 355px;
+	width: 475px;
+}
 
 #views_slideshow_cycle_main_rotating_image_view-block.hover {
 	border: solid #961862 5px;
@@ -199,7 +214,9 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	padding: 0;
 }
 
-
+.slideshow-big .view-content {
+	padding-left: 2px;
+}
 
 .views-slideshow-pager-field-item {
 	height: 65px;
@@ -377,13 +394,13 @@ ul.jcarousel-list-horizontal { }
 }
 .view-id-newslist .jcarousel-skin-default .jcarousel-item-horizontal p {
         font-size: 11px;
-        color: #9b9b9b;
+        color: #787878;
 	font-weight: bold;
 }
 
 .view-id-newslist .jcarousel-skin-default .jcarousel-item-horizontal a {
 	font-size: 11px;
-	color: #9b9b9b;
+	color: #787878;
 	font-weight: normal;
 }
 
@@ -395,7 +412,7 @@ ul.jcarousel-list-horizontal { }
 
 .view-id-newslist .jcarousel-skin-default .jcarousel-item-horizontal .news-list-right a {
 	font-size: 14px;
-	color: #9b9b9b;
+	color: #787878;
 }
 .view-id-newslist .jcarousel-skin-default .jcarousel-item-horizontal .news-list-right a:hover {
 	font-size: 14px;
@@ -411,11 +428,11 @@ ul.jcarousel-list-horizontal { }
 	float: left;
 	width: 250px;
 	text-align: left;
-	padding: 7px 0 0 20px;
+	padding: 22px 0 0 31px;
 }
 
 .view-id-newslist .jcarousel-container .news-list-left {
-        padding: 20px 0 0 7px;
+        padding: 20px 0 0 19px;
 }
 .view-id-newslist .jcarousel-container .news-list-right {
         padding: 20px 0 0 5px;
@@ -549,7 +566,7 @@ ul.jcarousel-list-horizontal { }
 
 .region-footer-first-inner, .region-footer-second-inner, .region-footer-third-inner {margin: 29px 0 10px 0 }
 .region-footer-first-inner {padding-left: 145px; line-height: 30px; margin: 0;}
-#region-footer-first {background-image: url(../images/lille-logo.png); width: 970px; margin: 0;}
+#region-footer-first {background-image: url(../images/lille-logo.png); width: 970px; margin: 0; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;  }
 <<<<<<< HEAD
 =======
 
@@ -1036,7 +1053,7 @@ a.overlayclass span.zoom-icon-video {
     padding: 6px 1px 0px 1px;
 }
 
-.spotbox-tall, .spotbox-video { margin-left: 8px}
+.spotbox-tall, .spotbox-video { margin-left: 10px}
 .spotbox-row-tall {
     background-image: url("../images/spot2.png");
     background-repeat: no-repeat;
@@ -1054,6 +1071,18 @@ a.overlayclass span.zoom-icon-video {
     
 .spotbox-horisontal {margin-left: 10px; width: 490px}
 
+
+.spotbox-horisontal-3 .view-content .views-row-first {
+	margin-left: 10px;
+}
+
+.spotbox-horisontal-3 .spotbox-row {
+	margin-left: 7px;
+	background-image: url("../images/spot1b.png");
+	margin-bottom: 6px;
+	padding: 6px 1px 0px 1px;
+}
+
 /*
 .selvbetjening-block-forside { color: #BF80A4; background-image: url(../images/selvbetjening-right-bg.png); background-repeat: no-repeat; padding-top: 60px; padding-left: 20px; padding-bottom: 40px;}
 .selvbetjening-block-forside h3 { margin: 12px 0px; text-transform: uppercase; font-size: 15px; font-weight: normal}
@@ -1069,7 +1098,9 @@ a.overlayclass span.zoom-icon-video {
 .selvbetjening-block-forside .item-list a {  }
 .selvbetjening-block-forside .item-list a:hover { } 
 .selvbetjening-block-forside h3 { margin: 10px 0 0 0; text-align: center; display: block; }
-.selvbetjening-block-forside h3 a { text-transform: uppercase; font-size: 20px; margin: 10px; font-weight: normal; text-align: center; display: block; padding-bottom: 25px; background-image: url(../images/gaatilinfo.png); background-repeat: no-repeat; background-position: right bottom; }
+.selvbetjening-block-forside h3 a { text-transform: uppercase; font-size: 20px; margin: 10px; font-weight: normal; text-align: center; display: block; padding-bottom: 25px; background-image: url(../images/gaatilinfo.png); background-repeat: no-repeat; background-position: right bottom; color: #fff; }
+
+
 
 
 .portal-politik-og-planer .selvbetjening-block-forside h3 a {background-image: url(../images/politikogplanerTEKST.png);
@@ -1441,20 +1472,12 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 
 #block-search-form #edit-submit { height: 65px; width: 73px;}
 
-.panels-flexible-region .pane-newslist h2,
-.panels-flexible-region .pane-kulturnaut-events-lister h2 {
-    font-size: 12px;
-    color: #9b9b9b;
-    text-transform:uppercase;
-    padding-left: 10px;
-}
-
 .panels-flexible-region .pane-kulturnaut-events-lister {
     margin-left: 6px;
 }
 
 .view-kulturnaut-events-lister .views-field-title a {
-    color: #9b9b9b;
+    color: #787878;
     padding: 5px 0 0 62px;
     background-image: url(../images/megamenu-arrow.png);
     background-position: 50px 8px;
@@ -1482,7 +1505,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 
 .view-kulturnaut-events-lister .calendar-top {
     color: #fff;
-    font-size: 9px;
+    font-size: 8px;
     background: none; 
     text-transform:uppercase;
     padding: 5px 0px;
@@ -1498,7 +1521,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 
 .view-kulturnaut-events-lister .views-field-imported-1 {float: left; clear: left}
 
-.view-kulturnaut-events-lister .views-row {margin-top: 12px}
+.view-kulturnaut-events-lister .views-row {margin-top: 12px; margin-left: 22px; }
 
 .view-kulturnaut-events-lister .view-content {
     padding: 10px 0 0 3px;
@@ -1610,31 +1633,29 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 
 .region-inner h1.title {
 	color: #7a7a7a;
-	font-size: 27px;
+	font-size: 34px;
 	text-transform: uppercase;
 }
 
 .field-items .field-item p {
     color: #4a4a4a;
-    font-size: 11px; 
-    line-height: 14px;
+    font-size: 13px; 
+    line-height: 19px;
     
 }
 
 .node-type-contentpage .field-name-body  {
-    background: #f0f0f0;
-    padding: 10px;
-    margin: 0;
-    border-top: 1px solid #e4e4e4;
+    padding: 0 16px 10px 16px;
+    margin: 63px 10px 10px 10px;
 }
 
 .node-type-contentpage .field.field-name-field-resume-long, .node-type-contentpage .region-inner h1.title, .node-type-contentpage .submitted, .node-type-contentpage .workbench-info-block {
-	margin-left: 10px;  
+	margin-left: 25px;  
 
 }
 
 .node-type-contentpage .field.field-name-field-resume-long {
-	font-size: 14px; 
+	font-size: 20px; 
     color: #4a4a4a;
 }
 
@@ -1894,4 +1915,325 @@ ul.nice-menu-down li.menuparent {background: url("../images/webstederPIL.png") n
 
 .sektionsforside .container-12 .grid-6 {
     width: 480px;
+}
+
+
+
+
+#region-sidebar-second div.kontaktblok-overskrift,
+#region-sidebar-second h2 ,
+#region-sidebar-second h3 {
+color: #787878;
+font-size: 16px;
+margin: 0px;
+border-bottom: 1px solid #CCC;
+margin-bottom: 5px;
+padding-bottom: 0px;
+padding-left: 10px;
+text-transform: uppercase;
+	font-weight: normal;
+}
+
+#block-panels-mini-footer-menuer .pane-content a {
+	color: #9a9a9a;
+	font-size: 11px;
+	display: block;
+	padding: 0 0 7px 0;
+}
+
+
+#block-panels-mini-footer-menuer h2.pane-title a,
+#region-footer-third h2.block-title,
+#block-panels-mini-footer-menuer h2.block-title a {
+	color: #4B4B4B;
+	font-size: 14px;
+}
+
+
+#region-footer-third h2.block-title {
+	border-bottom: 1px solid #CCC;
+	padding-left: 0px;
+}
+
+#region-footer-third .region-footer-third-inner a,
+#region-footer-third .region-footer-third-inner p {
+	color: #9a9a9a;
+	font-size: 11px;
+}
+
+#region-footer-third .region-footer-third-inner a:hover {
+	color: #880046;
+}
+
+
+#region-footer-second .pane-selvbetjening {
+	float: left;
+	display: inline;
+	position: relative;
+	width: 140px;
+}
+
+#region-footer-second .view-id-selvbetjening ul,
+#region-footer-second .view-id-selvbetjening li {
+	margin: 0;
+
+}
+
+#mini-panel-footer_menuer .pane-block {
+	width: 140px;
+}
+
+#panel-borger .view-id-kulturnaut_events_lister {
+	background-image: url(../images/detsker-borger-bg.png);
+	width: 234px;
+	height: 235px;
+}
+
+
+#panel-borger .view-id-kulturnaut_events_lister a {
+	font-size: 12px;
+	background-position: 50px 7px;
+}
+
+h2.breadcrumb.you-are-here {
+	font-size: 11px;
+	color: #9b9b9b;
+	font-weight: normal;
+	float: left;
+	padding: 0 5px 0 0;
+	margin: 0;
+}
+
+.breadcrumb p,
+.breadcrumb a {
+	color: #9b9b9b;
+	font-size: 11px;
+	display: block;
+	margin: 0 5px 0 5px;
+	padding: 0;
+	float: left;
+}
+
+
+.breadcrumb p {
+	font-weight: bold;
+	color: #b4b4b4;
+}
+
+
+.block-views-selvbetjening-block-6 {
+	background-image: url(../images/selvbetjening-indholdsside-bg.png);
+	height: 290px;
+}
+
+#region-sidebar-second .block-views-selvbetjening-block-6 h2 {
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	padding: 0;
+	background-image: none;
+	font-size: 15px;
+	padding: 20px 0 15px 0;
+	font-weight: normal;
+	border: none;
+}
+
+.selvbetjening-indholdsside .blanketter a {
+	color: #C386A8;   
+	display: block;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 10px 0 0 13px;
+	margin-bottom: 14px;
+	background-image: none;
+}
+
+.selvbetjening-indholdsside a {
+    color: #fff;
+    padding: 0 0 0 34px;
+    background-image: url("../images/selvbetjening-arrow.png");
+    background-repeat: no-repeat;
+    background-position: 13px 1px;
+    margin: 0 0 7px 5px;
+    font-size: 12px;
+    display: block;
+}
+
+.selvbetjening-indholdsside .view-content {
+	height: 109px;
+}
+
+.selvbetjening-indholdsside .se-flere a {
+	background-image: url("../images/selvbetjening-down-arrow.png");
+	background-position-y: 5px;
+	font-size: 14px;
+    }
+
+
+
+.selvbetjening-block-portal .selbetjening-bund .nemid {margin-left:17px;}
+.selvbetjening-indholdsside .selbetjening-bund .nemid {width: 50px; margin-left: 39px;  background-image: url(../images/nemid-trans-sm.png)}
+.selvbetjening-block-portal .selbetjening-bund .virkdk,
+.selvbetjening-indholdsside .selbetjening-bund .virkdk {width: 50px; background-image: url(../images/virkdk-trans-sm.png)}
+.selvbetjening-block-portal .selbetjening-bund .borgerdk,
+.selvbetjening-indholdsside .selbetjening-bund .borgerdk {width: 50px; background-image: url(../images/borgerdk-trans-sm.png)}
+.selvbetjening-block-portal .view-selvbetjening .item-list,
+.selvbetjening-indholdsside .view-selvbetjening .item-list ul {margin: 0;}
+
+.selvbetjening-block-portal .selbetjening-bund .nemid,
+.selvbetjening-block-portal .selbetjening-bund .virkdk,
+.selvbetjening-block-portal .selbetjening-bund .borgerdk,
+.selvbetjening-indholdsside .selbetjening-bund .nemid,
+.selvbetjening-indholdsside .selbetjening-bund .virkdk,
+.selvbetjening-indholdsside .selbetjening-bund .borgerdk {
+	background-position: center center;
+}
+
+.selvbetjening-block-portal .selbetjening-bund a,
+.selvbetjening-indholdsside .selbetjening-bund a {
+	padding: 0;
+	height: 30px;
+	margin: 15px 5px 0 0;
+}
+
+.selbetjening-bund .nemid,
+.selbetjening-bund .borgerdk,
+.selbetjening-bund .virkdk {
+	background-repeat: no-repeat;
+	background-position: 0 65%;
+}
+
+.selvbetjening-block-portal .form-type-select {
+	width: 175px;
+	background-position: 100% 44%;
+}
+
+.spotbox-indhold .views-row {
+	background-image: url(../images/spot1b.png);    
+	background-position: bottom left;
+	height: 191px;
+}
+
+#region-sidebar-second .spotbox-indhold  h3  {
+        width: 190px; 
+        height: 30px; 
+        overflow: hidden; 
+        line-height: 0.9em; 
+        background-image: url(../images/spotboxPILb.png); 
+        background-position: 100% 39%; 
+        background-repeat: no-repeat; 
+        font-size: 15px;
+        font-weight: normal;
+        border: none;
+        padding: 25px 20px 20px 20px;
+        margin: 0;
+        text-transform: none;
+        float: left;
+        }
+        
+.spotbox-indhold  h3 a {
+        color: #8A8A8A; 
+        display: block;
+        overflow: hidden;
+                
+}
+
+#region-sidebar-second .spotbox-indhold .views-row:hover a {
+        color: #8b0053;
+}
+
+#region-sidebar-second .spotbox-indhold .views-row:hover h3 { background-image: url(../images/spotboxPILc.png);}
+
+#region-sidebar-second .spotbox-indhold img {
+        padding-top: 5px;
+}
+
+#region-sidebar-second .spotbox-indhold .views-row span.zoom-icon{
+	visibility:hidden;
+	position:absolute;
+	left:0;
+	top: 5px;
+        height: 106px;
+	width: 221px;
+	border: #880054 solid 5px;
+}
+
+
+#region-sidebar-second .spotbox-indhold .views-row:hover span.zoom-icon { 
+	visibility: visible;   
+}
+
+.last-updated-node {
+	color: #787878;
+	font-size: 13px;
+	padding: 10px 0 15px 26px;
+}
+
+.del-bund {
+	background-image: url(../images/del-bg.png);
+	height: 76px;
+	text-transform: uppercase;
+	font-size: 10px;
+	width: 478px;
+	background-position: 0;
+	background-repeat: no-repeat;
+	margin-left: -8px;
+}
+
+.del-bund div.del {float: left; margin-left: 20px; margin-top: 12px;}
+.del-bund div.fandt-du {float: left;  margin-left: 35px; margin-top: 12px;}
+.del-bund div.synes-om {float: left; margin-left: 18px; margin-top: 12px; }
+
+
+.del-bund div.del a {
+    line-height: 32px;
+    display: block;
+    width: 58px;
+    height: 43px;
+     background-image: url(../images/del.png);
+ background-repeat: no-repeat;
+ background-position: right center;
+  padding: 8px 10px 10px 0;
+  color: #787878;
+ 
+}
+
+.del-bund div.fandt-du a {
+     line-height: 32px;
+     display: block;
+     width: 200px;
+     height: 43px;
+     background-image: url(../images/fandtdudet.png);  
+     background-repeat: no-repeat;
+     background-position: right center;
+     padding: 8px 7px 10px 0;
+  color: #787878;  
+  
+}
+.del-bund div.synes-om a {
+    padding: 12px;
+}
+
+.content a.print-page:hover, 
+.content a.print-page {
+	background-image: url(../images/print.png);
+	border: none;
+	background-repeat: no-repeat;
+	height: 60px;
+	width: 79px;
+	background-position: right top;
+	position: absolute;
+	top: 0px;
+	left: 389px;
+	text-indent: -2000px;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;i
+	margin: 0;
+	padding: 0;
+}
+
+.node-links ul li a:hover,
+.comment-links ul li a:hover {
+  background: none;
 }
