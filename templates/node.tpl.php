@@ -10,6 +10,8 @@
     <?php if (!empty($content['links'])): ?>
       <nav class="links node-links clearfix"><?php print render($content['links']); ?></nav>
     <?php endif; ?>
+<?php if (arg(0) == 'node' && is_numeric(arg(1))) $nodeid = arg(1); ?>
+<div class="printvenlig-side"><a href="/print/<?php print $nodeid; ?>"></a></div>
 
   <?php print render($title_suffix); ?>
   <?php if ($display_submitted): ?>
@@ -37,7 +39,7 @@
           <a class="addthis_button_compact">Del <img src="/<?php echo drupal_get_path(theme, cmstheme); ?>/images/blank.png"/> </a>
        </div>
     </div>
-    <div class="fandt-du"><a href="">Fandt du ikke det du søgte</a></div>
+    <div class="fandt-du"><a href="/contact?edit[subject]=<?php print $node_url; ?>">Fandt du ikke det du søgte</a></div>
 
     <div class="synes-om">
       <div class="addthis_toolbox addthis_default_style">
