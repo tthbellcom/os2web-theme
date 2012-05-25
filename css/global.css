@@ -1631,6 +1631,8 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 .documentdate{
 	font-size: 10px;
 	color: #b8b8b8;
+	float: right;
+margin-right: 20px;
 }
 
 .region-inner h1.title {
@@ -2218,7 +2220,6 @@ h2.breadcrumb.you-are-here {
 
 .printvenlig-side a{
 	background-image: url(../images/print.png);
-	border: none;
 	background-repeat: no-repeat;
 	height: 60px;
 	width: 79px;
@@ -2226,9 +2227,6 @@ h2.breadcrumb.you-are-here {
 	position: absolute;
 	top: 0px;
 	left: 389px;
-	text-indent: -2000px;
-	margin: 0;
-	padding: 0;
 }
 
 .node-links ul li a:hover,

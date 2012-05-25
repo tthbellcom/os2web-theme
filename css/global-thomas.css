@@ -94,4 +94,14 @@ line-height: 22px;
 	border-bottom: 1px solid #E6E6E6;
 	color: #FFF;
 }
+.printvenlig-side-sog a{
+        background-image: url(../images/print.png);
+        background-repeat: no-repeat;
+        height: 60px;
+        width: 79px;
+        background-position: right top;
+        position: absolute;
+        top: 140px;
+        left: 389px;
+}
 
