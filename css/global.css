@@ -1216,10 +1216,19 @@ height: 125px;
 .portal-side .selbetjening-bund a {margin: 0 5px 0 0;}
 .portal-side .view-selvbetjening .item-list ul {margin: 0;}
 */
+.portal-politik-og-planer .panel-region-middle-right {margin-left: 5px}
 .portal-side .selvbetjening-block-portal {
 	background-image: url(../images/selvbetjening-230.png);
 	margin: 0;
 	height: 300px;
+	background-repeat: no-repeat;
+}
+
+.portal-politik-og-planer .selvbetjening-block-portal {
+	background-image: url(../images/selvbetjeningPolitikogPlaner.png);
+	margin: 2px 0 0 0;
+	height: 395px;
+	width: 220px;
 }
 
 .portal-side .view-display-id-block_2 .view-footer,
@@ -2234,7 +2243,8 @@ h2.breadcrumb.you-are-here {
   background: none;
 }
 .portal-politik-og-planer .pane-title { 
-	margin-top: 0px}
+	margin-top: 0px;
+	margin-left: 7px}
 	
 .pane-os2web-meeting-views-meeting-search-block .pane-content { 
 	padding: 10px 10px; 
@@ -2246,7 +2256,9 @@ h2.breadcrumb.you-are-here {
 	height: 120px }
 
 .pane-os2web-meeting-views-meeting-search-block .form-type-select {
-	width: 440px}
+	background-image: url("../images/dagsordnerDROP.png");
+    height: 60px;
+    width: 440px;}
 	
 .pane-os2web-meeting-views-meeting-search-block label, 
 .pane-os2web-meeting-views-meeting-search-block .form-item .description, 
@@ -2261,6 +2273,7 @@ h2.breadcrumb.you-are-here {
     
 .pane-os2web-meeting-views-meeting-search-block .form-type-date-popup input { 
 	border: 1px solid #E6E6E6;
+	color: #A8A8A8;
     font-size: 15px;
     height: 35px;
     padding: 10px;
@@ -2283,9 +2296,10 @@ h2.breadcrumb.you-are-here {
     cursor: pointer;
     outline: 0 none;
     overflow: visible;
-    padding: 6px 3px 21px 31px;
+    padding: 6px 3px 21px 27px;
+    text-transform: uppercase;
     text-shadow: none;
-    width: 86px;
+    width: 97px;
     padding-right: 10;
     height: 51px; 
     margin-top: 0px;

@@ -106,8 +106,32 @@ line-height: 22px;
 }
 
 
-.yaselect-wrap { padding: 1.5px 0; margin: 0; }
-.yaselect-wrap, .yaselect-current { cursor: pointer; display: block; }
-.yaselect-wrap, .yaselect-current, .yaselect-select { width: 498px; font-size: 15px; }
-.yaselect-select { margin-top: 0; padding-top: 0; }
-.yaselect-current { background: url('../images/dagsordnerDROP.png') no-repeat 100% 50%; }
+.yaselect-wrap { 
+	padding: 8px 0 0 10px; 
+	margin: 0; 
+	height: 32px; }
+	
+.yaselect-select { 
+	margin-top: 0; 
+	padding-top: 0; }
+	
+.yaselect-current {
+	margin-top: 5px }
+	
+.yaselect-wrap, 
+.yaselect-current { 
+	cursor: pointer; display: block; }
+	
+.yaselect-wrap, 
+.yaselect-current, 
+.yaselect-select { 
+	font-size: 15px; 
+	color: #787878; }
+	
+.form-item-committee .yaselect-wrap { 
+	width: 440px; }
+.form-item-committee .yaselect-wrap, 
+.form-item-committee .yaselect-current, 
+.form-item-committee .yaselect-select { 
+	width: 439px; 
+	text-transform: uppercase }
