@@ -183,7 +183,7 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
   margin-bottom:2.5em;
 }
 
-#search-block-form .rel-register-link {display: none}
+#search-block-form .rel-register-link, .views-exposed-widget .rel-register-link {display: none}
 /*Bellcom Custom*/
 
 .views-slideshow-controls-top {
@@ -2232,4 +2232,61 @@ h2.breadcrumb.you-are-here {
 .node-links ul li a:hover,
 .comment-links ul li a:hover {
   background: none;
+}
+.portal-politik-og-planer .pane-title { 
+	margin-top: 0px}
+	
+.pane-os2web-meeting-views-meeting-search-block .pane-content { 
+	padding: 10px 10px; 
+	clear: both; 
+	background-image: url(../images/dagsordnerBAG.png); 
+	background-repeat: no-repeat; 
+	width: 455px; 
+	margin-left: 7px; 
+	height: 120px }
+
+.pane-os2web-meeting-views-meeting-search-block .form-type-select {
+	width: 440px}
+	
+.pane-os2web-meeting-views-meeting-search-block label, 
+.pane-os2web-meeting-views-meeting-search-block .form-item .description, 
+.pane-os2web-meeting-views-meeting-search-block #edit-search-params-wrapper {
+	display: none}
+
+.pane-os2web-meeting-views-meeting-search-block .form-type-date-popup { 
+	background-image: url(../images/calender.png); background-position: right center;
+    background-repeat: no-repeat;
+    height: 59px;
+    padding-right: 38px;}
+    
+.pane-os2web-meeting-views-meeting-search-block .form-type-date-popup input { 
+	border: 1px solid #E6E6E6;
+    font-size: 15px;
+    height: 35px;
+    padding: 10px;
+    width: 110px; 
+    border-radius: 3px; 
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px}
+    
+.pane-os2web-meeting-views-meeting-search-block .views-exposed-form .views-submit-button input {
+	-moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: transparent;
+    background-image: url(../images/dagsordnerSOG.png); 
+    border: none;
+    border-radius: 0px;
+    color: #FFF;
+    cursor: pointer;
+    outline: 0 none;
+    overflow: visible;
+    padding: 6px 3px 21px 31px;
+    text-shadow: none;
+    width: 86px;
+    padding-right: 10;
+    height: 51px; 
+    margin-top: 0px;
 }
