@@ -21,3 +21,12 @@ div.qtip { background-image: url(../images/megadropdownBUND.png); background-pos
 }
 
 .selvbetjening-megamenu { height: auto; margin-bottom: 5px }
+
+
+#zone-menu #main-menu {
+width: 447px;
+}
+
+#zone-menu .block-search-form { width: 477px;}
+
+#zone-menu .form-item-search-block-form label { display: none}

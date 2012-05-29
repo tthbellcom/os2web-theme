@@ -180,3 +180,18 @@ line-height: 22px;
 #region-branding {
 	margin-left: 0;
 }
+
+.video-text {
+	float: left;
+	background-image: url(../images/megamenu-arrow.png);
+	background-repeat: no-repeat;
+	padding-left: 13px;
+	position: relative;
+	width: 111px;
+	background-position: 0 12px;
+	color: #888;
+	font-size: 11px;
+	line-height: 15px;
+	padding-top: 10px;
+	border-top: 1px solid #ebebeb;
+}

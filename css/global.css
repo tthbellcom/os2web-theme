@@ -579,7 +579,7 @@ body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; 
 .omega-24-twocol-12-12 {width: 940px}
 .omega-24-twocol-12-12 .grid-12 {width: 460px; background-color: transparent}
 
-#block-search-form .content #edit-search-block-form--2 {width: 333px; font-size: 18px; border: none; height: 40px; line-height: 40px; padding: 0 ; text-transform: uppercase; background: transparent; font-family: "myriad-pro", Arial, Helvetica, sans-serif; margin: 14px 0px; width: 370px; position: relative; left: -10px; color: #9a9a9a; }
+#block-search-form .content #edit-search-block-form--2 {width: 333px; font-size: 18px; border: none; height: 40px; line-height: 40px; padding: 0 ; text-transform: uppercase; background: transparent; font-family: "myriad-pro", Arial, Helvetica, sans-serif; margin: 14px 0px; width: 370px; position: relative; color: #9a9a9a; }
 
 #block-search-form #edit-submit {
     background-image: url(../images/search-button.png); width: 70px; height: 68px; border: none; margin: 0; padding: 0; border-radius: 0px;  -moz-border-radius: 0px;
