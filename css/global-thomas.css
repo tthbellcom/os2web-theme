@@ -169,7 +169,7 @@ line-height: 22px;
 }
 
 .fieldset-legend {
-	padding: 10px 16px 10px 16px;
+	padding: 10px 16px 0px 16px;
 	margin: 20px 10px 10px 10px;
 	width: 418px;
 	display: block;

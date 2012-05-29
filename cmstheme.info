@@ -465,3 +465,10 @@ version = "dev"
 project = "cmstheme"
 datestamp = "1337937350"
 
+
+
+; Information added by drush on 2012-05-27
+version = "dev"
+project = "cmstheme"
+datestamp = "1338117523"
+
