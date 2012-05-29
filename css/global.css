@@ -1151,7 +1151,7 @@ height: 125px;
 
 
 .selvbetjening-block-forside .item-list ul li {
-    margin: 0 0 0 25px;
+    margin: 0 0 0 13px;
     padding: 0 0 0 20px;
     background-image: url("../images/selvbetjening-arrow.png");
     background-repeat: no-repeat;
@@ -1239,7 +1239,26 @@ height: 125px;
 	overflow: hidden;
 }
 
+.portal-politik-og-planer .view-display-id-sb_block_portal_att_2 .view-content {
+height: 139px;
+overflow: hidden;
+}
+
 .portal-side .selvbetjening-block-portal .view-header {margin-top: 0;}
+
+.portal-side .view-display-id-sb_block_portal_att_2 .view-header {
+	color: #bc81a1;
+	margin-left: 13px;
+	font-size: 15px;
+}
+
+.portal-politik-og-planer .view-display-id-sb_block_portal_att_2 {
+	margin-left: 4px;
+}
+
+.portal-side .view-display-id-sb_block_portal_att_2 .view-content a {
+	color: #FFF;
+}
 
 .selvbetjening-block-sektion { height: auto; padding-bottom: 60px}
 
@@ -1466,6 +1485,10 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 	border: none;
 }
 
+#block-system-user-menu li {
+	font-size: 10px;
+}
+
 .qtip-wrapper .omega-12-twocol-6-6 { width: 970px}
 .qtip-wrapper .omega-12-twocol-6-6 .grid-3 { width: 230px}
 .qtip-wrapper .omega-12-twocol-6-6 .grid-6 { width: 470px}
@@ -1555,7 +1578,8 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 
 #zone-user-wrapper ul.menu li a {
     display: block;
-    margin-top: 10px;
+    margin-top: 12px;
+	line-height:13px;
 }
 
 #zone-user-wrapper ul.menu li a.menu-minipanel-1608 {
@@ -1573,15 +1597,30 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
     float: right;
 }
 
+#block-menu-menu-top-menu li.first a{
+	border: none;
+}
+
+.block-menu-menu-top-menu li.leaf a{
+	border-left: 1px solid #ccc;
+	padding-left: 10px;
+	margin-left: 2px;
+}
+
+.block-menu-menu-top-menu li.last a{
+	border-left: 1px solid #ccc;
+	padding-left: 8px;
+	margin-left: 4px;
+}
 
 #block-menu-menu-top-menu a {
-    color: #9a9a9a;
-    font-size: 9px;
+    color: #5c5c5c;
+    font-size: 10px;
 }
 
 #block-menu-menu-erhverv-genveje a {
     font-size: 12px;   
-    color: #9a9a9a;
+    color: #5c5c5c;
     display: block;
 }
 
@@ -1642,9 +1681,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 	font-size: 10px;
 	color: #b8b8b8;
 	float: right;
-margin-right: 20px;
 }
-
 .region-inner h1.title {
 	color: #7a7a7a;
 	font-size: 34px;
@@ -1799,7 +1836,10 @@ color: #B3B3B3;
     margin-top: 0;
     min-height: 40px;
     text-indent: -99999px;
-    width: 44px; float: right}
+    width: 46px; float: right;
+	margin-right: 10px;	
+}
+
 .skjul-andre-sites, #block-block-12, .vis-andre-sites, #block-views-os2web-diverse-block-2,#block-views-os2web-diverse-block-1 {float: right}
 .skjul-andre-sites a {background-image: url("../images/topddhandle-close.png");
     background-repeat: no-repeat;
@@ -1807,7 +1847,9 @@ color: #B3B3B3;
     margin-top: 0;
     min-height: 40px;
     text-indent: -99999px;
-    width: 44px; float: right}
+    width: 44px; float: right
+	margin-right: 10px;	
+}
     
    
 #panel-borger .panel-region-lead { 

@@ -1,1 +1,23 @@
 .planerihoeringdummy {height: 250px}
+
+.region-menu-inner .inline li {
+    margin-right: 0px;
+    padding: 0;
+}
+
+#main-menu li, #main-menu li.first, #main-menu li.last {
+    padding: 0 0 0 0;
+}
+
+#main-menu li a { padding-left: 24px; padding-right: 24px}
+#main-menu li.first a { padding-left: 0px; }
+#main-menu li.last a { 
+}
+
+div.qtip { background-image: url(../images/megadropdownBUND.png); background-position: bottom center; padding-bottom: 34px;}
+
+.qtip-cmstheme .qtip-wrapper {
+    padding: 20px 0 0;
+}
+
+.selvbetjening-megamenu { height: auto; margin-bottom: 5px }
