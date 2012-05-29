@@ -135,3 +135,46 @@ line-height: 22px;
 .form-item-committee .yaselect-select { 
 	width: 439px; 
 	text-transform: uppercase }
+
+
+.fullcaserender,
+.documenttable {
+	padding: 10px 16px 0px 16px;
+	margin: 10px 10px 10px 10px;
+	background-color: #f6f6f6;
+}
+
+.documenttable tr.odd td  {
+	padding: 0;
+}
+
+.documentdate {
+	position: relative;
+	top: -10px;
+}
+
+.field .fullcaserender th, .field .fullcaserender tr, .field .fullcaserender td, .field .documenttable td, .field .documenttable tr, .field .documenttable th {
+	border: 0;
+	padding: 0;
+
+}
+
+.field-group-fieldset .fieldset-wrapper a {
+	font-size: 13px;
+}
+
+.documentheader {
+	padding-bottom: 5px;
+	line-height: 12px;
+}
+
+.fieldset-legend {
+	padding: 10px 16px 10px 16px;
+	margin: 20px 10px 10px 10px;
+	width: 418px;
+	display: block;
+
+	background-color: #f6f6f6;
+}
+
+

@@ -1624,12 +1624,13 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 .field-name-field-case a,
 .field-name-field-doc a {
     color: #676767;
-    background-image: url(http://dev.syddjurs.bellcom.dk/profiles/os2web/themes/cmstheme/images/megamenu-arrow-over.png);
+    background-image: url(../images/megamenu-arrow-over.png);
     background-repeat: no-repeat;
     background-position: left center;
     display: block;
-    padding: 7px 0 7px 15px;
+    padding: 0px 0 0px 15px;
     font-weight: bold;
+    font-size: 13px;
 }
 
 .field-name-field-case a:hover,
