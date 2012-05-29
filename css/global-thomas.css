@@ -189,9 +189,14 @@ line-height: 22px;
 	position: relative;
 	width: 111px;
 	background-position: 0 12px;
-	color: #888;
 	font-size: 11px;
 	line-height: 15px;
 	padding-top: 10px;
 	border-top: 1px solid #ebebeb;
+}
+
+#media-youtube-1 {
+	position: relative;
+	top: -192px;
+	left: 160px;
 }
