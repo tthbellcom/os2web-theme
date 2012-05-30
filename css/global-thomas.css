@@ -195,12 +195,9 @@ line-height: 22px;
 	border-top: 1px solid #ebebeb;
 }
 
-#media-youtube-1 {
-	position: relative;
-	top: -192px;
-	left: 160px;
+.spotbox-video .youtube-player {
+position: absolute;
 }
-
 .breadcrumb a:hover {
 	color: #8b0053;
 }

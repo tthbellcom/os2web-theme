@@ -582,7 +582,7 @@ body {
 #main-menu li {line-height: 64px; float: left; list-style: none}
 #main-menu li a {padding-left: 0px; padding-right: 24px; display: block; line-height: 64px; color: #4B4B4B; font-weight: normal }
 
-#breadcrumb { padding: 5px 0px; text-transform: uppercase; color: #666; margin-bottom: 10px }
+#breadcrumb { padding: 5px 0px; text-transform: uppercase; color: #666; margin-bottom: 5px }
 
 #zone-header{ padding-bottom: 10px}
 #region-sidebar-first {width: 240px; margin-right: 0px}
@@ -1136,7 +1136,7 @@ a.overlayclass span.zoom-icon-video {
 .selvbetjening-block-forside a { color: #fff; margin-bottom: 5px; font-weight: normal; font-size: 12px}
 */
     
-.selvbetjening-block-forside { color: #B3B3B3; background-image: url(../images/selvbetjening.png); padding: 10px 7px 40px 7px; margin-top: 13px; margin-left: 2px; font-size: 16px; text-transform: uppercase}
+.selvbetjening-block-forside { color: #B3B3B3; background-image: url(../images/selvbetjening.png); padding: 10px 7px 40px 7px; margin-top: 13px; margin-left: 0px; font-size: 16px; text-transform: uppercase}
 .selvbetjening-block-forside p {padding-left: 25px; margin-bottom: 0px; color: #c386a8; }
 .selvbetjening-block-forside a { color: #c386a8; margin-bottom: 5px; font-weight: normal; font-size: 12px; text-transform: none}
 .selvbetjening-block-forside .item-list a {  }
