@@ -1157,10 +1157,10 @@ background-position: 100% 65%;}
 .selvbetjening-block-forside .readmore a { font-size: 14px; margin-bottom: 10px}
 
 
-.selvbetjening-block-forside .knapper { margin: 18px 8px 15px; height: 50px;}
-.selvbetjening-block-forside .knapper a {  text-transform: uppercase; font-size: 13px; background-repeat: no-repeat; color: #fff; }
-.selvbetjening-block-forside .knapper a.kviksvar {background-image: url(../images/kviksvar.png); padding: 13px 22px 18px 32px; float: left; width: 60px}
-.selvbetjening-block-forside .knapper a.nemindsigt { background-image: url(../images/aktindsigt.png); padding: 13px 25px 18px 32px; width: 100px; float: right; margin-right: 10px}
+.selvbetjening-block-forside .knapper { margin: 20px 8px 18px; height: 50px;}
+.selvbetjening-block-forside .knapper a {  text-transform: uppercase; font-size: 14px; background-repeat: no-repeat; color: #fff; }
+.selvbetjening-block-forside .knapper a.kviksvar {background-image: url(../images/kviksvar.png); padding: 11px 22px 18px 32px; float: left; width: 60px}
+.selvbetjening-block-forside .knapper a.nemindsigt { background-image: url(../images/aktindsigt.png); padding: 11px 9px 18px 32px; width: 108px; float: right; margin-right: 10px}
 
 
 .selvbetjening-block-forside .rel-register-link {display: none}
@@ -1194,7 +1194,7 @@ height: 90px;
 
 
 .selvbetjening-block-forside .item-list ul li {
-    margin: 0 0 0 13px;
+    margin: 0 0 2px 13px;
     padding: 0 0 0 20px;
     background-image: url("../images/selvbetjening-arrow.png");
     background-repeat: no-repeat;
@@ -1202,7 +1202,7 @@ height: 90px;
 }
 
 
-.selvbetjening-block-forside .view-display-id-sb_block_forside_att_2 .view-header {color: #FFF; padding-left: 30px; padding-top: 8px; padding-bottom: 8px; text-decoration: underline; }
+.selvbetjening-block-forside .view-display-id-sb_block_forside_att_2 .view-header {color: #FFF; padding-left: 30px; padding-top: 8px; padding-bottom: 11px; }
 .selvbetjening-megamenu {background-image: url(../images/selvbetjening-230.png);  color: #FFF; padding: 20px; height: 281px }
 .selvbetjening-megamenu h3 a { 
 	text-transform: uppercase;
@@ -2201,7 +2201,7 @@ div.breadcrumb.you-are-here {
 .selbetjening-bund .borgerdk,
 .selbetjening-bund .virkdk {
 	background-repeat: no-repeat;
-	background-position: 0 65%;
+	margin-top: 15px;
 }
 
 .selvbetjening-block-portal .form-type-select {
