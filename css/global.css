@@ -433,7 +433,7 @@ ul.jcarousel-list-horizontal { }
         padding: 20px 0 0 19px;
 }
 .view-id-newslist .jcarousel-container .news-list-right {
-        padding: 20px 0 0 5px;
+        padding: 0 0 0 5px;
 }
 
 .view-newslist .jcarousel-container .news-list-next p {
@@ -2390,3 +2390,36 @@ h2.breadcrumb.you-are-here {
     height: 51px; 
     margin-top: 0px;
 }
+
+.region-menu-inner .inline li {
+    margin-right: 0px;
+    padding: 0;
+}
+
+#main-menu li, #main-menu li.first, #main-menu li.last {
+    padding: 0 0 0 0;
+}
+
+#main-menu li a { padding-left: 24px; padding-right: 24px}
+#main-menu li.first a { padding-left: 0px; }
+#main-menu li.last a { 
+}
+
+div.qtip { background-image: url(../images/megadropdownBUND.png); background-position: bottom center; padding-bottom: 34px;}
+
+.qtip-cmstheme .qtip-wrapper {
+    padding: 20px 0 0;
+}
+
+.selvbetjening-megamenu { height: auto; margin-bottom: 5px }
+
+
+#zone-menu #main-menu {
+width: 447px;
+}
+
+#zone-menu .block-search-form { width: 481px;}
+
+#zone-menu .form-item-search-block-form label { display: none}
+
+.view-id-newslist .rss-ikon a.rssikon {float: right; text-indent: -99999px; background-image: url(../images/rssfeed.png); width: 58px; height: 11px; display: block; margin-top: 5px }

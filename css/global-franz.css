@@ -30,7 +30,5 @@ width: 447px;
 #zone-menu .block-search-form { width: 481px;}
 
 #zone-menu .form-item-search-block-form label { display: none}
-.pane-newslist .pane-title {display: none}
-.view-id-newslist .view-header { height: 18px; margin-top: 10px}
-.view-id-newslist .view-header .overskrift { float: left}
-.view-id-newslist .view-header .rss-ikon a.rssikon {float: right; text-indent: -99999px; background-image: url(../images/rssfeed.png); width: 58px; height: 11px; margin-right: 5px ; display: block; margin-top: 3px }
+
+.view-id-newslist .rss-ikon a.rssikon {float: right; text-indent: -99999px; background-image: url(../images/rssfeed.png); width: 58px; height: 11px; display: block; margin-top: 5px }
