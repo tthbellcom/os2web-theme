@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6  { letter-spacing: -0.05em;  }
 
 /* Myriad Pro Font */
 
-h1, h2, h3, h4, h5, h6, ul, li, .button, .knapper, .view-selvbetjening, .view-rotating-image-view, .view-kulturnaut-events-lister, .region-footer-first, #block-block-6, #region-footer-third, #region-footer-second, .portalnews-big  { font-family: "myriad-pro", Arial, Helvetica, sans-serif; }
+h1, h2, h3, h4, h5, h6, ul, li, .button, .knapper, .view-selvbetjening, .view-id-selvbetjening select, #breadcrumb, .view-rotating-image-view, .view-kulturnaut-events-lister, .region-footer-first, #block-block-6, #region-footer-third, #region-footer-second, .portalnews-big, #main-menu, #zone-menu, #region-header-second .region-inner li, #block-search-form, nput[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"]     { font-family: "myriad-pro", Arial, Helvetica, sans-serif; }
 
 /* Myriad Pro Light Font */
 
@@ -47,13 +47,12 @@ ul, li {font-size: 14px}
 
 
 #zone-user a, #zone-menu a {color: #656565; text-decoration: none}
-#zone-menu { overflow: hidden; text-transform: uppercase; font-family: "myriad-pro", Arial, Helvetica, sans-serif;}
+#zone-menu { overflow: hidden; text-transform: uppercase;}
 
 
 #main-menu {
 	float: left; 
 	line-height: 65px;
-	font-family: "myriad-pro", Arial, Helvetica, sans-serif; 
 	}
 	
 #main-menu li a {
@@ -159,7 +158,6 @@ h2.pane-title a, h2.block-title a {
 	float: left; 
 	padding-right: 10px; 
 	text-transform: uppercase; 
-	font-family: "myriad-pro", Arial, Helvetica, sans-serif; 
 	font-size: 11px; list-style: none; }
 
 #region-sidebar-first li.expanded, #region-sidebar-first li.collapsed, #region-sidebar-first li.leaf {padding: 0; margin: 0}
@@ -514,33 +512,59 @@ ul.jcarousel-list-horizontal { }
     background: none repeat scroll 0 0 #909090;
 }
 */
-body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; }
-#page {background-image: url(../images/ebeltoft-stor-bg.jpg); background-attachment: fixed; }
-
+body { 
+	font:13px sans-serif; *font-size:small; *font:x-small; 
+	line-height:1.22;
+	background-image: url(../images/ebeltoft-stor-bg.jpg); 
+	background-attachment: fixed; 
+	 }
+#page {
+	background: url(../images/sideskygge0.png) center top no-repeat;
+}
 
 #section-header {
 	background-image: url(../images/byvaaben1.png); 
 	background-position: center top; 
 	background-repeat: no-repeat; 
-	height: 203px;}
+	height: 202px;}
 #section-content {
-	background-image: url(../images/byvaaben2.png); 
-	background-position: center top; 
-	background-repeat: no-repeat; 
-	padding-bottom: 25px;}
+	background: url(../images/byvaaben-00.png) center top no-repeat;}
 #section-footer {
 	background-image: url(../images/byvaaben3.png); 
 	background-position: center top; 
-	background-repeat:repeat-y; 
-	padding-top: 25px;}
+	background-repeat:repeat-y;}
 
 /*#zone-preface-wrapper {height: 5px; background-image: url(../images/lilla-streg.png)}*/
 
 #zone-footer-wrapper {}
+#zone-content-wrapper { 
+	width: 1018px; 
+	margin: auto; 
+	/*background-color: #FFF;*/
+	/*background-image: url(../images/transwhite.png)*/
+	background: url(../images/content-bg03.png);
+	
+	}
+.page-taxonomy #zone-content-wrapper {	
+	background: url(../images/content-bg2.png)
+	}
+.front #zone-content-wrapper {	
+	background: url(../images/content-bg-fs.png)
+	}
+#zone-content {
+	padding-top: 10px;
+	background-image: url(../images/topskygge02.png); 
+	background-repeat: no-repeat;
+	background-color: transparent;
+	}
 
-#zone-content {padding-top: 10px;background-image: url(../images/transwhite.png); background-color: transparent;}
-
-#zone-footer {border-radius: 6px; background-image: url(../images/footer-bg.png); background-position: top left; background-repeat: repeat-x; min-height: 350px;}
+#zone-footer {
+	border-radius: 6px; 
+	background-image: url(../images/footer-bg.png); 
+	background-position: top left; 
+	background-repeat: repeat-x; 
+	min-height: 350px;
+	padding-top: 25px}
 
 #zone-postscript { background-image: url(../images/cw-bg-bund.png); background-position: center; background-repeat: repeat-y; }
 #zone-menu { background-image: url(../images/menu-bag.png); font-family: "myriad-pro", Arial, Helvetica, Tahoma, sans-serif; height: 68px; background-position: center top}
@@ -558,12 +582,12 @@ body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; 
 #main-menu li {line-height: 64px; float: left; list-style: none}
 #main-menu li a {padding-left: 0px; padding-right: 24px; display: block; line-height: 64px; color: #4B4B4B; font-weight: normal }
 
-#breadcrumb { padding: 5px 10px; text-transform: uppercase; font-family: "myriad-pro", Arial, Helvetica, Tahoma, sans-serif; color: #666 }
+#breadcrumb { padding: 5px 0px; text-transform: uppercase; color: #666; margin-bottom: 10px }
 
 #zone-header{ padding-bottom: 10px}
 #region-sidebar-first {width: 240px; margin-right: 0px}
 
-#region-menu { width: 954px;}
+#region-menu { width: 960px; margin-right: 0px; padding-right: 0px}
 
 .region-footer-first-inner, .region-footer-second-inner, .region-footer-third-inner {margin: 29px 0 10px 0 }
 .region-footer-first-inner {padding-left: 145px; line-height: 30px; margin: 0;}
@@ -579,8 +603,28 @@ body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; 
 .omega-24-twocol-12-12 {width: 940px}
 .omega-24-twocol-12-12 .grid-12 {width: 460px; background-color: transparent}
 
-#block-search-form .content #edit-search-block-form--2 {width: 333px; font-size: 18px; border: none; height: 40px; line-height: 40px; padding: 0 ; text-transform: uppercase; background: transparent; font-family: "myriad-pro", Arial, Helvetica, sans-serif; margin: 14px 0px; width: 370px; position: relative; color: #9a9a9a; }
+#block-search-form .content #edit-search-block-form--2 {
+	width: 333px; 
+	font-size: 20px; 
+	border: none; 
+	height: 59px; 
+	/*line-height: 40px; */
+	padding: 0 ; 
+	text-transform: uppercase; 
+	background: transparent; 
+	/*margin: 14px 0px; */
+	width: 370px; 
+	/*position: relative; */
+	color: #9a9a9a; }
 
+
+#zone-menu .form-item-search-block-form input[type="text"] {
+	width: 399px !important;
+	padding-left: 20px !important;
+	text-transform: uppercase !important;
+	}
+	
+	
 #block-search-form #edit-submit {
     background-image: url(../images/search-button.png); width: 70px; height: 68px; border: none; margin: 0; padding: 0; border-radius: 0px;  -moz-border-radius: 0px;
     }
@@ -979,7 +1023,6 @@ ul.menu li a.menu-minipanel-1608 {background-image: url(../images/topddhandle.pn
 .spotbox h3 {width: 190px; height: 30px; overflow: hidden; line-height: 0.9em; background-image: url(../images/spotboxPILb.png); background-position: right center; background-repeat: no-repeat; line-height: 30px;font-size: 16px; color: #8A8A8A; font-weight: normal}
 .spotbox-video h3 { float: left; width: 120px; height: auto; padding:0 0 3px 0; margin: 22px 20px 5px; background-image: none}
 .spotbox-video h4 { float: left; width: 105px; height: auto; padding:0 0 0 15px; margin: 10px 20px 5px; background-image: url(../images/spotboxPIL.png); background-repeat: no-repeat;  }
-.spotbox-video h3 { border-bottom: solid 1px #EBEBEB}
 .spotbox h3 a { font-size: 16px; color: #8A8A8A; font-weight: normal; line-height: 15px}
 
 .spotbox h4 {font-size: 12px; color: #8A8A8A ; clear: both; font-weight: normal; line-height: 1.1em}
@@ -1500,7 +1543,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 .menu-minipanels .aktuelle-emner h2.pane-title, .menu-minipanels .aktuelle-emner .pane-content { padding-left: 5px}
 
 .panels-flexible-region-inside {padding: 0}
-#zone-menu {   height: 65px;}
+#zone-menu {   height: 64px;}
 .qtip-cmstheme .qtip-wrapper { background-image: url("../images/megadropdownBAG.png");}
 
 #block-search-form #edit-submit { height: 65px; width: 73px;}
@@ -1685,7 +1728,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 .region-inner h1.title {
 	color: #7a7a7a;
 	font-size: 34px;
-	text-transform: uppercase;
+	margin: 58px 0 6px 0;
 }
 
 .field-items .field-item p {
@@ -1837,7 +1880,7 @@ color: #B3B3B3;
     min-height: 40px;
     text-indent: -99999px;
     width: 46px; float: right;
-	margin-right: 10px;	
+	margin-right: 9px;	
 }
 
 .skjul-andre-sites, #block-block-12, .vis-andre-sites, #block-views-os2web-diverse-block-2,#block-views-os2web-diverse-block-1 {float: right}
@@ -2057,12 +2100,12 @@ h2.breadcrumb.you-are-here {
 	font-weight: normal;
 	float: left;
 	padding: 0 5px 0 0;
-	margin: 0;
+	margin: 0 0 0 10px;
 }
 
 .breadcrumb p,
 .breadcrumb a {
-	color: #9b9b9b;
+	color: #5C5C5C;
 	font-size: 11px;
 	display: block;
 	margin: 0 5px 0 5px;

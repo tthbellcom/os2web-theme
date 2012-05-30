@@ -200,3 +200,7 @@ line-height: 22px;
 	top: -192px;
 	left: 160px;
 }
+
+.breadcrumb a:hover {
+	color: #8b0053;
+}
