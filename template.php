@@ -36,9 +36,9 @@ function cmstheme_breadcrumb($variables) {
     if (!empty($breadcrumb)) {
     // Provide a navigational heading to give context for breadcrumb links to
     // screen-reader users. Make the heading invisible with .element-invisible.
-    $output = '<h2 class="breadcrumb you-are-here">' . t('Du er her: ') . '</h2>';
+    $output = '<div class="breadcrumb you-are-here">' . t('Du er her: ') . '</div>';
 /*    $output .= '<div class="breadcrumb">' . implode('<p> > </p> ', $breadcrumb) . '</div>'; */
-    $output .= '<div class="breadcrumb">' . implode('<p> > </p> ', $breadcrumb) . '</div>'; 
+    $output .= '<div class="breadcrumb">' . implode('<div class="bread-crumb"> > </div> ', $breadcrumb) . '</div>'; 
 	  
   
 return $output;
