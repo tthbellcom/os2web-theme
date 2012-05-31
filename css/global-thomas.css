@@ -101,7 +101,7 @@ line-height: 22px;
         width: 79px;
         background-position: right top;
         position: absolute;
-        top: 147px;
+        top: 92px;
         left: 625px;
 }
 
@@ -298,14 +298,14 @@ float: left;
 #block-apachesolr-search-sort div.block-inner {
  width: 140px;
  position:absolute;
- top: 142px;
+ top: 94px;
  left: 34px;
 }
-
+/*
 .logged-in #block-apachesolr-search-sort div.block-inner {
  top: 87px;
 }
-
+*/
 #block-apachesolr-search-sort li {
  position: relative;
 }

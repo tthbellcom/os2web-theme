@@ -142,8 +142,9 @@ h2.pane-title a, h2.block-title a {
     padding: 0; 
     border-radius: 0px;  
     -moz-border-radius: 0px; 
-    background: #FBFBFB;
+    background-color: #FBFBFB;
 	*line-height:5px;
+    text-indent: 99999px;
 }
 
 #edit-submit {
@@ -578,7 +579,7 @@ body {
 #zone-user {height: 33px; padding-top: 0px;font-size: 9px;}
 #zone-user .menu { margin-top: 0px ; line-height: 22px}
 
-#zone-menu .region-inner, #zone-content-wrapper .region-inner { }
+#zone-menu .region-inner, #zone-content-wrapper .region-inner {position: relative; }
 #zone-menu #main-menu  {line-height: 64px; height: 64px; font-size: 20px; margin: 0 13px;  }
 #main-menu {float: left; line-height: 64px;}
 #main-menu li {line-height: 64px; float: left; list-style: none}
