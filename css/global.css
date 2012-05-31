@@ -103,19 +103,20 @@ ul.inline li {
 	}
 	
 h2.pane-title, h2.block-title {
-	color: #787878; font-size: 16px; 
+	color: #787878; 
+	font-size: 14px; 
 	margin: 0px; 
 	border-bottom: 0px solid #ccc; 
-	margin-bottom: 5px; 
+	margin-bottom: 2px; 
 	padding-bottom: 0px; 
-	padding-left: 10px; 
-	padding-top: 10px; 
+	padding-left: 7px; 
+	padding-top: 9px; 
 	text-transform: uppercase; 
 	font-weight: normal
 	}
 
-.pane-newslist-panel-pane-3 h2.pane-title {
-	margin-left: 10px
+.pane-newslist-panel-pane-3 h2.pane-title,  .pane-spotboxe-panel-pane-5 h2.pane-title {
+	margin-left: 12px
 	}
 	
 h2.pane-title a, h2.block-title a {
@@ -248,10 +249,12 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	background: url(../images/slide-nav-arrow-default.png) no-repeat 2% 48% transparent;
 	padding: 0 5px 0 25px;
 	padding-right: 10px;
+        color: #787878;
 }
 
 .custom-slideshow .views-slideshow-pager-field-item.active .views-field-title .item-bg {
 	background: url(../images/slide-nav-arrow.png) no-repeat 2% 48% transparent;
+        color: #fff;
 }
 
 .views-slideshow-pager-field-item.active .views-field-title .views-content-title {
@@ -290,7 +293,7 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	background-repeat: no-repeat;
 	position: relative;
 	font-size: 21px;
-	color: #666;
+	color: #4B4B4B;
 	padding-left: 20px;
 }
 
@@ -341,7 +344,6 @@ ul.jcarousel-list-horizontal { }
 .view-id-newslist .news-list-left {
 	float: left;
 	text-align: left;
-	padding-top: 8px;
 	height: 70px;
 	overflow: hidden;
 }
@@ -832,7 +834,7 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 
 /* Kontaktblok */
 
-.view-id-kontaktblok { background-image: url(../images/kontaktBAG.png); background-repeat: no-repeat; height: 395px; }
+.view-id-kontaktblok { background-image: url(../images/kontaktBAG.png); background-repeat: no-repeat; height: 395px; width: 232px }
 
 .view-id-kontaktblok .view-content { height: 305px; padding-top: 20px;  overflow: hidden}
 .view-id-kontaktblok .view-footer { height: 45px; padding-top: 25px; padding-left: 20px }
@@ -853,7 +855,8 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 
 .view-kontaktblok {
 	margin-bottom: 20px;
-	margin-top: 6px;
+	margin-top: 3px;
+	margin-left: 1px
 }
 
 .view-kontaktblok .views-field {
@@ -1020,10 +1023,10 @@ ul.menu li a.menu-minipanel-1608 {background-image: url(../images/topddhandle.pn
 #panel-borger .pane-spotboxe-panel-pane-3 {margin-top: 7px}
 
 .spotbox h3, .spotbox h4 { padding: 20px; margin: 0;  }
-.spotbox h3 {width: 190px; height: 30px; overflow: hidden; line-height: 0.9em; background-image: url(../images/spotboxPILb.png); background-position: right center; background-repeat: no-repeat; line-height: 30px;font-size: 16px; color: #8A8A8A; font-weight: normal}
-.spotbox-video h3 { float: left; width: 120px; height: auto; padding:0 0 3px 0; margin: 22px 20px 5px; background-image: none}
+.spotbox h3 {width: 190px; height: 30px; overflow: hidden; line-height: 0.9em; background-image: url(../images/spotboxPILb.png); background-position: right center; background-repeat: no-repeat; line-height: 16px;font-size: 16px; color: #8A8A8A; font-weight: normal; padding: 15px 15px 25px}
+body .spotbox-video h3 { display: block; float: left; width: 128px; height: auto; padding:0 0 3px 0; margin: 22px 16px 5px; background-image: none}
 .spotbox-video h4 { float: left; width: 105px; height: auto; padding:0 0 0 15px; margin: 10px 20px 5px; background-image: url(../images/spotboxPIL.png); background-repeat: no-repeat;  }
-.spotbox h3 a { font-size: 16px; color: #8A8A8A; font-weight: normal; line-height: 15px}
+.spotbox h3 a { font-size: 16px; color: #8A8A8A; font-weight: normal; line-height: 19px}
 
 .spotbox h4 {font-size: 12px; color: #8A8A8A ; clear: both; font-weight: normal; line-height: 1.1em}
 .spotbox .views-row:hover a, .spotbox .views-row:hover h4 { color: #880054; }
@@ -1098,6 +1101,8 @@ a.overlayclass span.zoom-icon-video {
 }
 
 .spotbox-tall, .spotbox-video { margin-left: 10px}
+.portal-borger .spotbox-video { margin-left: 9px}
+
 .spotbox-row-tall {
     background-image: url("../images/spot2.png");
     background-repeat: no-repeat;
@@ -1136,7 +1141,7 @@ a.overlayclass span.zoom-icon-video {
 .selvbetjening-block-forside a { color: #fff; margin-bottom: 5px; font-weight: normal; font-size: 12px}
 */
     
-.selvbetjening-block-forside { color: #B3B3B3; background-image: url(../images/selvbetjening.png); padding: 10px 7px 40px 7px; margin-top: 13px; margin-left: 0px; font-size: 16px; text-transform: uppercase}
+.selvbetjening-block-forside { color: #B3B3B3; background-image: url(../images/selvbetjeningFORSIDE.png); padding: 10px 7px 40px 7px; margin-top: 12px; margin-left: 0px; font-size: 16px; text-transform: uppercase}
 .selvbetjening-block-forside p {padding-left: 25px; margin-bottom: 0px; color: #c386a8; }
 .selvbetjening-block-forside a { color: #fff; margin-bottom: 5px; font-weight: normal; font-size: 12px; text-transform: none}
 .selvbetjening-block-forside .item-list a {  }
@@ -1157,14 +1162,14 @@ background-position: 100% 65%;}
 .selvbetjening-block-forside .readmore a { font-size: 14px; margin-bottom: 10px}
 
 
-.selvbetjening-block-forside .knapper { margin: 20px 8px 18px; height: 50px;}
+.selvbetjening-block-forside .knapper { margin: 1px 8px 18px; height: 50px;}
 .selvbetjening-block-forside .knapper a {  text-transform: uppercase; font-size: 14px; background-repeat: no-repeat; color: #fff; }
 .selvbetjening-block-forside .knapper a.kviksvar {background-image: url(../images/kviksvar.png); padding: 11px 22px 18px 32px; float: left; width: 60px}
-.selvbetjening-block-forside .knapper a.nemindsigt { background-image: url(../images/aktindsigt.png); padding: 11px 9px 18px 32px; width: 108px; float: right; margin-right: 10px}
+.selvbetjening-block-forside .knapper a.nemindsigt { background-image: url(../images/aktindsigt.png); padding: 11px 9px 18px 32px; width: 119px; float: right; margin-right: 10px}
 
 
 .selvbetjening-block-forside .rel-register-link {display: none}
-
+/*
 .selvbetjening-block-forside .form-type-select {
    width: 260px;
    height: 50px;
@@ -1191,18 +1196,18 @@ background-position: 100% 65%;}
 .selvbetjening-block-forside .item-list {
 height: 90px;
 }
-
+*/
 
 .selvbetjening-block-forside .item-list ul li {
-    margin: 0 0 2px 13px;
-    padding: 0 0 0 20px;
+    margin: 0 0 2px 23px;
+    padding: 0 0 0 18px;
     background-image: url("../images/selvbetjening-arrow.png");
     background-repeat: no-repeat;
     background-position: left center;
 }
 
 
-.selvbetjening-block-forside .view-display-id-sb_block_forside_att_2 .view-header {color: #FFF; padding-left: 30px; padding-top: 8px; padding-bottom: 11px; }
+.selvbetjening-block-forside .view-display-id-sb_block_forside_att_2 .view-header {color: #FFF; padding-left: 23px; padding-top: 8px; padding-bottom: 11px; }
 .selvbetjening-megamenu {background-image: url(../images/selvbetjening-230.png);  color: #FFF; padding: 20px; height: 281px }
 .selvbetjening-megamenu h3 a { 
 	text-transform: uppercase;
@@ -1292,9 +1297,10 @@ overflow: hidden;
 .portal-side .selvbetjening-block-portal .view-header {margin-top: 0;}
 
 .portal-side .view-display-id-sb_block_portal_att_2 .view-header {
-	color: #bc81a1;
-	margin-left: 13px;
+	color: #FFF;
+	margin-left: 23px;
 	font-size: 15px;
+	padding-bottom: 10px;
 }
 
 .portal-politik-og-planer .view-display-id-sb_block_portal_att_2 {
@@ -1548,7 +1554,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 #zone-menu {   height: 64px;}
 .qtip-cmstheme .qtip-wrapper { background-image: url("../images/megadropdownBAG.png");}
 
-#block-search-form #edit-submit { height: 65px; width: 73px;}
+#block-search-form #edit-submit { height: 65px; width: 73px;background-position: 99px 104px;}
 
 .panels-flexible-region .pane-kulturnaut-events-lister {
     margin-left: 6px;
@@ -1914,7 +1920,7 @@ color: #B3B3B3;
 }
 .selvbetjening-block-portal .knapper {
 	display: none}
-
+/*
 .selvbetjening-block-portal .form-type-select select { 
 	font-size: 15px;  height: 35px;
     padding: 10px 3px 3px 0;}
@@ -1926,7 +1932,7 @@ color: #B3B3B3;
     overflow: hidden;
     width: 203px;
 }
-
+*/
 #panel-politik-og-planer .selvbetjening-block-portal .view-header h3 a {
 	background-image: url(../images/politikogplanerTEKST.png);
 	background-repeat: no-repeat;
@@ -1944,8 +1950,8 @@ color: #B3B3B3;
 #panel-borger .selvbetjening-block-portal .view-header h3 a{
 	background-image: url(../images/borgerTEKST.png);
 	background-repeat: no-repeat;
-	background-position: 134px 24px;
-	padding-top: 5px;
+	background-position: 122px 31px;
+	padding-top: 11px;
 }
 
 
@@ -1961,7 +1967,7 @@ color: #B3B3B3;
 }
 #panel-borger .view-spotboxe .spotbox-row { padding: 6px 1px 0 0 }
 
-#pop-borgerservices h3 {font-size: 21px; font-weight: normal; padding-top: 10px; margin-bottom: 0px}
+#pop-borgerservices h3 {font-size: 21px; font-weight: normal; padding-top: 8px; margin-bottom: 0px}
 #pop-borgerservices .pane-content {
 	margin: 0 }
 	
@@ -2096,6 +2102,7 @@ text-transform: uppercase;
 	background-position: 50px 7px;
 }
 
+.bread-crumb,
 div.breadcrumb.you-are-here {
 	font-size: 11px;
 	color: #9b9b9b;
@@ -2105,7 +2112,7 @@ div.breadcrumb.you-are-here {
 	margin: 0 0 0 10px;
 }
 
-.bread-crumb,
+.breadcrumb,
 .breadcrumb a {
 	color: #5C5C5C;
 	font-size: 11px;
@@ -2201,7 +2208,7 @@ div.breadcrumb.you-are-here {
 .selbetjening-bund .borgerdk,
 .selbetjening-bund .virkdk {
 	background-repeat: no-repeat;
-	margin-top: 15px;
+	margin-top: 25px;
 }
 
 .selvbetjening-block-portal .form-type-select {

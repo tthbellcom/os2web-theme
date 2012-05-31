@@ -1,4 +1,42 @@
 
+/* nedefter er fra 31. maj */
+
+.grid-6.region-content li {
+    margin-left: 25px;
+    list-style-image:url("../images/megamenu-arrow-over.png");
+    color: #4A4A4A;
+    font-size: 13px;
+    line-height: 22px;
+}
+.grid-6.region-content span a{    
+    color: #4B4B4B;
+    font-size: 15px;
+}
+.grid-6.region-content .field-name-field-webform-attachment{
+    margin-bottom: 20px;
+}
+.grid-6.region-content .field-name-field-webform-attachment .field-items:first-child{
+    width: 470px;
+    display: block;
+    border-top: 1px solid #CCCCCC;
+}
+.grid-6.region-content .field-name-field-webform-attachment .odd span.file:hover, .grid-6.region-content .field-name-field-webform-attachment .even span.file:hover{
+    background-color: #fffeee;
+}
+.grid-6.region-content .field-name-field-webform-attachment .field-items span.file{
+    width: 458px;
+    display: block;
+    border-bottom: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    padding:5px;
+}
+.grid-6.region-content .field-name-field-webform-attachment .odd span.file{
+    background-color: #F1F5FA;
+}
+
+/* nedefter er fra 29. maj */
+
 /* borger - populære borgerservices */
 #panel-borger .selvbetjening-block-forside a {
     color: #FFFFFF;
@@ -16,37 +54,19 @@
     font-size: 14px;
 }
 
-#panel-borger .selvbetjening-block-portal .form-type-select select {
-    font-size: 14px;
-    height: 35px;
-    padding: 10px 3px 3px 0;
-}
-#panel-borger .selvbetjening-block-forside .form-type-select select {
-    background: none repeat scroll 0 0 transparent;
-    border: medium none;
-    font-size: 14px;
-    color: #8b0053;
-    height: 50px;
-    padding: 16px 20px 15px 0;
-    text-transform: none;
-    width: 298px;
-}
 #panel-borger .portal-side .selvbetjening-block-portal .view-header {
     color: #b9809f;
     font-size: 14px;
 }
-#panel-borger .selvbetjening-block-portal #ctools-jump-menu--2, .selvbetjening-block-portal #ctools-jump-menu {
-    background-image: url("../images/dropdown2BORGER.png");
-}
 
 /* bokse titel */
 
-#panel-borger h2.pane-title, h2.block-title {
+/*#panel-borger h2.pane-title, h2.block-title {
     font-size: 14px;
     margin-left: 7px;
     margin-top:16px;
 }
-
+*/
 #panel-borger portalnews-big .views-row.views-row-first .news-list-left {
     border: 2px solid #FFFFFF;
 }
@@ -57,9 +77,9 @@
 #panel-borger .portalnews-big .views-row .news-list-right p:first-child {
     margin-top: 3px;
 }
-#panel-borger .portalnews-big h3 a {
+/*#panel-borger .portalnews-big h3 a {
     /* overskrives af global-ts !!! */
-    color: #787878;
+  /*  color: #787878;
     font-family: Arial,Helvetica,sans-serif;
     font-size: 10px;
 }
@@ -67,7 +87,7 @@
     font-size: 10px;
 }
 /* spotbokse nederst */
-#panel-borger .pane-spotboxe-panel-pane-3 .spotbox h3 {
+/*#panel-borger .pane-spotboxe-panel-pane-3 .spotbox h3 {
     background-image: url("../images/spotboxPILb.png");
     background-position: right center;
     background-repeat: no-repeat;
@@ -86,7 +106,7 @@
     font-size: 16px;
     font-weight: normal;
     line-height: 30px;
-}
+}*/
 
 
 /* det sker boks */

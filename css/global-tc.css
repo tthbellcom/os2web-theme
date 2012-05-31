@@ -103,6 +103,7 @@
   clear: both;
   margin-right: 0;
   padding-left: 0;
+  padding-top: 8px;
   height: 155px;
 }
 
@@ -125,9 +126,9 @@
   width: 470px;
   background: url("../images/aktueltBORGER.png") repeat scroll 0 0 transparent;
   height: 232px;
-  margin-left: 10px;
+  margin-left: 9px;
 }
-
+#panel-borger .panel-region-middle-right { margin-left: 8px}
 .portalnews-big .views-row .news-list-right p a,
 .portalnews-big .views-row .news-list-right p {
   color: #797979;
@@ -152,4 +153,21 @@
 
 .portalnews-big .field-content p {
   margin: 0;
+}
+
+.spotbox h3 .spotWrap {
+  position: relative;
+  top: expression(this.offsetHeight < 22 ? "10px" : "0");
+}
+
+.spotbox h3 {
+  display: table-cell;
+  padding: 15px 25px 15px 15px;
+  vertical-align: middle;
+  height: 41px;
+}
+@-moz-document url-prefix() {
+  .spotbox h3 {
+    height: 70px;
+  }
 }

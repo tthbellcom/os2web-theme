@@ -22,11 +22,13 @@ jQuery(document).ready(function () {
       jQuery('#region-sidebar-first .active').parent().addClass('menuActive');
 	}
 
-jQuery('.vis-andre-sites a').click(function(event) {
+jQuery('.vis-andre-sites a, .skjul-andre-sites a').click(function(event) {
 	event.preventDefault();
 	jQuery('#'+jQuery(this).data('target')).toggle();
-	jQuery(this).toggle();	
+	jQuery('.vis-andre-sites a').toggle();
 });
+
+
 
 });
 

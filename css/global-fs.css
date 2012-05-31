@@ -6,13 +6,15 @@
 #forside .grid-8 { width: 650px}
 .billedrotator { 
 	background-image: url(../images/billedkarusel-bg.png); 
+	margin-top: 12px;
 	margin-left: 9px; 
 	padding-left: 1px;
-	padding-top: 13px;
-	padding-bottom: 4px}
+	padding-top: 0px;
+	padding-bottom: 5px;
+	background-repeat: no-repeat}
 
 .view-id-newslist .view-content {
-    background: url("../images/news-list-bg.png") repeat scroll 0 0 transparent;
+    background: url("../images/aktueltBAG.png") repeat scroll 0 0 transparent;
     height: 158px;
     margin-left: 9px;
     padding: 2px 0;
@@ -25,13 +27,9 @@
 	width: 631px;
 }
 
-#zone-content {
-    background-color: transparent;
-    background-image: none;
-}
-.panels-flexible-row {background-image: url("../images/transwhite.png"); padding-top: 7px;}
-.panels-flexible-row-last {border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;}
-.panels-flexible-row-forside-1 {background-image: url(../images/forside-top.png); background-repeat: no-repeat; height: 493px; }
+#zone-content, .panels-flexible-row {background-image: url("../images/transwhite.png"); background-repeat: repeat}
+.panels-flexible-row-last {border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; padding-top: 11px}
+.panels-flexible-row-forside-1 {background-image: url(../images/skyggeINDHOLD.png); background-repeat: no-repeat; height: 493px; }
 .container-12 .grid-6 pane-spotboxe-panel-pane-3 {}
 
 
@@ -66,11 +64,11 @@ background-position: 80px 5px;
 
 
 .panels-flexible-region .pane-kulturnaut-events-lister a {
-	color: #9b9b9b;
+	color: #787878;
 }
 .panels-flexible-region .pane-newslist h2 {
-    padding-left: 20px;
-    color: #9B9B9B;
+    padding-left: 17px;
+    color: #787878;
     font-size: 14px;
     font-weight: normal;
     margin-bottom: 1px ;
