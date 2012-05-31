@@ -1555,7 +1555,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 #zone-menu {   height: 64px;}
 .qtip-cmstheme .qtip-wrapper { background-image: url("../images/megadropdownBAG.png");}
 
-#block-search-form #edit-submit { height: 65px; width: 73px;background-position: 99px 104px;}
+#block-search-form #edit-submit { height: 65px; width: 73px;}
 
 .panels-flexible-region .pane-kulturnaut-events-lister {
     margin-left: 6px;
