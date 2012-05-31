@@ -344,7 +344,6 @@ ul.jcarousel-list-horizontal { }
 .view-id-newslist .news-list-left {
 	float: left;
 	text-align: left;
-	padding-top: 8px;
 	height: 70px;
 	overflow: hidden;
 }
