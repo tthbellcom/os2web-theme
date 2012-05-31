@@ -58,6 +58,8 @@ function cmstheme_preprocess_region(&$vars) {
       'alpha_debug_sidebar_first',
       'context',
     );
+    if (arg(0)==='search') $dirty=true;
+    else
     foreach ($vars['elements'] as $key => $element) {
        if (!(($key[0]==='#') || (in_array($key,$ignored_blocks)))) {
          $dirty=true;
