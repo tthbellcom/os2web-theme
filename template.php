@@ -49,9 +49,19 @@ return $output;
   }
 }
 
+function cmstheme_preprocess_page(&$vars) {
+  error_log("Var: \$vars = " . print_r(array_keys($vars['page']), 1));
+  error_log("Var: \$2nd = " . print_r(array_keys($vars['page']['sidebar_second']), 1));
+}
+
 function cmstheme_preprocess_region(&$vars) {
+  error_log('MARK - ' . basename(__FILE__) . ':' . __LINE__ . ' in ' . __FUNCTION__ . '()');
+  error_log("Var: \$vars['region'] = " . print_r($vars['region'], 1));
   if ($vars['region'] === 'sidebar_first') {
+  error_log('MARK - ' . basename(__FILE__) . ':' . __LINE__ . ' in ' . __FUNCTION__ . '()');
+
     $blocks = block_list($vars['region']);
+    error_log("Var: \$blocks = " . print_r($blocks, 1));
     if (empty($blocks)) {
       $vars['content'] = drupal_render(menu_tree(variable_get('os2web_default_menu','navigation')));
     }

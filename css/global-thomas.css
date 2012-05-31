@@ -47,12 +47,14 @@ line-height: 22px;
 }
 
 .block-system .search-form .form-text {
-	line-height: 69px;
-	height: 69px;
-	font-size: 50px;
-	width: 640px;
+	line-height: 74px;
+	height: 74px;
+	font-size: 42px;
+	width: 600px;
 	color: #797979;
 	border: 0;
+	margin-left: 13px;
+	padding-left: 26px;
 }
 
 .search-form #edit-submit {
@@ -64,10 +66,10 @@ line-height: 22px;
 	border-radius: 0;
 	-moz-border-radius: 0;
 	-webkit-border-radius: 0;
-	height: 69px;
-	width: 64px;
+	height: 74px;
+	width: 69px;
 	text-indent: -2000px;
-
+	background-repeat: no-repeat;
 }
 
 
