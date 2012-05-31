@@ -30,17 +30,21 @@ function cmstheme_menu_link(array $variables) {
   return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
 }
 
+/*tth@bellcom.dk check if there is a better way to do this...*/
 function cmstheme_breadcrumb($variables) {
   $breadcrumb = $variables['breadcrumb'];
   
-    if (!empty($breadcrumb)) {
-    // Provide a navigational heading to give context for breadcrumb links to
-    // screen-reader users. Make the heading invisible with .element-invisible.
+  if (!empty($breadcrumb)) {
     $output = '<div class="breadcrumb you-are-here">' . t('Du er her: ') . '</div>';
-/*    $output .= '<div class="breadcrumb">' . implode('<p> > </p> ', $breadcrumb) . '</div>'; */
+    $title = drupal_get_title();
+    $breadcrumb[0] = l('Forside', '<front>');
+    $breadcrumb[] = '<a href="#">'.$title.'</a>';
+    if ($title == 'Søg') {
+		unset($breadcrumb);
+		$breadcrumb[0] = l('Forside', '<front>');
+		$breadcrumb[] = '<a href="#">Søgning</a>';
+	}
     $output .= '<div class="breadcrumb">' . implode('<div class="bread-crumb"> > </div> ', $breadcrumb) . '</div>'; 
-	  
-  
 return $output;
   }
 }

@@ -25,8 +25,9 @@ jQuery(document).ready(function () {
 jQuery('.vis-andre-sites a').click(function(event) {
 	event.preventDefault();
 	jQuery('#'+jQuery(this).data('target')).toggle();
-	jQuery(this).toggle();	
 });
+
+
 
 });
 
