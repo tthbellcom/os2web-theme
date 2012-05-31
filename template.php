@@ -51,9 +51,21 @@ return $output;
 
 function cmstheme_preprocess_region(&$vars) {
   if ($vars['region'] === 'sidebar_first') {
-    $blocks = block_list($vars['region']);
-    if (empty($blocks)) {
-      $vars['content'] = drupal_render(menu_tree(variable_get('os2web_default_menu','navigation')));
+    error_log("Var: \$vars['elements'] = " . print_r(array_keys($vars['elements']), 1));
+    $dirty = false;
+    $ignored_blocks = array(
+      'views_sitestuktur-block_1',
+      'alpha_debug_sidebar_first',
+      'context',
+    );
+    foreach ($vars['elements'] as $key => $element) {
+       if (!(($key[0]==='#') || (in_array($key,$ignored_blocks)))) {
+         $dirty=true;
+         break;
+       }
+    }
+    if (!$dirty) {
+     $vars['content'] = drupal_render(menu_tree(variable_get('os2web_default_menu','navigation')));
     }
   }
 }
