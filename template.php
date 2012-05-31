@@ -48,3 +48,12 @@ function cmstheme_breadcrumb($variables) {
 return $output;
   }
 }
+
+function cmstheme_preprocess_region(&$vars) {
+  if ($vars['region'] === 'sidebar_first') {
+    $blocks = block_list($vars['region']);
+    if (empty($blocks)) {
+      $vars['content'] = drupal_render(menu_tree(varible_get('os2web_default_menu','navigation')));
+    }
+  }
+}
