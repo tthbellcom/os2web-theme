@@ -75,27 +75,43 @@ line-height: 22px;
 
 #region-sidebar-first #facetapi-facet-apachesolrsolr-block-im-field-site-structure li {list-style:none;}
 
+.page-search-node #region-sidebar-first .block-title {
+        text-transform: none;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 1.2;
+        width: 74.5%;
+        padding: 20px 40px 20px 20px;
+        background: url(../images/v-arrow-default.png) no-repeat right 50%;
+        border-bottom: 1px solid #E6E6E6;
+        color: #333;
+}
+
+#region-sidebar-first #facetapi-facet-apachesolrsolr-block-im-field-site-structure li {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 1.2;
+        width: 74.5%;
+        padding: 20px 40px 20px 20px;
+        background: url(../images/v-arrow-default.png) no-repeat right 50%;
+        border-bottom: 1px solid #E6E6E6;
+        color: #333;
+}
+
 #region-sidebar-first #facetapi-facet-apachesolrsolr-block-im-field-site-structure li a {
-	display: inline-block;
-	vertical-align: middle;
-	line-height: 1.2;
-	width: 74.5%;
-	padding: 20px 40px 20px 20px;
-	background: url(../images/v-arrow-default.png) no-repeat right 50%;
-	border-bottom: 1px solid #E6E6E6;
-	color: #333;
+        color: #333;
+}
+
+#region-sidebar-first #facetapi-facet-apachesolrsolr-block-im-field-site-structure li:hover {
+        background: url(../images/v-arrow-default-on.png) #8B0053 no-repeat right 50%;
+        color: #FFF;
 }
 
 #region-sidebar-first #facetapi-facet-apachesolrsolr-block-im-field-site-structure li:hover a {
-	display: inline-block;
-	vertical-align: middle;
-	line-height: 1.2;
-	width: 74.5%;
-	padding: 20px 40px 20px 20px;
-	background: url(../images/v-arrow-default-on.png) #8B0053 no-repeat right 50%; 
-	border-bottom: 1px solid #E6E6E6;
-	color: #FFF;
+        color: #fff;
 }
+
+
 .printvenlig-side-sog a{
         background-image: url(../images/print.png);
         background-repeat: no-repeat;
