@@ -2,7 +2,6 @@
 /* nedefter er fra 31. maj */
 
 .grid-6.region-content li {
-    margin-left: 25px;
     list-style-image:url("../images/megamenu-arrow-over.png");
     color: #4A4A4A;
     font-size: 13px;
