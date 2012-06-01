@@ -67,7 +67,7 @@ skinr[api] = '2'
 plugins[panels][layouts] = 'panels/layouts'
 version = 'dev'
 project = 'cmstheme'
-datestamp = '1337330068'
+datestamp = '1338117523'
 grids[cmstheme_default][name] = 'CMStheme'
 grids[cmstheme_default][layouts][normal] = 'Normal'
 grids[cmstheme_default][columns][12] = '12 Columns'
@@ -136,6 +136,9 @@ settings[alpha_css][global-tc.css] = 'global-tc.css'
 settings[alpha_css][global-franz.css] = 'global-franz.css'
 settings[alpha_css][forms.css] = 'forms.css'
 settings[alpha_css][global-fs.css] = '0'
+settings[alpha_css][global-jobcenter.css] = '0'
+settings[alpha_css][global-blue.css] = '0'
+settings[alpha_exclude][sites/all/modules/calendar/css/calendar_multiday.css] = '0'
 settings[alpha_exclude][profiles/os2web/modules/contrib/date/date_api/date.css] = '0'
 settings[alpha_exclude][profiles/os2web/modules/contrib/date/date_popup/themes/datepicker.1.7.css] = '0'
 settings[alpha_exclude][modules/field/theme/field.css] = '0'
@@ -458,17 +461,3 @@ settings[alpha_region_footer_third_css] = ''
 settings[alpha_region_footer_third_equal_height_element] = '0'
 settings[alpha_region_footer_third_equal_height_container] = '1'
 settings[nice_menus_custom_css] = ''
-
-
-; Information added by drush on 2012-05-25
-version = "dev"
-project = "cmstheme"
-datestamp = "1337937350"
-
-
-
-; Information added by drush on 2012-05-27
-version = "dev"
-project = "cmstheme"
-datestamp = "1338117523"
-
