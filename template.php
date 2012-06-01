@@ -13,6 +13,7 @@
 function cmstheme_preprocess_html(&$variables) {
   $theme_path = path_to_theme();
   drupal_add_js($theme_path . '/js/script.js');
+  drupal_add_js($theme_path . '/js/jquery.vegas.js');
 }
 
 function cmstheme_menu_link(array $variables) {
