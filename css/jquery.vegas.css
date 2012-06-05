@@ -1,5 +1,5 @@
 .vegas-loading {
-	/* Loading Gif by http://preloaders.net/ */
+	/* Loading Gif by http://preloaders.net/ 
 	-moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;
 	background:#000 url(../images/loading.gif) no-repeat center center;
 	background:rgba(0, 0, 0, 0.7) url(images/loading.gif) no-repeat center center;
@@ -8,7 +8,7 @@
 	position:fixed;
 	top:20px;
 	width:32px; 
-	z-index:0;
+	z-index:0;*/
 }
 
 .vegas-overlay {
