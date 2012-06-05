@@ -28,9 +28,13 @@ jQuery('.vis-andre-sites a, .skjul-andre-sites a').click(function(event) {
 	jQuery('.vis-andre-sites a').toggle();
 });
 
-
+    jQuery( function() {
+    jQuery.vegas({
+    src:'profiles/os2web/themes/cmstheme/images/background.jpg'
+    })('overlay', {
+    src:'profiles/os2web/themes/cmstheme/images/vegas/overlays/13.png'
+    });
+    });
 
 });
 
-
-	
