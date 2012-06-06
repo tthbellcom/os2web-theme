@@ -1014,7 +1014,8 @@ ul.menu li a.menu-minipanel-1608 {background-image: url(../images/topddhandle.pn
 
 .spotbox-2-vertical .spotbox-row {
     background-image: url("../images/spot1b.png");
-        padding: 6px 1px 0px 0px;
+    padding: 6px 1px 0px 0px;
+    background-position: 0px 28px;
 }
 
 #panel-borger .view-spotboxe .view-content .spotbox-row {
@@ -2436,3 +2437,5 @@ width: 447px;
 .view-id-newslist .rss-ikon a.rssikon {float: right; text-indent: -99999px; background-image: url(../images/rssfeed.png); width: 58px; height: 11px; display: block; margin-top: 5px }
 
 .view-id-nyheds_lister .del-bund, .view-id-nyheds_lister .printvenlig-side {display: none}
+
+.view-spotboxe .subsite-frontpage {padding: 0px}
