@@ -392,6 +392,36 @@ border-bottom: 1px solid #F3F3F3;
 }
 
 .spotbox_no_picture {
-	background-image: url(../images/spotboxGRAA.png);
-	
+	background-image: url(../images/spotBOXgraa.png);
+	width: 231px;
+}
+
+.spotbox_no_picture_text {
+	height: 115px;
+	overflow: hidden;
+	display: block;
+}
+
+#region-sidebar-second .spotbox_no_picture_text {
+	height: 120px
+}
+
+#region-sidebar-second  .spotbox_no_picture_text h3,
+#region-sidebar-second  .spotbox_no_picture_text h3:hover,
+.spotbox .spotbox_no_picture_text h3:hover,
+.spotbox .spotbox_no_picture_text h3{
+	font-size: 26px;
+	color: #FFF;
+	padding: 8px 24px 4px 24px;
+	background-image: none;
+}
+
+.spotbox .views-row:hover .spotbox_no_picture_text h3 { background-image: none; }
+#region-sidebar-second  .views-row:hover .spotbox_no_picture_text h3 { background-image: none; }
+
+.spotbox_no_picture_text p {
+	font-size: 16px;
+	color: #FFF;
+	font-weight: normal;
+	padding-left: 25px;
 }
