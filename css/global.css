@@ -1014,6 +1014,7 @@ ul.menu li a.menu-minipanel-1608 {background-image: url(../images/topddhandle.pn
 
 .subsite-frontpage .spotbox-row {padding: 6px 1px 0px 0px}
 
+.subsite-frontpage .w80bg {position: relative; top: 80px;height: 60px; width: 300px; background-image: url(../images/w80.npg)}
 
 .spotbox-2-vertical .spotbox-row {
     background-image: url("../images/spot1b.png");
