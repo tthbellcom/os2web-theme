@@ -390,3 +390,8 @@ display: none;
 .search-result {
 border-bottom: 1px solid #F3F3F3;
 }
+
+.spotbox_no_picture {
+	background-image: url(../images/spotboxGRAA.png);
+	
+}
