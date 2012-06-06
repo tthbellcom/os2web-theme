@@ -2437,3 +2437,5 @@ width: 447px;
 .view-id-newslist .rss-ikon a.rssikon {float: right; text-indent: -99999px; background-image: url(../images/rssfeed.png); width: 58px; height: 11px; display: block; margin-top: 5px }
 
 .view-id-nyheds_lister .del-bund, .view-id-nyheds_lister .printvenlig-side {display: none}
+
+.view-spotboxe .subsite-frontpage {padding: 0px}
