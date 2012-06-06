@@ -1014,7 +1014,8 @@ ul.menu li a.menu-minipanel-1608 {background-image: url(../images/topddhandle.pn
 
 .spotbox-2-vertical .spotbox-row {
     background-image: url("../images/spot1b.png");
-        padding: 6px 1px 0px 0px;
+    padding: 6px 1px 0px 0px;
+    background-position: 0px 28px;
 }
 
 #panel-borger .view-spotboxe .view-content .spotbox-row {
