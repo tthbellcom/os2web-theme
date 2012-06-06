@@ -212,7 +212,7 @@ a.overlayclass span.zoom-icon-tall {
 }
 
 
-#region-sidebar-first h2.menuActive, #region-sidebar-first ul.menu li.active-trail.active, #region-sidebar-first ul.menu li.active-trail li.active-trail.active, #region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail.active, #region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail li.active-trail.active, #region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail li.active-trail li.active-trail li.active-trail.active {
+#region-sidebar-first h2.menuActive, #region-sidebar-first ul.menu li.active-trail.active, #region-sidebar-first ul.menu li.active-trail li.active-trail.active, #region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail.active, #region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail li.active-trail.active, #region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail li.active-trail li.active-trail li.active-trail.active, #zone-preface ul.nice-menu-down li.menuparent {
     background-color: #004077;
     /* skal være grafisk til sidebar */
 }
@@ -240,3 +240,4 @@ a.overlayclass span.zoom-icon-tall {
     /*selve linksene*/
     color: #ffffff;
 }
+
