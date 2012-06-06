@@ -1012,11 +1012,15 @@ ul.menu li a.menu-minipanel-1608 {background-image: url(../images/topddhandle.pn
     padding: 6px 1px 0px 10px;
 }
 
+.view-spotboxe .subsite-frontpage {padding: 6px 1px 0px 0px}
+
+
 .spotbox-2-vertical .spotbox-row {
     background-image: url("../images/spot1b.png");
     padding: 6px 1px 0px 0px;
     background-position: 0px 28px;
 }
+
 
 #panel-borger .view-spotboxe .view-content .spotbox-row {
 	background-image: url("../images/spot1b.png");
@@ -2438,4 +2442,3 @@ width: 447px;
 
 .view-id-nyheds_lister .del-bund, .view-id-nyheds_lister .printvenlig-side {display: none}
 
-.view-spotboxe .subsite-frontpage {padding: 0px}
