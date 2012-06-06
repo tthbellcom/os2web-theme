@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6, ul, li, .button, .knapper, .view-selvbetjening, .view-id
 
 /* Myriad Pro Light Font */
 
-.search-form .form-text, .views-slideshow-cycle-main-frame-row-item, #region-footer-third .content, .region-inner h1.title, .node-type-contentpage .field.field-name-field-resume-long {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 300}
+#region-sidebar-second .spotbox_no_picture_text h3, .spotbox .spotbox_no_picture_text h3, .search-form .form-text, .views-slideshow-cycle-main-frame-row-item, #region-footer-third .content, .region-inner h1.title, .node-type-contentpage .field.field-name-field-resume-long {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 300}
 
 
 /* Myriad Pro Bold Font */
@@ -2232,7 +2232,7 @@ div.breadcrumb.you-are-here {
         background-position: 100% 39%; 
         background-repeat: no-repeat; 
         font-size: 15px;
-        font-weight: normal;
+/*        font-weight: normal;*/
         border: none;
         padding: 25px 20px 20px 20px;
         margin: 0;
@@ -2243,7 +2243,6 @@ div.breadcrumb.you-are-here {
 .spotbox-indhold  h3 a {
         color: #8A8A8A; 
         display: block;
-        overflow: hidden;
                 
 }
 
