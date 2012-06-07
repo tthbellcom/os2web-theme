@@ -1081,7 +1081,13 @@ ul.menu li a.menu-minipanel-1608 {
 	}
 
 .spotbox5 .spotbox-row {
-	background-image: url(../images/spotbox5.png)
+	background-image: url(../images/spotbox5.png);
+	background-position: 7px 26px;
+    background-repeat: no-repeat;
+	}
+	
+.spotbox5 h2.pane-title {
+	padding-top: 4px
 	}
 	
 #panel-borger .view-spotboxe .view-content .spotbox-row {
