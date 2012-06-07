@@ -1019,7 +1019,6 @@ ul.menu li a.menu-minipanel-1608 {background-image: url(../images/topddhandle.pn
 .spotbox-subfront {}
 .spotbox-subsite-frontpage {}
 .spotbox-subsite-frontpage .spotbox-row {padding: 0px 0px 0px 0px; width: 300px; height: 261px; float: left; margin: 13px 10px }
-.spotbox-subsite-frontpage .overlayclass { width: 300px; height: 261px;}
 .spotbox-subsite-frontpage .w80bg { position: absolute; top: 153px;height: 94px; padding: 10px ;width: 300px; background-image: url(../images/w80.npg)}
 .spotbox .spotbox-subsite-frontpage h3 {padding: 0px; margin: 0 5px 0 0; }
 
@@ -1095,6 +1094,12 @@ a.overlayclass span.zoom-icon-video {
   width: 300px;
   border: #880054 solid 5px;
 }
+
+a.overlayclass span.spotbox-subsite-frontpage   { width: 300px; height: 261px;  visibility:hidden;border: #880054 solid 5px;
+  position:absolute;
+  left:0;
+  top:-162px;
+  border: 3px solid #880054;}
 
 .spotbox .views-row:hover span.zoom-icon, .spotbox .views-row:hover span.zoom-icon-video, .spotbox .views-row:hover span.zoom-icon-tall {
   visibility:visible;
