@@ -26,3 +26,6 @@ body {background-image: url("../images/bg.png")}
 #forside .grid-6 { width: 470px;}
 
 #forside .view-spotboxe .spotbox-row {padding-left: 0px; background-image: url("../images/spot1b.png")}
+
+#main-menu li a {
+    font-size: 16px;}
