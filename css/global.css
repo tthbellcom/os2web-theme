@@ -1099,6 +1099,13 @@ ul.menu li a.menu-minipanel-1608 {
 	width: 300px; height: 160px;
 	}
 	
+.spotbox5 .spotbody p, .spotbox5 .spotbody { 
+	margin-bottom: 0px; 
+	padding: 0 0 5px 10px;
+	color: #787878;
+	font-size: 12px;
+	}
+	
 #panel-borger .view-spotboxe .view-content .spotbox-row {
 	background-image: url("../images/spot1b.png");
 }
