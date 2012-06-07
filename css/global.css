@@ -1046,7 +1046,10 @@ ul.menu li a.menu-minipanel-1608 {
 	float: left; 
 	margin: 13px 10px
 	}
-	
+.spotbox-subsite-frontpage .spotbox-row .views-row-last {
+	margin-right: 0;
+	}
+		
 .spotbox-subsite-frontpage .w80bg { 
 	position: absolute; 
 	top: 153px;
@@ -1070,7 +1073,7 @@ ul.menu li a.menu-minipanel-1608 {
 	}
 
 .spotbox-subsite-frontpage a.overlayclass {
-	width: 300px; height: 261px;
+	width: 310px; height: 261px;
 	}
 .spotbox-subsite-frontpage img {border: 5px solid #FFF}
 .spotbox-subsite-frontpage a.overlayclass span.zoom-icon {
