@@ -1018,6 +1018,8 @@ ul.menu li a.menu-minipanel-1608 {
     background-image: url("../images/spot1.png");
     margin-bottom: 6px;
     padding: 6px 1px 0px 10px;
+    background-position: 0 28px;
+    background-repeat: no-repeat;
     }
     
 .spotbox-2-vertical .spotbox-row {
