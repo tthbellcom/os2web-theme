@@ -25,4 +25,4 @@ body {background-image: url("../images/bg.png")}
 
 #forside .grid-6 { width: 470px;}
 
-#forside .view-spotboxe .spotbox-row {padding-left: 1px}
+#forside .view-spotboxe .spotbox-row {padding-left: 1px; background-image: url("../images/spot1b.png")}
