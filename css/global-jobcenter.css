@@ -22,3 +22,5 @@ body {background-image: url("../images/bg.png")}
 #forside .grid-8 {
     width: 645px;
 }
+
+#forside .grid-6 { width: 470px;}
