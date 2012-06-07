@@ -3,7 +3,12 @@ a:link, a:visited {
     color: #004077;
     text-decoration: none;
 }
-
+.spotbox .spotbox-subfront h3 {
+    color: #004077;
+    text-decoration: none;
+    background-image: url(../images/joncenterPILspot.png);
+    background-repeat: no-repeat;
+}
 
 .block-multistep {
     background-color: #004077;
