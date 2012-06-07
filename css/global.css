@@ -1082,8 +1082,9 @@ ul.menu li a.menu-minipanel-1608 {
 
 .spotbox5 .spotbox-row {
 	background-image: url(../images/spotbox5.png);
-	background-position: 8px 26px;
+	background-position: 8px 27px;
     background-repeat: no-repeat;
+    height: 183px;
 	}
 	
 .spotbox5 h2.pane-title {
@@ -1092,10 +1093,10 @@ ul.menu li a.menu-minipanel-1608 {
 	}
 
 .spotbox5 a.overlayclass {
-	width: 310px; height: 160px;
+	width: 300px; height: 160px;
 	}
 .spotbox5 a.overlayclass span.zoom-icon {
-	width: 310px; height: 160px;
+	width: 300px; height: 160px;
 	}
 	
 #panel-borger .view-spotboxe .view-content .spotbox-row {
