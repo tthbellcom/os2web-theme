@@ -1069,8 +1069,9 @@ ul.menu li a.menu-minipanel-1608 {
 	font-size: 12px;
 	}
 
-.spotbox-subsite-frontpage a.overlayclass span.zoom-icon {
+.spotbox-subsite-frontpage a.overlayclass, .spotbox-subsite-frontpage a.overlayclass span.zoom-icon {
 	width: 300px; height: 261px;
+	border: 5px #FFF solid;
 	}
 
 #panel-borger .view-spotboxe .view-content .spotbox-row {
