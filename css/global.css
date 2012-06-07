@@ -1026,7 +1026,10 @@ ul.menu li a.menu-minipanel-1608 {
     background-position: 0px 28px;
     }
     
-.spotbox-subsite-frontpage { margin-bottom: 10px}
+.spotbox-subsite-frontpage { 
+	margin-bottom: 10px; 
+	margin-left: 5px
+	}
 
 .spotbox .spotbox-subfront h3 { 
 	height: auto; 
@@ -1044,7 +1047,7 @@ ul.menu li a.menu-minipanel-1608 {
 	width: 300px; 
 	height: 261px; 
 	float: left; 
-	margin: 13px 10px
+	margin: 13px 5px
 	}
 .spotbox-subsite-frontpage .spotbox-row .views-row-last {
 	margin-right: 0;
@@ -1081,10 +1084,11 @@ ul.menu li a.menu-minipanel-1608 {
 	}
 
 .spotbox5 .spotbox-row {
-	background-image: url(../images/spotbox5.png);
-	background-position: 8px 27px;
+	background-image: url(../images/spotbox5.png) !important;
+	background-position: 0px 27px;
     background-repeat: no-repeat;
     height: 183px;
+    margin-left: 6px
 	}
 	
 .spotbox5 h2.pane-title {
