@@ -1066,9 +1066,10 @@ ul.menu li a.menu-minipanel-1608 {
 	margin-bottom: 0px; 
 	padding: 0 0 5px 10px;
 	color: #787878;
+	font-size: 12px;
 	}
 
-.spotbox-subsite-frontpage a.overlayclass {
+.spotbox-subsite-frontpage a.overlayclass span.zoom-icon {
 	width: 300px; height: 261px;
 	}
 
