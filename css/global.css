@@ -1080,6 +1080,10 @@ ul.menu li a.menu-minipanel-1608 {
 	width: 300px; height: 261px;
 	}
 
+.spotbox5 .spotbox-row {
+	background-image: url(../images/spotbox5.png)
+	}
+	
 #panel-borger .view-spotboxe .view-content .spotbox-row {
 	background-image: url("../images/spot1b.png");
 }
