@@ -1064,9 +1064,14 @@ ul.menu li a.menu-minipanel-1608 {
 	
 .spotbox-subsite-frontpage .spotbody p, .spotbox-subsite-frontpage .spotbody { 
 	margin-bottom: 0px; 
-	padding: 0 0 5px 10px
+	padding: 0 0 5px 10px;
+	color: #787878;
 	}
-	
+
+.spotbox-subsite-frontpage a.overlayclass {
+	width: 300px; height: 261px;
+	}
+
 #panel-borger .view-spotboxe .view-content .spotbox-row {
 	background-image: url("../images/spot1b.png");
 }
