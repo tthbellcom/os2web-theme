@@ -5,7 +5,6 @@ a:link, a:visited {
 }
 .spotbox .spotbox-subfront h3 {
     color: #004077;
-    text-decoration: none;
     background-image: url(../images/joncenterPILspot.png);
     background-repeat: no-repeat;
 }
