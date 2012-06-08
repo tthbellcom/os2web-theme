@@ -270,4 +270,4 @@ a.overlayclass span.zoom-icon-tall {
     padding: 0 0 0 0;
 }
 
-#forside .spotbox-horisontal .spotbox-row {padding-top: 0px}
+#forside .spotbox-horisontal .spotbox-row, #forside .spotbox-horisontal h2.pane-title {padding-top: 0px}
