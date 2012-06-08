@@ -272,7 +272,8 @@ a.overlayclass span.zoom-icon-tall {
 
 #forside .spotbox-horisontal .spotbox-row {padding-top: 0px}
 #forside .spotbox-horisontal h2.pane-title {padding-top: 0px ; padding-bottom: 1px}
-#forside .spotbox-video .spotbox-row {padding-bottom: 5px; padding-top: 0px}
+#forside .spotbox-video .spotbox-row {padding-top: 0px}
+#forside .spotbox-video h2.pane-title {padding-top: 0px ; padding-bottom: 5px}
 
 .spotbox-row-video {
     background-position: 0 22px;
