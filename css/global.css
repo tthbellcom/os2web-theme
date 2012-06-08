@@ -1077,9 +1077,14 @@ ul.menu li a.menu-minipanel-1608 {
 	}
 
 .spotbox-subsite-frontpage a.overlayclass {
-	width: 310px; height: 260px;
+	width: 310px;
+	height: 260px;
 	}
-.spotbox-subsite-frontpage img {border: 4px solid #FFF}
+	
+.spotbox-subsite-frontpage img {
+	border: 4px solid #FFF
+	}
+	
 .spotbox-subsite-frontpage a.overlayclass span.zoom-icon {
 	width: 299px; height: 260px;
 	}
@@ -1098,10 +1103,14 @@ ul.menu li a.menu-minipanel-1608 {
 	}
 
 .spotbox5 a.overlayclass {
-	width: 285px; height: 140px;
+	width: 285px; 
+	height: 140px; 
+	margin-left: 1px;
 	}
+	
 .spotbox5 a.overlayclass span.zoom-icon {
-	width: 285px; height: 140px;
+	width: 285px; 
+	height: 140px;
 	}
 	
 .spotbox5 .spotbody p, .spotbox5 .spotbody { 
