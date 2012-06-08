@@ -256,3 +256,11 @@ a.overlayclass span.zoom-icon-tall {
 .selvbetjening-block-forside .view-content .yaselect-anchor {background-image: url(../images/dropdown1SELVBETJENING.png)}
 .selvbetjening-block-forside .view-footer .yaselect-anchor {background-image: url(../images/dropdown2SELVBETJENING.png)}
 
+.selbetjening-bund .nemid, .selbetjening-bund .borgerdk, .selbetjening-bund .virkdk {
+    margin-top: 19px;
+}
+
+#region-footer-first .footer-off-links .nemid, #region-footer-first .footer-off-links .virkdk, #region-footer-first .footer-off-links .borgerdk, .selbetjening-bund a {
+
+    height: 38px;
+}
