@@ -106,8 +106,11 @@ a:link, a:visited {
 .selvbetjening-block-forside {
     background-image: url("../images/selvbetjening-bg-BLUE.png");
     background-size: 100%;
-    height: 422px !important;
+    height: 411px !important;
     margin-top: 20px;
+    border-bottom-right-radius: 7px 10px;
+    -moz-border-radius-bottomright: 7px 10px;
+    -webkit-border-bottom-right-radius: 7px 10px;
 }
 
 .selvbetjening-block-forside a {

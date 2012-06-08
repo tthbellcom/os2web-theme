@@ -29,3 +29,8 @@ body {background-image: url("../images/bg.png")}
 
 #main-menu li a {
     font-size: 16px;}
+    
+.panels-flexible-row-forside-1 {
+    height: 480px;
+    }
+.panels-flexible-row-last {padding-top: 3px}
