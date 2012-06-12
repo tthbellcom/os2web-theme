@@ -38,6 +38,18 @@ h1, h2, h3, h4, h5, h6, ul, li, .button, .knapper, .view-selvbetjening, .view-id
 
 /* // END Fonts */
 
+ul.primary li a {
+    background-color: #DDDDDD;
+    border-color: #787878;
+    border-width: 1px 1px 1px 0;
+    margin-right: 0;
+    padding: 0 5px;
+}
+
+.inline li, .tabs li, .breadcrumb li {
+    margin-right: 0;
+}
+
 ul, li {font-size: 14px}
 
 
