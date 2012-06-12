@@ -50,7 +50,7 @@
 
  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script>
 
-
+<?php /*
 <script type="text/javascript">
 //Script til at kollapse p-tags på indholdsside
 
@@ -69,3 +69,4 @@ return false;
 }(jQuery));
 
 </script>
+*/ ?>
