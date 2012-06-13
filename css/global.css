@@ -119,10 +119,10 @@ h2.pane-title, h2.block-title {
 	font-size: 14px; 
 	margin: 0px; 
 	border-bottom: 0px solid #ccc; 
-	margin-bottom: 2px; 
+	margin-bottom: 3px; 
 	padding-bottom: 0px; 
 	padding-left: 7px; 
-	padding-top: 9px; 
+	padding-top: 6px; 
 	text-transform: uppercase; 
 	font-weight: normal
 	}
@@ -1029,7 +1029,7 @@ ul.menu li a.menu-minipanel-1608 {
     background-image: url("../images/spot1.png");
     margin-bottom: 6px;
     padding: 6px 1px 0px 10px;
-    background-position: 0 21px;
+    background-position: 0 29px;
     background-repeat: no-repeat;
     }
     
