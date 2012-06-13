@@ -1025,18 +1025,24 @@ ul.menu li a.menu-minipanel-1608 {
 #zone-user-wrapper ul.menu li {}
 #zone-user-wrapper ul.menu li a {}
 
+.spotbox h2.pane-title {
+    margin: 0 0 3px;
+    padding-bottom: 3px;
+    padding-top: 6px;
+}
+
 .view-spotboxe .spotbox-row {
     background-image: url("../images/spot1.png");
     margin-bottom: 6px;
     padding: 6px 1px 0px 10px;
-    background-position: 0 29px;
+    background-position: 0 26px;
     background-repeat: no-repeat;
     }
     
 .spotbox-2-vertical .spotbox-row {
     background-image: url("../images/spot1b.png");
-    padding: 6px 1px 0px 0px;
-    background-position: 0px 28px;
+    padding: 6px 1px 0px 1px;
+    background-position: 0px 26px;
     }
     
 .spotbox-subsite-frontpage { 
@@ -1229,7 +1235,8 @@ a.overlayclass span.spotbox-subsite-frontpage   { width: 300px; height: 261px;  
     background-image: url("../images/spot2.png");
     background-repeat: no-repeat;
     margin-bottom: 10px;
-    padding: 6px 5px 0px 2px;}
+    padding: 6px 5px 0px 2px;
+    background-position: 0 27px}
 
 .spotbox-tall-body {height: 290px; overflow: hidden; line-height: 1.1em; font-size: 12px; color: #A8A8A8; background-color: #fff; padding: 10px}
 
@@ -2567,11 +2574,11 @@ padding-left: 15px;
 background-position: 0px 5px;
 }
 
-
+/*
 .node-type-contentpage .field-items a {
 color: #4B4B4B;
 font-size: 15px;
-}
+}*/
 
 .node-type-contentpage .field-items li {
 list-style-image: url(../images/megamenu-arrow-over.png);
@@ -2957,9 +2964,10 @@ border-bottom: 1px solid #F3F3F3;
 }
 
 .spotbox_no_picture_text {
-	height: 115px;
+	height: 95px;
 	overflow: hidden;
 	display: block;
+	padding: 10px;
 }
 
 #region-sidebar-second .spotbox_no_picture_text {
@@ -2982,8 +2990,6 @@ border-bottom: 1px solid #F3F3F3;
 .spotbox_no_picture_text p {
 	font-size: 16px;
 	color: #FFF;
-	font-weight: normal;
-	padding-left: 25px;
 }
 
 .spotbox .media-youtube-preview-wrapper {
