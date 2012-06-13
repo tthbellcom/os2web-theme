@@ -1886,7 +1886,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 
 .field-items .field-item p {
     color: #4a4a4a;
-    font-size: 13px; 
+    font-size: 12px; 
     line-height: 19px;
     
 }
@@ -2583,11 +2583,11 @@ width: 447px;
 
 .node-type-contentpage .field-items h2 {
 color: #4B4B4B;
-font-size: 15px;
-background-image: url(../images/arrow-down-over.png);
+font-size: 16px;
+/*background-image: url(../images/arrow-down-over.png);
 background-repeat: no-repeat;
 padding-left: 15px;
-background-position: 0px 5px;
+background-position: 0px 5px;*/
 }
 
 /*
