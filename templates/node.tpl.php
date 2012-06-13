@@ -69,4 +69,7 @@ return false;
 }(jQuery));
 
 </script>
-*/ ?>
+*/
+
+print $bg_image_path;
+?>
