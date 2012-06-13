@@ -28,8 +28,8 @@
 }
 
 #zone-content {background-image: url("../images/transwhite.png"); background-repeat: repeat}
-.panels-flexible-row-last {border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; padding-top: 11px}
-.panels-flexible-row-forside-1 {background-image: url(../images/skyggeINDHOLD.png); background-repeat: no-repeat; height: 493px; }
+.panels-flexible-row-last {border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; padding-top: 0px}
+.panels-flexible-row-forside-1 {background-image: url(../images/skyggeINDHOLD.png); background-repeat: no-repeat; height: 468px; }
 .container-12 .grid-6 pane-spotboxe-panel-pane-3 {}
 
 
