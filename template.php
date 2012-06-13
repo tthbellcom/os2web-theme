@@ -52,7 +52,6 @@ return $output;
 
 function cmstheme_preprocess_region(&$vars) {
   if ($vars['region'] === 'sidebar_first') {
-    error_log("Var: \$vars['elements'] = " . print_r(array_keys($vars['elements']), 1));
     $dirty = false;
     $ignored_blocks = array(
       'views_sitestuktur-block_1',
@@ -70,5 +69,15 @@ function cmstheme_preprocess_region(&$vars) {
     if (!$dirty) {
      $vars['content'] = drupal_render(menu_tree(variable_get('os2web_default_menu','navigation')));
     }
+  }
+}
+
+
+/*
+ * tekst i søgefelt
+ */
+function cmstheme_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == 'search_block_form') {
+    $form['search_block_form']['#attributes']['placeholder'] = t('søg på syddjurs kommune');
   }
 }
