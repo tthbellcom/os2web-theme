@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6  { letter-spacing: -0.7px;  }
 
 /* Myriad Pro Font */
 
-h1, h2, h3, h4, h5, h6, ul, li, .button, .knapper, .view-selvbetjening, .view-id-selvbetjening select, #breadcrumb, .view-rotating-image-view, .view-kulturnaut-events-lister, .region-footer-first, #block-block-6, #region-footer-third, #region-footer-second, .portalnews-big, #main-menu, #zone-menu, #region-header-second .region-inner li, #block-search-form, nput[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], .spotbox-subsite-frontpage .spotbody { font-family: "myriad-pro", Arial, Helvetica, sans-serif; }
+h1, h2, h3, h4, h5, h6, ul, li, .button, .knapper, .view-selvbetjening, .view-id-selvbetjening select, #breadcrumb, .view-rotating-image-view, .view-kulturnaut-events-lister, .region-footer-first, #block-block-6, #region-footer-third, #region-footer-second, .portalnews-big, #main-menu, #zone-menu, #region-header-second .region-inner li, #block-search-form, nput[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], .spotbox-subsite-frontpage .spotbody, .telefonnummer { font-family: "myriad-pro", Arial, Helvetica, sans-serif; }
 
 /* Myriad Pro Light Font */
 
@@ -178,7 +178,7 @@ h2.pane-title a, h2.block-title a {
 
 #region-sidebar-first  .block-title {padding-left: 20px; line-height: 50px}
 
-#region-sidebar-second { background-image: url(../images/right_sidebar_bg.jpg)}
+#region-sidebar-second { margin-left: 0px; /*background-image: url(../images/right_sidebar_bg.jpg)*/}
 
 .block-multistep { background-color: #8B0047; color: #fff; margin-bottom: 20px}
 .block-multistep a {color: #fff}
@@ -846,10 +846,10 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 
 /* Kontaktblok */
 
-.view-id-kontaktblok { background-image: url(../images/kontaktBAG.png); background-repeat: no-repeat; height: 395px; width: 232px }
+.view-id-kontaktblok { background-image: url(../images/kontaktMELLEM.png); width: 232px; background-repeat: repeat-y }
 
-.view-id-kontaktblok .view-content { height: 305px; padding-top: 20px;  overflow: hidden}
-.view-id-kontaktblok .view-footer { height: 45px; padding-top: 25px; padding-left: 20px }
+.view-id-kontaktblok .view-content { height: 305px; padding-top: 20px;  overflow: hidden; background-image: url(../images/kontaktTOP.png); background-repeat: no-repeat}
+.view-id-kontaktblok .view-footer { height: 45px; padding-top: 48px; padding-left: 20px; background-image: url(../images/kontaktBUND.png); background-repeat: no-repeat }
 
 .kontaktblok-overskrift {color: #4B4B4B;
     font-size: 16px;
@@ -875,11 +875,12 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 	font-size: 11px;
 	color: #9B9B9B;
 	padding-left: 20px;
+	clear: left;
 }
 
 
 .view-kontaktblok .views-field strong {line-height: 20px;}
-
+/*
 .view-kontaktblok .views-field .telfonnummer,
 .view-kontaktblok .views-field .telfonnummer a {
 	background-image: none;
@@ -888,20 +889,35 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 	margin: 0;
 	line-height: 12px;
 	color: #9b9b9b;
-}
+}*/
 
-
+.telefonnummer { padding: 5px 20px}
+.telefonnummer, .telefonnummer a { font-size: 22px; color: #9B9B9B;  }
+    
+.telfonnummer , .telfonnummer a { font-size: 22px; color: #9B9B9B; margin: 0;
+    padding: 0 0 3px;    background-image: none;}
+    
+    
 .view-kontaktblok  div.dag {
 	float: left;
 	width: 129px;
 	clear: left;
 	display: block;
+	clear: left;
 }
 
 .view-kontaktblok div.aaben {
 	float: left;
 	display: block;
 }
+
+.view-kontaktblok .aabningstider { padding: 0px 20px; font-size: 11px; color: #9B9B9B; width: 200px; display: block}
+
+.view-kontaktblok h3, #region-sidebar-second .view-kontaktblok h3 { padding-left: 20px; text-transform: none; font-size: 14px}
+
+#region-sidebar-second .views-field-field-kontaktblok-callcenter h3 { padding-left: 0px; padding-top: 10px; padding-bottom: 0px}
+
+
 
 
 /* Table 1 Style */
@@ -977,7 +993,7 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 
 .block-kle-lonks-boks-kle-links-boks li.views-row-last {
     padding: 7px 0 20px 0;
-    background-image: url(../images/right-links-block-item-last.png);
+/*    background-image: url(../images/right-links-block-item-last.png);*/
     border-bottom: none;
     margin: 0 0 5px 0;
     }
@@ -1025,18 +1041,24 @@ ul.menu li a.menu-minipanel-1608 {
 #zone-user-wrapper ul.menu li {}
 #zone-user-wrapper ul.menu li a {}
 
+.spotbox h2.pane-title {
+    margin: 0 0 3px;
+    padding-bottom: 3px;
+    padding-top: 6px;
+}
+
 .view-spotboxe .spotbox-row {
     background-image: url("../images/spot1.png");
     margin-bottom: 6px;
     padding: 6px 1px 0px 10px;
-    background-position: 0 29px;
+    background-position: 0 26px;
     background-repeat: no-repeat;
     }
     
 .spotbox-2-vertical .spotbox-row {
     background-image: url("../images/spot1b.png");
-    padding: 6px 1px 0px 0px;
-    background-position: 0px 28px;
+    padding: 6px 1px 0px 1px;
+    background-position: 0px 26px;
     }
     
 .spotbox-subsite-frontpage { 
@@ -1229,7 +1251,8 @@ a.overlayclass span.spotbox-subsite-frontpage   { width: 300px; height: 261px;  
     background-image: url("../images/spot2.png");
     background-repeat: no-repeat;
     margin-bottom: 10px;
-    padding: 6px 5px 0px 2px;}
+    padding: 6px 5px 0px 2px;
+    background-position: 0 27px}
 
 .spotbox-tall-body {height: 290px; overflow: hidden; line-height: 1.1em; font-size: 12px; color: #A8A8A8; background-color: #fff; padding: 10px}
 
@@ -1858,7 +1881,9 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 .region-inner h1.title {
 	color: #7a7a7a;
 	font-size: 34px;
-	margin: 58px 0 6px 0;
+	position: relative;
+	margin-bottom: 61px;
+	top: 61px; /*t*/
 }
 
 .field-items .field-item p {
@@ -2567,11 +2592,11 @@ padding-left: 15px;
 background-position: 0px 5px;*/
 }
 
-
+/*
 .node-type-contentpage .field-items a {
 color: #4B4B4B;
 font-size: 15px;
-}
+}*/
 
 .node-type-contentpage .field-items li {
 list-style-image: url(../images/megamenu-arrow-over.png);
@@ -2957,9 +2982,10 @@ border-bottom: 1px solid #F3F3F3;
 }
 
 .spotbox_no_picture_text {
-	height: 115px;
+	height: 95px;
 	overflow: hidden;
 	display: block;
+	padding: 10px;
 }
 
 #region-sidebar-second .spotbox_no_picture_text {
@@ -2982,8 +3008,6 @@ border-bottom: 1px solid #F3F3F3;
 .spotbox_no_picture_text p {
 	font-size: 16px;
 	color: #FFF;
-	font-weight: normal;
-	padding-left: 25px;
 }
 
 .spotbox .media-youtube-preview-wrapper {

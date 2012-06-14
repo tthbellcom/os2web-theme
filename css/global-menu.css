@@ -64,7 +64,7 @@
 #region-sidebar-first .menu-block-wrapper {background-image: url(../images/menu-ul-bg.png)}
 #region-sidebar-first ul.menu li.expanded {background-image: url(../images/menu-bg-ul-li-ul.png); background-repeat: no-repeat}
 
-#region-sidebar-first ul.menu li ul.menu {background-color: #D7D7D7;}
+/*#region-sidebar-first ul.menu li ul.menu {background-color: #D7D7D7;}*/
 #region-sidebar-first ul.menu li.expanded {background-image: url(../images/menu-bg-ul-li-ul.png); background-repeat: no-repeat}
 
 #region-sidebar-first ul.menu li ul.menu li ul.menu {background-color: #C7C7C7;}

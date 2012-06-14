@@ -49,3 +49,24 @@
   </div>
 
  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script>
+
+<?php /*
+<script type="text/javascript">
+//Script til at kollapse p-tags på indholdsside
+
+(function ($) {
+var is_visible = false;
+ 
+$("h2").wrapInner('<a href="#" class="toggleLink">');
+$("p").wrap('<div class="toggle">');
+$('.toggle').hide(); 
+$('a.toggleLink').click(function() {
+$(this).parent().next('.toggle').toggle();
+ 
+return false;
+ 
+});
+}(jQuery));
+
+</script>
+*/ ?>
