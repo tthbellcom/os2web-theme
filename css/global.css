@@ -1895,7 +1895,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 
 .node-type-contentpage .field-name-body  {
     padding: 0 16px 10px 16px;
-    margin: 63px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
 }
 
 .node-type-contentpage .field.field-name-field-resume-long, .node-type-contentpage .region-inner h1.title, .node-type-contentpage .submitted, .node-type-contentpage .workbench-info-block {
