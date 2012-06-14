@@ -1882,8 +1882,8 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 	color: #7a7a7a;
 	font-size: 34px;
 	position: relative;
-	margin-bottom: 61px;
-	top: 61px; /*t*/
+	margin-bottom: 34px;
+	top: 34px;
 }
 
 .field-items .field-item p {
