@@ -219,6 +219,7 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 
 #views_slideshow_cycle_main_rotating_image_view-block_1 {
   padding: 5px;
+  width: 460px
 }
 
 #views_slideshow_cycle_main_rotating_image_view-block_1.hover {
@@ -299,8 +300,8 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	display: block;
 	padding-top: 8px;
 	height: 70px;
-	width: 440px;
-	margin-top: -78px;
+	width: 440px;/*
+	margin-top: -78px;*/
 	background-image: url(../images/slide-arrow.png);
 	background-position: 10px 14px;
 	background-repeat: no-repeat;
