@@ -300,8 +300,8 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	display: block;
 	padding-top: 8px;
 	height: 70px;
-	width: 440px;/*
-	margin-top: -78px;*/
+	width: 440px;
+	margin-top: -78px;
 	background-image: url(../images/slide-arrow.png);
 	background-position: 10px 14px;
 	background-repeat: no-repeat;
@@ -310,6 +310,9 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	color: #4B4B4B;
 	padding-left: 20px;
 }
+
+,portal-erhverv .custom-slideshow .views-field-body a {
+	margin-top: 0px;}
 
 .custom-slideshow .views-field-body a span {
 	color: #8b0053;
