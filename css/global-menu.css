@@ -185,4 +185,4 @@
 
 
 
-#block-menu-block-5 ul, #block-menu-block-5 li , #block-menu-block-5 a { background-color: transparent; }
+#block-menu-block-5 ul, #block-menu-block-5 li , #block-menu-block-5 a, #block-menu-block-5 ul.menuActive { background-color: transparent; background-image: none;  }
