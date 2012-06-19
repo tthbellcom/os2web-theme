@@ -3018,6 +3018,14 @@ border-bottom: 1px solid #F3F3F3;
 .ccc-outer .ccc-inner .ccc-button {
  color: #000; }
 
+.ccc-outer {border-color: #880054 !important}
+
+.ccc-inner h2, .ccc-expand {
+    background-color: #880054 !important;}
+
+.ccc-inner a {
+    color: #880054 !important;
+}
 
 #block-views-redaktoer-info-block { background-color: #E6E6E6; padding: 10px; margin-top: 20px}
 
