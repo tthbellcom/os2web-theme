@@ -1263,10 +1263,15 @@ a.overlayclass span.spotbox-subsite-frontpage   { width: 300px; height: 261px;  
 .spotbox-row-video {
     background-image: url("../images/spot3.png");
     background-repeat: no-repeat; 
-    margin-bottom: 5px;
-    padding: 6px 5px 0px 2px;
-    height: 186px}
-    
+    background-position: 0 27px;
+    margin-bottom: 21px;
+    height: 217px
+}
+  
+.spotbox-row-video h2.pane-title {
+padding-top: 12px;
+} 
+
 .spotbox-horisontal {margin-left: 10px; width: 490px}
 
 
@@ -2795,15 +2800,14 @@ line-height: 22px;
 	padding-left: 13px;
 	position: relative;
 	width: 111px;
-	background-position: 0 12px;
+	background-position: 0 2px;
 	font-size: 11px;
 	line-height: 15px;
-	padding-top: 10px;
-	border-top: 1px solid #ebebeb;
 }
 
 .spotbox-video .youtube-player {
-position: absolute;
+        position: absolute;
+        padding-left: 2px;
 }
 .breadcrumb a:hover {
 	color: #8b0053;
@@ -3012,10 +3016,6 @@ border-bottom: 1px solid #F3F3F3;
 .spotbox_no_picture_text p {
 	font-size: 16px;
 	color: #FFF;
-}
-
-.spotbox .media-youtube-preview-wrapper {
-    padding-top: 4px;
 }
 
 .ccc-outer .ccc-inner .ccc-button {
