@@ -54,12 +54,9 @@
     margin-bottom: 1px ;
     padding-left: 16px;
     text-transform: uppercase;
-}
-
-.panels-flexible-region .pane-kulturnaut-events-lister h2:hover {
-background-image: url(http://dev.syddjurs.bellcom.dk/profiles/os2web/themes/cmstheme/images/gaatilsyddjurslive.png);
-background-repeat: no-repeat;
-background-position: 80px 5px;
+    background-image: url(http://dev.syddjurs.bellcom.dk/profiles/os2web/themes/cmstheme/images/gaatilsyddjurslive.png);
+    background-repeat: no-repeat;
+    background-position: 80px 5px;
 }
 
 

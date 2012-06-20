@@ -762,6 +762,7 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
     background-image:url('../images/megamenu-arrow.png');
     background-repeat: no-repeat;
     background-position:left center;
+    text-transform: none;
     display: block;
     padding-left: 12px;
     color: #666;
