@@ -561,11 +561,11 @@ body {
 	margin: auto; 
 	/*background-color: #FFF;*/
 	/*background-image: url(../images/transwhite.png)*/
-	background-image: url(../images/content-bg03.png), url(../images/content-bg03.png);
+	background-image: url(../images/content-bg03.png);
 	}
 
 .uden-hoejre-spalte-wrapper 
-	{background-image: url(../images/content-bg05.png), url(../images/content-bg05.png);
+	{background-image: url(../images/content-bg05.png);
 }
 
 .page-taxonomy #zone-content-wrapper {	
