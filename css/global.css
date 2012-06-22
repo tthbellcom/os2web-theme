@@ -548,14 +548,14 @@ body {
 	height: 202px;}
 #section-content {
 	background: url(../images/byvaaben-00.png) center top no-repeat;}
-#section-footer {
-	background-image: url(../images/content-bg07.png); 
-	background-position: center top; 
-	background-repeat:repeat-y;}
+#section-footer {}
 
 /*#zone-preface-wrapper {height: 5px; background-image: url(../images/lilla-streg.png)}*/
 
-.zone-footer-wrapper {}
+.zone-footer-wrapper {
+	background-image: url(../images/content-bg07.png); 
+	background-position: center top; 
+	background-repeat:repeat-y;}
 .zone-content-wrapper { 
 	width: 1018px; 
 	margin: auto; 
