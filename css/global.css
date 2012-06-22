@@ -2292,11 +2292,11 @@ div.breadcrumb.you-are-here {
 	background-image: url(../images/selvbetjening-indholdsside-bg.png);
 }
 
-#region-sidebar-second .block-views-selvbetjening-block-6 .content {
+#region-sidebar-second .block-views-selvbetjening-block-6 .selvbetjening-indholdsside .view-content {
 	background-image: url(../images/selvbetjening-indholdsside-indhold.png);
 	background-repeat: no-repeat;
 	}
-#region-sidebar-second .block-views-selvbetjening-block-6 .view-footer {
+#region-sidebar-second .block-views-selvbetjening-block-6 .selvbetjening-indholdsside .view-footer {
 	background-image: url(../images/selvbetjening-indholdsside-bg.png);
 	background-position: bottom;
 	}
@@ -2311,6 +2311,7 @@ div.breadcrumb.you-are-here {
 	font-weight: normal;
 	border: none;
 	background-image: url(../images/selvbetjening-indholdsside-top.png);
+	background-repeat: no-repeat;
 }
 
 .selvbetjening-indholdsside .blanketter a {
