@@ -580,6 +580,9 @@ body {
 .node-type-contentpage #zone-content {
 	background-image: url(../images/indholdTOP.png); 
 	}
+.uden-hoejre-spalte-wrapper #zone-content {
+	background-image: url(../images/topcbgu.png)
+	}
 #zone-footer {
 	background-image: url(../images/footer-bg.png); 
 	background-position: top left; 
