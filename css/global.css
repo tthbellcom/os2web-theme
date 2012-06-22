@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6, ul, li, .button, .knapper, .view-selvbetjening, .view-id
 
 /* Myriad Pro Light Font */
 
-#region-sidebar-second .spotbox_no_picture_text h3, .spotbox .spotbox_no_picture_text h3, .search-form .form-text, .views-slideshow-cycle-main-frame-row-item, #region-footer-third .content, .region-inner h1.title, .node-type-contentpage .field.field-name-field-resume-long {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 300; letter-spacing: normal}
+#views-exposed-form-meetings-search-page label, #region-sidebar-second .spotbox_no_picture_text h3, .spotbox .spotbox_no_picture_text h3, .search-form .form-text, .views-slideshow-cycle-main-frame-row-item, #region-footer-third .content, .region-inner h1.title, .node-type-contentpage .field.field-name-field-resume-long {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 300; letter-spacing: normal}
 
 
 /* Myriad Pro Bold Font */
@@ -2751,7 +2751,7 @@ line-height: 22px;
 .yaselect-select { 
 	font-size: 15px; 
 	color: #787878; }
-	
+/*	
 .form-item-committee .yaselect-wrap { 
 	width: 440px; }
 .form-item-committee .yaselect-wrap, 
@@ -2759,7 +2759,7 @@ line-height: 22px;
 .form-item-committee .yaselect-select { 
 	width: 439px; 
 	text-transform: uppercase }
-
+*/
 
 .fullcaserender,
 .documenttable {

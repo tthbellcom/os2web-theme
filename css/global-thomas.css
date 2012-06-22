@@ -1,0 +1,117 @@
+.agenda-bullet-list {
+    background-image: url("../images/megamenu-arrow-over.png");
+    background-position: 5px 4px;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 20px;
+    width: auto;
+    padding-left: 20px;
+}
+
+
+.agenda-bullet-list.open {
+    background-image: url("../images/arrow-down-over.png");
+    background-position: 2px 5px;
+}
+
+.item-list li {
+    clear: left;
+}
+
+
+.form-item-committee .yaselect-anchor {
+ background-repeat: no-repeat;
+ height: 50px;
+ width: 440px;
+ display: block;
+ background-image: url('../images/dagsordnerDROP.png');
+}
+
+.form-item-committee .yaselect-open {
+ background-image: url('../images/dagsordnerDROP.png');
+}
+.form-item-committee .yaselect-current{
+ display: block;
+ width: 440px;
+ text-transform: none;
+ margin: 0;
+}
+
+.form-item-committee .yaselect-wrap {
+ padding: 12px 0 0 20px;
+ margin: 0;
+ position: absolute;
+}
+.form-item-committee .yaselect-select {
+ margin-left: 1px;
+ width: 435px;
+}
+
+#edit-submit-meetings-search {
+    background-image:  url('../images/dagsordnerSOG.png');
+    border: none;
+    border-radius: 0;
+    width: 98px;
+    height: 43px; 
+    color: #FFF;
+    margin: 8px 0 0 0;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    text-shadow: none;
+    width: 98px;
+    text-transform: uppercase;
+}
+
+#edit-to-date-wrapper,
+#edit-from-date-wrapper {
+    background-image: url("../images/cal.png");
+    background-position: 106px 15px;
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 54px;
+}
+
+#edit-to-date-wrapper {
+    background-position: 130px 15px;
+    width: 156px;
+}
+
+#edit-to-date-wrapper label {
+    position: absolute;
+    text-transform: uppercase;
+    margin: 19px 0 0 0;
+}
+
+#edit-from-date-wrapper input {
+    margin: 15px 0 0 0;
+}
+
+#edit-to-date-wrapper input {
+    margin: 15px 0 0 25px;
+}
+
+#edit-search-params{
+    width: 435px;
+}
+
+#edit-from-date-value-datepicker-popup-0,
+#edit-to-date-value-datepicker-popup-0 {
+    width: 102px;
+}
+
+#views-exposed-form-meetings-search-page {
+    margin: 0 0 15px 15px;
+}
+
+#views-exposed-form-meetings-search-page .description {
+    display: none;
+}
+
+#views-exposed-form-meetings-search-page label {
+    color: #7A7A7A;
+}
+
+.view-meeting-details .agenda-bullet-list {
+    color: #7A7A7A;
+}
