@@ -2291,13 +2291,13 @@ div.breadcrumb.you-are-here {
 .block-views-selvbetjening-block-6 {
 }
 
-#region-sidebar-second .block-views-selvbetjening-block-6 .selvbetjening-indholdsside .view-content {
+#region-sidebar-second .block-views-selvbetjening-block-6 .selvbetjening-indholdsside .view-content, #region-sidebar-second .block-views-selvbetjening-block-6 .selvbetjening-indholdsside .view-header {
 	background-image: url(../images/mellemSELVindhold.png);
 	padding: 1px 0;
 	}
-#region-sidebar-second .block-views-selvbetjening-block-6 .selvbetjening-indholdsside .view-header {
+#region-sidebar-second .block-views-selvbetjening-block-6 .selvbetjening-indholdsside .view-header .blanketter {
 	background-image: url(../images/headerSELVindhold.png);
-	padding: 1px 0;
+	background-repeat: no-repeat;
 	}
 
 #region-sidebar-second .block-views-selvbetjening-block-6 .selvbetjening-indholdsside .view-footer {
