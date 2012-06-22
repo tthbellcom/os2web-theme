@@ -2289,16 +2289,16 @@ div.breadcrumb.you-are-here {
 
 
 .block-views-selvbetjening-block-6 {
-	background-image: url(../images/selvbetjening-indholdsside-bg.png);
 }
 
-#region-sidebar-second .block-views-selvbetjening-block-6 .selvbetjening-indholdsside .view-content {
-	background-image: url(../images/selvbetjening-indholdsside-indhold.png);
+#region-sidebar-second .block-views-selvbetjening-block-6 .selvbetjening-indholdsside .view-content, #region-sidebar-second .block-views-selvbetjening-block-6 .selvbetjening-indholdsside .view-header {
+	background-image: url(../images/selvbetjening-indholdsside-bg.png);
 	background-repeat: no-repeat;
 	}
 #region-sidebar-second .block-views-selvbetjening-block-6 .selvbetjening-indholdsside .view-footer {
 	background-image: url(../images/selvbetjening-indholdsside-bg.png);
 	background-position: bottom;
+	height: 56px;
 	}
 #region-sidebar-second .block-views-selvbetjening-block-6 h2 {
 	text-transform: uppercase;
@@ -2308,9 +2308,10 @@ div.breadcrumb.you-are-here {
 	background-image: none;
 	font-size: 15px;
 	padding: 20px 0 15px 0;
+	height: 20px;
 	font-weight: normal;
 	border: none;
-	background-image: url(../images/selvbetjening-indholdsside-top.png);
+	background-image: url(../images/selvbetjening-indholdsside-bg.png);
 	background-repeat: no-repeat;
 }
 
