@@ -555,15 +555,19 @@ body {
 
 /*#zone-preface-wrapper {height: 5px; background-image: url(../images/lilla-streg.png)}*/
 
-#zone-footer-wrapper {}
-#zone-content-wrapper { 
+.zone-footer-wrapper {}
+.zone-content-wrapper { 
 	width: 1018px; 
 	margin: auto; 
 	/*background-color: #FFF;*/
 	/*background-image: url(../images/transwhite.png)*/
 	background-image: url(../images/content-bg03.png), url(../images/content-bg03.png);
-	
 	}
+
+.uden-hoejre-spalte-wrapper 
+	{background-image: url(../images/content-bg04.png), url(../images/content-bg04.png);
+}
+
 .page-taxonomy #zone-content-wrapper {	
 	background: url(../images/content-bg2.png)
 	}
