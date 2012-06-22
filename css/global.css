@@ -577,6 +577,9 @@ body {
 	background-color: transparent;
 	}
 
+.node-type-contentpage #zone-content {
+	background-image: url(../images/indholdTOP.png); 
+	}
 #zone-footer {
 	background-image: url(../images/footer-bg.png); 
 	background-position: top left; 
