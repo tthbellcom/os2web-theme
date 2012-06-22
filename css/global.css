@@ -561,7 +561,7 @@ body {
 	margin: auto; 
 	/*background-color: #FFF;*/
 	/*background-image: url(../images/transwhite.png)*/
-	background: url(../images/content-bg03.png);
+	background-image: url(../images/content-bg03.png), url(../images/content-bg03.png);
 	
 	}
 .page-taxonomy #zone-content-wrapper {	
@@ -2140,7 +2140,7 @@ color: #B3B3B3;
 #panel-borger .panel-region-lead {margin-left: 7px; height: 353px; overflow: hidden}
 .page-taxonomy-term .block-menu-block h2.block-title {display: none}
 
-.view-sitestuktur { height: 33px; padding-left: 23px; margin-bottom: 15px; padding-top: 10px}
+.view-sitestuktur { height: 33px; padding-left: 23px; margin-bottom: 15px; padding-top: 10px; }
 
 .qtip-light { width: 100%; background-color: fuchsia; z-index: 999}
 
