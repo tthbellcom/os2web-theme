@@ -1907,6 +1907,13 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 	margin-bottom: 67px;
 	top: 67px;
 }
+.uden-hoejre-spalte-wrapper .region-inner h1.title {
+	color: #7a7a7a;
+	font-size: 34px;
+	position: relative;
+	margin-bottom: 15px;
+	top: 15px;
+}
 
 .field-items .field-item p {
     color: #4a4a4a;
