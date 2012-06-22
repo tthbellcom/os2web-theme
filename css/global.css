@@ -2294,10 +2294,11 @@ div.breadcrumb.you-are-here {
 #region-sidebar-second .block-views-selvbetjening-block-6 .selvbetjening-indholdsside .view-content, #region-sidebar-second .block-views-selvbetjening-block-6 .selvbetjening-indholdsside .view-header {
 	background-image: url(../images/selvbetjening-indholdsside-bg.png);
 	background-repeat: no-repeat;
+	padding: 1px 0;
 	}
 #region-sidebar-second .block-views-selvbetjening-block-6 .selvbetjening-indholdsside .view-footer {
 	background-image: url(../images/selvbetjening-indholdsside-bg.png);
-	background-position: bottom;
+	background-position: left bottom;
 	height: 56px;
 	}
 #region-sidebar-second .block-views-selvbetjening-block-6 h2 {
@@ -2313,6 +2314,7 @@ div.breadcrumb.you-are-here {
 	border: none;
 	background-image: url(../images/selvbetjening-indholdsside-bg.png);
 	background-repeat: no-repeat;
+	margin: 0;
 }
 
 .selvbetjening-indholdsside .blanketter a {
