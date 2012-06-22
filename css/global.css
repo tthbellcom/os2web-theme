@@ -2290,9 +2290,16 @@ div.breadcrumb.you-are-here {
 
 .block-views-selvbetjening-block-6 {
 	background-image: url(../images/selvbetjening-indholdsside-bg.png);
-	height: 290px;
 }
 
+#region-sidebar-second .block-views-selvbetjening-block-6 .content {
+	background-image: url(../images/selvbetjening-indholdsside-indhold.png);
+	background-repeat: no-repeat;
+	}
+#region-sidebar-second .block-views-selvbetjening-block-6 .view-footer {
+	background-image: url(../images/selvbetjening-indholdsside-bg.png);
+	background-position: bottom;
+	}
 #region-sidebar-second .block-views-selvbetjening-block-6 h2 {
 	text-transform: uppercase;
 	text-align: center;
@@ -2303,6 +2310,7 @@ div.breadcrumb.you-are-here {
 	padding: 20px 0 15px 0;
 	font-weight: normal;
 	border: none;
+	background-image: url(../images/selvbetjening-indholdsside-top.png);
 }
 
 .selvbetjening-indholdsside .blanketter a {
@@ -2324,10 +2332,6 @@ div.breadcrumb.you-are-here {
     margin: 0 0 7px 5px;
     font-size: 12px;
     display: block;
-}
-
-.selvbetjening-indholdsside .view-content {
-	height: 109px;
 }
 
 .selvbetjening-indholdsside .se-flere a {
