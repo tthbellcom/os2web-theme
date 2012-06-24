@@ -1,6 +1,6 @@
 
 /***************/
-#region-sidebar-first ul.menu {background-image: url(../images/menu-bg-ul.png); }
+#region-sidebar-first ul.menu ul {background-image: url(../images/menu-bg-ul.png); }
 #region-sidebar-first ul.menu li a {padding-left: 20px;}
 #region-sidebar-first ul.menu li { line-height: 1.2;list-style: none; margin: 0; padding-left: 0px; display: block; vertical-align: middle; list-style: url() inside !important;}
 /*#region-sidebar-first ul.menu li:hover,
