@@ -662,18 +662,6 @@ body {
 
 #region-footer-ul.menu ul.menu li ul.menu a {list-style: none; color: #9b9b9b; margin-left: 0px;}
 
-<<<<<<< HEAD
-=======
-#region-sidebar-first ul.menu li ul {background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul.png); background-repeat: no-repeat}
-#region-sidebar-first ul.menu li ul li {padding-left: 0px; /*background-image: url(../images/menu-bg-ul-li-ul-lii.png)*/;border-bottom: 1px solid #CECECE; background-repeat: no-repeat}
-
-#region-sidebar-first ul.menu li ul li.active-trail { background-image: url(../images/menu-bg-ul-li-ul-li-active-trail.png); color: #FFF}
-#region-sidebar-first ul.menu li ul li a.active { color: #FFF; background-image: url(../images/menu-markeret-expanded.png);background-repeat: no-repeat; background-position: right; display: block; line-height: 50px;}
-#region-sidebar-first ul.menu li ul li.expanded  { color: #FFF; background-image: url(../images/menu-markeret-expandedd.png);background-repeat: no-repeat; background-position: right}
-#region-sidebar-first ul.menu li ul li.expanded a {color: #000; background-repeat: no-repeat; background-position: right}
-#region-sidebar-first ul.menu li a { display: inline; line-height: 20px; color: #333}
->>>>>>> fc30032c3ba94ef2b9d5fec4dc76514bb21b7940
-
 #region-sidebar-first  .block-title {padding-left: 20px; line-height: 50px}
 
 .block-multistep { background-color: #8B0047; color: #fff; margin-bottom: 20px}

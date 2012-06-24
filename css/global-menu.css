@@ -38,8 +38,9 @@
 #region-sidebar-first ul.menu li ul li.active-trail { background-image: url(../images/menu-bg-ul-li-ul-li-active-trail.png); color: #FFF}
 #region-sidebar-first ul.menu li ul li a.active { color: #FFF; background-image: url(../images/menu-markeret-expanded.png);background-repeat: no-repeat; background-position: right; display: block; line-height: 50px;}
 #region-sidebar-first ul.menu li ul li.expanded  { color: #FFF; background-image: url(../images/menu-markeret-expandedd.png);background-repeat: no-repeat; background-position: right}
-#region-sidebar-first ul.menu li ul li.expanded a {color: #000; background-repeat: no-repeat; background-position: right}
+#region-sidebar-first ul.menu li ul li.expanded a {color: #000; }
 #region-sidebar-first ul.menu li a { display: inline; line-height: 20px; color: #333}
+
 
 
 
@@ -199,3 +200,19 @@
 
 #block-menu-block-12 h2.menuActive { background-color: #8B0053}
 #block-menu-block-12 h2.menuActive a.active { color: #FFF ; background-image: url(../images/menu-markeret-expanded.png)}
+
+
+
+
+/*
+
+
+
+#region-sidebar-first ul.menu li ul {background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul.png); background-repeat: no-repeat}
+#region-sidebar-first ul.menu li ul li {padding-left: 0px; /*background-image: url(../images/menu-bg-ul-li-ul-lii.png)*//*;border-bottom: 1px solid #CECECE; background-repeat: no-repeat}
+
+#region-sidebar-first ul.menu li ul li.active-trail { background-image: url(../images/menu-bg-ul-li-ul-li-active-trail.png); color: #FFF}
+#region-sidebar-first ul.menu li ul li a.active { color: #FFF; background-image: url(../images/menu-markeret-expanded.png);background-repeat: no-repeat; background-position: right; display: block; line-height: 50px;}
+#region-sidebar-first ul.menu li ul li.expanded  { color: #FFF; background-image: url(../images/menu-markeret-expandedd.png);background-repeat: no-repeat; background-position: right}
+#region-sidebar-first ul.menu li ul li.expanded a {color: #000; background-repeat: no-repeat; background-position: right}
+#region-sidebar-first ul.menu li a { display: inline; line-height: 20px; color: #333}*/
