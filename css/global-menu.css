@@ -101,7 +101,8 @@
 
 #region-sidebar-first ul.menu li {
   border-left-width: 0;
-  background-image: url(../images/menu-bg-ul.png)
+  background-image: url(../images/menu-bg-ul.png);
+  background-repeat: repeat;
 /*
   border-top: solid 1px #ccc;
   border-bottom: solid 1px #ccc;
