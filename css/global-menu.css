@@ -95,7 +95,7 @@
   background-repeat: repeat;
 }
 
-#region-sidebar-first ul.menu li.expanded ul, #region-sidebar-first ul.menu li.expanded ul li.expanded {
+/*#region-sidebar-first ul.menu li.expanded ul, #region-sidebar-first ul.menu li.expanded ul li.expanded {
   border-left-width: 0;
   background-image: url(../images/menu-bg-ul.png);
   background-repeat: repeat;
@@ -106,7 +106,7 @@
   background-image: url(../images/menu-bg-ul26.png);
   background-repeat: repeat;
 }
-
+*/
 
 #region-sidebar-first ul.menu li ul li a.active,
 #region-sidebar-first ul.menu li a,
