@@ -189,3 +189,5 @@
 #block-menu-block-5 ul, #block-menu-block-5 li , #block-menu-block-5 a, #block-menu-block-5 a:hover, #block-menu-block-5 ul.menuActive, #block-menu-block-5 .menu-block-wrapper { background-color: transparent; background-image: none !important; background: none !important; font-size: 11px !important  }
 
 #block-menu-block-5 a { padding: 10px 40px 10px 20px !important;}
+
+#block-menu-block-12 .content { background-image: url(../images/activ-menu-content-bg.png); background-repeat: no-repeat}
