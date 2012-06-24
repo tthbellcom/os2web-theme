@@ -13,12 +13,6 @@
   background-image: url(../images/v-menu-bg-dp.png) !important; background-repeat: repeat; background-position: top left;
 }*/
 
-#region-sidebar-first ul.menu li ul { background-image: url(../images/menu-bg-ul-li-ul.png); background-repeat: no-repeat}
-#region-sidebar-first ul.menu li ul li ul { background-image: url(../images/menu-bg-ul-li-ul-li-ul.png); background-repeat: no-repeat}
-#region-sidebar-first ul.menu li ul li ul li ul { background-image: url(../images/menu-bg-ul-li-ul-li-ul-li-ul.png); background-repeat: no-repeat}
-#region-sidebar-first ul.menu li ul li ul li ul li ul { background-image: url(../images/menu-bg-ul-li-ul-li-ul-li-ul-li-ul.png); background-repeat: no-repeat}
-#region-sidebar-first ul.menu li ul li ul li ul li ul li ul{background-image: url(../images/menu-bg-ul-li-ul-li-ul-li-ul-li-ul-li-ul.png); background-repeat: no-repeat}
-#region-sidebar-first ul.menu li ul li ul li ul li ul li ul li ul{ background-image: url(../images/menu-bg-ul-li-ul-li-ul-li-ul-li-ul-li-ul-li-ul.png); background-repeat: no-repeat}
 #region-sidebar-first ul.menu li ul li {padding-left: 0px; border-bottom: 1px solid #CECECE; }
 
 #region-sidebar-first h2.menuActive a {color: #FFF; background-image: url(../images/menu-markeret-expanded.png);background-repeat: no-repeat; background-position: right; display: block; width: 97%; text-transform: none}
