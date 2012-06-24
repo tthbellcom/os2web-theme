@@ -92,9 +92,9 @@
 
 #region-sidebar-first ul.menuActive {
   border-bottom: solid 1px #8b0053 !important;
-  background-image: url(../images/left-menu-shadow.png) !important; /* DROP SHADOW FOR MENU LEVELS */;
-  background-repeat: repeat-x !important;
-  background-position: top left !important;
+  /*background-image: url(../images/left-menu-shadow.png) !important; /* DROP SHADOW FOR MENU LEVELS */;
+ /* background-repeat: repeat-x !important;
+  background-position: top left !important;*/
 }
 
 #region-sidebar-first ul.menu li ul li a.active { color: #FFF; background-image: url(../images/menu-markeret-expanded.png);background-repeat: no-repeat; background-position: right}
