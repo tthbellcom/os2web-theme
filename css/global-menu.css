@@ -32,8 +32,8 @@
 #region-sidebar-first ul.menu li { line-height: 1.2;list-style: none; background-image: url(../images/v-menu-bg.png); background-position: right center;margin: 0; padding-left: 0px; display: block; vertical-align: middle; background-repeat: no-repeat;}
 #region-sidebar-first ul.menu li.expanded {line-height: 1.2/*50px*/; /*background-image: url(../images/menu-bg-ul-li-expanded.png);*/background-position: 0 -10px; border-bottom: 0;}
 
-/*#region-sidebar-first ul.menu li.active ul {background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul.png); background-repeat: no-repeat}*/
-#region-sidebar-first ul.menu li ul li {padding-left: 0px; /*background-image: url(../images/menu-bg-ul-li-ul-lii.png);border-bottom: 1px solid #CECECE; */background-repeat: no-repeat}
+/*#region-sidebar-first ul.menu li.active ul {background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul.png); background-repeat: no-repeat}
+#region-sidebar-first ul.menu li ul li {padding-left: 0px; background-image: url(../images/menu-bg-ul-li-ul-lii.png);border-bottom: 1px solid #CECECE; background-repeat: no-repeat}*/
 
 #region-sidebar-first ul.menu li ul li.active-trail { background-image: url(../images/menu-bg-ul-li-ul-li-active-trail.png); color: #FFF}
 #region-sidebar-first ul.menu li ul li a.active { color: #FFF; background-image: url(../images/menu-markeret-expanded.png);background-repeat: no-repeat; background-position: right; display: block; line-height: 50px;}
