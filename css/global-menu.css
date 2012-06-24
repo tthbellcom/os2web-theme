@@ -198,3 +198,4 @@
 #block-menu-block-12 h2.block-title a.active-trail { background-image: url(../images/menugraapilned.png); background-repeat: no-repeat; background-position: right; display: block; color: #333333}
 
 #block-menu-block-12 h2.menuActive { background-color: #8B0053}
+#block-menu-block-12 h2.menuActive a { color: #FFF }
