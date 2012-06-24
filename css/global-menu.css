@@ -83,7 +83,7 @@
 
 #region-sidebar-first ul.menu li ul li a.active { color: #FFF; background-image: url(../images/menu-markeret-expanded.png);background-repeat: no-repeat; background-position: right}
 
-#region-sidebar-first ul.menu li {
+#region-sidebar-first ul.menu li, #region-sidebar-first ul.menu ul {
   border-left-width: 0;
   background-image: url(../images/menu-bg-ul.png);
   background-repeat: repeat;
