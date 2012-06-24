@@ -39,14 +39,14 @@
 #region-sidebar-first ul.menu li a {padding-left: 20px;}
 #region-sidebar-first ul.menu li { line-height: 1.2;list-style: none; background: transparent; margin: 0; padding-left: 0px; display: block; vertical-align: middle; background-repeat: no-repeat; list-style: none /*url()*/ inside !important;}
 /*#region-sidebar-first ul.menu li:hover,*/
-#region-sidebar-first ul.menu li.active-trail.active, 
+/*#region-sidebar-first ul.menu li.active-trail.active, 
 #region-sidebar-first ul.menu li.active-trail li.active-trail.active,
 #region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail.active,
 #region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail li.active-trail.active,
 #region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail li.active-trail li.active-trail li.active-trail.active {
   background-image: url(../images/v-menu-bg-dp.png) !important; background-repeat: repeat; background-position: top left;
 }
-
+*/
 
 #region-sidebar-first ul.menu li.leaf.last { border-bottm: 1px solid #CECECE}
 
