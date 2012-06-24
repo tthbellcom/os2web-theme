@@ -2,8 +2,8 @@
 /***************/
 #region-sidebar-first ul.menu {background-image: url(../images/menu-bg-ul.png); }
 #region-sidebar-first ul.menu li a {padding-left: 20px;}
-#region-sidebar-first ul.menu li { line-height: 1.2;list-style: none; background-image: url(../images/v-menu-bg.png); background-position: right center;margin: 0; padding-left: 0px; display: block; vertical-align: middle; background-repeat: no-repeat; list-style: url() inside !important;}
-/*#region-sidebar-first ul.menu li:hover,*/
+#region-sidebar-first ul.menu li { line-height: 1.2;list-style: none; margin: 0; padding-left: 0px; display: block; vertical-align: middle; list-style: url() inside !important;}
+/*#region-sidebar-first ul.menu li:hover,
 #region-sidebar-first h2.menuActive,
 #region-sidebar-first ul.menu li.active-trail.active, 
 #region-sidebar-first ul.menu li.active-trail li.active-trail.active,
@@ -11,7 +11,7 @@
 #region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail li.active-trail.active,
 #region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail li.active-trail li.active-trail li.active-trail.active {
   background-image: url(../images/v-menu-bg-dp.png) !important; background-repeat: repeat; background-position: top left;
-}
+}*/
 
 #region-sidebar-first ul.menu li ul {background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul.png); background-repeat: no-repeat}
 #region-sidebar-first ul.menu li ul li ul {background-color: #E2E2E2; background-image: url(../images/menu-bg-ul-li-ul-li-ul.png); background-repeat: no-repeat}
