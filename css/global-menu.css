@@ -35,9 +35,6 @@
 #region-sidebar-first ul.menu li ul li.expanded a {color: #000; }
 #region-sidebar-first ul.menu li a { display: inline; line-height: 20px; color: #333}
 
-ul.menuActive { background-image: url(../images/active-ul.png)}
-
-
 /*#region-sidebar-first ul.menu {background-image: url(../images/menu-bg-ul.png); }*/
 #region-sidebar-first ul.menu li a {padding-left: 20px;}
 #region-sidebar-first ul.menu li { line-height: 1.2;list-style: none; background: transparent; margin: 0; padding-left: 0px; display: block; vertical-align: middle; background-repeat: no-repeat; list-style: none /*url()*/ inside !important;}
@@ -78,6 +75,7 @@ ul.menuActive { background-image: url(../images/active-ul.png)}
 
 #region-sidebar-first ul.menuActive {
   border-bottom: solid 1px #8b0053 !important;
+  background-image: url("../images/active-ul.png") !important;
   /*background-image: url(../images/left-menu-shadow.png) !important; /* DROP SHADOW FOR MENU LEVELS */;
  /* background-repeat: repeat-x !important;
   background-position: top left !important;*/
