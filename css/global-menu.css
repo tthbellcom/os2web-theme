@@ -89,7 +89,7 @@
   background-repeat: repeat;
 }
 
-#region-sidebar-first ul.menu li.expanded #region-sidebar-first ul.menu li.expanded ul  {
+#region-sidebar-first ul.menu li.expanded, #region-sidebar-first ul.menu li.expanded ul  {
   border-left-width: 0;
   background-image: url(../images/menu-bg-ul.png);
   background-repeat: repeat;
