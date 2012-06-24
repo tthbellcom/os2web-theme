@@ -35,7 +35,7 @@
 #region-sidebar-first ul.menu li ul li.expanded a {color: #000; }
 #region-sidebar-first ul.menu li a { display: inline; line-height: 20px; color: #333}
 
-
+ul.menuActive { background-image: url(../images/active-ul.png)}
 
 
 /*#region-sidebar-first ul.menu {background-image: url(../images/menu-bg-ul.png); }*/
