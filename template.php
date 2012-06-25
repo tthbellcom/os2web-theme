@@ -82,4 +82,11 @@ function cmstheme_form_alter(&$form, &$form_state, $form_id) {
   if ($form_id == 'search_block_form') {
     $form['search_block_form']['#attributes']['placeholder'] = t('søg på syddjurs kommune');
   }
+  if($form_state['view']->name == 'meetings_search') {
+    
+    //tth@bellcom.dk ændret tekst på select i meetings-search
+    $form['committee']['#options']['All'] = t('Vælg udvalg');
+  }
+
 }
+
