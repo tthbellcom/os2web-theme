@@ -2197,8 +2197,7 @@ ul.nice-menu-down li.menuparent {background: url("../images/webstederPIL.png") n
 #region-sidebar-second h3 {
 color: #787878;
 font-size: 16px;
-margin: 0px;
-margin-bottom: 5px;
+margin: 0 0 8px;
 padding-bottom: 0px;
 padding-left: 10px;
 text-transform: uppercase;
@@ -2401,8 +2400,8 @@ div.breadcrumb.you-are-here {
 
 #region-sidebar-second .spotbox-indhold .views-row {
 	background-image: url(../images/spot1b.png);    
-	background-position: 0 24px;
-	height: 215px;
+	background-position: 0 27px;
+	height: 218px;
 	background-repeat: no-repeat;
 }
 
