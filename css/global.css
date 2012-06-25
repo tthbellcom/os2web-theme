@@ -3063,7 +3063,7 @@ border-bottom: 1px solid #F3F3F3;
     padding: 0;
 }
 
-#region-sidebar-first .sf-menu ul, #region-sidebar-first .sf-menu li { list-style: none; width: 240px; border: none}
+#region-sidebar-first .sf-menu ul, #region-sidebar-first .sf-menu li { list-style: none; width: 240px; border: none;background-color: transparent; background-image: none}
 #region-sidebar-first .sf-menu a {color: #787878; border: none; font-size: 12px; background-color: transparent; background-image: none}
 #region-sidebar-first .sf-megamenu { padding-left: 0px; margin-top: 25px; background-color: #fafafa}
 #region-sidebar-first .sf-menu li.menuparent { background-image: url(../images/active-ul.png); background-repeat: no-repeat; background-position: right; float: none; background-color: transparent;}
