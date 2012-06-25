@@ -10,8 +10,9 @@
     <?php if (!empty($content['links'])): ?>
       <nav class="links node-links clearfix"><?php print render($content['links']); ?></nav>
     <?php endif; ?>
-<?php if (arg(0) == 'node' && is_numeric(arg(1))) $nodeid = arg(1); ?>
+<?php if (arg(0) == 'node' && is_numeric(arg(1))): $nodeid = arg(1); ?>
 <div class="printvenlig-side"><a href="/print/<?php print $nodeid; ?>"></a></div>
+<?php endif; ?> 
 
   <?php print render($title_suffix); ?>
   <?php if ($display_submitted): ?>
@@ -26,6 +27,7 @@
       print render($content);
     ?>
   </div>
+<?php if ($view_mode != 'meeting_detail_view'): ?>
 <?php
     print "<div class='last-updated-node'> Opdateret: " . format_date($node->changed, "short")."</div>";
 ?>
@@ -49,6 +51,7 @@
   </div>
 
  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script>
+ <?php endif; ?> 
 
 <?php /*
 <script type="text/javascript">
