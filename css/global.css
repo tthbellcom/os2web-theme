@@ -1216,7 +1216,7 @@ a.overlayclass span.zoom-icon-tall {
   left:0;
   top:0;
   border: 3px solid #880054;
-  height: 303px; 
+  height: 327px; 
   width: 221px;
   border: #880054 solid 5px;
 }
@@ -1242,6 +1242,7 @@ a.overlayclass span.spotbox-subsite-frontpage   { width: 300px; height: 261px;  
   visibility:visible;
 }
 
+.spotbox-horisontal .views-row { background-position: 0 32px}
 .spotbox-horisontal .views-row-last {
     background-image: url("../images/spot1b.png");
     margin-bottom: 6px;
@@ -1253,7 +1254,7 @@ a.overlayclass span.spotbox-subsite-frontpage   { width: 300px; height: 261px;  
 .portal-borger .spotbox-video { margin-left: 9px}
 
 .spotbox-row-tall {
-    background-image: url("../images/spot2.png");
+    background-image: url("../images/spot2-424.png");
     background-repeat: no-repeat;
     margin-bottom: 10px;
     padding: 1px 1px 0px;
@@ -1265,7 +1266,7 @@ a.overlayclass span.spotbox-subsite-frontpage   { width: 300px; height: 261px;  
     background-image: url("../images/spot3.png");
     background-repeat: no-repeat; 
     background-position: 0 27px;
-    margin-bottom: 8px;
+    margin-bottom: 0px;
     height: 217px
 }
   
