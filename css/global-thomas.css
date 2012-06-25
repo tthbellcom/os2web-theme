@@ -130,10 +130,14 @@
 }
 
 
-.view-display-id-attachment_2 thead,
-.view-meetings-search thead {
+.view-display-id-attachment_2 thead {
     display: none;
 } 
+
+.view-meetings-search thead tr th {
+    background: none;
+    border: none;
+}
 
 .view-meetings-search .views-field-field-committee a {
     background-image: url('../images/megamenu-arrow-over.png');
@@ -171,9 +175,17 @@
     color: #333;
 }
 
+td.views-field-field-committee {
+    width: 320px;
+}
+
+td.views-field-field-date {
+    width: 150px;
+}
+
 .view-meetings-search .views-field {
-    color: #7a7a7a;
-    font-size: 11px;
+    color: #333;
+    font-size: 13px;
 }
 
 .view-meeting-details .view-header h3 {
