@@ -220,7 +220,8 @@ a.overlayclass span.zoom-icon-tall {
     background-color: #004077;
 }
 
-#region-sidebar-first ul.menu li.active-trail.active.expanded a.active {
+#region-sidebar-first ul.menu li.active-trail.active.expanded a.active,
+#region-sidebar-first ul.menu li.active-trail.active a.active, #region-sidebar-first ul.menu li a:hover  {
 	background-color: #004077;
 }
 /*#region-sidebar-first h2.menuActive, #region-sidebar-first ul.menu li.active-trail.active, #region-sidebar-first ul.menu li.active-trail li.active-trail.active, #region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail.active, #region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail li.active-trail.active, #region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail li.active-trail li.active-trail li.active-trail.active {
