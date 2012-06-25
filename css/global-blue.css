@@ -288,3 +288,5 @@ a.overlayclass span.zoom-icon-tall {
     margin-bottom: 5px;
     padding: 0 5px 0 2px;
 }
+
+.node-type-contentpage .field-items li { background-image: url(../images/v-arrow-default.png)}
