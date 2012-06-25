@@ -1242,6 +1242,7 @@ a.overlayclass span.spotbox-subsite-frontpage   { width: 300px; height: 261px;  
   visibility:visible;
 }
 
+.spotbox-horisontal { background-position: 0 32px}
 .spotbox-horisontal .views-row-last {
     background-image: url("../images/spot1b.png");
     margin-bottom: 6px;
