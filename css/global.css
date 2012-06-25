@@ -2399,6 +2399,12 @@ div.breadcrumb.you-are-here {
 	height: 191px;
 }
 
+#region-sidebar-second .spotbox-indhold .views-row {
+	background-image: url(../images/spot1b.png);    
+	background-position: bottom left;
+	height: 191px;
+}
+
 #region-sidebar-second .spotbox-indhold  h3  {
         width: 190px; 
         height: 30px; 
