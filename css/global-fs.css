@@ -4,6 +4,8 @@
 #forside .grid-6 { width: 490px}
 
 #forside .grid-8 { width: 650px}
+
+#forside .pane-rotating { margin-bottom: 2px}
 .billedrotator { 
 	background-image: url(../images/billedkarusel-bg.png); 
 	margin-top: 12px;
