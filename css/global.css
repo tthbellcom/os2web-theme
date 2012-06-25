@@ -3018,7 +3018,7 @@ border-bottom: 1px solid #F3F3F3;
 }
 
 #region-sidebar-second .spotbox_no_picture_text {
-	height: 120px
+	height: 95px
 }
 
 #region-sidebar-second  .spotbox_no_picture_text h3,
@@ -3034,8 +3034,8 @@ border-bottom: 1px solid #F3F3F3;
 .spotbox .views-row:hover .spotbox_no_picture_text h3 { background-image: none; }
 #region-sidebar-second  .views-row:hover .spotbox_no_picture_text h3 { background-image: none; }
 
-.spotbox_no_picture_text p {
-	font-size: 16px;
+#region-sidebar-second .spotbox_no_picture_text p {
+	font-size: 14px;
 	color: #FFF;
 }
 
