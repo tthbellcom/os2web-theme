@@ -3066,7 +3066,7 @@ border-bottom: 1px solid #F3F3F3;
 #region-sidebar-first .sf-menu ul, #region-sidebar-first .sf-menu li { list-style: none;}
 #region-sidebar-first .sf-menu a {color: #787878}
 #region-sidebar-first .sf-megamenu { padding-left: 20px;}
-#region-sidebar-first .sf-menu li.menuparent { background-image: url(../images/active-ul.png); background-repeat: no-repeat; background-position: right}
+#region-sidebar-first .sf-menu li.menuparent { background-image: url(../images/active-ul.png); background-repeat: no-repeat; background-position: right; float: none}
 #region-sidebar-first .sf-depth-1 a.menuparent {font-size: 20px; padding: 20px; display: block; background: url("../images/v-arrow-default.png") no-repeat scroll right 50% transparent;
     border-bottom: 1px solid #E6E6E6;}
 #region-sidebar-first .sf-depth-1 a span {font-size: 12px; display: block; }
