@@ -3056,13 +3056,20 @@ border-bottom: 1px solid #F3F3F3;
 #block-views-redaktoer-info-block .view-content { padding: 10px}
 
 #block-views-redaktoer-info-block .views-field-title { margin-top: 15px; font-size: 15px;}
-.sf-menu ul, .sf-menu li { list-style: none;}
-.sf-menu a {color: #787878}
-.sf-megamenu { padding-left: 20px;}
-.sf-menu li.menuparent { background-image: url(../images/active-ul.png); background-repeat: no-repeat; background-position: right}
-.sf-depth-1 a.menuparent {font-size: 20px; padding: 20px; display: block; background: url("../images/v-arrow-default.png") no-repeat scroll right 50% transparent;
+
+#region-sidebar-first .sf-menu.sf-style-default {
+    float: none;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#region-sidebar-first .sf-menu ul, #region-sidebar-first .sf-menu li { list-style: none;}
+#region-sidebar-first .sf-menu a {color: #787878}
+#region-sidebar-first .sf-megamenu { padding-left: 20px;}
+#region-sidebar-first .sf-menu li.menuparent { background-image: url(../images/active-ul.png); background-repeat: no-repeat; background-position: right}
+#region-sidebar-first .sf-depth-1 a.menuparent {font-size: 20px; padding: 20px; display: block; background: url("../images/v-arrow-default.png") no-repeat scroll right 50% transparent;
     border-bottom: 1px solid #E6E6E6;}
-.sf-depth-1 a span {font-size: 12px; display: block; }
+#region-sidebar-first .sf-depth-1 a span {font-size: 12px; display: block; }
 
 #superfish-1 #menu-912-1, #superfish-1 #menu-910-1, #superfish-1 #menu-1217-1, 
 #superfish-2 #menu-911-1, #superfish-2 #menu-910-1, #superfish-2 #menu-1217-1, 
