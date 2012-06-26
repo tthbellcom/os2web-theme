@@ -205,3 +205,8 @@ th.views-field-field-date {
 .view-meeting-details .view-header h3 {
     color: #333;
 }
+
+.view-meetings-search .item-list .pager {
+     margin-bottom: 35px;
+
+}
