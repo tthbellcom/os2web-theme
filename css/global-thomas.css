@@ -183,12 +183,15 @@ th.views-field-field-date {
 .view-meeting-details .views-table tr.odd td {
     background: none;
     border: none;
+    vertical-align: top;
 }
 
 .view-meeting-details .agenda-bullet-list {
     color: #333;
     border: 1px solid #CCCCCC;
     width: 672px;
+    height: auto;
+    min-height: 25px;
 }
 
 .view-meeting-details .agenda-bullet-list.open {
@@ -209,4 +212,18 @@ th.views-field-field-date {
 .view-meetings-search .item-list .pager {
      margin-bottom: 35px;
 
+}
+
+.view-meetings-search .view-footer {
+    clear: left;
+}
+
+.view-meeting-details .view-display-id-attachment_2 td.views-field-field-qbrick-ref {
+    position: absolute;
+    left: 675px;
+    margin-top: 2px;
+}
+
+.view-meeting-details .views-field strong {
+    padding-left: 2px;
 }

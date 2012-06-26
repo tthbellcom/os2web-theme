@@ -1320,8 +1320,8 @@ background-position: 100% 65%;}
 
 .selvbetjening-block-forside .knapper { margin: 1px 8px 18px; height: 50px;}
 .selvbetjening-block-forside .knapper a {  text-transform: uppercase; font-size: 14px; background-repeat: no-repeat; color: #fff; }
-.selvbetjening-block-forside .knapper a.kviksvar {background-image: url(../images/kviksvar.png); padding: 11px 22px 18px 32px; float: left; width: 60px}
-.selvbetjening-block-forside .knapper a.nemindsigt { background-image: url(../images/aktindsigt.png); padding: 11px 9px 18px 32px; width: 119px; float: right; margin-right: 10px}
+.selvbetjening-block-forside .knapper a.kviksvar {background-image: url(../images/knapSELVBETJENING.png); padding: 11px 22px 18px 32px; float: left; width: 80px}
+.selvbetjening-block-forside .knapper a.nemindsigt { background-image: url(../images/knapSELVBETJENING.png); padding: 11px 22px 18px 32px; width: 80px; float: right; margin-right: 10px}
 
 
 .selvbetjening-block-forside .rel-register-link {display: none}
