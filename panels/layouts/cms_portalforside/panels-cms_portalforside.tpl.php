@@ -1,28 +1,18 @@
-<div class="panel-display container-24 panel-portalforside" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
-
-  <div class="panel-region-left clearfix">
-    <div class="panel-panel grid-6 panel-region-left">
-      <div class="inside"><?php print $content['left']; ?></div>
-    </div>
+<div class="panel-display container-6 panel-node clearfix" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
+  <div class="panel-panel grid-6 alpha omega panel-region-lead">
+    <div class="inside"><?php print $content['lead']; ?></div>
   </div>
-  
-  <div class="panel-region-right clearfix">
-      <div class="panel-panel grid-18 panel-region-right_top">
-        <div class="inside"><?php print $content['right_top']; ?></div>
-      </div>
 
-      <div class="panel-panel grid-18 panel-region-right_middle">
-        <div class="inside"><?php print $content['right_middle']; ?></div>
-      </div>
-      
-      <div class="panel-panel grid-18 panel-region-right_bottom">
-        <div class="inside"><?php print $content['right_bottom']; ?></div>
-      </div>
+  <div class="panel-panel grid-6 alpha omega panel-region-middle-top">
+    <div class="inside"><?php print $content['middle_top']; ?></div>
   </div>
-  
 
+  <div class="panel-panel grid-4 alpha panel-region-middle-center">
+    <div class="inside"><?php print $content['middle_center']; ?></div>
+  </div>
+
+  <div class="panel-panel grid-3 omega panel-region-middle-right">
+    <div class="inside"><?php print $content['middle_right']; ?></div>
+  </div>
 </div>
-
-
-
 
