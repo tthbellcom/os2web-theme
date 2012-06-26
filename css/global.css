@@ -1959,7 +1959,7 @@ color: #B3B3B3;
 
 .page-taxonomy-term #region-content { margin-left: 0px; width: 720px}
 
-.page-taxonomy-term .container-12 .grid-9, .page-taxonomy-term #panel-borger .panel-region-lead {  width: 723px;}
+.page-taxonomy-term .container-12 .grid-9, .page-taxonomy-term #panel-borger .panel-region-lead, .page-taxonomy-term #panel-borger .panel-region-middle-center{  width: 723px;}
 
 
 
@@ -2144,6 +2144,8 @@ color: #B3B3B3;
 #pop-borgerservices .nemid {margin-left: 3px}
 
 #panel-borger .panel-region-lead {margin-left: 7px; height: 353px; overflow: hidden}
+
+
 .page-taxonomy-term .block-menu-block h2.block-title {display: none}
 
 .view-sitestuktur { height: 33px; padding-left: 23px; margin-bottom: 15px; padding-top: 10px; }
