@@ -3093,3 +3093,4 @@ border-bottom: 1px solid #F3F3F3;
 .erhvervsraadgiver .pane-content { background-image: url(../images/kontaktERHVERV.png); background-repeat: no-repeat; height: 190px; padding: 20px; width: 190px}
 
 .erhvervsraadgiver .pane-content p { margin-bottom: 5px}
+.erhvervsraadgiver .pane-content p div { padding: 0px 10px}
