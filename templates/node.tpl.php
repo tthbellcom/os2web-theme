@@ -34,7 +34,7 @@
 
     <?php print render($content['comments']); ?>
   </div>
-
+<?php if  (  arg(0) == 'node' &&  is_numeric(arg(1))  )  :?>
   <div class="del-bund">
     <div class="del">
        <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
@@ -51,6 +51,7 @@
   </div>
 
  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script>
+ <?php endif; ?> 
  <?php endif; ?> 
 
 <?php /*
