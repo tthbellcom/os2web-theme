@@ -167,7 +167,6 @@ th.views-field-field-date {
    color: #333;
 }
 
-
 .view-meetings-search .views-field-field-committee  a:hover {
     color: #8b0054;
 }
@@ -188,7 +187,15 @@ th.views-field-field-date {
 
 .view-meeting-details .agenda-bullet-list {
     color: #333;
+    border: 1px solid #CCCCCC;
+    width: 672px;
 }
+
+.view-meeting-details .agenda-bullet-list.open {
+    color: #333;
+    border: none;
+}
+
 
 .view-meetings-search .views-field {
     color: #333;
