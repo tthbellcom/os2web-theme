@@ -3090,7 +3090,7 @@ border-bottom: 1px solid #F3F3F3;
 #superfish-2 #menu-911-2, #superfish-2 #menu-912-2, #superfish-2 #menu-1217-2, 
 #superfish-3 #menu-911-3, #superfish-3 #men3-910-3, #superfish-3 #menu-1217-3  { display: none} 
 
-.erhvervsraadgiver .pane-content { background-image: url(../images/kontaktERHVERV.png); background-repeat: no-repeat; height: 220px; padding: 8px 4px; width: 235px}
+.erhvervsraadgiver .pane-content { background-image: url(../images/kontaktERHVERV.png); background-repeat: no-repeat; height: 220px; padding: 8px 5px; width: 235px}
 
-.erhvervsraadgiver .pane-content p { margin-bottom:8px 4px}
+.erhvervsraadgiver .pane-content p { margin-bottom:4px}
 .erhvervsraadgiver .pane-content div { padding: 0px 10px}
