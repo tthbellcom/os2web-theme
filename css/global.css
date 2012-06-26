@@ -2072,7 +2072,8 @@ color: #B3B3B3;
 #zone-preface .skjul-andre-sites a {padding: 0; margin: 0}
 #panel-borger .panel-region-lead { 
 	background-image: url(../images/pop-services.png); 
-	background-repeat: no-repeat}
+	background-repeat: no-repeat;
+	width: 723px}
 
 .selvbetjening-block-portal {
 	background-image: url(../images/selvbetjening-230.png); 
