@@ -1959,7 +1959,9 @@ color: #B3B3B3;
 
 .page-taxonomy-term #region-content { margin-left: 0px; width: 720px}
 
-.page-taxonomy-term .container-12 .grid-9 {  width: 723px;}
+.page-taxonomy-term .container-12 .grid-9, .page-taxonomy-term #panel-borger .panel-region-lead {  width: 723px;}
+
+
 
 /* END */
 /*
@@ -2070,7 +2072,8 @@ color: #B3B3B3;
 #zone-preface .skjul-andre-sites a {padding: 0; margin: 0}
 #panel-borger .panel-region-lead { 
 	background-image: url(../images/pop-services.png); 
-	background-repeat: no-repeat}
+	background-repeat: no-repeat;
+	width: 723px}
 
 .selvbetjening-block-portal {
 	background-image: url(../images/selvbetjening-230.png); 
