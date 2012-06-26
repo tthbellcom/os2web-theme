@@ -1,3 +1,95 @@
+.page-home #region-content, #forside, #forside .container-12 .grid-12, #forside .grid-12 {margin: 0; width: 970px}
+#forside .grid-4 { width: 320px}
+
+#forside .grid-6 { width: 490px}
+
+#forside .grid-8 { width: 650px}
+
+#forside .pane-rotating-image-view { margin-bottom: 3px}
+.page-home .billedrotator { 
+	background-image: url(../images/billedkarusel-bg.png); 
+	margin-top: 12px;
+	margin-left: 9px; 
+	padding-left: 1px;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	background-repeat: no-repeat}
+
+.page-home .view-id-newslist .view-content {
+    background: url("../images/aktueltBAG.png") repeat scroll 0 0 transparent;
+    height: 158px;
+    margin-left: 9px;
+    padding: 2px 0;
+    width: 308px;
+}
+.page-home #zone-content {padding-top: 0px}
+.page-home #zone-postscript-wrapper {display: none}
+.custom-slideshow {
+	float: left;
+	width: 631px;
+}
+
+.page-home #zone-content {background-image: url("../images/transwhite.png"); background-repeat: repeat}
+.page-home .panels-flexible-row-last {border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; padding-top: 0px}
+.page-home .panels-flexible-row-forside-1 {background-image: url(../images/skyggeINDHOLD.png); background-repeat: no-repeat; height: 468px; }
+.page-home .container-12 .grid-6 pane-spotboxe-panel-pane-3 {}
+
+
+.page-home .jcarousel-skin-default .jcarousel-item-horizontal {
+    margin: 0 4px 0 1px;
+}
+
+.page-home .view-kulturnaut-events-lister {
+    background-image: url("../images/detsker-bg.png");
+    height: 159px;
+    margin-left: 6px;
+    width: 314px;
+}
+
+.page-home .panels-flexible-region .pane-kulturnaut-events-lister {
+    margin-left: 2px;
+}
+
+.page-home .panels-flexible-region .pane-kulturnaut-events-lister h2 {
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 1px ;
+    padding-left: 16px;
+    text-transform: uppercase;
+    background-image: url(http://dev.syddjurs.bellcom.dk/profiles/os2web/themes/cmstheme/images/gaatilsyddjurslive.png);
+    background-repeat: no-repeat;
+    background-position: 80px 5px;
+}
+
+
+.page-home .panels-flexible-region .pane-kulturnaut-events-lister a {
+	color: #787878;
+}
+.page-home .panels-flexible-region .pane-newslist h2 {
+    padding-left: 17px;
+    color: #787878;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 1px ;
+    text-transform: uppercase;
+
+}
+
+.page-home .region-inner.region-content-inner {
+	margin-left: 0px;   
+}
+
+
+.page-home .spotbox-2-vertical .spotbox-row {
+    padding: 5px 1px 0px 1pxpx;
+    margin-left: 10px
+}
+
+.page-home .spotbox-tall, .spotbox-video {
+margin-left: 8px;
+}
+
+
 body {background-image: url("../images/bg.png")}
 #page {
     background-image: url("../images/jobcenter_stor_bg.png");
