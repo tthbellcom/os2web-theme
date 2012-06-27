@@ -3105,5 +3105,5 @@ border-bottom: 1px solid #F3F3F3;
 
 
 .links-erhverv .pane-content { background-image: url(../images/kontaktERHVERV.png); background-repeat: no-repeat; height: 205px; padding: 15px; width: 235px; color: #8A8A8A}
-
+.links-erhverv .pane-content p { margin-bottom: 8px }
 .links-erhverv .pane-content a { color: #8A8A8A }
