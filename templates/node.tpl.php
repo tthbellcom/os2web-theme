@@ -18,7 +18,7 @@
 <div class="printvenlig-side"><a href="/print/<?php print $nodeid; ?>"></a></div>
 <?php endif; ?> 
 
-  <?php print render($title_suffix); ?>
+  <?php // print render($title_suffix); ?>
   <?php if ($display_submitted): ?>
   <footer class="submitted"><?php print $date; ?> -- <?php print $name; ?></footer>
   <?php endif; ?>  
@@ -28,6 +28,7 @@
       // We hide the comments and links now so that we can render them later.
       hide($content['comments']);
       hide($content['links']);
+      error_log("Var: \$content = " . print_r(array_keys($content), 1));
       print render($content);
     ?>
   </div>

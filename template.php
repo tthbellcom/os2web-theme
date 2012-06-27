@@ -80,7 +80,7 @@ function cmstheme_preprocess_region(&$vars) {
  */
 function cmstheme_form_alter(&$form, &$form_state, $form_id) {
   if ($form_id == 'search_block_form') {
-    $form['search_block_form']['#attributes']['placeholder'] = t('søg på syddjurs kommune');
+    $form['search_block_form']['#attributes']['placeholder'] = t('søg på syddjurs.dk');
   }
   if($form_state['view']->name == 'meetings_search') {
     
@@ -90,3 +90,12 @@ function cmstheme_form_alter(&$form, &$form_state, $form_id) {
 
 }
 
+function cmstheme_filefield_item($file, $field) {
+  error_log('MARK - ' . basename(__FILE__) . ':' . __LINE__ . ' in ' . __FUNCTION__ . '()');
+   if (filefield_view_access($field['field_name']) && filefield_file_listed($file, $field)) {
+   error_log("Var: \$file = " . print_r($file, 1));
+
+     return theme('filefield_file', $file); //default theming
+   }
+   return '';
+}

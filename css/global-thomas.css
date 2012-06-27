@@ -53,14 +53,14 @@
  width: 435px;
 }
 
-#edit-submit-meetings-search {
+#views-exposed-form-meetings-search-page #edit-submit-meetings-search {
     background-image:  url('../images/dagsordnerSOG.png');
     border: none;
     border-radius: 0;
     width: 98px;
     height: 43px; 
     color: #FFF;
-    margin: 20px 0 0 0;
+    margin: 8px 0 0 0;
     padding-bottom: 8px;
     padding-left: 30px;
     text-shadow: none;
@@ -68,8 +68,13 @@
     text-transform: uppercase;
 }
 
-#edit-to-date-wrapper,
-#edit-from-date-wrapper {
+.portal-politik-og-planer #views-exposed-form-meetings-search-page #edit-submit-meetings-search {
+    position: absolute;
+    top: 44px;
+    left: 373px;
+}
+#views-exposed-form-meetings-search-page #edit-to-date-wrapper,
+#views-exposed-form-meetings-search-page #edit-from-date-wrapper {
     background-image: url("../images/cal.png");
     background-position: 106px 15px;
     background-repeat: no-repeat;
@@ -77,42 +82,42 @@
     height: 54px;
 }
 
-#edit-to-date-wrapper {
+#views-exposed-form-meetings-search-page #edit-to-date-wrapper {
     background-position: 130px 15px;
     width: 156px;
 }
 
-#edit-to-date-wrapper label {
+#views-exposed-form-meetings-search-page #edit-to-date-wrapper label {
     position: absolute;
     text-transform: uppercase;
     margin: 19px 0 0 0;
 }
 
-#edit-from-date-wrapper input,
-#edit-to-date-wrapper input {
+#views-exposed-form-meetings-search-page #edit-from-date-wrapper input,
+#views-exposed-form-meetings-search-page #edit-to-date-wrapper input {
     color: #7A7A7A;
     font-size: 17px;
     margin: 11px 0 0;
 }
 
 
-#edit-to-date-wrapper input {margin-left: 23px;}
+#views-exposed-form-meetings-search-page #edit-to-date-wrapper input {margin-left: 23px;}
 
-#edit-search-params{
+#views-exposed-form-meetings-search-page #edit-search-params{
     border: 1px solid #ddd;
     color: #7E7E7E;
     font-size: 32px;
     width: 625px;
 }
-#edit-search-params-wrapper {
+#views-exposed-form-meetings-search-page #edit-search-params-wrapper {
     background-image: url("../images/soegefeltLUP.png");
     background-position: 625px 0; 
     background-repeat: no-repeat;
     width: 679px;
 }
 
-#edit-from-date-value-datepicker-popup-0,
-#edit-to-date-value-datepicker-popup-0 {
+#views-exposed-form-meetings-search-page #edit-from-date-value-datepicker-popup-0,
+#views-exposed-form-meetings-search-page #edit-to-date-value-datepicker-popup-0 {
     width: 102px;
     border: 1px solid #ddd;
 }
@@ -227,3 +232,26 @@ th.views-field-field-date {
 .view-meeting-details .views-field strong {
     padding-left: 2px;
 }
+
+.view-meeting-details .clearfix h2,
+.view-meeting-details .clearfix h3 {
+    font-size: 15px;
+    margin: 4px 0;
+}
+
+.view-meeting-details .clearfix, 
+.view-meeting-details .clearfix li, 
+.view-meeting-details .clearfix p {
+    font-size: 11px;
+    line-height: 16px;
+    color: #333;
+    margin: 2px 0;
+}
+
+.view-meeting-details .item-list ul li {
+    margin: 0;
+}
+
+.view-meeting-details .field-name-field-bpa-body li {
+    list-style: disc outside none;
+} 
