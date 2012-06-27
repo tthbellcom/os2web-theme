@@ -3,14 +3,18 @@
   <?php print render($title_prefix); ?>
   <?php if (!$page && $title): ?>
   <header>
+<?php if ($view_mode != 'meeting_detail_view'): ?>
     <h2<?php print $title_attributes; ?>><a href="<?php print $node_url ?>" title="<?php print $title ?>"><?php print $title ?></a></h2>
+    <?php else: ?> 
+    <h3<?php print $title_attributes; ?>><?php print $title ?></h3>
+    <?php endif; ?> 
   </header>
   <?php endif; ?>
   <div class="clearfix">
     <?php if (!empty($content['links'])): ?>
       <nav class="links node-links clearfix"><?php print render($content['links']); ?></nav>
     <?php endif; ?>
-<?php if (arg(0) == 'node' && is_numeric(arg(1))): $nodeid = arg(1); ?>
+<?php if ($view_mode != 'meeting_detail_view' && arg(0) == 'node' && is_numeric(arg(1))): $nodeid = arg(1); ?>
 <div class="printvenlig-side"><a href="/print/<?php print $nodeid; ?>"></a></div>
 <?php endif; ?> 
 
