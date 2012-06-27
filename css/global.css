@@ -2082,6 +2082,8 @@ color: #B3B3B3;
 	width: 723px}
 #panel-erhverv .panel-region-lead, #panel-erhverv .panel-region-middle-top, #panel-politikogplaner .panel-region-lead, #panel-politikogplaner .panel-region-middle-top	{ width: 723px;}
 
+#panel-politikogplaner .panel-region-middle-center {width: 470px}
+
 .selvbetjening-block-portal {
 	background-image: url(../images/selvbetjening-230.png); 
 	margin: 0;}
