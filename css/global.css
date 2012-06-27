@@ -1277,6 +1277,17 @@ padding-top: 8px;
 
 .portal-politik-og-planer .spotbox-horisontal { clear: left; }
 
+.portal-politik-og-planer .view-spotboxe .spotbox-row,
+.portal-politik-og-planer .spotbox-horisontal .views-row-last {
+    background-image: url("../images/spot1b.png");
+    background-position: 0 22px;
+    padding-top: 0;
+}
+
+.portal-politik-og-planer .view-spotboxe .spotbox-row img,
+.portal-politik-og-planer .spotbox-horisontal .views-row-last img {padding-left: 1px;}
+
+.portal-politik-og-planer .view-spotboxe .spotbox-row {padding-left: 0;}
 
 .spotbox-horisontal-3 .view-content .views-row-first {
 	margin-left: 10px;
@@ -1295,7 +1306,7 @@ padding-top: 8px;
 .selvbetjening-block-forside ul {margin-left: 10px; margin-bottom: 12px}
 .selvbetjening-block-forside li { padding-left: 5px}
 .selvbetjening-block-forside .readmore a { font-size: 14px; margin-bottom: 10px}
-.selvbetjening-block-forside a { color: #fff; margin-bottom: 5px; font-weight: normal; font-size: 12px}
+G.selvbetjening-block-forside a { color: #fff; margin-bottom: 5px; font-weight: normal; font-size: 12px}
 */
     
 .selvbetjening-block-forside { color: #B3B3B3; background-image: url(../images/selvbetjeningFORSIDE.png); padding: 10px 7px 40px 7px; margin-top: 12px; margin-left: 0px; font-size: 16px; text-transform: uppercase}
@@ -3108,3 +3119,18 @@ border-bottom: 1px solid #F3F3F3;
 .links-erhverv .pane-content { background-image: url(../images/links.png); background-repeat: no-repeat; height: 160px; padding: 15px; width: 235px; color: #8A8A8A}
 .links-erhverv .pane-content p { margin-bottom: 8px }
 .links-erhverv .pane-content a { color: #8A8A8A }
+
+.item-list .pager li, .item-list .pager ul li {float: none; }
+
+#block-apachesolr-search-sort li {
+   margin-left: 0;
+   padding-left: 10px;
+}
+
+#block-apachesolr-search-sort li:hover {
+   background-color: #8b0053;
+}
+
+#block-apachesolr-search-sort li:hover a {
+    color: #FFF;
+}

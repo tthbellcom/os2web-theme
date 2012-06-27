@@ -28,7 +28,6 @@
       // We hide the comments and links now so that we can render them later.
       hide($content['comments']);
       hide($content['links']);
-      error_log("Var: \$content = " . print_r(array_keys($content), 1));
       print render($content);
     ?>
   </div>
