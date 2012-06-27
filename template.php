@@ -36,7 +36,12 @@ function cmstheme_menu_link(array $variables) {
 /*tth@bellcom.dk check if there is a better way to do this...*/
 function cmstheme_breadcrumb($variables) {
   $breadcrumb = $variables['breadcrumb'];
-  
+
+$nid = arg(1);
+if (is_numeric($nid)){
+  $node = node_load($nid);
+}
+
   if (!empty($breadcrumb)) {
     $output = '<div class="breadcrumb you-are-here">' . t('Du er her: ') . '</div>';
     $title = drupal_get_title();
@@ -47,12 +52,20 @@ function cmstheme_breadcrumb($variables) {
 		$breadcrumb[0] = l('Forside', '<front>');
 		$breadcrumb[] = '<a href="#">Søgning</a>';
 	}
-    $output .= '<div class="breadcrumb">' . implode('<div class="bread-crumb"> > </div> ', $breadcrumb) . '</div>'; 
+    if ($node->type == 'meeting') {
+		unset($breadcrumb);
+		$breadcrumb[0] = l('Forside', '<front>');
+		$breadcrumb[] = l('Politik & planer', 'politik-og-planer');		
+		$breadcrumb[] = l('Søg i dagsordener og referater', 'meetings-search');		
+		$breadcrumb[] = l($title, '#');
+        }
+    $output .= '<div class="breadcrumb">' . implode('<div class="bread-crumb"> > </div> ', $breadcrumb) . '</div>';
 return $output;
   }
 }
 
 function cmstheme_preprocess_region(&$vars) {
+  global $user;
   if ($vars['region'] === 'sidebar_first') {
     $dirty = false;
     $ignored_blocks = array(
@@ -60,6 +73,9 @@ function cmstheme_preprocess_region(&$vars) {
       'alpha_debug_sidebar_first',
       'context',
     );
+    if ($user->uid==0 && arg(1)==23200) {
+      error_log("Var: \$vars = " . print_r(array_keys($vars['elements']), 1));
+      }
     if (arg(0)==='search') $dirty=true;
     else
     foreach ($vars['elements'] as $key => $element) {
