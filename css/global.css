@@ -310,8 +310,7 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 	color: #4B4B4B;
 	padding-left: 20px;
 }
-
-,portal-erhverv .custom-slideshow .views-field-body a {
+#panel-erhverv .custom-slideshow .views-field-body a {
 	margin-top: 0px;}
 
 .custom-slideshow .views-field-body a span {
