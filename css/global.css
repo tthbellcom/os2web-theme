@@ -1911,6 +1911,11 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
     
 }
 
+p.MsoNormal {
+   margin: 0px;
+   line-height: inherit;
+}
+
 .node-type-contentpage .field-name-body  {
     padding: 0 16px 10px 16px;
     margin: 10px 10px 10px 10px;
