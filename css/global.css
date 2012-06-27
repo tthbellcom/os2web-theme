@@ -2075,6 +2075,7 @@ color: #B3B3B3;
 	background-image: url(../images/pop-services.png); 
 	background-repeat: no-repeat;
 	width: 723px}
+.portal-side .panel-region-lead, .portal-side .panel-region-middle-top	{ width: 723px;}
 
 .selvbetjening-block-portal {
 	background-image: url(../images/selvbetjening-230.png); 
