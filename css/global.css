@@ -3135,4 +3135,4 @@ border-bottom: 1px solid #F3F3F3;
 #block-apachesolr-search-sort li:hover a {
     color: #FFF;
 }
-#region-sidebar-second #block-block-6 { margin-left: 2px}
+#region-sidebar-second #block-block-6 { padding-left: 5px; background-color: #F0F0F0}
