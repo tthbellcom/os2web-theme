@@ -102,9 +102,13 @@ function cmstheme_form_alter(&$form, &$form_state, $form_id) {
     
     //tth@bellcom.dk ændret tekst på select i meetings-search
     $form['committee']['#options']['All'] = t('Vælg udvalg');
+    $form['from_date']['value']['#date_format'] = 'd-m-Y';
+    $form['to_date']['value']['#date_format'] = 'd-m-Y';
+
   }
 
 }
+
 
 function cmstheme_filefield_item($file, $field) {
   error_log('MARK - ' . basename(__FILE__) . ':' . __LINE__ . ' in ' . __FUNCTION__ . '()');
