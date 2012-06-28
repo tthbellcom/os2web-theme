@@ -590,9 +590,9 @@ body {
 #zone-footer {
 	/*background-image: url(../images/footer-bg.png); */
 	background-image: url(../images/transwhite.png);
-	background-position: top left; 
+	/*background-position: top left; 
 	background-repeat: repeat-x; 
-	min-height: 350px;}
+	*/min-height: 350px;}
 
 #zone-postscript { background-image: url(../images/cw-bg-bund.png); background-position: center; background-repeat: repeat-y; }
 #zone-menu { background-image: url(../images/menu-bag.png); font-family: "myriad-pro", Arial, Helvetica, Tahoma, sans-serif; height: 68px; background-position: center top}
