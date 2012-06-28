@@ -3140,5 +3140,5 @@ border-bottom: 1px solid #F3F3F3;
 #ctools-jump-menu {}
 #ctools-jump-menu--2 {}
 
-.selvbetjening-block-forside .view-content .form-item-jump{}
-.selvbetjening-block-forside .view-footer .view-content .form-item-jump{}
+.selvbetjening-block-forside .view-content .form-item-jump{ background: transparent}
+.selvbetjening-block-forside .view-footer .view-content .form-item-jump{ background: transparent}
