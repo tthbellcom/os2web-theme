@@ -588,7 +588,8 @@ body {
 	background-image: url(../images/content-bg06.png)
 	}
 #zone-footer {
-	background-image: url(../images/footer-bg.png); 
+	/*background-image: url(../images/footer-bg.png); */
+	background-image: url(../images/transwhite.png);
 	background-position: top left; 
 	background-repeat: repeat-x; 
 	min-height: 350px;}
