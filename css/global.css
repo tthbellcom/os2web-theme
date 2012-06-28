@@ -178,7 +178,7 @@ h2.pane-title a, h2.block-title a {
 
 #region-sidebar-first  .block-title {padding-left: 20px; line-height: 50px}
 
-#region-sidebar-second { margin-left: 0px; /*background-image: url(../images/right_sidebar_bg.jpg)*/}
+#region-sidebar-second { margin-left: 0px; float: right; margin-right: 10px /*background-image: url(../images/right_sidebar_bg.jpg)*/}
 
 .block-multistep { background-color: #8B0047; color: #fff; margin-bottom: 20px}
 .block-multistep a {color: #fff}
