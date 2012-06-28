@@ -74,7 +74,7 @@ function cmstheme_preprocess_region(&$vars) {
       'context',
     );
     if ($user->uid==0 && arg(1)==23200) {
-      error_log("Var: \$vars = " . print_r(array_keys($vars['elements']), 1));
+//      error_log("Var: \$vars = " . print_r(array_keys($vars['elements']), 1));
       }
     if (arg(0)==='search') $dirty=true;
     else
