@@ -236,17 +236,18 @@ th.views-field-field-date {
 
 .view-meeting-details .clearfix h2,
 .view-meeting-details .clearfix h3 {
-    font-size: 15px;
+    font-size: 14px;
     margin: 4px 0;
 }
 
 .view-meeting-details .clearfix, 
 .view-meeting-details .clearfix li, 
 .view-meeting-details .clearfix p {
-    font-size: 11px;
+    font-size: 12px;
     line-height: 16px;
     color: #333;
     margin: 2px 0;
+    font-family: Arial,Helvetica,sans-serif;
 }
 
 .view-meeting-details .item-list ul li {
