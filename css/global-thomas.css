@@ -73,8 +73,9 @@
     top: 44px;
     left: 373px;
 }
-#views-exposed-form-meetings-search-page #edit-to-date-wrapper,
-#views-exposed-form-meetings-search-page #edit-from-date-wrapper {
+
+#bef-datepicker-wrapper,
+#bef-datepicker--2-wrapper {
     background-image: url("../images/cal.png");
     background-position: 106px 15px;
     background-repeat: no-repeat;
@@ -82,26 +83,26 @@
     height: 54px;
 }
 
-#views-exposed-form-meetings-search-page #edit-to-date-wrapper {
+#bef-datepicker--2-wrapper {
     background-position: 130px 15px;
     width: 156px;
 }
 
-#views-exposed-form-meetings-search-page #edit-to-date-wrapper label {
+#bef-datepicker--2-wrapper label {
     position: absolute;
     text-transform: uppercase;
     margin: 19px 0 0 0;
 }
 
-#views-exposed-form-meetings-search-page #edit-from-date-wrapper input,
-#views-exposed-form-meetings-search-page #edit-to-date-wrapper input {
+#bef-datepicker-wrapper  input, 
+#bef-datepicker--2-wrapper input {
     color: #7A7A7A;
     font-size: 17px;
     margin: 11px 0 0;
 }
 
 
-#views-exposed-form-meetings-search-page #edit-to-date-wrapper input {margin-left: 23px;}
+#bef-datepicker--2-wrapper input {margin-left: 23px;}
 
 #views-exposed-form-meetings-search-page #edit-search-params{
     border: 1px solid #ddd;
