@@ -851,7 +851,7 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 
 .view-id-kontaktblok { background-image: url(../images/kontaktMELLEM.png); width: 232px; background-repeat: repeat-y }
 
-.view-id-kontaktblok .view-content { height: 305px; padding-top: 20px;  overflow: hidden; background-image: url(../images/kontaktTOP.png); background-repeat: no-repeat}
+.view-id-kontaktblok .view-content { /*height: 305px;*/ padding-top: 20px;  overflow: hidden; background-image: url(../images/kontaktTOP.png); background-repeat: no-repeat}
 .view-id-kontaktblok .view-footer { height: 45px; padding-top: 48px; padding-left: 20px; background-image: url(../images/kontaktBUND.png); background-repeat: no-repeat }
 
 .kontaktblok-overskrift {color: #4B4B4B;
