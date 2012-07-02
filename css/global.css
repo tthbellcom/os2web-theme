@@ -2259,6 +2259,7 @@ text-transform: uppercase;
 	color: #9a9a9a;
 	font-size: 11px;
 }
+#region-footer-third .region-footer-third-inner .telefonnummer a { font-size: 30px}
 
 #region-footer-third .region-footer-third-inner a:hover {
 	color: #880046;
