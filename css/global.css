@@ -2494,6 +2494,16 @@ div.breadcrumb.you-are-here {
 	padding: 10px 0 15px 26px;
 }
 
+.view-ofir-job-lister .last-updated-node {
+	color: #787878;
+	font-size: 11px;
+	padding: 5px 0 20px;
+}
+
+.view-ofir-job-lister  h2.node-title {
+    font-size: 15px;
+}
+
 .del-bund {
 	background-image: url(../images/del-bg.png);
 	height: 76px;
