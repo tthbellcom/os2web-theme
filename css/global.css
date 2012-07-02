@@ -899,8 +899,8 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 	color: #9b9b9b;
 }*/
 
-.telefonnummer { padding: 5px 20px}
-.telefonnummer, .telefonnummer a { font-size: 22px; color: #9B9B9B;  }
+.telefonnummer { padding: 0 0 15px 30px; background-image: url(../images/telefon.png); background-repeat: no-repeat;}
+.telefonnummer, .telefonnummer a { font-size: 35px; color: #9B9B9B;  }
     
 .telfonnummer , .telfonnummer a { font-size: 22px; color: #9B9B9B; margin: 0;
     padding: 0 0 3px;    background-image: none;}
