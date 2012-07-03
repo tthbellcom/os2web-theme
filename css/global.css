@@ -1924,10 +1924,19 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
     color: #4a4a4a;
     font-size: 12px; 
     line-height: 19px;
-    
-}
+	}
 
-.field-type-text-long, .field-type-text-long p, .field-type-text-long li { color: #4A4A4A; font-size: 12px; line-height: 1.25}
+.field-type-text-long, 
+.field-type-text-long p, 
+.field-type-text-long li,
+.field-type-text-long .field-items, 
+.field-type-text-long .field-items p, 
+.field-type-text-long .field-items li { 
+	color: #4A4A4A; font-size: 12px; line-height: 1.25
+	}
+.field-type-text-long .field-items, 
+.field-type-text-long .field-items p { line-height: 1.1
+	}
 
 p.MsoNormal {
    margin: 0px;
