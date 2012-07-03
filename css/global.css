@@ -604,7 +604,7 @@ body {
 .block-user-menu  ul li, .vertical-menu ul li, .block-menu-top-menu ul li { float: left; padding: 0 7px 0 0; margin: 0 1px 0 -1px; list-style: none; text-transform: uppercase }
 
 #zone-user {height: 33px; padding-top: 0px;font-size: 9px;}
-#zone-user .menu { margin-top: 0px ; line-height: 22px}
+#zone-user .menu { margin-top: 12px ; line-height: 22px}
 
 #zone-menu .region-inner, #zone-content-wrapper .region-inner {position: relative; }
 #zone-menu #main-menu  {line-height: 64px; height: 64px; font-size: 20px; margin: 0 13px;  }
@@ -1801,7 +1801,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 
 #zone-user-wrapper ul.menu li a {
     display: block;
-    margin-top: 12px;
+    margin-top: 0px;
 	line-height:13px;
 }
 
