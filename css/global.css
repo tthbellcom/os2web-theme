@@ -1935,7 +1935,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 	color: #4A4A4A; font-size: 12px; line-height: 1.25
 	}
 .field-type-text-long .field-items, 
-.field-type-text-long .field-items p { line-height: 1.1
+.field-type-text-long .field-items p { line-height: 1.15
 	}
 
 p.MsoNormal {
