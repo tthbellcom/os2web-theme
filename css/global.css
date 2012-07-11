@@ -14,7 +14,7 @@ table { font-size:inherit; font:100%; }
 select, input, textarea { font:99% sans-serif; } 
 body {font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; }
 /*body {background-image: url(../images/bodybackground.jpg)}*/
-body {font-family: Arial, Helvetica, sans-serif ;}
+body {font-family: Arial, Helvetica, sans-serif ;background-attachment: fixed; }
 
 ::-moz-selection { background: #8b0053; color: #fff; text-shadow: none; }
 ::selection { background: #8b0053; color: #fff; text-shadow: none; }
@@ -514,30 +514,8 @@ ul.jcarousel-list-horizontal { }
   display: block;
 }
 .float-right {float: right}
-/*
-.field-name-field-case .fullcaserender {background-color: #666; padding: 10px}
 
-.field-name-field-case .fullcaserender table {border: none}
-.field-name-field-case .fullcaserender thead th, .field-name-field-case .fullcaserender th {
-    background: none repeat scroll 0 0 #666;
-    border-bottom: 1px solid #CCCCCC;
-    color: #fff;
-}
-.field-name-field-case .fullcaserender tr.odd td {
-    background: none repeat scroll 0 0 #666666;
-    color: #fff
-}
 
-.field-name-field-case .fullcaserender tr.even td {
-    background: none repeat scroll 0 0 #909090;
-}
-*/
-body { 
-	font:13px sans-serif; *font-size:small; *font:x-small; 
-	line-height:1.22;
-	/*background-image: url(../images/ebeltoft-stor-bg.jpg); */
-	background-attachment: fixed; 
-	 }
 #page {
 	background: url(../images/sideskygge0.png) center top no-repeat;
 }
@@ -561,11 +539,13 @@ body {
 	background-repeat:repeat-y;
 	padding-top: 25px;}
 .zone-content-wrapper { 
-	width: 1018px; 
+	/*width: 1018px; */
 	margin: auto; 
 	/*background-color: #FFF;*/
 	/*background-image: url(../images/transwhite.png)*/
 	background-image: url(../images/content-bg03.png);
+	background-repeat: repeat-y;
+	background-position: center center;
 	}
 
 .uden-hoejre-spalte-wrapper 
@@ -580,6 +560,7 @@ body {
 	}
 #zone-content {
 	padding-top: 10px;
+	padding-bottom: 20px;
 	background-image: url(../images/skyggeINDHOLD.png); 
 	background-repeat: no-repeat;
 	background-color: transparent;
@@ -1922,6 +1903,11 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 	top: 15px;
 }
 
+.page-blog .region-inner h1.title {
+	position: relative;
+	top: 0;
+	margin-bottom: 0;}
+
 .field-items .field-item p {
     color: #4a4a4a;
     font-size: 12px; 
@@ -2080,7 +2066,7 @@ color: #B3B3B3;
 }
 .view-borgerservices ul li.views-row-3, .view-borgerservices ul li.views-row-6, .view-borgerservices ul li.views-row-9 { width: 160px}
 
-#zone-preface-wrapper { position: absolute; background-image: url(../images/syddjursWEBSTEDER-bg.png); width: 100%; z-index: 999; height: 35px; }
+#zone-preface-wrapper { position: absolute; background-image: url(../images/syddjursWEBSTEDER-bg.png); width: 1018px; z-index: 999; height: 35px; }
 #zone-preface { margin: auto; background-image: url(../images/syddjursWEBSTEDER.png); background-repeat: no-repeat}
 
 .vis-andre-sites a {background-image: url("../images/webstederKNAP.png");
