@@ -2068,7 +2068,7 @@ color: #B3B3B3;
 }
 .view-borgerservices ul li.views-row-3, .view-borgerservices ul li.views-row-6, .view-borgerservices ul li.views-row-9 { width: 160px}
 
-#zone-preface-wrapper { position: absolute; background-image: url(../images/syddjursWEBSTEDER-bg.png); width: 1018px; z-index: 999; height: 35px; }
+#zone-preface-wrapper { position: absolute; background-image: url(../images/syddjursWEBSTEDER-bg.png); width: 1018px; z-index: 999; height: 35px; margin-left: -509px; left: 50% }
 #zone-preface { margin: auto; background-image: url(../images/syddjursWEBSTEDER.png); background-repeat: no-repeat}
 
 .vis-andre-sites a {background-image: url("../images/webstederKNAP.png");
