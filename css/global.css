@@ -556,7 +556,9 @@ ul.jcarousel-list-horizontal { }
 	background: url(../images/content-bg2.png)
 	}
 .front #zone-content-wrapper {	
-	background: url(../images/content-bg-fs.png)
+	background: url(../images/content-bg-fs.png);
+	background-repeat: repeat-y;
+	background-position: center center;
 	}
 #zone-content {
 	padding-top: 10px;
