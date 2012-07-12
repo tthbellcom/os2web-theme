@@ -3,7 +3,11 @@ a:link, a:visited {
     color: #004077;
     text-decoration: none;
 }
-
+.spotbox .spotbox-subfront h3 {
+    color: #004077;
+    background-image: url(../images/joncenterPILspot.png);
+    background-repeat: no-repeat;
+}
 
 .block-multistep {
     background-color: #004077;
@@ -100,8 +104,14 @@ a:link, a:visited {
 
 /*selvbetjenings panal forside */
 .selvbetjening-block-forside {
-    background-image: url("../images/jobcenterSelvbetjening.png");
+    background-image: url("../images/selvbetjening-bg-BLUE.png");
     background-size: 100%;
+    height: 403px !important;
+    margin-top: 20px;
+    border-bottom-right-radius: 7px 10px;
+    -moz-border-radius-bottomright: 7px 10px;
+    -webkit-border-bottom-right-radius: 7px 10px;
+    padding: 10px 6px 40px 12px;
 }
 
 .selvbetjening-block-forside a {
@@ -112,12 +122,11 @@ a:link, a:visited {
     height: 0;
 }
 
-
 .selvbetjening-block-forside .form-type-select {
     background-image: url("../images/dropdownPILjobcenter.png");
 }
 .selvbetjening-block-forside .item-list {
-    height: 185px;
+    height: 165px;
 }
 
 /* menu */
@@ -211,12 +220,17 @@ a.overlayclass span.zoom-icon-tall {
     background-color: #004077;
 }
 
-
-#region-sidebar-first h2.menuActive, #region-sidebar-first ul.menu li.active-trail.active, #region-sidebar-first ul.menu li.active-trail li.active-trail.active, #region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail.active, #region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail li.active-trail.active, #region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail li.active-trail li.active-trail li.active-trail.active {
-    background-color: #004077;
-    /* skal være grafisk til sidebar */
+#region-sidebar-first ul.menu li.active-trail.active.expanded a.active,
+#region-sidebar-first ul.menu li.active-trail.active a.active, #region-sidebar-first ul.menu li a:hover,
+#block-menu-block-12 h2.menuActive {
+	background-color: #004077;
 }
-
+/*#region-sidebar-first h2.menuActive, #region-sidebar-first ul.menu li.active-trail.active, #region-sidebar-first ul.menu li.active-trail li.active-trail.active, #region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail.active, #region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail li.active-trail.active, #region-sidebar-first ul.menu li.active-trail li.active-trail li.active-trail li.active-trail li.active-trail li.active-trail.active {
+    background-color: #004077;
+    background-image: none !important;
+    /* skal være grafisk til sidebar */
+/*}
+*/
 
 #region-sidebar-first ul.menu li.active-trail.active.expanded a:hover, #region-sidebar-first ul.menu li a:hover {
     /* til at ændre farven i side baren / menuen til blå når musem er aktiv ovenpå - andre indstillinger i global-menu.css */
@@ -240,3 +254,39 @@ a.overlayclass span.zoom-icon-tall {
     /*selve linksene*/
     color: #ffffff;
 }
+
+#zone-preface ul.nice-menu-down li.menuparent { background-color: transparent}
+
+#zone-preface ul.nice-menu li {background-color: #102C51}
+
+.selvbetjening-block-forside .view-content .yaselect-anchor {background-image: url(../images/dropdown1SELVBETJENING.png)}
+.selvbetjening-block-forside .view-footer .yaselect-anchor {background-image: url(../images/dropdown2SELVBETJENING.png)}
+
+.selbetjening-bund .nemid, .selbetjening-bund .borgerdk, .selbetjening-bund .virkdk {
+    margin-top: 19px;
+}
+
+#region-footer-first .footer-off-links .nemid, #region-footer-first .footer-off-links .virkdk, #region-footer-first .footer-off-links .borgerdk, .selbetjening-bund a {
+
+    height: 38px;
+}
+
+.panels-flexible-row {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+#forside .spotbox-horisontal .spotbox-row {padding-top: 0px}
+#forside .spotbox-horisontal h2.pane-title {padding-top: 0px ; padding-bottom: 7px}
+#forside .spotbox-video .spotbox-row {padding-top: 0px}
+#forside .spotbox-video h2.pane-title {padding-top: 0px ; padding-bottom: 5px; margin-left: 3px;}
+
+.spotbox-row-video {
+    background-position: 0 22px;
+    background-repeat: no-repeat;
+    height: 212px;
+    margin-bottom: 5px;
+    padding: 0 5px 0 2px;
+}
+
+.node-type-contentpage .field-items li { list-style-image: url(../images/v-arrow-default-flat.png)}

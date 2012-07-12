@@ -13,6 +13,9 @@
 function cmstheme_preprocess_html(&$variables) {
   $theme_path = path_to_theme();
   drupal_add_js($theme_path . '/js/script.js');
+  drupal_add_js($theme_path . '/js/jquery.vegas.js');
+  drupal_add_js($theme_path . '/js/jquery.phonenumber.js');
+  drupal_add_js($theme_path . '/js/jquery.dagsorden.js', array('scope' => 'footer', 'weight' => 5));
 }
 
 function cmstheme_menu_link(array $variables) {
@@ -33,7 +36,12 @@ function cmstheme_menu_link(array $variables) {
 /*tth@bellcom.dk check if there is a better way to do this...*/
 function cmstheme_breadcrumb($variables) {
   $breadcrumb = $variables['breadcrumb'];
-  
+
+$nid = arg(1);
+if (is_numeric($nid)){
+  $node = node_load($nid);
+}
+
   if (!empty($breadcrumb)) {
     $output = '<div class="breadcrumb you-are-here">' . t('Du er her: ') . '</div>';
     $title = drupal_get_title();
@@ -44,20 +52,30 @@ function cmstheme_breadcrumb($variables) {
 		$breadcrumb[0] = l('Forside', '<front>');
 		$breadcrumb[] = '<a href="#">Søgning</a>';
 	}
-    $output .= '<div class="breadcrumb">' . implode('<div class="bread-crumb"> > </div> ', $breadcrumb) . '</div>'; 
+    if ($node->type == 'meeting') {
+		unset($breadcrumb);
+		$breadcrumb[0] = l('Forside', '<front>');
+		$breadcrumb[] = l('Politik & planer', 'politik-og-planer');		
+		$breadcrumb[] = l('Søg i dagsordener og referater', 'meetings-search');		
+		$breadcrumb[] = l($title, '#');
+        }
+    $output .= '<div class="breadcrumb">' . implode('<div class="bread-crumb"> > </div> ', $breadcrumb) . '</div>';
 return $output;
   }
 }
 
 function cmstheme_preprocess_region(&$vars) {
+  global $user;
   if ($vars['region'] === 'sidebar_first') {
-    error_log("Var: \$vars['elements'] = " . print_r(array_keys($vars['elements']), 1));
     $dirty = false;
     $ignored_blocks = array(
       'views_sitestuktur-block_1',
       'alpha_debug_sidebar_first',
       'context',
     );
+    if ($user->uid==0 && arg(1)==23200) {
+//      error_log("Var: \$vars = " . print_r(array_keys($vars['elements']), 1));
+      }
     if (arg(0)==='search') $dirty=true;
     else
     foreach ($vars['elements'] as $key => $element) {
@@ -70,4 +88,34 @@ function cmstheme_preprocess_region(&$vars) {
      $vars['content'] = drupal_render(menu_tree(variable_get('os2web_default_menu','navigation')));
     }
   }
+}
+
+
+/*
+ * tekst i søgefelt
+ */
+function cmstheme_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == 'search_block_form') {
+    $form['search_block_form']['#attributes']['placeholder'] = t('søg på syddjurs.dk');
+  }
+  if($form_state['view']->name == 'meetings_search') {
+    
+    //tth@bellcom.dk ændret tekst på select i meetings-search
+    $form['committee']['#options']['All'] = t('Vælg udvalg');
+    $form['from_date']['value']['#date_format'] = 'd-m-Y';
+    $form['to_date']['value']['#date_format'] = 'd-m-Y';
+
+  }
+
+}
+
+
+function cmstheme_filefield_item($file, $field) {
+  error_log('MARK - ' . basename(__FILE__) . ':' . __LINE__ . ' in ' . __FUNCTION__ . '()');
+   if (filefield_view_access($field['field_name']) && filefield_file_listed($file, $field)) {
+   error_log("Var: \$file = " . print_r($file, 1));
+
+     return theme('filefield_file', $file); //default theming
+   }
+   return '';
 }

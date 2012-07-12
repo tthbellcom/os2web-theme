@@ -11,9 +11,9 @@ $plugin = array(
   'theme arguments' => array('id', 'content'),
   'admin css' => 'cms_portalforside_admin.css',
   'regions' => array(
-    'left' => t('Venstre'),
-    'right_top' => t('Højre top'),
-    'right_middle' => t('Højre center'),
-    'right_bottom' => t('Højre bund'),
+    'lead' => t('Lead'),
+    'middle_top' => t('Middle top'),
+    'middle_center' => t('Middle center'),
+    'middle_right' => t('Middle right'),
   ),
 );

@@ -1,376 +1,259 @@
-.node-type-contentpage .field-items h2 {
-color: #4B4B4B;
-font-size: 15px;
-background-image: url(../images/arrow-down-over.png);
-background-repeat: no-repeat;
-padding-left: 15px;
-background-position: 0px 5px;
+.agenda-item {
+  border: 1px solid #cccccc;
+  background-color: #fefefe;
+  padding: 0.2em;
+}
+.agenda-bullet-list {
+    background-image: url("../images/megamenu-arrow-over.png");
+    background-position: 5px 4px;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 20px;
+    width: auto;
+    padding-left: 20px;
 }
 
 
-.node-type-contentpage .field-items a {
-color: #4B4B4B;
-font-size: 15px;
+.agenda-bullet-list.open {
+    background-image: url("../images/arrow-down-over.png");
+    background-position: 2px 5px;
 }
 
-.node-type-contentpage .field-items li {
-list-style-image: url(../images/megamenu-arrow-over.png);
-color: #4A4A4A;
-font-size: 13px;
-line-height: 22px;
-}
-
-.search-results a {
-	background-image: url(../images/megamenu-arrow-over.png);
-	background-repeat: no-repeat;
-	padding-left: 15px;
-	background-position: 0px 5px;
-	color: #464646;
-	font-size: 15px;
-}
-
-.search-results p {
-	font-size: 12px;
-	color: #464646;
-}
-
-.search-results li:hover a {
-	color: #8b0054;
-}
-
-.search-results li:hover p {
-	text-decoration:underline;
-}
-
-.search-results .search-snippet-info {
-	padding-left: 0;
-}
-
-.block-system .search-form .form-text {
-	line-height: 74px;
-	height: 74px;
-	font-size: 42px;
-	width: 600px;
-	color: #797979;
-	border: 0;
-	margin-left: 13px;
-	padding-left: 26px;
-}
-
-.search-form #edit-submit {
-	background-image: url(../images/soegefeltLUP.png);
-	border: 0;
-	box-shadow: none;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	border-radius: 0;
-	-moz-border-radius: 0;
-	-webkit-border-radius: 0;
-	height: 74px;
-	width: 69px;
-	text-indent: -2000px;
-	background-repeat: no-repeat;
+.item-list li {
+    clear: left;
 }
 
 
-#region-sidebar-first #facetapi-facet-apachesolrsolr-block-im-field-site-structure li {list-style:none;}
-
-#region-sidebar-first #facetapi-facet-apachesolrsolr-block-im-field-site-structure li a {
-	display: inline-block;
-	vertical-align: middle;
-	line-height: 1.2;
-	width: 74.5%;
-	padding: 20px 40px 20px 20px;
-	background: url(../images/v-arrow-default.png) no-repeat right 50%;
-	border-bottom: 1px solid #E6E6E6;
-	color: #333;
-}
-
-#region-sidebar-first #facetapi-facet-apachesolrsolr-block-im-field-site-structure li:hover a {
-	display: inline-block;
-	vertical-align: middle;
-	line-height: 1.2;
-	width: 74.5%;
-	padding: 20px 40px 20px 20px;
-	background: url(../images/v-arrow-default-on.png) #8B0053 no-repeat right 50%; 
-	border-bottom: 1px solid #E6E6E6;
-	color: #FFF;
-}
-.printvenlig-side-sog a{
-        background-image: url(../images/print.png);
-        background-repeat: no-repeat;
-        height: 60px;
-        width: 79px;
-        background-position: right top;
-        position: absolute;
-        top: 92px;
-        left: 625px;
-}
-
-
-.yaselect-wrap { 
-	padding: 8px 0 0 10px; 
-	margin: 0; 
-	height: 32px; }
-	
-.yaselect-select { 
-	margin-top: 0; 
-	padding-top: 0; }
-	
-.yaselect-current {
-	margin-top: 5px }
-	
-.yaselect-wrap, 
-.yaselect-current { 
-	cursor: pointer; display: block; }
-	
-.yaselect-wrap, 
-.yaselect-current, 
-.yaselect-select { 
-	font-size: 15px; 
-	color: #787878; }
-	
-.form-item-committee .yaselect-wrap { 
-	width: 440px; }
-.form-item-committee .yaselect-wrap, 
-.form-item-committee .yaselect-current, 
-.form-item-committee .yaselect-select { 
-	width: 439px; 
-	text-transform: uppercase }
-
-
-.fullcaserender,
-.documenttable {
-	padding: 10px 16px 0px 16px;
-	margin: 0px 10px 10px 10px;
-	background-color: #f6f6f6;
-}
-
-.documenttable tr.odd td  {
-	padding: 0;
-}
-
-.documentdate {
-	position: relative;
-	top: -10px;
-}
-
-.field .fullcaserender th, .field .fullcaserender tr, .field .fullcaserender td, .field .documenttable td, .field .documenttable tr, .field .documenttable th {
-	border: 0;
-	padding: 0;
-
-}
-
-.field-group-fieldset .fieldset-wrapper a {
-	font-size: 13px;
-}
-
-.documentheader {
-	padding-bottom: 5px;
-	line-height: 12px;
-}
-
-.fieldset-legend {
-	padding: 10px 16px 10px 16px;
-	margin: 20px 10px 0px 10px;
-	width: 418px;
-	display: block;
-
-	background-color: #f6f6f6;
-}
-
-#region-branding {
-	margin-left: 0;
-}
-
-.video-text {
-	float: left;
-	background-image: url(../images/megamenu-arrow.png);
-	background-repeat: no-repeat;
-	padding-left: 13px;
-	position: relative;
-	width: 111px;
-	background-position: 0 12px;
-	font-size: 11px;
-	line-height: 15px;
-	padding-top: 10px;
-	border-top: 1px solid #ebebeb;
-}
-
-.spotbox-video .youtube-player {
-position: absolute;
-}
-.breadcrumb a:hover {
-	color: #8b0053;
-}
-
-.selvbetjening-block-forside .yaselect-anchor {
+.form-item-committee .yaselect-anchor {
  background-repeat: no-repeat;
- height: 68px;
- width: 291px;
+ height: 50px;
+ width: 440px;
  display: block;
+ background-image: url('../images/dagsordnerDROP.png');
 }
 
-.selvbetjening-block-forside .view-content .yaselect-anchor {
- background-image: url('../images/sb-forside-dd-1.png');
+.form-item-committee .yaselect-open {
+ background-image: url('../images/dagsordnerDROP.png');
 }
-.selvbetjening-block-forside .view-footer .yaselect-anchor {
- background-image: url('../images/sb-forside-dd-2.png');
-}
-
-.selvbetjening-block-forside .yaselect-open {
- background-image: url('../images/sb-forside-dd-open.png');
-}
-.selvbetjening-block-forside .yaselect-current{
+.form-item-committee .yaselect-current{
  display: block;
- width: 280px;
+ width: 440px;
  text-transform: none;
- visibility: hidden;
+ margin: 0;
 }
 
-.selvbetjening-block-forside .yaselect-wrap {
+.form-item-committee .yaselect-wrap {
  padding: 12px 0 0 20px;
+ margin: 0;
  position: absolute;
 }
-.selvbetjening-block-forside .yaselect-select {
- margin-left: 10px;
- width: 280px;
+.form-item-committee .yaselect-select {
+ margin-left: 1px;
+ width: 435px;
 }
 
-.selvbetjening-block-portal .yaselect-anchor {
- background-repeat: no-repeat;
- height: 58px;
- width: 204px;
- display: block;
- margin-left: 6px;
+#views-exposed-form-meetings-search-page #edit-submit-meetings-search {
+    background-image:  url('../images/dagsordnerSOG.png');
+    border: none;
+    border-radius: 0;
+    width: 98px;
+    height: 43px; 
+    color: #FFF;
+    margin: 8px 0 0 0;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    text-shadow: none;
+    width: 98px;
+    text-transform: uppercase;
 }
 
-.selvbetjening-block-portal .view-content .yaselect-anchor {
- background-image: url('../images/sb-portal-dd-1.png');
-}
-.selvbetjening-block-portal .view-footer .yaselect-anchor {
- background-image: url('../images/sb-portal-dd-2.png');
-}
-
-.selvbetjening-block-portal .yaselect-open {
- background-image: url(../images/sb-portal-dd-open.png);
+.portal-politik-og-planer #views-exposed-form-meetings-search-page #edit-submit-meetings-search {
+    position: absolute;
+    top: 44px;
+    left: 373px;
 }
 
-.selvbetjening-block-portal .yaselect-current{
- display: block;
- width: 182px;
- visibility: hidden;
+#bef-datepicker-wrapper,
+#bef-datepicker--2-wrapper {
+    background-image: url("../images/cal.png");
+    background-position: 106px 15px;
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 54px;
 }
 
-.selvbetjening-block-portal .yaselect-wrap {
- padding: 7px 0 0 20px;
- position: absolute;
-}
-.selvbetjening-block-portal .yaselect-select {
- margin-left: 3px;
- width: 198px;
+#bef-datepicker--2-wrapper {
+    background-position: 130px 15px;
+    width: 156px;
 }
 
-
-#block-apachesolr-search-sort ul {
-list-style: none;
-margin: 0;
-padding: 0;
-width: 12em;
-float: left;
-
+#bef-datepicker--2-wrapper label {
+    position: absolute;
+    text-transform: uppercase;
+    margin: 19px 0 0 0;
 }
 
-
-#block-apachesolr-search-sort h2,
-#block-apachesolr-search-sort a {
- display: block;
- color: #646464;
- }
-
-
-#block-apachesolr-search-sort h2 {
- background-image: url(../images/sog-dd.png);
- height: 40px;
- width: 135px;
- padding-top: 13px;
- padding-left: 8px;
-}
-
-#block-apachesolr-search-sort div.block-inner {
- width: 140px;
- position:absolute;
- top: 94px;
- left: 34px;
-}
-/*
-.logged-in #block-apachesolr-search-sort div.block-inner {
- top: 87px;
-}
-*/
-#block-apachesolr-search-sort li {
- position: relative;
-}
-
-#block-apachesolr-search-sort ul {
- position: absolute;
- z-index: 500;
-}
-
-#block-apachesolr-search-sort ul  {
-display: none;
-}
-
-#block-apachesolr-search-sort div:hover ul {
-display: block;
-background-color: #fff;
-border-bottom: 1px solid #777;
-border-left: 1px solid #777;
-border-right: 1px solid #777;
-width: 133px;
-margin-left: 2px;
-}
-
-#block-apachesolr-search-sort div:hover h2 {
- height: 28px;
+#bef-datepicker-wrapper  input, 
+#bef-datepicker--2-wrapper input {
+    color: #7A7A7A;
+    font-size: 17px;
+    margin: 11px 0 0;
 }
 
 
-#block-apachesolr-search-sort img {
- float: left;
+#bef-datepicker--2-wrapper input {margin-left: 23px;}
+
+#views-exposed-form-meetings-search-page #edit-search-params{
+    border: 1px solid #ddd;
+    color: #7E7E7E;
+    font-size: 32px;
+    width: 625px;
+}
+#views-exposed-form-meetings-search-page #edit-search-params-wrapper {
+    background-image: url("../images/soegefeltLUP.png");
+    background-position: 625px 0; 
+    background-repeat: no-repeat;
+    width: 679px;
 }
 
-#block-system-main #edit-basic label {
- display: none;
-}
-#block-system-main #edit-basic  {
- margin-bottom: 100px;
- margin-top: 60px;
+#views-exposed-form-meetings-search-page #edit-from-date-value-datepicker-popup-0,
+#views-exposed-form-meetings-search-page #edit-to-date-value-datepicker-popup-0 {
+    width: 102px;
+    border: 1px solid #ddd;
 }
 
-#block-apachesolr-search-sort .contextual-links-wrapper {
- display: none;
+#views-exposed-form-meetings-search-page .views-submit-button {
+    float: right;
+    margin-right: 2px;
 }
 
-#edit-go,
-#edit-go--2 {
-display: none;
+#views-exposed-form-meetings-search-page {
+    margin: 0 0 15px 15px;
 }
 
-.page-search-node .rel-register-link, 
-#block-apachesolr-search-sort--2,
-.page-search-node .region-inner h1.title {
-display: none;
+#views-exposed-form-meetings-search-page .description {
+    display: none;
 }
 
-.search-results.apachesolr_search-results {
-margin-left: 24px;
-margin-right: 10px;
+#views-exposed-form-meetings-search-page label {
+    color: #333;
 }
 
-.form-item.form-type-checkbox.form-item-retain-filters {
-display: none;
+
+.view-display-id-attachment_2 thead {
+    display: none;
+} 
+
+.view-meetings-search table.views-table th {
+    background: none;
+    border: none;
 }
-.search-result {
-border-bottom: 1px solid #F3F3F3;
+
+
+th.views-field-field-committee {
+    width: 320px;
 }
+
+th.views-field-field-date {
+    width: 150px;
+}
+
+
+.view-meetings-search .views-field-field-committee a {
+    background-image: url('../images/megamenu-arrow-over.png');
+    background-position: 5px 3px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.view-meetings-search .views-field a {
+   color: #333;
+}
+
+.view-meetings-search .views-field-field-committee  a:hover {
+    color: #8b0054;
+}
+
+.view-meetings-search table,
+.view-meetings-search .views-table tr.even,
+.view-meetings-search .views-table tr.odd,
+.view-meetings-search .views-table tr.even td,  
+.view-meetings-search .views-table tr.odd td,
+.view-meeting-details table,
+.view-meeting-details .views-table tr.even,
+.view-meeting-details .views-table tr.odd,
+.view-meeting-details .views-table tr.even td,  
+.view-meeting-details .views-table tr.odd td {
+    background: none;
+    border: none;
+    vertical-align: top;
+}
+
+.view-meeting-details .agenda-bullet-list {
+    color: #333;
+    border: 1px solid #CCCCCC;
+    width: 672px;
+    height: auto;
+    min-height: 25px;
+}
+
+.view-meeting-details .agenda-bullet-list.open {
+    color: #333;
+    border: none;
+}
+
+
+.view-meetings-search .views-field {
+    color: #333;
+    font-size: 13px;
+}
+
+.view-meeting-details .view-header h3 {
+    color: #333;
+}
+
+.view-meetings-search .item-list .pager {
+     margin-bottom: 35px;
+
+}
+
+.view-meetings-search .view-footer {
+    clear: left;
+}
+
+.view-meeting-details .view-display-id-attachment_2 td.views-field-field-qbrick-ref {
+    position: absolute;
+    left: 675px;
+    margin-top: 2px;
+}
+
+.view-meeting-details .views-field strong {
+    padding-left: 20px;
+}
+
+.view-meeting-details .clearfix h2,
+.view-meeting-details .clearfix h3 {
+    font-size: 14px;
+    margin: 4px 0;
+}
+
+.view-meeting-details .clearfix, 
+.view-meeting-details .clearfix li, 
+.view-meeting-details .clearfix p {
+    font-size: 12px;
+    line-height: 16px;
+    color: #333;
+    margin: 2px 0;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.view-meeting-details .item-list ul li {
+    margin: 0;
+}
+
+.view-meeting-details .field-name-field-bpa-body li {
+    list-style: disc outside none;
+} 

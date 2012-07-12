@@ -21,8 +21,8 @@
  * @see template_preprocess_search_results()
  */
 ?>
-<?php if ($search_results): ?>
 <?php if (arg(0) == 'node' && is_numeric(arg(1))) $nodeid = arg(1); ?>
+<?php if ($search_results): ?>
 <div class="printvenlig-side-sog"><a href="/print/<?php print $nodeid; ?>"></a></div>
   <ol class="search-results <?php print $module; ?>-results">
     <?php print $search_results; ?>

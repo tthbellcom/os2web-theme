@@ -4,6 +4,8 @@
 #forside .grid-6 { width: 490px}
 
 #forside .grid-8 { width: 650px}
+
+#forside .pane-rotating-image-view { margin-bottom: 3px}
 .billedrotator { 
 	background-image: url(../images/billedkarusel-bg.png); 
 	margin-top: 12px;
@@ -27,9 +29,9 @@
 	width: 631px;
 }
 
-#zone-content, .panels-flexible-row {background-image: url("../images/transwhite.png"); background-repeat: repeat}
-.panels-flexible-row-last {border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; padding-top: 11px}
-.panels-flexible-row-forside-1 {background-image: url(../images/skyggeINDHOLD.png); background-repeat: no-repeat; height: 493px; }
+#zone-content {background-image: url("../images/transwhite.png"); background-repeat: repeat}
+.panels-flexible-row-last {border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; padding-top: 0px}
+.panels-flexible-row-forside-1 {background-image: url(../images/skyggeINDHOLD.png); background-repeat: no-repeat; height: 468px; }
 .container-12 .grid-6 pane-spotboxe-panel-pane-3 {}
 
 
@@ -54,12 +56,9 @@
     margin-bottom: 1px ;
     padding-left: 16px;
     text-transform: uppercase;
-}
-
-.panels-flexible-region .pane-kulturnaut-events-lister h2:hover {
-background-image: url(http://dev.syddjurs.bellcom.dk/profiles/os2web/themes/cmstheme/images/gaatilsyddjurslive.png);
-background-repeat: no-repeat;
-background-position: 80px 5px;
+    background-image: url(../images/gaatilsyddjurslive.png);
+    background-repeat: no-repeat;
+    background-position: 80px 5px;
 }
 
 
@@ -82,7 +81,7 @@ background-position: 80px 5px;
 
 
 .spotbox-2-vertical .spotbox-row {
-    padding: 6px 1px 0px 0px;
+    padding: 5px 1px 0px 1pxpx;
     margin-left: 10px
 }
 
