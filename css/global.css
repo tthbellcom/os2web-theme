@@ -552,7 +552,7 @@ ul.jcarousel-list-horizontal { }
 }
 
 .page-taxonomy #zone-content-wrapper {	
-	background: url(../images/content-bg2.png)
+	background: url(../images/content-bg2.png) repeat-y center
 	}
 .front #zone-content-wrapper {	
 	background: url(../images/content-bg-fs.png);
