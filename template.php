@@ -37,10 +37,10 @@ function cmstheme_menu_link(array $variables) {
 function cmstheme_breadcrumb($variables) {
   $breadcrumb = $variables['breadcrumb'];
 
-$nid = arg(1);
-if (is_numeric($nid)){
-  $node = node_load($nid);
-}
+  $nid = arg(1);
+  if (is_numeric($nid)){
+    $node = node_load($nid);
+  }
 
   if (!empty($breadcrumb)) {
     $output = '<div class="breadcrumb you-are-here">' . t('Du er her: ') . '</div>';
@@ -52,7 +52,7 @@ if (is_numeric($nid)){
 		$breadcrumb[0] = l('Forside', '<front>');
 		$breadcrumb[] = '<a href="#">Søgning</a>';
 	}
-    if ($node->type == 'meeting') {
+  if (isset($node) && is_object($node) && $node->type == 'meeting') {
 		unset($breadcrumb);
 		$breadcrumb[0] = l('Forside', '<front>');
 		$breadcrumb[] = l('Politik & planer', 'politik-og-planer');		
