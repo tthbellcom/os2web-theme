@@ -51,7 +51,7 @@
 #region-sidebar-first ul.menu li.leaf.last { border-bottm: 1px solid #CECECE}
 
 
-#region-sidebar-first ul.menu li ul.menu li {padding-left: 0px; background-image: /*url(../images/menu-bg-ul-li-ul-li.png);*/ background-repeat: no-repeat}
+#region-sidebar-first ul.menu li ul.menu li {padding-left: 0px; /*background-image: url(../images/menu-bg-ul-li-ul-li.png);*/ background-repeat: no-repeat}
 
 #region-sidebar-first ul.menu li ul.menu li.expanded ul.menu li.expanded { }
 #region-sidebar-first ul.menu li ul.menu li.expanded ul.menu li.expanded ul.menu li { background-color: transparent}
@@ -125,11 +125,8 @@
  padding: 10px 40px 10px 20px;
 }
 
-<<<<<<< HEAD
 /*
-=======
 
->>>>>>> fc30032c3ba94ef2b9d5fec4dc76514bb21b7940
 #region-sidebar-first ul.menu li.expanded,
 #region-sidebar-first ul.menu li.active-trail {
   background: #d7d7d7;

@@ -57,7 +57,7 @@ ul.primary li a {
 
 .block-user-menu, .vertical-menu, .block-menu-top-menu {}
 
-.block-user-menu  a, .vertical-menu a, , .block-menu-top-menu a { text-decoration: none }
+.block-user-menu  a, .vertical-menu a, .block-menu-top-menu a { text-decoration: none }
 
 
 #zone-user a, #zone-menu a {color: #656565; text-decoration: none}
@@ -606,11 +606,8 @@ ul.jcarousel-list-horizontal { }
 .region-footer-first-inner, .region-footer-second-inner, .region-footer-third-inner {margin: 29px 0 10px 0 }
 .region-footer-first-inner {padding-left: 145px; line-height: 30px; margin: 0;}
 #region-footer-first {background-image: url(../images/lille-logo.png); width: 970px; margin: 0; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;  }
-<<<<<<< HEAD
-=======
 
 .qtip-cmstheme {  margin-top: 42px; background-color: transparent}
->>>>>>> fc30032c3ba94ef2b9d5fec4dc76514bb21b7940
 
 .node-type-files .field-name-field-resume-long { font-size: 22px}
 
@@ -2077,7 +2074,7 @@ color: #B3B3B3;
     min-height: 40px;
     text-indent: -99999px;
     width: 46px; float: right;
-	margin-right: 9px;	
+    margin-right: 9px;	
 }
 
 .skjul-andre-sites, #block-block-12, .vis-andre-sites, #block-views-os2web-diverse-block-2,#block-views-os2web-diverse-block-1 {float: right}
@@ -2087,8 +2084,8 @@ color: #B3B3B3;
     margin-top: 0;
     min-height: 40px;
     text-indent: -99999px;
-    width: 44px; float: right
-	margin-right: 10px;	
+    width: 44px; float: right;
+    margin-right: 10px;	
 }
 #zone-preface .skjul-andre-sites span {padding: 0; margin: 0}
 #zone-preface .skjul-andre-sites a {padding: 0; margin: 0}
@@ -3156,3 +3153,34 @@ border-bottom: 1px solid #F3F3F3;
 
 .selvbetjening-block-forside .view-content .form-item-jump{ background: transparent; z-index: 999}
 .selvbetjening-block-forside .view-footer .view-content .form-item-jump{ background: transparent; z-index: 1001}
+
+#views-exposed-form-meetings-search-page-1 #edit-field-meeting-search-meta-date-value {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #9A9A9A;
+    font-size: 20px;
+    height: 59px;
+    padding: 0;
+    text-transform: uppercase;
+    width: 379px;
+    border-style:solid;
+    border-width: 0.5px;
+    
+}
+
+#views-exposed-form-meetings-search-page-1 #edit-submit-meetings-search {
+	background-image: url(../images/soegefeltLUP.png);
+        
+
+
+}
+
+#views-exposed-form-meetings-search-page-1 #edit-field-date-value-value-datepicker-popup-0 #edit-field-date-value2-value-datepicker-popup-0 {
+    border: 0.5px solid;
+    width: 102px;
+}
+
+#views-exposed-form-meetings-search-page-1 #edit-field-meeting-search-meta-date-value-wrapper label {
+    color: #7A7A7A;
+
+}
