@@ -30,11 +30,11 @@ h4 {margin-top: 5px; font-size: 16px }
 
 /* Myriad Pro Font */
 
-h1, h2, h3, h4, h5, h6, .button, .knapper, .view-selvbetjening, .view-id-selvbetjening select, #breadcrumb, .view-rotating-image-view, .view-kulturnaut-events-lister, .region-footer-first, #block-block-6, #region-footer-third, #region-footer-second, .portalnews-big, #main-menu, #zone-menu, #region-header-second .region-inner li, #block-search-form, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], .spotbox-subsite-frontpage .spotbody, .telefonnummer, option, .agenda-bullet-list { font-family: "myriad-pro", Arial, Helvetica, sans-serif; }
+h1, h2, h3, h4, h5, h6, .button, .knapper, .view-selvbetjening, .view-id-selvbetjening select, #breadcrumb, .view-rotating-image-view, .view-kulturnaut-events-lister, /*.region-footer-first, #block-block-6, #region-footer-third, #region-footer-second,*/ .portalnews-big, #main-menu, #zone-menu, #region-header-second .region-inner li, #block-search-form, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], .spotbox-subsite-frontpage .spotbody, .telefonnummer, option, .agenda-bullet-list { font-family: "myriad-pro", Arial, Helvetica, sans-serif; }
 
 /* Myriad Pro Light Font */
 
-#views-exposed-form-meetings-search-page label, #region-sidebar-second .spotbox_no_picture_text h3, .spotbox .spotbox_no_picture_text h3, .search-form .form-text, .views-slideshow-cycle-main-frame-row-item, #region-footer-third .content, .region-inner h1.title, .node-type-contentpage .field.field-name-field-resume-long {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 300; letter-spacing: normal}
+#views-exposed-form-meetings-search-page label, #region-sidebar-second .spotbox_no_picture_text h3, .spotbox .spotbox_no_picture_text h3, .search-form .form-text, .views-slideshow-cycle-main-frame-row-item, /*#region-footer-third .content,*/ .region-inner h1.title, .node-type-contentpage .field.field-name-field-resume-long {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 300; letter-spacing: normal}
 
 
 /* Myriad Pro Bold Font */
@@ -696,7 +696,6 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 .qtip-wrapper .pane-views-panes  h2 {
         color: #9b9b9b;
         font-size: 15px;
-        letter-spacing:-1px;
 }
 
 
@@ -760,7 +759,7 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 
 #zone-footer h2.pane-title {
   border-bottom: solid 1px #ccc;
-  font-size: 15px;
+  font-size: 14px;
   color: #4b4b4b;
   padding-left: 0px;
 }
@@ -891,6 +890,26 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 
 .pane-kontaktblok-panel-pane-1 .telefonnummer a {
 	padding-left: 20px;
+}
+.erhvervsraadgiver .telefonnummer {
+        background-image: url(../images/telefon.png);
+        background-repeat: no-repeat;
+        background-position: 10px center;
+}
+
+.erhvervsraadgiver .telefonnummer a {
+	padding-left: 10px;
+}
+
+#block-views-kontaktblok-block.block .telefonnummer {
+        padding: 15px 0 15px 30px;
+        background-image: url(../images/telefon.png);
+        background-repeat: no-repeat;
+        background-position: 20px 20px;
+}
+
+#block-views-kontaktblok-block.block .telefonnummer a {
+        padding-left: 20px;
 }
 
 .telefonnummer { padding: 0 0 15px 30px; background-image: url(../images/telefon.png); background-repeat: no-repeat; background-position: 0 5px;}
@@ -2238,7 +2257,7 @@ color: #787878;
 font-size: 16px;
 margin: 0 0 8px;
 padding-bottom: 0px;
-padding-left: 10px;
+padding-left: 0px;
 text-transform: uppercase;
 	font-weight: normal;
 }
@@ -3194,4 +3213,8 @@ border-bottom: 1px solid #F3F3F3;
 #views-exposed-form-meetings-search-page-1 #edit-field-meeting-search-meta-date-value-wrapper label {
     color: #7A7A7A;
 
+}
+
+.spotbox-horisontal a.overlayclass {
+	margin-left: 1px;
 }
