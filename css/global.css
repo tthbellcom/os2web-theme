@@ -882,7 +882,18 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 	color: #9b9b9b;
 }*/
 
-.telefonnummer { padding: 0 0 15px 30px; background-image: url(../images/telefon.png); background-repeat: no-repeat; background-position: 0 5px}
+.pane-kontaktblok-panel-pane-1 .telefonnummer {
+	padding: 15px 0 15px 30px; 
+	background-image: url(../images/telefon.png); 
+	background-repeat: no-repeat; 
+	background-position: 20px 20px;
+}
+
+.pane-kontaktblok-panel-pane-1 .telefonnummer a {
+	padding-left: 20px;
+}
+
+.telefonnummer { padding: 0 0 15px 30px; background-image: url(../images/telefon.png); background-repeat: no-repeat; background-position: 0 5px;}
 .telefonnummer, .telefonnummer a { font-size: 35px; color: #9B9B9B;  }
     
 .telfonnummer , .telfonnummer a { font-size: 22px; color: #9B9B9B; margin: 0;
