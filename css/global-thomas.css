@@ -73,21 +73,12 @@
     top: 44px;
     left: 373px;
 }
-
-#bef-datepicker-wrapper,
-#bef-datepicker--2-wrapper {
-    background-image: url("../images/cal.png");
-    background-position: 106px 15px;
-    background-repeat: no-repeat;
-    width: 140px;
-    height: 54px;
+#bef-datepicker-wrapper img,
+#bef-datepicker--2-wrapper img {
+  position: relative;
+  top: 11px;
+  padding-left: 6px;
 }
-
-#bef-datepicker--2-wrapper {
-    background-position: 130px 15px;
-    width: 156px;
-}
-
 #bef-datepicker--2-wrapper label {
     position: absolute;
     text-transform: uppercase;
@@ -121,6 +112,7 @@
 #views-exposed-form-meetings-search-page #edit-to-date-value-datepicker-popup-0 {
     width: 102px;
     border: 1px solid #ddd;
+    margin-bottom: 11px;
 }
 
 #views-exposed-form-meetings-search-page .views-submit-button {

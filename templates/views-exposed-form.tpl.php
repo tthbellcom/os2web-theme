@@ -77,3 +77,30 @@
     <?php endif; ?>
   </div>
 </div>
+
+<?php
+/**
+ * @author Thomas Thune Hansen <tth@bellcom.dk>
+ *
+ * If the view is used on "politik-og-planer" page or "dagsorden-og-referat" page we
+ * add a little js to make the calendar icons clickable
+ */
+if(arg(0) == "dagsorden-og-referat" || arg(2) == 6 ) {
+  $calIcon = drupal_get_path('theme', variable_get('theme_default', NULL))."/images/cal.png";
+  $datepicker = 'jQuery(document).ready(function($) {
+            $( "#edit-from-date-value-datepicker-popup-0" ).datepicker({
+                          showOn: "both",
+                          buttonImage: "'.$calIcon.'",
+                          buttonImageOnly: true,
+                          dateFormat: "dd-mm-yy"
+            });
+            $( "#edit-to-date-value-datepicker-popup-0" ).datepicker({
+                          showOn: "both",
+                          buttonImage: "'.$calIcon.'",
+                          buttonImageOnly: true,
+                          dateFormat: "dd-mm-yy"
+            });
+
+  });';
+  drupal_add_js($datepicker, array('type' => 'inline', 'scope' => 'footer', 'weight' => 5)); 
+}
