@@ -3236,7 +3236,7 @@ border-bottom: 1px solid #F3F3F3;
 }
 
 .doklist { padding: 8px; border: 1px solid #ccc; }
-.doklist .fullcaserender p { padding: 6px }
+.doklist .fullcaserender p { padding: 8px }
 .doklist .fullcaserender { margin: 6px -8px 0; padding: 0}
 .doklist tr.even, .doklist tr.odd { padding: 8px 5px}
 
