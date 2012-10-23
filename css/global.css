@@ -607,7 +607,7 @@ ul.jcarousel-list-horizontal { }
 .region-footer-first-inner {padding-left: 145px; line-height: 30px; margin: 0;}
 #region-footer-first {background-image: url(../images/lille-logo.png); width: 970px; margin: 0; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;  }
 
-.qtip-cmstheme {  margin-top: 42px; background-color: transparent}
+.qtip-cmstheme { background-color: transparent}
 
 .node-type-files .field-name-field-resume-long { font-size: 22px}
 
