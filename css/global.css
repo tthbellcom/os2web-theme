@@ -30,11 +30,11 @@ h4 {margin-top: 5px; font-size: 16px }
 
 /* Myriad Pro Font */
 
-h1, h2, h3, h4, h5, h6, .button, .knapper, .view-selvbetjening, .view-id-selvbetjening select, #breadcrumb, .view-rotating-image-view, .view-kulturnaut-events-lister, .region-footer-first, #block-block-6, #region-footer-third, #region-footer-second, .portalnews-big, #main-menu, #zone-menu, #region-header-second .region-inner li, #block-search-form, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], .spotbox-subsite-frontpage .spotbody, .telefonnummer, option, .agenda-bullet-list { font-family: "myriad-pro", Arial, Helvetica, sans-serif; }
+h1, h2, h3, h4, h5, h6, .button, .knapper, .view-selvbetjening, .view-id-selvbetjening select, #breadcrumb, .view-rotating-image-view, .view-kulturnaut-events-lister, /*.region-footer-first, #block-block-6, #region-footer-third, #region-footer-second,*/ .portalnews-big, #main-menu, #zone-menu, #region-header-second .region-inner li, #block-search-form, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], .spotbox-subsite-frontpage .spotbody, .telefonnummer, option, .agenda-bullet-list { font-family: "myriad-pro", Arial, Helvetica, sans-serif; }
 
 /* Myriad Pro Light Font */
 
-#views-exposed-form-meetings-search-page label, #region-sidebar-second .spotbox_no_picture_text h3, .spotbox .spotbox_no_picture_text h3, .search-form .form-text, .views-slideshow-cycle-main-frame-row-item, #region-footer-third .content, .region-inner h1.title, .node-type-contentpage .field.field-name-field-resume-long {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 300; letter-spacing: normal}
+#views-exposed-form-meetings-search-page label, #region-sidebar-second .spotbox_no_picture_text h3, .spotbox .spotbox_no_picture_text h3, .search-form .form-text, .views-slideshow-cycle-main-frame-row-item, /*#region-footer-third .content,*/ .region-inner h1.title, .node-type-contentpage .field.field-name-field-resume-long {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 300; letter-spacing: normal}
 
 
 /* Myriad Pro Bold Font */
@@ -57,7 +57,7 @@ ul.primary li a {
 
 .block-user-menu, .vertical-menu, .block-menu-top-menu {}
 
-.block-user-menu  a, .vertical-menu a, , .block-menu-top-menu a { text-decoration: none }
+.block-user-menu  a, .vertical-menu a, .block-menu-top-menu a { text-decoration: none }
 
 
 #zone-user a, #zone-menu a {color: #656565; text-decoration: none}
@@ -606,11 +606,8 @@ ul.jcarousel-list-horizontal { }
 .region-footer-first-inner, .region-footer-second-inner, .region-footer-third-inner {margin: 29px 0 10px 0 }
 .region-footer-first-inner {padding-left: 145px; line-height: 30px; margin: 0;}
 #region-footer-first {background-image: url(../images/lille-logo.png); width: 970px; margin: 0; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;  }
-<<<<<<< HEAD
-=======
 
 .qtip-cmstheme {  margin-top: 42px; background-color: transparent}
->>>>>>> fc30032c3ba94ef2b9d5fec4dc76514bb21b7940
 
 .node-type-files .field-name-field-resume-long { font-size: 22px}
 
@@ -699,7 +696,6 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 .qtip-wrapper .pane-views-panes  h2 {
         color: #9b9b9b;
         font-size: 15px;
-        letter-spacing:-1px;
 }
 
 
@@ -763,7 +759,7 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 
 #zone-footer h2.pane-title {
   border-bottom: solid 1px #ccc;
-  font-size: 15px;
+  font-size: 14px;
   color: #4b4b4b;
   padding-left: 0px;
 }
@@ -885,7 +881,38 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 	color: #9b9b9b;
 }*/
 
-.telefonnummer { padding: 0 0 15px 30px; background-image: url(../images/telefon.png); background-repeat: no-repeat; background-position: 0 5px}
+.pane-kontaktblok-panel-pane-1 .telefonnummer {
+	padding: 15px 0 15px 30px; 
+	background-image: url(../images/telefon.png); 
+	background-repeat: no-repeat; 
+	background-position: 20px 20px;
+}
+
+.pane-kontaktblok-panel-pane-1 .telefonnummer a {
+	padding-left: 20px;
+}
+.erhvervsraadgiver .telefonnummer {
+        background-image: url(../images/telefon.png);
+        background-repeat: no-repeat;
+        background-position: 10px center;
+}
+
+.erhvervsraadgiver .telefonnummer a {
+	padding-left: 10px;
+}
+
+#block-views-kontaktblok-block.block .telefonnummer {
+        padding: 15px 0 15px 30px;
+        background-image: url(../images/telefon.png);
+        background-repeat: no-repeat;
+        background-position: 20px 20px;
+}
+
+#block-views-kontaktblok-block.block .telefonnummer a {
+        padding-left: 20px;
+}
+
+.telefonnummer { padding: 0 0 15px 30px; background-image: url(../images/telefon.png); background-repeat: no-repeat; background-position: 0 5px;}
 .telefonnummer, .telefonnummer a { font-size: 35px; color: #9B9B9B;  }
     
 .telfonnummer , .telfonnummer a { font-size: 22px; color: #9B9B9B; margin: 0;
@@ -2077,7 +2104,7 @@ color: #B3B3B3;
     min-height: 40px;
     text-indent: -99999px;
     width: 46px; float: right;
-	margin-right: 9px;	
+    margin-right: 9px;	
 }
 
 .skjul-andre-sites, #block-block-12, .vis-andre-sites, #block-views-os2web-diverse-block-2,#block-views-os2web-diverse-block-1 {float: right}
@@ -2087,8 +2114,8 @@ color: #B3B3B3;
     margin-top: 0;
     min-height: 40px;
     text-indent: -99999px;
-    width: 44px; float: right
-	margin-right: 10px;	
+    width: 44px; float: right;
+    margin-right: 10px;	
 }
 #zone-preface .skjul-andre-sites span {padding: 0; margin: 0}
 #zone-preface .skjul-andre-sites a {padding: 0; margin: 0}
@@ -2230,7 +2257,7 @@ color: #787878;
 font-size: 16px;
 margin: 0 0 8px;
 padding-bottom: 0px;
-padding-left: 10px;
+padding-left: 0px;
 text-transform: uppercase;
 	font-weight: normal;
 }
@@ -3156,3 +3183,63 @@ border-bottom: 1px solid #F3F3F3;
 
 .selvbetjening-block-forside .view-content .form-item-jump{ background: transparent; z-index: 999}
 .selvbetjening-block-forside .view-footer .view-content .form-item-jump{ background: transparent; z-index: 1001}
+
+#views-exposed-form-meetings-search-page-1 #edit-field-meeting-search-advanced-meta-date-value {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #9A9A9A;
+    font-size: 20px;
+    height: 59px;
+    padding: 0;
+    width: 379px;
+    border-style:solid;
+    border-width: 1px;
+}
+
+.form-item.form-type-textfield.form-item-field-meeting-search-advanced-meta-date-value {
+  padding-top: 10px;
+}
+
+#views-exposed-form-meetings-search-page-1 .advanced-search-button,
+#views-exposed-form-meetings-search-page-1 .views-widget { float: left; }
+
+#views-exposed-form-meetings-search-page-1 .advanced-search-button { width: 0; }
+
+#views-exposed-form-meetings-search-page-1 #edit-submit-meetings-search {
+  background-image: url('../images/soegefeltLUP.png');
+  margin: 0;
+  border: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  height: 74px;
+  width: 64px;
+  text-indent: -2000px;
+  background-repeat: no-repeat;
+}
+
+#views-exposed-form-meetings-search-page-1 #edit-field-date-value-value-datepicker-popup-0 #edit-field-date-value2-value-datepicker-popup-0 {
+    border: 0.5px solid;
+    width: 102px;
+}
+
+#views-exposed-form-meetings-search-page-1 #edit-field-meeting-search-meta-date-value-wrapper label {
+    color: #7A7A7A;
+
+}
+
+.spotbox-horisontal a.overlayclass {
+	margin-left: 1px;
+}
+
+.doklist { padding: 8px; border: 1px solid #ccc; }
+.doklist .fullcaserender p { padding: 8px }
+.doklist .fullcaserender { margin: 6px -8px 0; padding: 0}
+.doklist tr.even, .doklist tr.odd { padding: 8px 5px}
+
+.doklist .documentdate { top:auto}
+
+tr.even td { background: #f9f9f9;}
