@@ -3243,3 +3243,9 @@ border-bottom: 1px solid #F3F3F3;
 .doklist .documentdate { top:auto}
 
 tr.even td { background: #f9f9f9;}
+
+#mini-panel-hoejre_blokke_ved_dagsordener .spotbox5 .spotbox-row { margin-left: 0}
+
+#mini-panel-hoejre_blokke_ved_dagsordener .view-spotboxe .spotbox-row {padding: 6px 1px 0px 1px;}
+
+#mini-panel-hoejre_blokke_ved_dagsordener .view-kontaktblok { margin-left: 0}
