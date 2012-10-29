@@ -7,7 +7,7 @@ function cmstheme_alpha_preprocess_html(&$vars) {
     '#tag' => 'meta',
     '#attributes' => array(
       'http-equiv' => 'X-UA-Compatible',
-      'content' =>  'IE=8,chrome=1',
+      'content' =>  'IE=8,IE=Edge,chrome=1',
     ),
     '#weight' => '-99999',
   );
