@@ -2741,6 +2741,7 @@ line-height: 22px;
 .search-results .search-snippet-info {
 	padding-left: 0;
 }
+.page-search .content ul { margin-left: 20px}
 
 .block-system .search-form .form-text {
 	line-height: 74px;
