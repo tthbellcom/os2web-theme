@@ -736,7 +736,8 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
     margin-left: 10px;
     padding: 7px 0 7px 0;
     text-transform:uppercase;
-    letter-spacing:-1px;
+    letter-spacing:0;
+    font-size: 15px;
 }
 
 .qtip-wrapper ul.menu a {
