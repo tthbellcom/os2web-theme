@@ -248,4 +248,10 @@ th.views-field-field-date {
 
 .view-meeting-details .field-name-field-bpa-body li {
     list-style: disc outside none;
-} 
+}
+
+a:active,
+a:focus {
+  outline: 1px solid #8b0053;
+
+}
