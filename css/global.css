@@ -944,14 +944,18 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
     border: none
 }
 .field-type-text-with-summary thead th{
-    padding:10px;
     color:#fff;
-    border:1px solid #93CE37;
-    border-bottom:3px solid #9ED929;
+    border:1px solid #FFF;
+    border-bottom:1px solid #FFF;
     background-color:#F2F2F2;
-    border-top-left-radius:5px;
-    border-top-right-radius:5px;
+	background-color: #8b0053;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
 }
+
+.field-type-text-with-summary thead th p {
+	color: #FFF; }
+
 .field-type-text-with-summary thead th:empty{
     background:transparent;
     border:none;
@@ -3519,3 +3523,13 @@ tr.even td { background: #f9f9f9;}
     width: 234px;
 }
 
+ul.dynatree-container ul ul {
+padding: 0 0 0 0;
+margin: 0;
+}
+
+.dynatree-node ol, .dynatree-node ul {
+padding-left: 0;
+}
+
+ul.dynatree-container ul a { padding-left: 0 }
