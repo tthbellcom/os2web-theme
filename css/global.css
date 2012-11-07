@@ -20,6 +20,9 @@ body {font-family: Arial, Helvetica, sans-serif ;background-attachment: fixed; }
 
 a:link, a:visited { color: #8b0053; text-decoration: none;}
 
+a:active,
+a:focus { outline: 1px solid #8b0053;}
+
 p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
     margin-bottom: 5px;  
 }
@@ -3533,3 +3536,257 @@ padding-left: 0;
 }
 
 ul.dynatree-container ul a { padding-left: 0 }
+
+.agenda-item {
+  border: 1px solid #cccccc;
+  background-color: #fefefe;
+  padding: 0.2em;
+}
+.agenda-bullet-list {
+    background-image: url("../images/megamenu-arrow-over.png");
+    background-position: 5px 4px;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 20px;
+    width: auto;
+    padding-left: 20px;
+}
+
+
+.agenda-bullet-list.open {
+    background-image: url("../images/arrow-down-over.png");
+    background-position: 2px 5px;
+}
+
+.item-list li {
+    clear: left;
+}
+
+
+.form-item-committee .yaselect-anchor {
+ background-repeat: no-repeat;
+ height: 50px;
+ width: 440px;
+ display: block;
+ background-image: url('../images/dagsordnerDROP.png');
+}
+
+.form-item-committee .yaselect-open {
+ background-image: url('../images/dagsordnerDROP.png');
+}
+.form-item-committee .yaselect-current{
+ display: block;
+ width: 440px;
+ text-transform: none;
+ margin: 0;
+}
+
+.form-item-committee .yaselect-wrap {
+ padding: 12px 0 0 20px;
+ margin: 0;
+ position: absolute;
+}
+.form-item-committee .yaselect-select {
+ margin-left: 1px;
+ width: 435px;
+}
+
+#views-exposed-form-meetings-search-page #edit-submit-meetings-search {
+    background-image:  url('../images/dagsordnerSOG.png');
+    border: none;
+    border-radius: 0;
+    width: 98px;
+    height: 43px; 
+    color: #FFF;
+    margin: 8px 0 0 0;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    text-shadow: none;
+    width: 98px;
+    text-transform: uppercase;
+}
+
+.portal-politik-og-planer #views-exposed-form-meetings-search-page #edit-submit-meetings-search {
+    position: absolute;
+    top: 44px;
+    left: 373px;
+}
+#bef-datepicker-wrapper img,
+#bef-datepicker--2-wrapper img {
+  position: relative;
+  top: 11px;
+  padding-left: 6px;
+}
+#bef-datepicker--2-wrapper label {
+    position: absolute;
+    text-transform: uppercase;
+    margin: 19px 0 0 0;
+}
+
+#bef-datepicker-wrapper  input, 
+#bef-datepicker--2-wrapper input {
+    color: #7A7A7A;
+    font-size: 17px;
+    margin: 11px 0 0;
+}
+
+
+#bef-datepicker--2-wrapper input {margin-left: 23px;}
+
+#views-exposed-form-meetings-search-page #edit-search-params{
+    border: 1px solid #ddd;
+    color: #7E7E7E;
+    font-size: 32px;
+    width: 625px;
+}
+#views-exposed-form-meetings-search-page #edit-search-params-wrapper {
+    background-image: url("../images/soegefeltLUP.png");
+    background-position: 625px 0; 
+    background-repeat: no-repeat;
+    width: 679px;
+}
+
+#views-exposed-form-meetings-search-page #edit-from-date-value-datepicker-popup-0,
+#views-exposed-form-meetings-search-page #edit-to-date-value-datepicker-popup-0 {
+    width: 102px;
+    border: 1px solid #ddd;
+    margin-bottom: 11px;
+}
+
+#views-exposed-form-meetings-search-page .views-submit-button {
+    float: right;
+    margin-right: 2px;
+}
+
+#views-exposed-form-meetings-search-page {
+    margin: 0 0 15px 15px;
+}
+
+#views-exposed-form-meetings-search-page .description {
+    display: none;
+}
+
+#views-exposed-form-meetings-search-page label {
+    color: #333;
+}
+
+
+.view-display-id-attachment_2 thead {
+    display: none;
+} 
+
+.view-meetings-search table.views-table th {
+    background: none;
+    border: none;
+}
+
+
+th.views-field-field-committee {
+    width: 320px;
+}
+
+th.views-field-field-date {
+    width: 150px;
+}
+
+
+.view-meetings-search .views-field-field-committee a {
+    background-image: url('../images/megamenu-arrow-over.png');
+    background-position: 5px 3px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.view-meetings-search .views-field a {
+   color: #333;
+}
+
+.view-meetings-search .views-field-field-committee  a:hover {
+    color: #8b0054;
+}
+
+.view-meetings-search table,
+.view-meetings-search .views-table tr.even,
+.view-meetings-search .views-table tr.odd,
+.view-meetings-search .views-table tr.even td,  
+.view-meetings-search .views-table tr.odd td,
+.view-meeting-details table,
+.view-meeting-details .views-table tr.even,
+.view-meeting-details .views-table tr.odd,
+.view-meeting-details .views-table tr.even td,  
+.view-meeting-details .views-table tr.odd td {
+    background: none;
+    border: none;
+    vertical-align: top;
+}
+
+.view-meeting-details .agenda-bullet-list {
+    color: #333;
+    border: 1px solid #CCCCCC;
+    width: 672px;
+    height: auto;
+    min-height: 25px;
+}
+
+.view-meeting-details .agenda-bullet-list.open {
+    color: #333;
+    border: none;
+}
+
+
+.view-meetings-search .views-field {
+    color: #333;
+    font-size: 13px;
+}
+
+.view-meeting-details .view-header h3 {
+    color: #333;
+}
+
+.view-meetings-search .item-list .pager {
+     margin-bottom: 35px;
+
+}
+
+.view-meetings-search .view-footer {
+    clear: left;
+}
+
+.view-meeting-details .view-display-id-attachment_2 td.views-field-field-qbrick-ref {
+    position: absolute;
+    left: 675px;
+    margin-top: 2px;
+}
+
+.view-meeting-details .views-field strong {
+    padding-left: 20px;
+}
+
+.view-meeting-details .clearfix h2,
+.view-meeting-details .clearfix h3 {
+    font-size: 14px;
+    margin: 4px 0;
+}
+
+.view-meeting-details .clearfix, 
+.view-meeting-details .clearfix li, 
+.view-meeting-details .clearfix p {
+    font-size: 12px;
+    line-height: 16px;
+    color: #333;
+    margin: 2px 0;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.view-meeting-details .item-list ul li {
+    margin: 0;
+}
+
+.view-meeting-details .field-name-field-bpa-body li {
+    list-style: disc outside none;
+}
+
+
