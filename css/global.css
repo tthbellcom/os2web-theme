@@ -3,7 +3,7 @@
 
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
-audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio, canvas, video { display: inline-block;}
 audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 
@@ -12,8 +12,7 @@ html, button, input, select, textarea { font-family: Arial, Helvetica, sans-seri
 
 table { font-size:inherit; font:100%; } 
 select, input, textarea { font:99% sans-serif; } 
-body {font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; }
-/*body {background-image: url(../images/bodybackground.jpg)}*/
+body {font:13px sans-serif; line-height:1.22; }
 body {font-family: Arial, Helvetica, sans-serif ;background-attachment: fixed; }
 
 ::-moz-selection { background: #8b0053; color: #fff; text-shadow: none; }
@@ -30,14 +29,14 @@ h4 {margin-top: 5px; font-size: 16px }
 
 /* Myriad Pro Font */
 
-h1, h2, h3, h4, h5, h6, .button, .knapper, .view-selvbetjening, .view-id-selvbetjening select, #breadcrumb, .view-rotating-image-view, .view-kulturnaut-events-lister, /*.region-footer-first, #block-block-6, #region-footer-third, #region-footer-second,*/ .portalnews-big, #main-menu, #zone-menu, #region-header-second .region-inner li, #block-search-form, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], .spotbox-subsite-frontpage .spotbody, .telefonnummer, option, .agenda-bullet-list { font-family: "myriad-pro", Arial, Helvetica, sans-serif; }
+h1, h2, h3, h4, h5, h6, .button, .knapper, .view-selvbetjening, .view-id-selvbetjening select, #breadcrumb, .view-rotating-image-view, .view-kulturnaut-events-lister, .portalnews-big, #main-menu, #zone-menu, #region-header-second .region-inner li, #block-search-form, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], .spotbox-subsite-frontpage .spotbody, .telefonnummer, option, .agenda-bullet-list { font-family: "myriad-pro", Arial, Helvetica, sans-serif; }
 
 /* Myriad Pro Light Font */
 
-#views-exposed-form-meetings-search-page label, #region-sidebar-second .spotbox_no_picture_text h3, .spotbox .spotbox_no_picture_text h3, .search-form .form-text, .views-slideshow-cycle-main-frame-row-item, /*#region-footer-third .content,*/ .region-inner h1.title, .node-type-contentpage .field.field-name-field-resume-long {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 300; letter-spacing: normal}
+#views-exposed-form-meetings-search-page label, #region-sidebar-second .spotbox_no_picture_text h3, .spotbox .spotbox_no_picture_text h3, .search-form .form-text, .views-slideshow-cycle-main-frame-row-item, .region-inner h1.title, .node-type-contentpage .field.field-name-field-resume-long {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 300; letter-spacing: normal}
 
 
-/* Myriad Pro Bold Font */
+/*   Myriad Pro Bold Font */
 
 .portalnews-big .date {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 700; letter-spacing: normal}
 
@@ -157,7 +156,6 @@ h2.pane-title a, h2.block-title a {
     border-radius: 0px;  
     -moz-border-radius: 0px; 
     background-color: #FBFBFB;
-	*line-height:5px;
     text-indent: 99999px;
 }
 
@@ -2407,7 +2405,7 @@ div.breadcrumb.you-are-here {
 
 .selvbetjening-indholdsside .se-flere a {
 	background-image: url("../images/selvbetjening-down-arrow.png");
-	background-position-y: 5px;
+	background-position: 5px 0;
 	font-size: 14px;
     }
 
@@ -3267,3 +3265,257 @@ tr.even td { background: #f9f9f9;}
 .view-id-planer_i_hoering .views-field-title { width: 320px;}
 .view-id-planer_i_hoering .aktiv-hoering { width: 60px;}
 .view-id-planer_i_hoering .er-i-hoering { width: 40px; text-align: center; text-transform: uppercase; font-size: 8px}
+
+.slideshow-big .views-slideshow-controls-top {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  z-index: 99;
+}
+
+.slideshow-big .views-slideshow-controls-top .views-slideshow-pager-field-item {
+  display: inline;
+  float: left;
+  color: transparent;
+  width: 10px;
+  height: 10px;
+  background: none;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.slideshow-big .views-slideshow-pager-field-item .views-field-title {
+  display: inline;
+  background: none;
+  width: auto;
+  height: auto;
+  background: none;
+}
+
+.slideshow-big .views-slideshow-pager-field-item .views-field-title .views-content-title {
+  background: url(../images/pager-dots.png) top left no-repeat;
+  box-shadow: none;
+  display: inline;
+  float: left;
+  width: 10px;
+  height: 10px;
+  overflow: hidden;
+}
+
+.slideshow-big .views-slideshow-pager-field-item.active .views-field-title .views-content-title {
+  background-position: -10px 0;
+}
+
+.view-borgerservices ul {
+  margin: 6px 0 0 0;
+}
+
+.view-borgerservices ul li {
+  width: 161px;
+  height: 94px;
+  position: relative;
+  z-index: 999;
+  margin: 0;
+  overflow: hidden;
+  float: right;
+}
+
+.view-borgerservices ul li a {
+  color: #fff;
+  width: 161px;
+  height: 94px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  display: table;
+  vertical-align: middle;
+}
+
+.view-borgerservices ul li a .lineHeightHack {
+  line-height: 1.2;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  margin-top: expression(this.offsetHeight < this.parentNode.offsetHeight ? parseInt((this.parentNode.offsetHeight - this.offsetHeight) / 2) + "px" : "0"); /* iehack, move to ie.css if created */
+}
+
+.view-borgerservices ul li a:hover {
+  background: transparent !important;
+}
+
+.view-borgerservices .view-header {
+  text-transform: uppercase;
+  font-size: 1.25em;
+  text-align: center;
+  color: #fff;
+  line-height: 55px;
+  height: 55px;
+}
+
+.portalnews-big .views-row .news-list-left {
+  display: none;
+}
+
+.portalnews-big .views-row {
+  padding-left: 20px;
+  float: left;
+  /*  padding-left: 30px;width: 200px;*/
+  margin-right: 10px;
+}
+
+.portalnews-big .views-row.views-row-first {
+  width: 100%;
+  display: block;
+  clear: both;
+  margin-right: 0;
+  padding-left: 0;
+  padding-top: 8px;
+  height: 155px;
+}
+
+.portalnews-big .views-row.views-row-first .news-list-left {
+  display: block;
+  width: 214px;
+  height: 116px;
+  margin-right: 5px;
+  border: solid #fff 5px;
+  display: block;
+  float: left;
+  margin-left: 11px;
+}
+
+.portalnews-big .views-row.views-row-first .news-list-left:hover {
+  border: solid #8b0053 5px;
+}
+
+.view-id-newslist.portalnews-big .view-content {
+  width: 470px;
+  background: url("../images/aktueltBORGER.png") repeat scroll 0 0 transparent;
+  height: 232px;
+  margin-left: 9px;
+}
+#panel-borger .panel-region-middle-right { margin-left: 8px}
+.portalnews-big .views-row .news-list-right p a,
+.portalnews-big .views-row .news-list-right p {
+  color: #797979;
+  font-size: 90%;
+}
+
+.portalnews-big h3 a { font-size: 14px; color: #787878}
+.portalnews-big .views-row-first h3 a { font-size: 16px}
+
+.portalnews-big .views-row .news-list-right p:first-child {
+  font-size: 80%;
+}
+
+.portalnews-big .views-row.views-row-first p {
+  font-size: 110%;
+}
+
+
+.portalnews-big .views-row.views-row-last {
+  margin-left: 11px;
+}
+
+.portalnews-big .field-content p {
+  margin: 0;
+}
+
+.spotbox h3 {
+  display: table-cell;
+  padding: 15px 25px 15px 15px;
+  vertical-align: middle;
+  height: 41px;
+}
+
+.jcarousel-item {
+  width: 303px;
+  margin: 0 1px;
+  height: 155px;
+}
+
+.field-slideshow-carousel-wrapper li.jcarousel-item {
+  margin: 0;
+  width: 100px;
+}
+
+#views_slideshow_controls_text_pause_newslist-block {
+  display: none;
+}
+
+
+.spotbox h3 .spotWrap {
+  position: relative;
+  top: expression(this.offsetHeight < 22 ? "10px" : "0");
+}
+
+@-moz-document url-prefix() {
+  .spotbox h3 {
+    height: 70px;
+  }
+}
+.planerihoeringdummy {height: 250px}
+
+.grid-6.region-content .field-name-field-webform-attachment{
+    margin-bottom: 20px;
+}
+.grid-6.region-content .field-name-field-webform-attachment .field-items:first-child{
+    width: 470px;
+    display: block;
+    border-top: 1px solid #CCCCCC;
+}
+.grid-6.region-content .field-name-field-webform-attachment .odd span.file:hover, .grid-6.region-content .field-name-field-webform-attachment .even span.file:hover{
+    background-color: #fffeee;
+}
+.grid-6.region-content .field-name-field-webform-attachment .field-items span.file{
+    width: 458px;
+    display: block;
+    border-bottom: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    padding:5px;
+}
+.grid-6.region-content .field-name-field-webform-attachment .odd span.file{
+    background-color: #F1F5FA;
+}
+
+#panel-borger .selvbetjening-block-forside a {
+    color: #FFFFFF;
+}
+#panel-borger #pop-borgerservices h3 {
+    font-size: 16px;
+}
+#panel-borger .selvbetjening-block-portal h3 a {
+    font-size: 16px;
+}
+#panel-borger .selvbetjening-block-forside h3 a {
+    font-size: 16px;
+}
+#panel-borger #pop-borgerservices .lineHeightHack {
+    font-size: 14px;
+}
+
+#panel-borger .portal-side .selvbetjening-block-portal .view-header {
+    color: #b9809f;
+    font-size: 14px;
+}
+
+#panel-borger portalnews-big .views-row.views-row-first .news-list-left {
+    border: 2px solid #FFFFFF;
+}
+#panel-borger portalnews-big .views-row.views-row-first .news-list-left:hover {
+    border: 2px solid #b80053;
+}
+
+#panel-borger .portalnews-big .views-row .news-list-right p:first-child {
+    margin-top: 3px;
+}
+
+#panel-borger .view-id-kulturnaut_events_lister {
+    background-image: url("../images/detskerBORGER.png");
+    height: 235px;
+    width: 234px;
+}
+
