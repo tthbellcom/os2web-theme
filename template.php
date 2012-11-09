@@ -59,7 +59,7 @@ function cmstheme_breadcrumb($variables) {
 		$breadcrumb[] = l('Søg i dagsordener og referater', 'meetings-search');		
 		$breadcrumb[] = l($title, '#');
         }
-    $output .= '<div class="breadcrumb">' . implode('<div class="bread-crumb"> &gt </div> ', $breadcrumb) . '</div>';
+    $output .= '<div class="breadcrumb">' . implode('<div class="bread-crumb"> &gt; </div> ', $breadcrumb) . '</div>';
 return $output;
   }
 }
