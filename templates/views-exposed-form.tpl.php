@@ -21,14 +21,14 @@
 ?>
 <?php if (!empty($q)): ?>
   <?php
-    // This ensures that, if clean URLs are off, the 'q' is added first so that
-    // it shows up first in the URL.
-    print $q;
+  // This ensures that, if clean URLs are off, the 'q' is added first so that
+  // it shows up first in the URL.
+  print $q;
   ?>
 <?php endif; ?>
 <div class="views-exposed-form">
   <div class="views-exposed-widgets clearfix">
-    <?php foreach ($widgets as $id => $widget): ?>
+    <?php foreach ($widgets as $id => $widget) : ?>
       <div id="<?php print $widget->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
         <?php if (!empty($widget->label)): ?>
           <label for="<?php print $widget->id; ?>">
@@ -43,38 +43,41 @@
         <div class="views-widget">
           <?php print $widget->widget; ?>
         </div>
-          <?php if ($widget->id == "edit-field-meeting-search-advanced-meta-date-value"): ?>
-          <?php print '<div class="advanced-search-button">'.$button.'</div>';
-                $advanced = TRUE; ?>
-          <?php endif; ?>
+        <?php if ($widget->id == "edit-field-meeting-search-advanced-meta-date-value"): ?>
+          <?php print '<div class="advanced-search-button">' . $button . '</div>';
+          $advanced = TRUE;
+          ?>
+      <?php endif; ?>
       </div>
     <?php endforeach; ?>
-    <?php if (!empty($sort_by)): ?>
+      <?php if (!empty($sort_by)): ?>
       <div class="views-exposed-widget views-widget-sort-by">
-        <?php print $sort_by; ?>
+  <?php print $sort_by; ?>
       </div>
       <div class="views-exposed-widget views-widget-sort-order">
-        <?php print $sort_order; ?>
+      <?php print $sort_order; ?>
       </div>
     <?php endif; ?>
-    <?php if (!empty($items_per_page)): ?>
+      <?php if (!empty($items_per_page)): ?>
       <div class="views-exposed-widget views-widget-per-page">
-        <?php print $items_per_page; ?>
+      <?php print $items_per_page; ?>
       </div>
     <?php endif; ?>
-    <?php if (!empty($offset)): ?>
+      <?php if (!empty($offset)): ?>
       <div class="views-exposed-widget views-widget-offset">
-        <?php print $offset; ?>
+      <?php print $offset; ?>
       </div>
-    <?php endif; ?>
+      <?php endif; ?>
     <div class="views-exposed-widget views-submit-button">
-      <?php if(!$advanced) {print $button;} ?>
+    <?php if (!$advanced) {
+      print $button;
+    } ?>
     </div>
     <?php if (!empty($reset_button)): ?>
       <div class="views-exposed-widget views-reset-button">
-        <?php print $reset_button; ?>
+  <?php print $reset_button; ?>
       </div>
-    <?php endif; ?>
+<?php endif; ?>
   </div>
 </div>
 
@@ -85,22 +88,22 @@
  * If the view is used on "politik-og-planer" page or "dagsorden-og-referat" page we
  * add a little js to make the calendar icons clickable
  */
-if(arg(0) == "dagsorden-og-referat" || arg(2) == 6 ) {
-  $calIcon = drupal_get_path('theme', variable_get('theme_default', NULL))."/images/cal.png";
+if (arg(0) == "dagsorden-og-referat" || arg(2) == 6) {
+  $calIcon = drupal_get_path('theme', variable_get('theme_default', NULL)) . "/images/cal.png";
   $datepicker = 'jQuery(document).ready(function($) {
             $( "#edit-from-date-value-datepicker-popup-0" ).datepicker({
                           showOn: "both",
-                          buttonImage: "'.$calIcon.'",
+                          buttonImage: "' . $calIcon . '",
                           buttonImageOnly: true,
                           dateFormat: "dd-mm-yy"
             });
             $( "#edit-to-date-value-datepicker-popup-0" ).datepicker({
                           showOn: "both",
-                          buttonImage: "'.$calIcon.'",
+                          buttonImage: "' . $calIcon . '",
                           buttonImageOnly: true,
                           dateFormat: "dd-mm-yy"
             });
 
   });';
-  drupal_add_js($datepicker, array('type' => 'inline', 'scope' => 'footer', 'weight' => 5)); 
+  drupal_add_js($datepicker, array('type' => 'inline', 'scope' => 'footer', 'weight' => 5));
 }
