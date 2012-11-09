@@ -2743,7 +2743,7 @@ line-height: 22px;
 }
 .page-search .content ul { margin-left: 20px}
 
-.no-second-sidebar #zone-content-wrapper {background-image: url(../images/content-bg03-2.png);}
+#zone-content-wrapper.no-second-sidebar {background-image: url(../images/content-bg03-2.png);}
 
 .block-system .search-form .form-text {
 	line-height: 74px;
