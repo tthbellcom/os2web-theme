@@ -3,7 +3,7 @@
 
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
-audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio, canvas, video { display: inline-block;}
 audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 
@@ -12,14 +12,16 @@ html, button, input, select, textarea { font-family: Arial, Helvetica, sans-seri
 
 table { font-size:inherit; font:100%; } 
 select, input, textarea { font:99% sans-serif; } 
-body {font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; }
-/*body {background-image: url(../images/bodybackground.jpg)}*/
+body {font:13px sans-serif; line-height:1.22; }
 body {font-family: Arial, Helvetica, sans-serif ;background-attachment: fixed; }
 
 ::-moz-selection { background: #8b0053; color: #fff; text-shadow: none; }
 ::selection { background: #8b0053; color: #fff; text-shadow: none; }
 
 a:link, a:visited { color: #8b0053; text-decoration: none;}
+
+a:active,
+a:focus { outline: 1px solid #8b0053;}
 
 p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
     margin-bottom: 5px;  
@@ -30,14 +32,14 @@ h4 {margin-top: 5px; font-size: 16px }
 
 /* Myriad Pro Font */
 
-h1, h2, h3, h4, h5, h6, .button, .knapper, .view-selvbetjening, .view-id-selvbetjening select, #breadcrumb, .view-rotating-image-view, .view-kulturnaut-events-lister, /*.region-footer-first, #block-block-6, #region-footer-third, #region-footer-second,*/ .portalnews-big, #main-menu, #zone-menu, #region-header-second .region-inner li, #block-search-form, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], .spotbox-subsite-frontpage .spotbody, .telefonnummer, option, .agenda-bullet-list { font-family: "myriad-pro", Arial, Helvetica, sans-serif; }
+h1, h2, h3, h4, h5, h6, .button, .knapper, .view-selvbetjening, .view-id-selvbetjening select, #breadcrumb, .view-rotating-image-view, .view-kulturnaut-events-lister, .portalnews-big, #main-menu, #zone-menu, #region-header-second .region-inner li, #block-search-form, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], .spotbox-subsite-frontpage .spotbody, .telefonnummer, option, .agenda-bullet-list { font-family: "myriad-pro", Arial, Helvetica, sans-serif; }
 
 /* Myriad Pro Light Font */
 
-#views-exposed-form-meetings-search-page label, #region-sidebar-second .spotbox_no_picture_text h3, .spotbox .spotbox_no_picture_text h3, .search-form .form-text, .views-slideshow-cycle-main-frame-row-item, /*#region-footer-third .content,*/ .region-inner h1.title, .node-type-contentpage .field.field-name-field-resume-long {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 300; letter-spacing: normal}
+#views-exposed-form-meetings-search-page label, #region-sidebar-second .spotbox_no_picture_text h3, .spotbox .spotbox_no_picture_text h3, .search-form .form-text, .views-slideshow-cycle-main-frame-row-item, .region-inner h1.title, .node-type-contentpage .field.field-name-field-resume-long {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 300; letter-spacing: normal}
 
 
-/* Myriad Pro Bold Font */
+/*   Myriad Pro Bold Font */
 
 .portalnews-big .date {font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-weight: 700; letter-spacing: normal}
 
@@ -157,7 +159,6 @@ h2.pane-title a, h2.block-title a {
     border-radius: 0px;  
     -moz-border-radius: 0px; 
     background-color: #FBFBFB;
-	*line-height:5px;
     text-indent: 99999px;
 }
 
@@ -735,7 +736,8 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
     margin-left: 10px;
     padding: 7px 0 7px 0;
     text-transform:uppercase;
-    letter-spacing:-1px;
+    letter-spacing:0;
+    font-size: 15px;
 }
 
 .qtip-wrapper ul.menu a {
@@ -946,14 +948,18 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
     border: none
 }
 .field-type-text-with-summary thead th{
-    padding:10px;
     color:#fff;
-    border:1px solid #93CE37;
-    border-bottom:3px solid #9ED929;
+    border:1px solid #FFF;
+    border-bottom:1px solid #FFF;
     background-color:#F2F2F2;
-    border-top-left-radius:5px;
-    border-top-right-radius:5px;
+	background-color: #8b0053;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
 }
+
+.field-type-text-with-summary thead th p {
+	color: #FFF; }
+
 .field-type-text-with-summary thead th:empty{
     background:transparent;
     border:none;
@@ -1405,7 +1411,7 @@ height: 90px;
 .husk-menuen, .husk-menuen legend { }
 
 .selvbetjening-megamenu a {
-	color: #c386a8;
+	color: #FFF;
 	padding: 0 0 0 21px;
 	background-image: url("../images/selvbetjening-arrow.png");
 	background-repeat: no-repeat;
@@ -2407,7 +2413,7 @@ div.breadcrumb.you-are-here {
 
 .selvbetjening-indholdsside .se-flere a {
 	background-image: url("../images/selvbetjening-down-arrow.png");
-	background-position-y: 5px;
+	background-position: 5px 0;
 	font-size: 14px;
     }
 
@@ -2735,6 +2741,9 @@ line-height: 22px;
 .search-results .search-snippet-info {
 	padding-left: 0;
 }
+.page-search .content ul { margin-left: 20px}
+
+#zone-content-wrapper.no-second-sidebar {background-image: url(../images/content-bg03-2.png);}
 
 .block-system .search-form .form-text {
 	line-height: 74px;
@@ -3267,3 +3276,521 @@ tr.even td { background: #f9f9f9;}
 .view-id-planer_i_hoering .views-field-title { width: 320px;}
 .view-id-planer_i_hoering .aktiv-hoering { width: 60px;}
 .view-id-planer_i_hoering .er-i-hoering { width: 40px; text-align: center; text-transform: uppercase; font-size: 8px}
+
+.slideshow-big .views-slideshow-controls-top {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  z-index: 99;
+}
+
+.slideshow-big .views-slideshow-controls-top .views-slideshow-pager-field-item {
+  display: inline;
+  float: left;
+  color: transparent;
+  width: 10px;
+  height: 10px;
+  background: none;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.slideshow-big .views-slideshow-pager-field-item .views-field-title {
+  display: inline;
+  background: none;
+  width: auto;
+  height: auto;
+  background: none;
+}
+
+.slideshow-big .views-slideshow-pager-field-item .views-field-title .views-content-title {
+  background: url(../images/pager-dots.png) top left no-repeat;
+  box-shadow: none;
+  display: inline;
+  float: left;
+  width: 10px;
+  height: 10px;
+  overflow: hidden;
+}
+
+.slideshow-big .views-slideshow-pager-field-item.active .views-field-title .views-content-title {
+  background-position: -10px 0;
+}
+
+.view-borgerservices ul {
+  margin: 6px 0 0 0;
+}
+
+.view-borgerservices ul li {
+  width: 161px;
+  height: 94px;
+  position: relative;
+  z-index: 999;
+  margin: 0;
+  overflow: hidden;
+  float: right;
+}
+
+.view-borgerservices ul li a {
+  color: #fff;
+  width: 161px;
+  height: 94px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  display: table;
+  vertical-align: middle;
+}
+
+.view-borgerservices ul li a .lineHeightHack {
+  line-height: 1.2;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  margin-top: expression(this.offsetHeight < this.parentNode.offsetHeight ? parseInt((this.parentNode.offsetHeight - this.offsetHeight) / 2) + "px" : "0"); /* iehack, move to ie.css if created */
+}
+
+.view-borgerservices ul li a:hover {
+  background: transparent !important;
+}
+
+.view-borgerservices .view-header {
+  text-transform: uppercase;
+  font-size: 1.25em;
+  text-align: center;
+  color: #fff;
+  line-height: 55px;
+  height: 55px;
+}
+
+.portalnews-big .views-row .news-list-left {
+  display: none;
+}
+
+.portalnews-big .views-row {
+  padding-left: 20px;
+  float: left;
+  /*  padding-left: 30px;width: 200px;*/
+  margin-right: 10px;
+}
+
+.portalnews-big .views-row.views-row-first {
+  width: 100%;
+  display: block;
+  clear: both;
+  margin-right: 0;
+  padding-left: 0;
+  padding-top: 8px;
+  height: 155px;
+}
+
+.portalnews-big .views-row.views-row-first .news-list-left {
+  display: block;
+  width: 214px;
+  height: 116px;
+  margin-right: 5px;
+  border: solid #fff 5px;
+  display: block;
+  float: left;
+  margin-left: 11px;
+}
+
+.portalnews-big .views-row.views-row-first .news-list-left:hover {
+  border: solid #8b0053 5px;
+}
+
+.view-id-newslist.portalnews-big .view-content {
+  width: 470px;
+  background: url("../images/aktueltBORGER.png") repeat scroll 0 0 transparent;
+  height: 232px;
+  margin-left: 9px;
+}
+#panel-borger .panel-region-middle-right { margin-left: 8px}
+.portalnews-big .views-row .news-list-right p a,
+.portalnews-big .views-row .news-list-right p {
+  color: #797979;
+  font-size: 90%;
+}
+
+.portalnews-big h3 a { font-size: 14px; color: #787878}
+.portalnews-big .views-row-first h3 a { font-size: 16px}
+
+.portalnews-big .views-row .news-list-right p:first-child {
+  font-size: 80%;
+}
+
+.portalnews-big .views-row.views-row-first p {
+  font-size: 110%;
+}
+
+
+.portalnews-big .views-row.views-row-last {
+  margin-left: 11px;
+}
+
+.portalnews-big .field-content p {
+  margin: 0;
+}
+
+.spotbox h3 {
+  display: table-cell;
+  padding: 15px 25px 15px 15px;
+  vertical-align: middle;
+  height: 41px;
+}
+
+.jcarousel-item {
+  width: 303px;
+  margin: 0 1px;
+  height: 155px;
+}
+
+.field-slideshow-carousel-wrapper li.jcarousel-item {
+  margin: 0;
+  width: 100px;
+}
+
+#views_slideshow_controls_text_pause_newslist-block {
+  display: none;
+}
+
+
+.spotbox h3 .spotWrap {
+  position: relative;
+  top: expression(this.offsetHeight < 22 ? "10px" : "0");
+}
+
+@-moz-document url-prefix() {
+  .spotbox h3 {
+    height: 70px;
+  }
+}
+.planerihoeringdummy {height: 250px}
+
+.grid-6.region-content .field-name-field-webform-attachment{
+    margin-bottom: 20px;
+}
+.grid-6.region-content .field-name-field-webform-attachment .field-items:first-child{
+    width: 470px;
+    display: block;
+    border-top: 1px solid #CCCCCC;
+}
+.grid-6.region-content .field-name-field-webform-attachment .odd span.file:hover, .grid-6.region-content .field-name-field-webform-attachment .even span.file:hover{
+    background-color: #fffeee;
+}
+.grid-6.region-content .field-name-field-webform-attachment .field-items span.file{
+    width: 458px;
+    display: block;
+    border-bottom: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    padding:5px;
+}
+.grid-6.region-content .field-name-field-webform-attachment .odd span.file{
+    background-color: #F1F5FA;
+}
+
+#panel-borger .selvbetjening-block-forside a {
+    color: #FFFFFF;
+}
+#panel-borger #pop-borgerservices h3 {
+    font-size: 16px;
+}
+#panel-borger .selvbetjening-block-portal h3 a {
+    font-size: 16px;
+}
+#panel-borger .selvbetjening-block-forside h3 a {
+    font-size: 16px;
+}
+#panel-borger #pop-borgerservices .lineHeightHack {
+    font-size: 14px;
+}
+
+#panel-borger .portal-side .selvbetjening-block-portal .view-header {
+    color: #b9809f;
+    font-size: 14px;
+}
+
+#panel-borger portalnews-big .views-row.views-row-first .news-list-left {
+    border: 2px solid #FFFFFF;
+}
+#panel-borger portalnews-big .views-row.views-row-first .news-list-left:hover {
+    border: 2px solid #b80053;
+}
+
+#panel-borger .portalnews-big .views-row .news-list-right p:first-child {
+    margin-top: 3px;
+}
+
+#panel-borger .view-id-kulturnaut_events_lister {
+    background-image: url("../images/detskerBORGER.png");
+    height: 235px;
+    width: 234px;
+}
+
+ul.dynatree-container ul ul {
+padding: 0 0 0 0;
+margin: 0;
+}
+
+.dynatree-node ol, .dynatree-node ul {
+padding-left: 0;
+}
+
+ul.dynatree-container ul a { padding-left: 0 }
+
+.agenda-item {
+  border: 1px solid #cccccc;
+  background-color: #fefefe;
+  padding: 0.2em;
+}
+.agenda-bullet-list {
+    background-image: url("../images/megamenu-arrow-over.png");
+    background-position: 5px 4px;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 20px;
+    width: auto;
+    padding-left: 20px;
+}
+
+
+.agenda-bullet-list.open {
+    background-image: url("../images/arrow-down-over.png");
+    background-position: 2px 5px;
+}
+
+.item-list li {
+    clear: left;
+}
+
+
+.form-item-committee .yaselect-anchor {
+ background-repeat: no-repeat;
+ height: 50px;
+ width: 440px;
+ display: block;
+ background-image: url('../images/dagsordnerDROP.png');
+}
+
+.form-item-committee .yaselect-open {
+ background-image: url('../images/dagsordnerDROP.png');
+}
+.form-item-committee .yaselect-current{
+ display: block;
+ width: 440px;
+ text-transform: none;
+ margin: 0;
+}
+
+.form-item-committee .yaselect-wrap {
+ padding: 12px 0 0 20px;
+ margin: 0;
+ position: absolute;
+}
+.form-item-committee .yaselect-select {
+ margin-left: 1px;
+ width: 435px;
+}
+
+#views-exposed-form-meetings-search-page #edit-submit-meetings-search {
+    background-image:  url('../images/dagsordnerSOG.png');
+    border: none;
+    border-radius: 0;
+    width: 98px;
+    height: 43px; 
+    color: #FFF;
+    margin: 8px 0 0 0;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    text-shadow: none;
+    width: 98px;
+    text-transform: uppercase;
+}
+
+.portal-politik-og-planer #views-exposed-form-meetings-search-page #edit-submit-meetings-search {
+    position: absolute;
+    top: 44px;
+    left: 373px;
+}
+#bef-datepicker-wrapper img,
+#bef-datepicker--2-wrapper img {
+  position: relative;
+  top: 11px;
+  padding-left: 6px;
+}
+#bef-datepicker--2-wrapper label {
+    position: absolute;
+    text-transform: uppercase;
+    margin: 19px 0 0 0;
+}
+
+#bef-datepicker-wrapper  input, 
+#bef-datepicker--2-wrapper input {
+    color: #7A7A7A;
+    font-size: 17px;
+    margin: 11px 0 0;
+}
+
+
+#bef-datepicker--2-wrapper input {margin-left: 23px;}
+
+#views-exposed-form-meetings-search-page #edit-search-params{
+    border: 1px solid #ddd;
+    color: #7E7E7E;
+    font-size: 32px;
+    width: 625px;
+}
+#views-exposed-form-meetings-search-page #edit-search-params-wrapper {
+    background-image: url("../images/soegefeltLUP.png");
+    background-position: 625px 0; 
+    background-repeat: no-repeat;
+    width: 679px;
+}
+
+#views-exposed-form-meetings-search-page #edit-from-date-value-datepicker-popup-0,
+#views-exposed-form-meetings-search-page #edit-to-date-value-datepicker-popup-0 {
+    width: 102px;
+    border: 1px solid #ddd;
+    margin-bottom: 11px;
+}
+
+#views-exposed-form-meetings-search-page .views-submit-button {
+    float: right;
+    margin-right: 2px;
+}
+
+#views-exposed-form-meetings-search-page {
+    margin: 0 0 15px 15px;
+}
+
+#views-exposed-form-meetings-search-page .description {
+    display: none;
+}
+
+#views-exposed-form-meetings-search-page label {
+    color: #333;
+}
+
+
+.view-display-id-attachment_2 thead {
+    display: none;
+} 
+
+.view-meetings-search table.views-table th {
+    background: none;
+    border: none;
+}
+
+
+th.views-field-field-committee {
+    width: 320px;
+}
+
+th.views-field-field-date {
+    width: 150px;
+}
+
+
+.view-meetings-search .views-field-field-committee a {
+    background-image: url('../images/megamenu-arrow-over.png');
+    background-position: 5px 3px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.view-meetings-search .views-field a {
+   color: #333;
+}
+
+.view-meetings-search .views-field-field-committee  a:hover {
+    color: #8b0054;
+}
+
+.view-meetings-search table,
+.view-meetings-search .views-table tr.even,
+.view-meetings-search .views-table tr.odd,
+.view-meetings-search .views-table tr.even td,  
+.view-meetings-search .views-table tr.odd td,
+.view-meeting-details table,
+.view-meeting-details .views-table tr.even,
+.view-meeting-details .views-table tr.odd,
+.view-meeting-details .views-table tr.even td,  
+.view-meeting-details .views-table tr.odd td {
+    background: none;
+    border: none;
+    vertical-align: top;
+}
+
+.view-meeting-details .agenda-bullet-list {
+    color: #333;
+    border: 1px solid #CCCCCC;
+    width: 672px;
+    height: auto;
+    min-height: 25px;
+}
+
+.view-meeting-details .agenda-bullet-list.open {
+    color: #333;
+    border: none;
+}
+
+
+.view-meetings-search .views-field {
+    color: #333;
+    font-size: 13px;
+}
+
+.view-meeting-details .view-header h3 {
+    color: #333;
+}
+
+.view-meetings-search .item-list .pager {
+     margin-bottom: 35px;
+
+}
+
+.view-meetings-search .view-footer {
+    clear: left;
+}
+
+.view-meeting-details .view-display-id-attachment_2 td.views-field-field-qbrick-ref {
+    position: absolute;
+    left: 675px;
+    margin-top: 2px;
+}
+
+.view-meeting-details .views-field strong {
+    padding-left: 20px;
+}
+
+.view-meeting-details .clearfix h2,
+.view-meeting-details .clearfix h3 {
+    font-size: 14px;
+    margin: 4px 0;
+}
+
+.view-meeting-details .clearfix, 
+.view-meeting-details .clearfix li, 
+.view-meeting-details .clearfix p {
+    font-size: 12px;
+    line-height: 16px;
+    color: #333;
+    margin: 2px 0;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.view-meeting-details .item-list ul li {
+    margin: 0;
+}
+
+.view-meeting-details .field-name-field-bpa-body li {
+    list-style: disc outside none;
+}
+
+
