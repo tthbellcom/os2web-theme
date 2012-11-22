@@ -1,6 +1,6 @@
 <div<?php print $attributes; ?>>
   <div<?php print $content_attributes; ?>>
-    <?php if $linked_logo_img : ?>
+    <?php if ($linked_logo_img) : ?>
     <div class="branding-data clearfix">
       <?php if ($linked_logo_img): ?>
       <div class="logo-img">
