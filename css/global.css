@@ -3262,9 +3262,9 @@ tr.even td { background: #f9f9f9;}
 .pane-planer-i-hoering { margin: 0 8px !important; width: 473px !important;  }
 .view-id-planer_i_hoering { background-image: url(../images/planerihoeringTOP.png); padding-top: 10px}
 .view-id-planer_i_hoering .view-header h3 { color: #fff; padding: 1px; line-height: 54px; text-align: center; text-transform: uppercase; font-size: 18px}
-.view-id-planer_i_hoering .view-content { padding: 5px}
+.view-id-planer_i_hoering .view-content { padding: 5px 0 5px 5px}
 .view-id-planer_i_hoering thead { display: none}
-.view-id-planer_i_hoering td, .view-id-planer_i_hoering table, .view-id-planer_i_hoering tr, .view-id-planer_i_hoering tbody { background-color: transparent !important; border-top: none !important;border-left: none !important;border-right: none !important; border-color: #eee}
+.view-id-planer_i_hoering td, .view-id-planer_i_hoering table, .view-id-planer_i_hoering tr, .view-id-planer_i_hoering tbody { background-color: transparent !important; border-top: none !important;border-left: none !important;border-right: none !important; border-color: #eee; padding-right: 0}
 .view-id-planer_i_hoering .view-footer { background-image: url(../images/planerihoeringBUND.png);
 	padding: 10px;
 	margin-bottom: 15px; height: 30px; }
@@ -3273,9 +3273,10 @@ tr.even td { background: #f9f9f9;}
 .view-id-planer_i_hoering .alle a, .view-id-planer_i_hoering .vedtagne a, .view-id-planer_i_hoering .foroffase a { background-color: #8b0053; color: #fff !important; text-transform: uppercase; font-size: 12px; padding: 10px; 
 -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
 
-.view-id-planer_i_hoering .views-field-title { width: 320px;}
-.view-id-planer_i_hoering .aktiv-hoering { width: 60px;}
-.view-id-planer_i_hoering .er-i-hoering { width: 40px; text-align: center; text-transform: uppercase; font-size: 8px}
+
+.view-id-planer_i_hoering .views-field-title { width: 329px; padding-right: 0;padding-top: 0; vertical-align:middle;}
+.view-id-planer_i_hoering .aktiv-hoering { width: 60px; padding: 0 15px 5px 0}
+.view-id-planer_i_hoering .er-i-hoering { width: 40px; text-align: center; text-transform: uppercase; font-size: 8px; padding-top: 17px; padding-bottom: 0; vertical-align: top; background-image: url(../images/purple-dot.png); background-position: center top; background-repeat: no-repeat}
 
 .slideshow-big .views-slideshow-controls-top {
   position: absolute;
@@ -3728,16 +3729,18 @@ th.views-field-field-date {
 }
 
 .view-meeting-details .agenda-bullet-list {
-    color: #333;
+    color: #8b0054; 
     border: 1px solid #CCCCCC;
     width: 672px;
     height: auto;
     min-height: 25px;
+    font-size: 15px;
 }
 
 .view-meeting-details .agenda-bullet-list.open {
-    color: #333;
+    color: #8b0054;
     border: none;
+    font-size: 15px;
 }
 
 
