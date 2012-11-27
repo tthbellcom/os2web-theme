@@ -3548,7 +3548,7 @@ ul.dynatree-container ul a { padding-left: 0 }
   padding: 0.2em;
 }
 .agenda-bullet-list {
-    background-image: url("../images/megamenu-arrow-over.png");
+    background-image: url("../images/purplus.png");
     background-position: 5px 4px;
     background-repeat: no-repeat;
     display: block;
@@ -3560,7 +3560,7 @@ ul.dynatree-container ul a { padding-left: 0 }
 
 
 .agenda-bullet-list.open {
-    background-image: url("../images/arrow-down-over.png");
+    background-image: url("../images/purminus.png");
     background-position: 2px 5px;
 }
 
