@@ -619,7 +619,7 @@ ul.jcarousel-list-horizontal { }
 	width: 333px; 
 	font-size: 20px; 
 	border: none; 
-	height: 59px; 
+	height: auto; 
 	/*line-height: 40px; */
 	padding: 0 ; 
 	text-transform: uppercase; 
@@ -3798,3 +3798,5 @@ th.views-field-field-date {
 
 
 .view-meeting-details h3.node-title { font-weight: bold}
+
+#forside .grid-6.custom-video {margin-left: 20px; width: 470px; padding: 5px 3px;}
