@@ -592,8 +592,8 @@ ul.jcarousel-list-horizontal { }
 #zone-user .menu { margin-top: 12px ; line-height: 22px}
 
 #zone-menu .region-inner, #zone-content-wrapper .region-inner {position: relative; }
-#zone-menu #main-menu  {line-height: 64px; height: 64px; font-size: 20px; margin: 0 13px;  }
-#main-menu {float: left; line-height: 64px;}
+#zone-menu #main-menu  { height: 40px; font-size: 20px; margin: 0; padding-left: 23px; width: auto;  }
+#main-menu {}
 #main-menu li {line-height: 64px; float: left; list-style: none}
 #main-menu li a {padding-left: 0px; padding-right: 24px; display: block; line-height: 64px; color: #4B4B4B; font-weight: normal }
 
@@ -602,7 +602,7 @@ ul.jcarousel-list-horizontal { }
 #zone-header{ padding-bottom: 10px}
 #region-sidebar-first {width: 240px; margin-right: 0px}
 
-#region-menu { width: 960px; margin-right: 0px; padding-right: 0px}
+#region-menu { width: 960px; margin-right: 0px; padding-right: 0px; padding-left: 0; margin-left: 0}
 
 .region-footer-first-inner, .region-footer-second-inner, .region-footer-third-inner {margin: 29px 0 10px 0 }
 .region-footer-first-inner {padding-left: 145px; line-height: 30px; margin: 0;}
@@ -671,8 +671,6 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
 .facebook {}
 /*.node-type-iframe-selvbetjeningsl-sning-mm h1#page-title {display: none}*/
 .page-home #region-sidebar-first {display: none}
-
-.qtip-cmstheme .qtip-wrapper { background-image: url("../images/content-bg.png"); background-position: center top; background-color: #FFF; background-repeat: no-repeat; padding: 20px}
 
 .spotbox-right {}
 
@@ -1735,13 +1733,18 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 
 .qtip-wrapper div.panel-panel {margin-right: 0}
 
-.qtip-cmstheme .qtip-wrapper { padding: 20px 0px    }
-    
+.qtip-cmstheme .qtip-wrapper { 
+	background-image: url("../images/megadropdownBAG.png");
+	background-position: center top; 
+	background-color: #FFF; 
+	background-repeat: no-repeat;
+	padding: 20px 0px;
+	 }
+
 .menu-minipanels .aktuelle-emner h2.pane-title, .menu-minipanels .aktuelle-emner .pane-content { padding-left: 5px}
 
 .panels-flexible-region-inside {padding: 0}
 #zone-menu {   height: 64px;}
-.qtip-cmstheme .qtip-wrapper { background-image: url("../images/megadropdownBAG.png");}
 
 #block-search-form #edit-submit { height: 65px; width: 73px;}
 
@@ -2682,13 +2685,9 @@ div.qtip { background-image: url(../images/megadropdownBUND.png); background-pos
 .selvbetjening-megamenu { height: auto; margin-bottom: 5px }
 
 
-#zone-menu #main-menu {
-width: 447px;
-}
-
 #zone-menu .block-search-form { width: 481px;}
 
-#zone-menu .form-item-search-block-form label { display: none}
+/*#zone-menu .form-item-search-block-form label { display: none}*/
 
 .view-id-newslist .rss-ikon a.rssikon {float: right; text-indent: -99999px; background-image: url(../images/rssfeed.png); width: 58px; height: 11px; display: block; margin-top: 5px }
 
