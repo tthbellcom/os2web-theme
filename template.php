@@ -67,7 +67,7 @@ function cmstheme_breadcrumb($variables) {
       unset($breadcrumb);
       $breadcrumb[0] = l(t('Forside'), '<front>', array('attributes' => array('title' => 'Forside')));
       $breadcrumb[] = l(t('Politik & planer'), 'politik-og-planer', array('attributes' => array('title' => 'Politik og planer')));
-      $breadcrumb[] = l(t('Søg i dagsordener og referater'), 'meetings-search', array('attributes' => array('title' => 'Søg i dagsordner og referater')));
+      $breadcrumb[] = l(t('Søg i dagsordener og referater'), 'dagsorden-og-referat', array('attributes' => array('title' => 'Søg i dagsordner og referater')));
       $breadcrumb[] = l(t($title), '#');
     }
     $output .= '<div class="breadcrumb">' . implode('<div class="bread-crumb"> &gt; </div> ', $breadcrumb) . '</div>';
