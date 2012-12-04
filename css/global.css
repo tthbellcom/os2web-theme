@@ -45,6 +45,7 @@ h1, h2, h3, h4, h5, h6, .button, .knapper, .view-selvbetjening, .view-id-selvbet
 
 /* // END Fonts */
 
+
 ul.primary li a {
     background-color: #DDDDDD;
     border-color: #787878;
@@ -602,8 +603,10 @@ ul.jcarousel-list-horizontal { }
 #zone-header{ padding-bottom: 10px}
 #region-sidebar-first {width: 240px; margin-right: 0px}
 
+/*
+## grid-fix
 #region-menu { width: 960px; margin-right: 0px; padding-right: 0px; padding-left: 0; margin-left: 0}
-
+*/
 .region-footer-first-inner, .region-footer-second-inner, .region-footer-third-inner {margin: 29px 0 10px 0 }
 .region-footer-first-inner {padding-left: 145px; line-height: 30px; margin: 0;}
 #region-footer-first {background-image: url(../images/lille-logo.png); width: 970px; margin: 0; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;  }
@@ -762,7 +765,11 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
   font-size: 14px;
   color: #4b4b4b;
   padding-left: 0px;
+  margin-right: 9px;
 }
+#zone-footer .pane-selvbetjening h2.pane-title { margin-right: 0px}
+
+#zone-footer .menu-block-wrapper { margin-right: 9px}
 
 #footer-region ul.menu a {
   margin-bottom: 5px;
@@ -1259,26 +1266,6 @@ a.overlayclass span.spotbox-subsite-frontpage   { width: 300px; height: 261px;  
   visibility:visible;
 }
 
-.spotbox-horisontal .views-row { background-position: 0 32px}
-.spotbox-horisontal .views-row-last {
-    background-image: url("../images/spot1b.png");
-    margin-bottom: 6px;
-    margin-left: 8px;
-    padding: 6px 1px 0px 1px;
-}
-
-.spotbox-tall, .spotbox-video { margin-left: 10px}
-.portal-borger .spotbox-video { margin-left: 9px}
-
-.spotbox-row-tall {
-    background-image: url("../images/spot2-424.png");
-    background-repeat: no-repeat;
-    margin-bottom: 10px;
-    padding: 1px 1px 0px;
-    background-position: 0 27px}
-
-.spotbox-tall-body {height: 290px; overflow: hidden; line-height: 1.1em; font-size: 12px; color: #A8A8A8; background-color: #fff; padding: 10px}
-
 .spotbox-row-video {
     background-image: url("../images/spot3.png");
     background-repeat: no-repeat; 
@@ -1291,7 +1278,7 @@ a.overlayclass span.spotbox-subsite-frontpage   { width: 300px; height: 261px;  
 padding-top: 8px;
 } 
 
-.spotbox-horisontal {margin-left: 10px; width: 490px}
+
 
 .portal-politik-og-planer .spotbox-horisontal { clear: left; }
 
@@ -1327,17 +1314,6 @@ padding-top: 8px;
 G.selvbetjening-block-forside a { color: #fff; margin-bottom: 5px; font-weight: normal; font-size: 12px}
 */
     
-.selvbetjening-block-forside { color: #B3B3B3; background-image: url(../images/selvbetjeningFORSIDE.png); padding: 10px 7px 40px 7px; margin-top: 12px; margin-left: 0px; font-size: 16px; text-transform: uppercase}
-.selvbetjening-block-forside p {padding-left: 25px; margin-bottom: 0px; color: #c386a8; }
-.selvbetjening-block-forside a { color: #fff; margin-bottom: 5px; font-weight: normal; font-size: 12px; text-transform: none}
-.selvbetjening-block-forside .item-list a {  }
-.selvbetjening-block-forside .item-list a:hover { } 
-.selvbetjening-block-forside h3 { text-align: center; display: block; margin-bottom: 12px}
-.selvbetjening-block-forside h3 a { text-transform: uppercase; font-size: 20px; margin: 4px 10px; font-weight: normal; text-align: center; display: block; padding-bottom: 25px; background-image: url(../images/gaatilinfo.png); background-repeat: no-repeat; background-position: right bottom; color: #fff; }
-
-
-
-
 .portal-politik-og-planer .selvbetjening-block-forside h3 a {background-image: url(../images/politikogplanerTEKST.png);
 background-position: 100% 65%;}
 
@@ -1803,14 +1779,6 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
     padding: 10px 0 0 3px;
 }
 
-.view-kulturnaut-events-lister {
-    background-image: url(../images/detsker-bg.png);
-    height: 159px;
-    width: 314px;
-}
-
-
-
 
 #zone-user {
     font-size: 10px;
@@ -1995,9 +1963,10 @@ p.MsoNormal {
     padding-left: 200px
 }
 .selbetjening-bund {line-height: 53px}
+
 #region-footer-first .footer-off-links, .selbetjening-bund a {float: right; margin-right: 10px }
 
-#region-footer-first .footer-off-links .nemid, #region-footer-first .footer-off-links .virkdk, #region-footer-first .footer-off-links .borgerdk, .selbetjening-bund a { display: block; height: 53px; text-indent: -9999px; float: left}
+#region-footer-first .footer-off-links .nemid, #region-footer-first .footer-off-links .virkdk, #region-footer-first .footer-off-links .borgerdk, .selbetjening-bund a { display: block; height: 35px; text-indent: -9999px; float: left}
 
 #region-footer-first .footer-off-links .nemid { width: 68px; background-image: url(../images/nemid-graa.png)}
 #region-footer-first .footer-off-links .virkdk {width: 52px; background-image: url(../images/virkdk-graa.png)}
@@ -2317,9 +2286,6 @@ text-transform: uppercase;
 
 }
 
-#mini-panel-footer_menuer .pane-block {
-	width: 140px;
-}
 
 #panel-borger .view-id-kulturnaut_events_lister {
 	background-image: url(../images/detsker-borger-bg.png);
@@ -2685,7 +2651,7 @@ div.qtip { background-image: url(../images/megadropdownBUND.png); background-pos
 .selvbetjening-megamenu { height: auto; margin-bottom: 5px }
 
 
-#zone-menu .block-search-form { width: 481px;}
+#zone-menu .block-search-form { width: 485px;}
 
 /*#zone-menu .form-item-search-block-form label { display: none}*/
 
@@ -3798,4 +3764,6 @@ th.views-field-field-date {
 
 .view-meeting-details h3.node-title { font-weight: bold}
 
-#forside .grid-6.custom-video {margin-left: 20px; width: 470px; padding: 5px 3px;}
+/*#region-menu { margin: 0; padding: 0; width: 970px}
+.navigation { float: left; height: 40px; width: 485px; }
+*/
