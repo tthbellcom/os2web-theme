@@ -3764,6 +3764,8 @@ th.views-field-field-date {
 
 .view-meeting-details h3.node-title { font-weight: bold}
 
+#forside .grid-6.custom-video {margin-left: 20px; width: 470px; padding: 5px 3px;}
+
 /*#region-menu { margin: 0; padding: 0; width: 970px}
 .navigation { float: left; height: 40px; width: 485px; }
 */
