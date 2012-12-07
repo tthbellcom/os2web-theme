@@ -4,7 +4,7 @@
  * ==========================================================
  */
 
-.grid-9, .grid-10, .grid-11, .grid-12 {
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12 {
   display: inline;
   float: left;
   position: relative;
@@ -12,14 +12,7 @@
   padding-left: 0; 
   margin-right: 0;
 }
-.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8 {
-  display: inline;
-  float: left;
-  position: relative;
-  margin-left: 9px;
-  padding-left: 1px; 
-  margin-right: 0;
-}
+
 
 .push-1, .pull-1, .push-2, .pull-2, .push-3, .pull-3, .push-4, .pull-4,
 .push-5, .pull-5, .push-6, .pull-6, .push-7, .pull-7, .push-8, .pull-8,
@@ -65,35 +58,35 @@ body {
  */
 
 .container-12 .grid-1 {
-  width: 69px;
+  width: 70px;
 }
 
 .container-12 .grid-2 {
-  width: 147px;
+  width: 150px;
 }
 
 .container-12 .grid-3 {
-  width: 229px;
+  width: 230px;
 }
 
 .container-12 .grid-4 {
-  width: 309px;
+  width: 310px;
 }
 
 .container-12 .grid-5 {
-  width: 389px;
+  width: 390px;
 }
 
 .container-12 .grid-6 {
-  width: 469px;
+  width: 470px;
 }
 
 .container-12 .grid-7 {
-  width: 549px;
+  width: 550px;
 }
 
 .container-12 .grid-8 {
-  width: 629px;
+  width: 630px;
 }
 
 .container-12 .grid-9 {
