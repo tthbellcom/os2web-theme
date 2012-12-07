@@ -127,7 +127,7 @@ h2.pane-title, h2.block-title {
 	margin-bottom: 3px; 
 	padding-bottom: 0px; 
 	padding-left: 7px; 
-	padding-top: 6px; 
+	padding-top: 7px; 
 	text-transform: uppercase; 
 	font-weight: normal
 	}
@@ -342,7 +342,7 @@ div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper legend {
         background: url(../images/news-list-bg.png);
 	height: 158px;
 	width: 311px;
-	margin-left: 7px;
+	/* margin-left: 7px;  grid-fix */
 	padding: 2px 2px 2px 2px;
 }
 
@@ -838,10 +838,26 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 
 /* Kontaktblok */
 
-.view-id-kontaktblok { background-image: url(../images/kontaktMELLEM.png); width: 232px; background-repeat: repeat-y }
+.view-id-kontaktblok { 
+	background-image: url(../images/kontaktMELLEM.png); 
+	width: 232px; 
+	background-repeat: repeat-y;
+	background-position: -4px 0}
 
-.view-id-kontaktblok .view-content { /*height: 305px;*/ padding-top: 20px;  overflow: hidden; background-image: url(../images/kontaktTOP.png); background-repeat: no-repeat}
-.view-id-kontaktblok .view-footer { height: 45px; padding-top: 48px; padding-left: 20px; background-image: url(../images/kontaktBUND.png); background-repeat: no-repeat }
+.view-id-kontaktblok .view-content { 
+	/*height: 305px;*/ 
+	padding-top: 20px;  
+	overflow: hidden; 
+	background-image: url(../images/kontaktTOP.png); 
+	background-repeat: no-repeat; 
+	background-position: -4px 4px}
+.view-id-kontaktblok .view-footer { 
+	height: 45px; 
+	padding-top: 48px; 
+	padding-left: 20px; 
+	background-image: url(../images/kontaktBUND.png); 
+	background-repeat: no-repeat;
+	background-position: -4px 0 }
 
 .kontaktblok-overskrift {color: #4B4B4B;
     font-size: 16px;
@@ -1187,8 +1203,6 @@ ul.menu li a.menu-minipanel-1608 {
 	background-image: url("../images/spot1b.png");
 }
 
-#panel-borger .pane-spotboxe-panel-pane-3 {margin-top: 7px}
-
 .spotbox h3, .spotbox h4 { padding: 20px; margin: 0;  }
 .spotbox h3 {width: 190px; height: 30px; overflow: hidden; line-height: 0.9em; background-image: url(../images/spotboxPILb.png); background-position: right center; background-repeat: no-repeat; line-height: 16px;font-size: 16px; color: #8A8A8A; font-weight: normal; padding: 15px 15px 25px}
 body .spotbox-video h3 { display: block; float: left; width: 128px; height: auto; padding:0 0 3px 0; margin: 22px 16px 5px; background-image: none}
@@ -1269,16 +1283,17 @@ a.overlayclass span.spotbox-subsite-frontpage   { width: 300px; height: 261px;  
 .spotbox-row-video {
     background-image: url("../images/spot3.png");
     background-repeat: no-repeat; 
-    background-position: 0 27px;
+    background-position: 0 24px;
     margin-bottom: 0px;
     height: 217px
 }
   
 .spotbox-row-video h2.pane-title {
-padding-top: 8px;
+padding-top: 5px;
+padding-bottom: 5px
 } 
 
-
+.spotbox-row-video .file-video {float: left}
 
 .portal-politik-og-planer .spotbox-horisontal { clear: left; }
 
@@ -1314,11 +1329,19 @@ padding-top: 8px;
 G.selvbetjening-block-forside a { color: #fff; margin-bottom: 5px; font-weight: normal; font-size: 12px}
 */
     
-.portal-politik-og-planer .selvbetjening-block-forside h3 a {background-image: url(../images/politikogplanerTEKST.png);
-background-position: 100% 65%;}
+.portal-politik-og-planer .selvbetjening-block-forside h3 a {
+	background-image: url(../images/politikogplanerTEKST.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	line-height: 55px;
+	padding: 8px 23px;}
 
-.portal-erhverv .selvbetjening-block-forside h3 a{background-image: url(../images/erhvervTEKST.png);
-background-position: 100% 65%;}
+.portal-erhverv .selvbetjening-block-forside h3 a{
+	background-image: url(../images/erhvervTEKST.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	line-height: 55px;
+	padding: 8px 23px;}
 
 .selvbetjening-block-forside li { padding-left: 5px}
 .selvbetjening-block-forside .readmore a { font-size: 14px; margin-bottom: 10px}
@@ -1435,12 +1458,15 @@ height: 90px;
 	height: 300px;
 	background-repeat: no-repeat;
 }
+.portal-erhverv.portal-side .selvbetjening-block-portal {
+	height: 350px }
 
 .portal-politik-og-planer .selvbetjening-block-portal {
 	background-image: url(../images/selvbetjeningPolitikogPlaner.png);
 	margin: 2px 0 0 0;
-	height: 355px;
-	width: 220px;
+	height: 410px;
+	width: 225px;
+	padding-left: 10px;
 }
 
 .portal-side .view-display-id-block_2 .view-footer,
@@ -1457,7 +1483,17 @@ height: 139px;
 overflow: hidden;
 }
 
-.portal-side .selvbetjening-block-portal .view-header {margin-top: 0;}
+.portal-side .selvbetjening-block-portal .view-header {margin-top: 0; }
+.portal-side .selvbetjening-block-portal .view-header h3 {
+	font-size: 16px;
+	font-weight: normal;
+	padding-top: 8px;
+	margin-bottom: 0px;
+	text-align: center;
+	text-transform: uppercase;
+	height: 70px; 
+	line-height: 55px;
+}
 
 .portal-side .view-display-id-sb_block_portal_att_2 .view-header {
 	color: #FFF;
@@ -2162,8 +2198,15 @@ color: #B3B3B3;
 #pop-borgerservices	{
 	padding-left: 3px;
     width: 483px;
+    margin-left: 0;
 }
+
+#panel-borger .pane-selvbetjening { margin-left: 0; padding-left: 0}
 #panel-borger .view-spotboxe .spotbox-row { padding: 6px 1px 0 0 }
+
+#panel-borger .spotbox-horisontal { }
+#panel-borger .spotbox-horisontal .spotbox-row { float: left; margin-left: 7px; padding: 0 0 0 1px;}
+#panel-borger .spotbox-horisontal .spotbox-row.views-row-1 { margin-left: 0}
 
 #pop-borgerservices h3 {font-size: 21px; font-weight: normal; padding-top: 8px; margin-bottom: 0px}
 #pop-borgerservices .pane-content {
@@ -2574,9 +2617,10 @@ div.breadcrumb.you-are-here {
 	clear: both; 
 	background-image: url(../images/dagsordnerBAG.png); 
 	background-repeat: no-repeat; 
-	width: 455px; 
-	margin-left: 7px; 
 	height: 120px }
+
+.grid-6 .grid-3.views-row-odd { margin-left: 0;}
+.portal-politik-og-planer .spotbox-horisontal .views-row { padding-top: 5px; background-position: 0 0 }
 /*
 .pane-os2web-meeting-views-meeting-search-block .form-type-select {
 	background-image: url("../images/dagsordnerDROP.png");
@@ -2868,10 +2912,13 @@ line-height: 22px;
 	background-image: url(../images/megamenu-arrow.png);
 	background-repeat: no-repeat;
 	padding-left: 13px;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-family: "myriad-pro", Arial, Helvetica, sans-serif;
 	position: relative;
-	width: 111px;
+	width: 136px;
 	background-position: 0 2px;
-	font-size: 12px;
+	font-size: 16px;
 	line-height: 15px;
 }
 
@@ -3371,7 +3418,7 @@ tr.even td { background: #f9f9f9;}
   width: 470px;
   background: url("../images/aktueltBORGER.png") repeat scroll 0 0 transparent;
   height: 232px;
-  margin-left: 9px;
+  /*margin-left: 9px; grid-fix */
 }
 #panel-borger .panel-region-middle-right { margin-left: 8px}
 .portalnews-big .views-row .news-list-right p a,
