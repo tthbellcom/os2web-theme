@@ -85,7 +85,7 @@
 .region-inner.region-content-inner {
 	margin-left: 0px;   
 }
-#forside .grid-6.custom-video { padding: 5px 1px 0;}
+#forside .grid-6.custom-video { padding: 5px 1px 0; margin-left: 9px; width: 468px;}
 
 .spotbox-horisontal .views-row { width: 229px; float: left }
 .spotbox-horisontal {width: 490px}
