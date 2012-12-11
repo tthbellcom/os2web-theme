@@ -4,12 +4,12 @@
  * Implements hook_panels_layouts().
  */
 $plugin = array(
-  'title' => t('Portalforside'),
+  'title' => t('OS2Web Portal'),
   'category' => t('CMS Theme'),
-  'icon' => 'cms_portalforside.png',
-  'theme' => 'panels_cms_portalforside',
+  'icon' => 'os2web_portal.png',
+  'theme' => 'panels_os2web_portal',
   'theme arguments' => array('id', 'content'),
-  'admin css' => 'cms_portalforside_admin.css',
+  'admin css' => 'os2web_portal_admin.css',
   'regions' => array(
     'lead' => t('Lead'),
     'middle_top' => t('Middle top'),
