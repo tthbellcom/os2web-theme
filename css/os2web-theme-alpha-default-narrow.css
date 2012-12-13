@@ -2,3 +2,56 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the normal and widescreen layouts. You may override these styles in the normal 
  *  and widescreen CSS files as appropriate. */
+ 
+  .qtip-cmstheme { width: 740px;}
+ 
+
+.qtip-cmstheme .grid-1 {
+  width: 40px;
+}
+
+.qtip-cmstheme .grid-2 {
+  width: 100px;
+}
+
+.qtip-cmstheme .grid-3 {
+  width: 160px;
+}
+
+.qtip-cmstheme .grid-4 {
+  width: 220px;
+}
+
+.qtip-cmstheme .grid-5 {
+  width: 280px;
+}
+
+.qtip-cmstheme .grid-6 {
+  width: 340px;
+}
+
+.qtip-cmstheme .grid-7 {
+  width: 400px;
+}
+
+.qtip-cmstheme .grid-8 {
+  width: 460px;
+}
+
+.qtip-cmstheme .grid-9 {
+  width: 520px;
+}
+
+.qtip-cmstheme .grid-10 {
+  width: 580px;
+}
+
+.qtip-cmstheme .grid-11 {
+  width: 640px;
+}
+
+.qtip-cmstheme .grid-12 {
+  width: 700px;
+}
+.view-spotboxe img { max-width: 160px}
+.view-spotboxe.spotbox-video img { max-width: 220px}

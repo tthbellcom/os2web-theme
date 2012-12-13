@@ -1,2 +1,16 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+ul.inline li {padding: 0 }
+.inline li, .tabs li, .breadcrumb li {margin: 0;}
+
+#block-system-user-menu ul li, #region-user-second ul li { display: inline; list-style: none}
+.qtip-contentWrapper {background-color: #FFF;}
+
+.qtip-cmstheme { background-color: #FFF; }
+
+.menu-minipanels ul li { list-style: none}
+
+ul#main-menu { padding: 0; margin: 0; background-color: #FFF; ;}
+ul#main-menu li a { line-height: 30px; padding: 20px; border-left: 1px solid #ccc; color: #333; text-decoration: none; font-size: 18px}
+ul#main-menu li.first a { padding: 20px 20px 10px; border-left: none}

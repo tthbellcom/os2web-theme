@@ -1,1 +1,9 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+h2, h2.pane-title, h2.block-title { font-size: 18px}
+
+h3 { font-size: 16px}
+h4 { font-size: 14px}
+h5 { font-size: 12px}
+
+
