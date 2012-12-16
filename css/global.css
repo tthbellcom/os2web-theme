@@ -3911,3 +3911,32 @@ th.views-field-field-date {
 /*#region-menu { margin: 0; padding: 0; width: 970px}
 .navigation { float: left; height: 40px; width: 485px; }
 */
+
+/* meetings view */
+.bullet-point-print-link {
+  position: relative;
+  height: 16px;
+  width: 16px;
+  float: right;
+  margin-right: 5px;
+  top: -24px;
+  background: url('../images/icon-print-bullet-point.png') no-repeat 50% top;
+}
+
+.bullet-point-send-to-friend {
+  position: relative;
+  height: 16px;
+  width: 16px;
+  float: right;
+  margin-right: 25px;
+  top: -23px;
+  background: url('../images/icon-send-to-friend-bullet-point.png') no-repeat 50% top;
+}
+
+input.error{
+  border: solid 2px #FF0000;  
+}
+
+.bullet-point-send-to-friend-form.ajax-progress .throbber{
+  float: right;
+}
