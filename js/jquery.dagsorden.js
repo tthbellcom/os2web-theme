@@ -5,8 +5,8 @@ $('.agenda-item').hide();
 
 $('a.agenda-bullet-list').click(function(e) {
   e.preventDefault();
-  $(this).next('.agenda-item').toggle();
-  $(this).toggleClass('open')
+  $(this).nextAll('.agenda-item').toggle();
+  $(this).toggleClass('open');
   return false;
   });
 }(jQuery));
