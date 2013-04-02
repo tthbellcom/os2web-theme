@@ -99,7 +99,8 @@ function cmstheme_preprocess_region(&$vars) {
       }
     }
     if (!$dirty) {
-      $vars['content'] = drupal_render(menu_tree(variable_get('os2web_default_menu', 'navigation')));
+      $tree = menu_tree(variable_get('os2web_default_menu', 'navigation'));
+      $vars['content'] = drupal_render($tree);
     }
   }
 }
