@@ -29,6 +29,9 @@
 <div class="views-exposed-form">
   <div class="views-exposed-widgets clearfix">
     <?php foreach ($widgets as $id => $widget) : ?>
+      <?php if (!empty($widget->prefix)): ?>
+        <?php print $widget->prefix; ?>
+      <?php endif; ?>
       <div id="<?php print $widget->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
         <?php if (!empty($widget->label)): ?>
           <label for="<?php print $widget->id; ?>">
@@ -47,8 +50,11 @@
           <?php print '<div class="advanced-search-button">' . $button . '</div>';
           $advanced = TRUE;
           ?>
-      <?php endif; ?>
+        <?php endif; ?>
       </div>
+      <?php if (!empty($widget->suffix)): ?>
+        <?php print $widget->suffix; ?>
+      <?php endif; ?>
     <?php endforeach; ?>
       <?php if (!empty($sort_by)): ?>
       <div class="views-exposed-widget views-widget-sort-by">
@@ -69,7 +75,7 @@
       </div>
       <?php endif; ?>
     <div class="views-exposed-widget views-submit-button">
-    <?php if (!$advanced) {
+    <?php if (!isset($advanced) || $advanced === false) {
       print $button;
     } ?>
     </div>
