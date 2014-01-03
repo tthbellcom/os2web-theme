@@ -1,3 +1,7 @@
+/**
+ * tth@bellcom.dk: added 'aria-hidden="true"' to img tag.
+ */
+
 // ----------------------------------------------------------------------------
 // Vegas - jQuery plugin 
 // Add awesome fullscreen backgrounds to your webpages.
@@ -27,7 +31,7 @@
 // THE SOFTWARE.
 // ----------------------------------------------------------------------------
 ( function( $ ){
-    var $background = $( '<img />' ).addClass( 'vegas-background' ),
+    var $background = $( '<img aria-hidden="true" />' ).addClass( 'vegas-background' ),
         $overlay    = $( '<div />' ).addClass( 'vegas-overlay' ),
         $loading    = $( '<div />' ).addClass( 'vegas-loading' ),
         $current    = $(),
